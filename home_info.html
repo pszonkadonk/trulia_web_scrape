@@ -1,28 +1,26 @@
+ pszonkadonk$ python trulia_scrape.py
 <!DOCTYPE html>
 <html>
  <head>
   <meta charset="utf-8">
-   <script type="text/javascript">
-    (window.NREUM||(NREUM={})).loader_config={xpid:"VQYAUF5WGwcDUFVbDwgB"};window.NREUM||(NREUM={}),__nr_require=function(t,n,e){function r(e){if(!n[e]){var o=n[e]={exports:{}};t[e][0].call(o.exports,function(n){var o=t[e][1][n];return r(o||n)},o,o.exports)}return n[e].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<e.length;o++)r(e[o]);return r}({1:[function(t,n,e){function r(t){try{s.console&&console.log(t)}catch(n){}}var o,i=t("ee"),a=t(15),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,o.indexOf("dev")!==-1&&(s.dev=!0),o.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,n,e){r(e.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,n){return t}).join(", ")))},{}],2:[function(t,n,e){function r(t,n,e,r,o){try{d?d-=1:i("err",[o||new UncaughtException(t,n,e)])}catch(s){try{i("ierr",[s,c.now(),!0])}catch(u){}}return"function"==typeof f&&f.apply(this,a(arguments))}function UncaughtException(t,n,e){this.message=t||"Uncaught error with no additional information",this.sourceURL=n,this.line=e}function o(t){i("err",[t,c.now()])}var i=t("handle"),a=t(16),s=t("ee"),c=t("loader"),f=window.onerror,u=!1,d=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(l){"stack"in l&&(t(8),t(7),"addEventListener"in window&&t(5),c.xhrWrappable&&t(9),u=!0)}s.on("fn-start",function(t,n,e){u&&(d+=1)}),s.on("fn-err",function(t,n,e){u&&(this.thrown=!0,o(e))}),s.on("fn-end",function(){u&&!this.thrown&&d>0&&(d-=1)}),s.on("internal-error",function(t){i("ierr",[t,c.now(),!0])})},{}],3:[function(t,n,e){t("loader").features.ins=!0},{}],4:[function(t,n,e){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(8),s=t(7),c="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,w="fn"+h,v="bstTimer",y="pushState",g=t("loader");g.features.stn=!0,t(6);var b=NREUM.o.EV;o.on(m,function(t,n){var e=t[0];e instanceof b&&(this.bstStart=g.now())}),o.on(w,function(t,n){var e=t[0];e instanceof b&&i("bst",[e,n,this.bstStart,g.now()])}),a.on(m,function(t,n,e){this.bstStart=g.now(),this.bstType=e}),a.on(w,function(t,n){i(v,[n,this.bstStart,g.now(),this.bstType])}),s.on(m,function(){this.bstStart=g.now()}),s.on(w,function(t,n){i(v,[n,this.bstStart,g.now(),"requestAnimationFrame"])}),o.on(y+p,function(t){this.time=g.now(),this.startPath=location.pathname+location.hash}),o.on(y+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+c]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["c"+c]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+c]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,n,e){function r(t){for(var n=t;n&&!n.hasOwnProperty(u);)n=Object.getPrototypeOf(n);n&&o(n)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,n){return t[1]}var a=t("ee").get("events"),s=t(18)(a,!0),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";n.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,n){var e=t[1],r=c(e,"nr@wrapped",function(){function t(){if("function"==typeof e.handleEvent)return e.handleEvent.apply(e,arguments)}var n={object:t,"function":e}[typeof e];return n?s(n,"fn-",null,n.name||"anonymous"):e});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],6:[function(t,n,e){var r=t("ee").get("history"),o=t(18)(r);n.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],7:[function(t,n,e){var r=t("ee").get("raf"),o=t(18)(r),i="equestAnimationFrame";n.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],8:[function(t,n,e){function r(t,n,e){t[0]=a(t[0],"fn-",null,e)}function o(t,n,e){this.method=e,this.timerDuration="number"==typeof t[1]?t[1]:0,t[0]=a(t[0],"fn-",this,e)}var i=t("ee").get("timer"),a=t(18)(i),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";n.exports=i,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(c+u,r),i.on(s+u,o)},{}],9:[function(t,n,e){function r(t,n){d.inPlace(n,["onreadystatechange"],"fn-",s)}function o(){var t=this,n=u.context(t);t.readyState>3&&!n.resolved&&(n.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,w,"fn-",s)}function i(t){v.push(t),h&&(g=-g,b.data=g)}function a(){for(var t=0;t<v.length;t++)r([],v[t]);v.length&&(v=[])}function s(t,n){return n}function c(t,n){for(var e in t)n[e]=t[e];return n}t(5);var f=t("ee"),u=f.get("xhr"),d=t(18)(u),l=NREUM.o,p=l.XHR,h=l.MO,m="readystatechange",w=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],v=[];n.exports=u;var y=window.XMLHttpRequest=function(t){var n=new p(t);try{u.emit("new-xhr",[n],n),n.addEventListener(m,o,!1)}catch(e){try{u.emit("internal-error",[e])}catch(r){}}return n};if(c(p,y),y.prototype=p.prototype,d.inPlace(y.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,n){r(t,n),i(n)}),u.on("open-xhr-start",r),h){var g=1,b=document.createTextNode(g);new h(a).observe(b,{characterData:!0})}else f.on("fn-end",function(t){t[0]&&t[0].type===m||a()})},{}],10:[function(t,n,e){function r(t){var n=this.params,e=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!n.aborted){if(e.duration=a.now()-this.startTime,4===t.readyState){n.status=t.status;var i=o(t,this.lastSize);if(i&&(e.rxSize=i),this.sameOrigin){var c=t.getResponseHeader("X-NewRelic-App-Data");c&&(n.cat=c.split(", ").pop())}}else n.status=0;e.cbTime=this.cbTime,f.emit("xhr-done",[t],t),s("xhr",[n,e,this.startTime])}}}function o(t,n){var e=t.responseType;if("json"===e&&null!==n)return n;var r="arraybuffer"===e||"blob"===e||"json"===e?t.response:t.responseText;return h(r)}function i(t,n){var e=c(n),r=t.params;r.host=e.hostname+":"+e.port,r.pathname=e.pathname,t.sameOrigin=e.sameOrigin}var a=t("loader");if(a.xhrWrappable){var s=t("handle"),c=t(11),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(14),h=t(13),m=window.XMLHttpRequest;a.features.xhr=!0,t(9),f.on("new-xhr",function(t){var n=this;n.totalCbs=0,n.called=0,n.cbTime=0,n.end=r,n.ended=!1,n.xhrGuids={},n.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){n.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,n){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&n.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,n){var e=this.metrics,r=t[0],o=this;if(e&&r){var i=h(r);i&&(e.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof n.onload))&&o.end(n)}catch(e){try{f.emit("internal-error",[e])}catch(r){}}};for(var s=0;s<d;s++)n.addEventListener(u[s],this.listener,!1)}),f.on("xhr-cb-time",function(t,n,e){this.cbTime+=t,n?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof e.onload||this.end(e)}),f.on("xhr-load-added",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&!this.xhrGuids[e]&&(this.xhrGuids[e]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&this.xhrGuids[e]&&(delete this.xhrGuids[e],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],n)}),f.on("removeEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],n)}),f.on("fn-start",function(t,n,e){n instanceof m&&("onload"===e&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),f.on("fn-end",function(t,n){this.xhrCbStart&&f.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,n],n)})}},{}],11:[function(t,n,e){n.exports=function(t){var n=document.createElement("a"),e=window.location,r={};n.href=t,r.port=n.port;var o=n.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=n.hostname||e.hostname,r.pathname=n.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!n.protocol||":"===n.protocol||n.protocol===e.protocol,a=n.hostname===document.domain&&n.port===e.port;return r.sameOrigin=i&&(!n.hostname||a),r}},{}],12:[function(t,n,e){function r(){}function o(t,n,e){return function(){return i(t,[f.now()].concat(s(arguments)),n?null:this,e),n?void 0:this}}var i=t("handle"),a=t(15),s=t(16),c=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(d,function(t,n){u[n]=o(l+n,!0,"api")}),u.addPageAction=o(l+"addPageAction",!0),u.setCurrentRouteName=o(l+"routeName",!0),n.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,n){var e={},r=this,o="function"==typeof n;return i(p+"tracer",[f.now(),t,e],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],e),o)try{return n.apply(this,arguments)}finally{c.emit("fn-end",[f.now()],e)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,n){h[n]=o(p+n)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,f.now()])}},{}],13:[function(t,n,e){n.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(n){return}}}},{}],14:[function(t,n,e){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),n.exports=r},{}],15:[function(t,n,e){function r(t,n){var e=[],r="",i=0;for(r in t)o.call(t,r)&&(e[i]=n(r,t[r]),i+=1);return e}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],16:[function(t,n,e){function r(t,n,e){n||(n=0),"undefined"==typeof e&&(e=t?t.length:0);for(var r=-1,o=e-n||0,i=Array(o<0?0:o);++r<o;)i[r]=t[n+r];return i}n.exports=r},{}],17:[function(t,n,e){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],18:[function(t,n,e){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(16),a="nr@original",s=Object.prototype.hasOwnProperty,c=!1;n.exports=function(t,n){function e(t,n,e,o){function nrWrapper(){var r,a,s,c;try{a=this,r=i(arguments),s="function"==typeof e?e(r,a):e||{}}catch(f){l([f,"",[r,a,o],s])}u(n+"start",[r,a,o],s);try{return c=t.apply(a,r)}catch(d){throw u(n+"err",[r,a,d],s),d}finally{u(n+"end",[r,a,c],s)}}return r(t)?t:(n||(n=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,n,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<n.length;c++)s=n[c],a=t[s],r(a)||(t[s]=e(a,f?s+o:o,i,s))}function u(e,r,o){if(!c||n){var i=c;c=!0;try{t.emit(e,r,o,n)}catch(a){l([a,e,r,o])}c=i}}function d(t,n){if(Object.defineProperty&&Object.keys)try{var e=Object.keys(t);return e.forEach(function(e){Object.defineProperty(n,e,{get:function(){return t[e]},set:function(n){return t[e]=n,n}})}),n}catch(r){l([r])}for(var o in t)s.call(t,o)&&(n[o]=t[o]);return n}function l(n){try{t.emit("internal-error",n)}catch(e){}}return t||(t=o),e.inPlace=f,e.flag=a,e}},{}],ee:[function(t,n,e){function r(){}function o(t){function n(t){return t&&t instanceof r?t:t?c(t,s,i):i()}function e(e,r,o,i){if(!l.aborted||i){t&&t(e,r,o);for(var a=n(o),s=h(e),c=s.length,f=0;f<c;f++)s[f].apply(a,r);var d=u[y[e]];return d&&d.push([g,e,r,a]),a}}function p(t,n){v[t]=h(t).concat(n)}function h(t){return v[t]||[]}function m(t){return d[t]=d[t]||o(e)}function w(t,n){f(t,function(t,e){n=n||"feature",y[e]=n,n in u||(u[n]=[])})}var v={},y={},g={on:p,emit:e,get:m,listeners:h,context:n,buffer:w,abort:a,aborted:!1};return g}function i(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var s="nr@context",c=t("gos"),f=t(15),u={},d={},l=n.exports=o();l.backlog=u},{}],gos:[function(t,n,e){function r(t,n,e){if(o.call(t,n))return t[n];var r=e();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(t,n,e){function r(t,n,e,r){o.buffer([t],r),o.emit(t,n,e)}var o=t("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(t,n,e){function r(t){var n=typeof t;return!t||"object"!==n&&"function"!==n?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");n.exports=r},{}],loader:[function(t,n,e){function r(){if(!x++){var t=b.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&n))return u.abort();f(y,function(n,e){t[n]||(t[n]=e)}),c("mark",["onload",a()+b.offset],null,"api");var e=l.createElement("script");e.src="https://"+t.agent,n.parentNode.insertBefore(e,n)}}function o(){"complete"===l.readyState&&i()}function i(){c("mark",["domContent",a()+b.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(s=Math.max((new Date).getTime(),s))-b.offset}var s=(new Date).getTime(),c=t("handle"),f=t(15),u=t("ee"),d=window,l=d.document,p="addEventListener",h="attachEvent",m=d.XMLHttpRequest,w=m&&m.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:m,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1026.min.js"},g=m&&w&&w[p]&&!/CriOS/.test(navigator.userAgent),b=n.exports={offset:s,now:a,origin:v,features:{},xhrWrappable:g};t(12),l[p]?(l[p]("DOMContentLoaded",i,!1),d[p]("load",r,!1)):(l[h]("onreadystatechange",o),d[h]("onload",r)),c("mark",["firstbyte",s],null,"api");var x=0,E=t(17)},{}]},{},["loader",2,10,4,3]);
-   </script>
    <meta content="app-id=288487321, app-argument=" name="apple-itunes-app">
     <title>
-     30 Freedomway #404 For Sale - Jersey City, NJ | Trulia
+     67 Bright St #1 For Sale - Jersey City, NJ | Trulia
     </title>
-    <meta content="See 30 Freedomway #404, Jersey City, NJ photos, maps, and listing information. See neighborhood info and school district insight for this property and Jersey City, New Jersey." name="description">
+    <meta content="See 67 Bright St #1, Jersey City, NJ photos, maps, and listing information. See neighborhood info and school district insight for this property and Jersey City, New Jersey." name="description">
      <meta content="text/html5; charset=utf-8" http-equiv="Content-Type"/>
      <meta content="gallery" name="twitter:card">
-      <meta content="//thumbs.trulia-cdn.com/pictures/thumbs_3/ps.102/7/9/e/9/picture-uh=38e5ff3cbbf6d56c672859a95efe9e1-ps=79e9c702490764a3c8bdf2048714c93.jpg" name="twitter:image0">
-       <meta content="//thumbs.trulia-cdn.com/pictures/thumbs_3/ps.102/f/d/6/a/picture-uh=8bb2af381a48d0f1fc5c732edc82245-ps=fd6a7fd17ab98f8964f2cb34c0d48f3.jpg" name="twitter:image1">
-        <meta content="//thumbs.trulia-cdn.com/pictures/thumbs_3/ps.102/7/1/9/d/picture-uh=1ec38c72d28cf9bccae8bafb5601452-ps=719d3f489bf53499df16126ac074be3.jpg" name="twitter:image2">
-         <meta content="//thumbs.trulia-cdn.com/pictures/thumbs_3/ps.102/2/7/4/3/picture-uh=d09edebcb0515d92c158315d35a53deb-ps=2743b27c6b24c39f84cb55c668e92dd.jpg" name="twitter:image3">
-          <meta content="30 Freedomway #404, Jersey City, NJ" name="twitter:title">
-           <meta content="Check out this property: $559,000
-      2bd, 2 full ba
-      1,510 sqft in
-      
+      <meta content="//thumbs.trulia-cdn.com/pictures/thumbs_3/ps.102/a/9/5/c/picture-uh=ddb7e313fea232d7ec3f5cc84d7d26ed-ps=a95c5e97e59774ac7c57e4693c319fe6.jpg" name="twitter:image0">
+       <meta content="//thumbs.trulia-cdn.com/pictures/thumbs_3/ps.102/e/6/f/3/picture-uh=37e8599d224dfd4d9b2170fbf53d787a-ps=e6f3e8444b88b4358f1a6bb6ddc32c5.jpg" name="twitter:image1">
+        <meta content="//thumbs.trulia-cdn.com/pictures/thumbs_3/ps.102/4/2/7/d/picture-uh=90eb7b87b0e6f195fa1729acde26755-ps=427dc41f3a5c6ca65043978592c3c880.jpg" name="twitter:image2">
+         <meta content="//thumbs.trulia-cdn.com/pictures/thumbs_3/ps.102/a/5/d/3/picture-uh=4ac56be87e0cb5bec43452ddd84f4-ps=a5d3f58b529e5af8c8a9c2136f3c970.jpg" name="twitter:image3">
+          <meta content="67 Bright Street #1, Jersey City, NJ" name="twitter:title">
+           <meta content="Check out this property: $619,000
+      2bd, 1 full ba
+      849 sqft in
+      Downtown - Van Vorst Park
       Jersey City.
-      JUST LISTED!!!- PORT LIBERTE - Top Floor Corner Condo with direct unobstructed NYC Views and Park Views! Picture of Views are true views from inside the home! Open floor plan allows free flowing use of space. Warm toned hardwood floors in living room and dining space. Great sized windows throughout the home. Private balcony from French doors leading from social space. Gourmet kitchen with tall cherry cabinets. Granite workspaces and breakfast bar. Cabinets are appointed with brushed stainless handles and all stainless steel appliances. Large ear-in area and terrific cupboard space. Large master bedroom with well planned walk-in closet. Luxurious master bath with terrazzo marble, soaking tub, double sinks, linen closet and frameless shower. Contemporary vanity with dark wood and brushed nickel pulls. Additionally, this bath offers a linen closet. " name="twitter:description">
+      Have you been searching for a spacious open floor plan updated two bedroom in vibrant downtown Jersey city, within waking distance to Liberty State Park, Grove and Newark St shops restaurants and bars, the PATH, VanVorst Park and so much more... then your search is over. This home features a stylish upgraded kitchen with stainless appliances, a dining area, large living area, two ample sized bedrooms with loads of storage, wood floors throughout, central air conditioning, in-home laundry, and a private outdoor oasis is directly thru your sliding doors to a deck and maintenance free high quality turf lawn. Enjoy the urban lifestyle from this amazing downtown Jersey City location with all the luxuries of a modern home. " name="twitter:description">
             <meta content="trulia.com" name="twitter:domain">
              <link href="/manifest" rel="manifest">
               <meta content="//static.trulia-cdn.com/images/logos/trulia-og-logo-200x200.png" property="og:image">
@@ -30,11 +28,11 @@
                 <meta content="200" property="og:image:height">
                  <meta content="5953837487" property="fb:admins">
                   <meta content="183577541666001" property="fb:app_id">
-                   <meta content="30 Freedomway #404 For Sale - Jersey City, NJ | Trulia" property="og:title">
-                    <meta content="Photos, maps, description for 30 Freedomway #404, Jersey City, NJ. Search homes for sale, get school district and neighborhood info for Jersey City, NJ on Trulia—Delightfully Smart Real Estate Search." property="og:description">
+                   <meta content="67 Bright St #1 For Sale - Jersey City, NJ | Trulia" property="og:title">
+                    <meta content="Photos, maps, description for 67 Bright Street #1, Jersey City, NJ. Search homes for sale, get school district and neighborhood info for Jersey City, NJ on Trulia—Delightfully Smart Real Estate Search." property="og:description">
                      <meta content="website" property="og:type">
                       <meta content="Trulia Real Estate Search" property="og:site_name">
-                       <meta content="https://www.trulia.com/property/3262926259-30-Freedomway-404-Jersey-City-NJ-07305" property="og:url">
+                       <meta content="https://www.trulia.com/property/3039415415-67-Bright-St-1-Jersey-City-NJ-07302" property="og:url">
                         <link href="//static.trulia-cdn.com/images/icons/apple-touch-icon-144x144.png" rel="apple-touch-icon-precomposed" sizes="144x144">
                          <link href="//static.trulia-cdn.com/images/icons/apple-touch-icon-72x72.png" rel="apple-touch-icon-precomposed" sizes="72x72">
                           <link href="ios-app://288487321/" rel="alternate">
@@ -173,10 +171,10 @@
                                 <script src="//cdn.optimizely.com/js/707992661.js">
                                 </script>
                                 <script type="application/ld+json">
-                                 {"@context":"http:\/\/schema.org","@type":"Product","name":"30 Freedomway 404, Jersey City, NJ, 07305","offers":{"@type":"Offer","price":"559000","priceCurrency":"USD"},"image":"\/\/thumbs.trulia-cdn.com\/pictures\/thumbs_big\/ps.102\/7\/9\/e\/9\/picture-uh=38e5ff3cbbf6d56c672859a95efe9e1-ps=79e9c702490764a3c8bdf2048714c93.jpg"}
+                                 {"@context":"http:\/\/schema.org","@type":"Product","name":"67 Bright St 1, Jersey City, NJ, 07302","offers":{"@type":"Offer","price":"619000","priceCurrency":"USD"},"image":"\/\/thumbs.trulia-cdn.com\/pictures\/thumbs_big\/ps.102\/a\/9\/5\/c\/picture-uh=ddb7e313fea232d7ec3f5cc84d7d26ed-ps=a95c5e97e59774ac7c57e4693c319fe6.jpg"}
                                 </script>
                                 <script type="application/ld+json">
-                                 {"@context":"http:\/\/schema.org","@type":"Residence","address":{"@type":"PostalAddress","streetAddress":"30 Freedomway 404","addressLocality":"Jersey City","addressRegion":"NJ","postalCode":"07305"}}
+                                 {"@context":"http:\/\/schema.org","@type":"Residence","address":{"@type":"PostalAddress","streetAddress":"67 Bright St 1","addressLocality":"Jersey City","addressRegion":"NJ","postalCode":"07302"}}
                                 </script>
                                 <script type="application/ld+json">
                                  []
@@ -184,15 +182,15 @@
                                 <script async="" src="//js-sec.indexww.com/ht/htw-trulia.js">
                                 </script>
                                 <script>
-                                 trulia.pdpAbTests = {"837":"a"}
+                                 trulia.pdpAbTests = []
                                 </script>
                                 <link color="#20C063" href="//static.trulia-cdn.com/images/icons/safari_mask_icon_20160415.svg" rel="mask-icon">
                                  <meta content="#20c063" name="msapplication-TileColor">
                                   <meta content="//static.trulia-cdn.com/images/logos/markerman_white_x144.png" name="msapplication-TileImage">
-                                   <link href="https://www.trulia.com/property/3262926259-30-Freedomway-404-Jersey-City-NJ-07305" rel="canonical">
-                                    <link href="https://m.trulia.com/property/3262926259-30-Freedomway-404-Jersey-City-NJ-07305" rel="alternate">
+                                   <link href="https://www.trulia.com/property/3039415415-67-Bright-St-1-Jersey-City-NJ-07302" rel="canonical">
+                                    <link href="https://m.trulia.com/property/3039415415-67-Bright-St-1-Jersey-City-NJ-07302" rel="alternate">
                                      <script>
-                                      if (typeof trulia == 'undefined') trulia = {};trulia.ads_data = inlineJSON({"page":{"network_code":"7449","ad_unit":"Trulia.com","dfp_zone":"Property_Details","dfp_subzone":"","dfp_zone2":"Buy_Homes_For_Sale","extra":"","keyvals":["city=jersey_city","state=nj","cnty=hudson","dma=43","env=prod","oh=no","price=559000","prange=500-599k","sqft=1510","sqftrange=1500-1999","park=no","zip=07305","aamgnrc1=30 Freedomway","stale=no","pid=3262926259","proptp=cnd","ba=2","bd=2","sid=192382008","feat=no","listtp=buy_homes_for_sale","user=ojl","claim=no","visit=1"]},"slots":{"ad_dtl1":{"dfp_zone3":"b_right_p1","sizes":[[300,250],[300,600],[300,1050]]},"ad_dtl3":{"dfp_zone3":"b_main_p1","sizes":[[728,90],null]},"ad_bottom_description_content":{"dfp_zone3":"t_main_p1","sizes":[[650,30],[300,20]]},"ad_dtl12":{"dfp_zone3":"rtt_main_p1","sizes":[[115,17],null]},"ad_dtl15":{"dfp_zone3":"rtt_main_p2","sizes":[[115,17],null]},"pdp_for_sale_rtt1":{"dfp_zone3":"rtt_main_p1","sizes":[[650,102],null]},"pdp_for_sale_rtt2":{"dfp_zone3":"rtt_main_p2","sizes":[[650,102],null]},"pdp_for_sale_rtt3":{"dfp_zone3":"rtt_main_p3","sizes":[[650,102],null]},"ad_dtl16":{"dfp_zone3":"b_right_p4","sizes":[[300,250],null]},"ad_nearby_text_link":{"dfp_zone3":"t_main_p2","sizes":[[1090,54],null]},"ad_pdtl2":{"dfp_zone3":"c_pover_p1","sizes":[[1778,1060],null],"sandboxed":true}}});trulia.ads_filters.push(function filterOutPossibleRttSlots(key, data){var isRentalCommunity = false;var isRental = false;if (!isRental && key == 'ad_dtl12'){return true;}else if (!isRentalCommunity && key == 'ad_dtl12'){return;}else if (!isRentalCommunity && key == 'ad_dtl15'){return true;}else if (isRentalCommunity && (key == 'ad_dtl12' || key == 'ad_dtl15')){if (!document.getElementById(key)){return true;}}});
+                                      if (typeof trulia == 'undefined') trulia = {};trulia.ads_data = inlineJSON({"page":{"network_code":"7449","ad_unit":"Trulia.com","dfp_zone":"Property_Details","dfp_subzone":"","dfp_zone2":"Buy_General","extra":"","keyvals":["city=jersey_city","state=nj","hood=downtown_-_van_vorst_park","cnty=hudson","dma=43","env=prod","oh=no","lot=1","price=619000","prange=600-699k","sqft=849","sqftrange=500-999","park=no","zip=07302","aamgnrc1=67 Bright St","stale=no","pid=3039415415","proptp=cnd","ba=1","bd=2","sid=120271","feat=yes","listtp=buy_general","user=ojl","claim=no","visit=1"]},"slots":{"ad_dtl1":{"dfp_zone3":"b_right_p1","sizes":[[300,250],[300,600],[300,1050]]},"ad_dtl3":{"dfp_zone3":"b_main_p1","sizes":[[728,90],null]},"ad_bottom_description_content":{"dfp_zone3":"t_main_p1","sizes":[[650,30],[300,20]]},"ad_dtl12":{"dfp_zone3":"rtt_main_p1","sizes":[[115,17],null]},"ad_dtl15":{"dfp_zone3":"rtt_main_p2","sizes":[[115,17],null]},"pdp_for_sale_rtt1":{"dfp_zone3":"rtt_main_p1","sizes":[[650,102],null]},"pdp_for_sale_rtt2":{"dfp_zone3":"rtt_main_p2","sizes":[[650,102],null]},"pdp_for_sale_rtt3":{"dfp_zone3":"rtt_main_p3","sizes":[[650,102],null]},"ad_dtl16":{"dfp_zone3":"b_right_p4","sizes":[[300,250],null]},"ad_nearby_text_link":{"dfp_zone3":"t_main_p2","sizes":[[1090,54],null]},"ad_pdtl2":{"dfp_zone3":"c_pover_p1","sizes":[[1778,1060],null],"sandboxed":true}}});trulia.ads_filters.push(function filterOutPossibleRttSlots(key, data){var isRentalCommunity = false;var isRental = false;if (!isRental && key == 'ad_dtl12'){return true;}else if (!isRentalCommunity && key == 'ad_dtl12'){return;}else if (!isRentalCommunity && key == 'ad_dtl15'){return true;}else if (isRentalCommunity && (key == 'ad_dtl12' || key == 'ad_dtl15')){if (!document.getElementById(key)){return true;}}});
 
 
 
@@ -262,7 +260,7 @@ ga('send', 'pageview');
    <div class="innerHeader">
     <header class="globalNav " data-role="global_nav" id="globalNavNormal">
      <div id="navbarContainer">
-      <div class="navbarWrapper navbar__navbarWrapper___3KU4K" data-react-checksum="164036328" data-reactid="1" data-reactroot="">
+      <div class="navbarWrapper navbar__navbarWrapper___3KU4K" data-react-checksum="2099493395" data-reactid="1" data-reactroot="">
        <svg aria-labelledby="title desc" class="floatRight mdHidden lrgHidden overlay-button__menuIcon___11l61" data-reactid="2" viewbox="0 0 27 26">
         <title data-reactid="3">
          Menu Icon
@@ -324,7 +322,7 @@ ga('send', 'pageview');
               </button>
              </div>
              <div class="inputField search_box__inputField___2v8Nw" data-reactid="34">
-              <input autocomplete="off" data-reactid="35" name="location-autocomplete" placeholder="Search by neighborhood, city, county or zip" type="text" value="07305"/>
+              <input autocomplete="off" data-reactid="35" name="location-autocomplete" placeholder="Search by neighborhood, city, county or zip" type="text" value="Downtown - Van Vorst Park, Jersey City, NJ"/>
              </div>
             </span>
            </div>
@@ -333,12 +331,12 @@ ga('send', 'pageview');
          <div data-reactid="36">
           <ul class="overlayMenu typeReversed typeEmphasize staggerLi" data-reactid="37">
            <li class="txtL things soverlay-Buy-Buy " data-reactid="38" style="opacity:[object Object];">
-            <a data-reactid="39" href="/NJ/Jersey_City/07305/">
+            <a data-reactid="39" href="/NJ/Jersey_City,4592,Downtown__Van_Vorst_Park/">
              Buy
             </a>
            </li>
            <li class="txtL things soverlay-Rent-Rent " data-reactid="40" style="opacity:[object Object];">
-            <a data-reactid="41" href="/for_rent/07305_zip/">
+            <a data-reactid="41" href="/for_rent/4592_nh/">
              Rent
             </a>
            </li>
@@ -353,7 +351,7 @@ ga('send', 'pageview');
             </a>
            </li>
            <li class="txtL things soverlay-Find an Agent-Find an Agent " data-reactid="46" style="opacity:[object Object];">
-            <a data-reactid="47" href="/directory/07305-agent--43271/">
+            <a data-reactid="47" href="/directory/Downtown__Van_Vorst_Park-agent--84713/">
              Find an Agent
             </a>
            </li>
@@ -363,7 +361,7 @@ ga('send', 'pageview');
             </a>
            </li>
            <li class="txtL things soverlay-Local Scoop-Local Scoop " data-reactid="50" style="opacity:[object Object];">
-            <a data-reactid="51" href="/real_estate/07305-Jersey_City/">
+            <a data-reactid="51" href="/real_estate/Downtown__Van_Vorst_Park-Jersey_City/4592/">
              Local Scoop
             </a>
            </li>
@@ -388,7 +386,7 @@ ga('send', 'pageview');
             </a>
            </li>
            <li class="txtL things sAdvice " data-reactid="60" style="opacity:1;display:none;">
-            <a data-reactid="61" href="/voices/">
+            <a data-reactid="61" href="/voices/Jersey_City---19824/">
              Advice
             </a>
            </li>
@@ -448,18 +446,18 @@ ga('send', 'pageview');
           <div class="smlHidden xsHidden xxsHidden miniHidden menu__navbarMenu___19zsh" data-reactid="86">
            <section class="menu__dropdown___3YPvQ" data-reactid="87">
             <header data-reactid="88">
-             <a data-reactid="89" href="/NJ/Jersey_City/07305/">
+             <a data-reactid="89" href="/NJ/Jersey_City,4592,Downtown__Van_Vorst_Park/">
               Buy
              </a>
             </header>
             <ul class="txtL menu__dropdownMenu___3-lzS" data-reactid="90">
              <li data-reactid="91">
               <header data-reactid="92">
-               07305
+               Downtown - Van Vorst Park
               </header>
               <ul data-reactid="93">
                <li data-reactid="94">
-                <a class="menu__dropdownToggle___1pIez" data-reactid="95" href="/NJ/Jersey_City/07305/">
+                <a class="menu__dropdownToggle___1pIez" data-reactid="95" href="/NJ/Jersey_City,4592,Downtown__Van_Vorst_Park/">
                  <!-- react-text: 96 -->
                  Homes for Sale
                  <!-- /react-text -->
@@ -470,7 +468,7 @@ ga('send', 'pageview');
                 </a>
                </li>
                <li data-reactid="99">
-                <a class="menu__dropdownToggle___1pIez" data-reactid="100" href="/for_sale/07305_zip/p_oh/">
+                <a class="menu__dropdownToggle___1pIez" data-reactid="100" href="/for_sale/4592_nh/p_oh/">
                  <!-- react-text: 101 -->
                  Open Houses
                  <!-- /react-text -->
@@ -481,7 +479,7 @@ ga('send', 'pageview');
                 </a>
                </li>
                <li data-reactid="104">
-                <a class="menu__dropdownToggle___1pIez" data-reactid="105" href="/for_sale/07305_zip/foreclosure_lt/">
+                <a class="menu__dropdownToggle___1pIez" data-reactid="105" href="/for_sale/4592_nh/foreclosure_lt/">
                  <!-- react-text: 106 -->
                  Foreclosures
                  <!-- /react-text -->
@@ -492,7 +490,7 @@ ga('send', 'pageview');
                 </a>
                </li>
                <li data-reactid="109">
-                <a class="menu__dropdownToggle___1pIez" data-reactid="110" href="/for_sale/07305_zip/new_homes_lt/">
+                <a class="menu__dropdownToggle___1pIez" data-reactid="110" href="/for_sale/4592_nh/new_homes_lt/">
                  <!-- react-text: 111 -->
                  New Homes
                  <!-- /react-text -->
@@ -503,7 +501,7 @@ ga('send', 'pageview');
                 </a>
                </li>
                <li data-reactid="114">
-                <a class="menu__dropdownToggle___1pIez" data-reactid="115" href="/sold/07305_zip/">
+                <a class="menu__dropdownToggle___1pIez" data-reactid="115" href="/sold/4592_nh/">
                  <!-- react-text: 116 -->
                  Recently Sold
                  <!-- /react-text -->
@@ -596,18 +594,18 @@ ga('send', 'pageview');
            </section>
            <section class="menu__dropdown___3YPvQ" data-reactid="154">
             <header data-reactid="155">
-             <a data-reactid="156" href="/for_rent/07305_zip/">
+             <a data-reactid="156" href="/for_rent/4592_nh/">
               Rent
              </a>
             </header>
             <ul class="txtL menu__dropdownMenu___3-lzS" data-reactid="157">
              <li data-reactid="158">
               <header data-reactid="159">
-               07305
+               Downtown - Van Vorst Park
               </header>
               <ul data-reactid="160">
                <li data-reactid="161">
-                <a class="menu__dropdownToggle___1pIez" data-reactid="162" href="/for_rent/07305_zip/">
+                <a class="menu__dropdownToggle___1pIez" data-reactid="162" href="/for_rent/4592_nh/">
                  <!-- react-text: 163 -->
                  Apartments for Rent
                  <!-- /react-text -->
@@ -618,7 +616,7 @@ ga('send', 'pageview');
                 </a>
                </li>
                <li data-reactid="166">
-                <a class="menu__dropdownToggle___1pIez" data-reactid="167" href="/for_rent/07305_zip/SINGLE-FAMILY_HOME_type/">
+                <a class="menu__dropdownToggle___1pIez" data-reactid="167" href="/for_rent/4592_nh/SINGLE-FAMILY_HOME_type/">
                  <!-- react-text: 168 -->
                  Houses for Rent
                  <!-- /react-text -->
@@ -629,7 +627,7 @@ ga('send', 'pageview');
                 </a>
                </li>
                <li data-reactid="171">
-                <a class="menu__dropdownToggle___1pIez" data-reactid="172" href="/for_rent/07305_zip/ROOM_FOR_RENT_type/">
+                <a class="menu__dropdownToggle___1pIez" data-reactid="172" href="/for_rent/4592_nh/ROOM_FOR_RENT_type/">
                  <!-- react-text: 173 -->
                  Rooms for Rent
                  <!-- /react-text -->
@@ -915,18 +913,18 @@ ga('send', 'pageview');
            </section>
            <section class="menu__dropdown___3YPvQ" data-reactid="299">
             <header data-reactid="300">
-             <a data-reactid="301" href="/directory/07305-agent--43271/">
+             <a data-reactid="301" href="/directory/Downtown__Van_Vorst_Park-agent--84713/">
               Find an Agent
              </a>
             </header>
             <ul class="txtL menu__dropdownMenu___3-lzS" data-reactid="302">
              <li data-reactid="303">
               <header data-reactid="304">
-               07305
+               Downtown - Van Vorst Park
               </header>
               <ul data-reactid="305">
                <li data-reactid="306">
-                <a class="menu__dropdownToggle___1pIez" data-reactid="307" href="/directory/07305-agent--43271/">
+                <a class="menu__dropdownToggle___1pIez" data-reactid="307" href="/directory/Downtown__Van_Vorst_Park-agent--84713/">
                  <!-- react-text: 308 -->
                  Real Estate Agents
                  <!-- /react-text -->
@@ -937,7 +935,7 @@ ga('send', 'pageview');
                 </a>
                </li>
                <li data-reactid="311">
-                <a class="menu__dropdownToggle___1pIez" data-reactid="312" href="/directory/07305-broker--43271/">
+                <a class="menu__dropdownToggle___1pIez" data-reactid="312" href="/directory/Downtown__Van_Vorst_Park-broker--84713/">
                  <!-- react-text: 313 -->
                  Real Estate Brokers
                  <!-- /react-text -->
@@ -1008,18 +1006,18 @@ ga('send', 'pageview');
            </section>
            <section class="menu__dropdown___3YPvQ" data-reactid="341">
             <header data-reactid="342">
-             <a data-reactid="343" href="/real_estate/07305-Jersey_City/">
+             <a data-reactid="343" href="/real_estate/Downtown__Van_Vorst_Park-Jersey_City/4592/">
               Local Scoop
              </a>
             </header>
             <ul class="txtL menu__dropdownMenu___3-lzS" data-reactid="344">
              <li data-reactid="345">
               <header data-reactid="346">
-               07305
+               Downtown - Van Vorst Park
               </header>
               <ul data-reactid="347">
                <li data-reactid="348">
-                <a class="menu__dropdownToggle___1pIez" data-reactid="349" href="/real_estate/07305-Jersey_City/">
+                <a class="menu__dropdownToggle___1pIez" data-reactid="349" href="/real_estate/Downtown__Van_Vorst_Park-Jersey_City/4592/">
                  <!-- react-text: 350 -->
                  Real Estate Overview
                  <!-- /react-text -->
@@ -1030,7 +1028,7 @@ ga('send', 'pageview');
                 </a>
                </li>
                <li data-reactid="353">
-                <a class="menu__dropdownToggle___1pIez" data-reactid="354" href="/real_estate/07305-Jersey_City/market-trends/">
+                <a class="menu__dropdownToggle___1pIez" data-reactid="354" href="/real_estate/Downtown__Van_Vorst_Park-Jersey_City/4592/market-trends/">
                  <!-- react-text: 355 -->
                  Market Trends
                  <!-- /react-text -->
@@ -1041,7 +1039,7 @@ ga('send', 'pageview');
                 </a>
                </li>
                <li data-reactid="358">
-                <a class="menu__dropdownToggle___1pIez" data-reactid="359" href="/real_estate/07305-Jersey_City/schools/">
+                <a class="menu__dropdownToggle___1pIez" data-reactid="359" href="/real_estate/Downtown__Van_Vorst_Park-Jersey_City/4592/schools/">
                  <!-- react-text: 360 -->
                  Schools
                  <!-- /react-text -->
@@ -1052,7 +1050,7 @@ ga('send', 'pageview');
                 </a>
                </li>
                <li data-reactid="363">
-                <a class="menu__dropdownToggle___1pIez" data-reactid="364" href="/real_estate/07305-Jersey_City/crime/">
+                <a class="menu__dropdownToggle___1pIez" data-reactid="364" href="/real_estate/Downtown__Van_Vorst_Park-Jersey_City/4592/crime/">
                  <!-- react-text: 365 -->
                  Crime
                  <!-- /react-text -->
@@ -1173,7 +1171,7 @@ ga('send', 'pageview');
               </a>
              </li>
              <li class="menu__dropdown___3YPvQ" data-reactid="417">
-              <a class="menu__dropdownToggle___1pIez" data-reactid="418" href="/voices/">
+              <a class="menu__dropdownToggle___1pIez" data-reactid="418" href="/voices/Jersey_City---19824/">
                <!-- react-text: 419 -->
                Advice
                <!-- /react-text -->
@@ -1184,9 +1182,9 @@ ga('send', 'pageview');
               </a>
               <ul class="txtL menu__dropdownMenu___3-lzS" data-reactid="422">
                <li data-reactid="423">
-                <a class="menu__dropdownToggle___1pIez" data-reactid="424" href="/voices/">
+                <a class="menu__dropdownToggle___1pIez" data-reactid="424" href="/voices/Jersey_City---19824/">
                  <!-- react-text: 425 -->
-                 07305 Q&amp;A
+                 Downtown - Van Vorst Park Q&amp;A
                  <!-- /react-text -->
                  <!-- react-text: 426 -->
                  <!-- /react-text -->
@@ -1307,7 +1305,7 @@ ga('send', 'pageview');
         <div class="line mln">
          <div class="col cols9 topLeft">
           <div class="prl mlm animate animateFadeIn" id="contactAgentButton">
-           <button class="btn btnPrimary btnFullWidth property-bar-contact mlm agent" data-quick-connect="true" data-role="request_info_traceback" data-tracking="property-bar">
+           <button class="btn btnPrimary btnFullWidth property-bar-contact mlm agent" data-quick-connect="false" data-role="request_info_traceback" data-tracking="property-bar">
             Request More Info
            </button>
           </div>
@@ -1359,13 +1357,13 @@ ga('send', 'pageview');
           <ul class="listInline mvn prm">
            <li class="man prs">
             <button class="btn btnDefault btnSml" id="zlfToolbarBtn">
-             <a class="activeLink" href="/mortgages/pre-approval/?omni_src=mortgage|pdp_toolbar&amp;propertyId=3262926259&amp;city=Jersey+City&amp;state_code=NJ">
+             <a class="activeLink" href="/mortgages/pre-approval/?omni_src=mortgage|pdp_toolbar&amp;propertyId=3039415415&amp;city=Jersey+City&amp;state_code=NJ">
               Get Pre-Qualified
              </a>
             </button>
            </li>
            <li class="man">
-            <ul class="listInline property-data-elem mvn" data-property-id="3262926259" data-property-state-code="NJ" data-property-status="For Sale">
+            <ul class="listInline property-data-elem mvn" data-property-id="3039415415" data-property-state-code="NJ" data-property-status="Pending">
              <li class="prs mvn">
               <div data-role="PDPSaveButtonContainer">
               </div>
@@ -1413,7 +1411,7 @@ ga('send', 'pageview');
         <div class="line pvn">
          <div class="col cols24">
           <div class="h2 typeReversed typeDeemphasize man pan noWrap">
-           $559,000
+           $619,000
           </div>
          </div>
         </div>
@@ -1422,7 +1420,7 @@ ga('send', 'pageview');
           <div class="pln priceEstMonthly">
            <p class="typeLowlight h7 mbn mtn noWrap">
             <span id="monthlyPaymentFormatted">
-             $3,129
+             $3,446
             </span>
             /mo - est. payment
            </p>
@@ -1431,7 +1429,7 @@ ga('send', 'pageview');
         </div>
         <div class="line priceModuleAdCall " data-role="priceModuleAdCall">
          <div class="col cols24 lastCol prl mrl">
-          <a class="linkTypeReversed h6 typeWeightNormal" data-abvariation="2" data-role="PreApprovalUBTP" href="/mortgages/pre-approval/?omni_src=mortgage|pdp_ubtp&amp;propertyId=3262926259&amp;city=Jersey+City&amp;state_code=NJ" rel="nofollow">
+          <a class="linkTypeReversed h6 typeWeightNormal" data-abvariation="1" data-role="PreApprovalUBTP" href="/mortgages/pre-approval/?omni_src=mortgage|pdp_ubtp&amp;propertyId=3039415415&amp;city=Jersey+City&amp;state_code=NJ" rel="nofollow">
            See if you qualify for this home »
           </a>
          </div>
@@ -1463,7 +1461,7 @@ ga('send', 'pageview');
             </div>
             <div class="field">
              <span class="fieldItem text">
-              <textarea class="msg fieldSml" disabled="true" rows="3">I am interested in 30 Freedomway #404, Jersey City, NJ 07305.</textarea>
+              <textarea class="msg fieldSml" disabled="true" rows="3">I am interested in 67 Bright St #1, Jersey City, NJ 07302.</textarea>
              </span>
             </div>
             <button class="btn btnLrg btnFullWidth requestBtn mbz mtm btnPrimary btnDefault" type="submit">
@@ -1475,7 +1473,7 @@ ga('send', 'pageview');
         </div>
        </div>
       </div>
-      <div class="photoMapContainer man pan tall">
+      <div class="photoMapContainer man pan">
        <div class="pan">
         <ul class="tabBody man pan" id="mediaTabs">
          <li class="photoTabContent man tabContent clickable openStaticPhotoPlayer">
@@ -1483,8 +1481,8 @@ ga('send', 'pageview');
            <i class="iconResizeFull h4 typeInverse mls">
            </i>
           </span>
-          <div class="photoPlayerCurrentItemContainer overlayContainer landscapeSmall">
-           <div class="photoPlayerCurrentItem txtM" data-role="propertyImage" style="background-image:url('//thumbs.trulia-cdn.com/pictures/thumbs_3/ps.102/7/9/e/9/picture-uh=38e5ff3cbbf6d56c672859a95efe9e1-ps=79e9c702490764a3c8bdf2048714c93-30-Freedomway-404-Jersey-City-NJ-07305.jpg');">
+          <div class="photoPlayerCurrentItemContainer overlayContainer landscapeFullWidth">
+           <div class="photoPlayerCurrentItem txtM" data-role="propertyImage" style="background-image:url('//thumbs.trulia-cdn.com/pictures/thumbs_5/ps.102/a/9/5/c/picture-uh=ddb7e313fea232d7ec3f5cc84d7d26ed-ps=a95c5e97e59774ac7c57e4693c319fe6-67-Bright-St-1-Jersey-City-NJ-07302.jpg');">
            </div>
           </div>
           <ul class="listInline viewTabIconsList lhn prm mrm">
@@ -1492,7 +1490,7 @@ ga('send', 'pageview');
             <div class="frameSmall backgroundBasic">
              <div class="viewTabContentIcon photoView overlayContainer">
               <a class="viewPhotoLink viewIconLink openStaticPhotoPlayer" data-role="media_icon_btn" data-target-content="mediaTabPhoto" data-target-tab="photoTabContent" href="#">
-               <img class="mapImg" src="//thumbs.trulia-cdn.com/pictures/thumbs_3/ps.102/7/9/e/9/picture-uh=38e5ff3cbbf6d56c672859a95efe9e1-ps=79e9c702490764a3c8bdf2048714c93-30-Freedomway-404-Jersey-City-NJ-07305.jpg">
+               <img class="mapImg" src="//thumbs.trulia-cdn.com/pictures/thumbs_5/ps.102/a/9/5/c/picture-uh=ddb7e313fea232d7ec3f5cc84d7d26ed-ps=a95c5e97e59774ac7c57e4693c319fe6-67-Bright-St-1-Jersey-City-NJ-07302.jpg">
                 <div class="overlayLowlight overlayBottom overlayFullWidth txtC h8 mbn linkTypeReversed">
                  Photos (15)
                 </div>
@@ -1517,7 +1515,7 @@ ga('send', 'pageview');
           </ul>
           <div class="overlayTransparent overlayBottom overlayRight mrl prm pbm h8">
            <span class="typeContrast typeReversed prs">
-            Broker: CENTURY 21 VIEWPOINT REALTY
+            Broker: Keller Williams - Hoboken
            </span>
           </div>
          </li>
@@ -1529,7 +1527,7 @@ ga('send', 'pageview');
             <div class="frameSmall backgroundBasic">
              <div class="viewTabContentIcon photoView overlayContainer">
               <a class="viewPhotoLink viewIconLink openStaticPhotoPlayer" data-role="media_icon_btn" data-target-content="mediaTabPhoto" data-target-tab="photoTabContent" href="#">
-               <img class="mapImg" src="//thumbs.trulia-cdn.com/pictures/thumbs_3/ps.102/7/9/e/9/picture-uh=38e5ff3cbbf6d56c672859a95efe9e1-ps=79e9c702490764a3c8bdf2048714c93-30-Freedomway-404-Jersey-City-NJ-07305.jpg">
+               <img class="mapImg" src="//thumbs.trulia-cdn.com/pictures/thumbs_5/ps.102/a/9/5/c/picture-uh=ddb7e313fea232d7ec3f5cc84d7d26ed-ps=a95c5e97e59774ac7c57e4693c319fe6-67-Bright-St-1-Jersey-City-NJ-07302.jpg">
                 <div class="overlayLowlight overlayBottom overlayFullWidth txtC h8 mbn linkTypeReversed">
                  Photos (15)
                 </div>
@@ -1561,7 +1559,7 @@ ga('send', 'pageview');
             <div class="frameSmall backgroundBasic">
              <div class="viewTabContentIcon photoView overlayContainer">
               <a class="viewPhotoLink viewIconLink openStaticPhotoPlayer" data-role="media_icon_btn" data-target-content="mediaTabPhoto" data-target-tab="photoTabContent" href="#">
-               <img class="mapImg" src="//thumbs.trulia-cdn.com/pictures/thumbs_3/ps.102/7/9/e/9/picture-uh=38e5ff3cbbf6d56c672859a95efe9e1-ps=79e9c702490764a3c8bdf2048714c93-30-Freedomway-404-Jersey-City-NJ-07305.jpg" style="position:absolute">
+               <img class="mapImg" src="//thumbs.trulia-cdn.com/pictures/thumbs_5/ps.102/a/9/5/c/picture-uh=ddb7e313fea232d7ec3f5cc84d7d26ed-ps=a95c5e97e59774ac7c57e4693c319fe6-67-Bright-St-1-Jersey-City-NJ-07302.jpg" style="position:absolute">
                 <div class="overlayLowlight overlayBottom overlayFullWidth txtC h8 mbn linkTypeReversed">
                  Photos (15)
                 </div>
@@ -1594,15 +1592,18 @@ ga('send', 'pageview');
          <div class="line">
           <div class="mll" data-role="top_third_details_module">
            <div class="typeHighlight typeCaps h7 mtm mbn">
-            For Sale
+            Pending
            </div>
            <div class="headingDouble mtn ptn" data-role="address_module">
             <h1 class="h6 mtn ptn">
              <span class="headingDoubleSuper h2 typeWeightNormal mvn ptn">
-              30 Freedomway #404
+              67 Bright St #1
              </span>
              <span class="headlineDoubleSub typeWeightNormal typeLowlight man">
-              Jersey City, NJ 07305
+              Jersey City, NJ 07302
+              <span class="pls">
+               (Downtown - Van Vorst Park)
+              </span>
              </span>
             </h1>
             <a class="mls typeWeightNormal" data-role="commuteLink" href="#nearby/commute" style="max-width: 300px">
@@ -1621,16 +1622,19 @@ ga('send', 'pageview');
            2 Bedrooms
           </li>
           <li>
-           2 full Bathrooms
+           1 full Bathroom
           </li>
           <li>
-           1,510 sqft
+           849 sqft
           </li>
           <li>
-           $370/sqft
+           $729/sqft
           </li>
           <li>
-           &lt;1 Days on Trulia
+           Lot size: 1,825 sqft
+          </li>
+          <li>
+           28 Days on Trulia
           </li>
          </ul>
         </div>
@@ -1646,7 +1650,7 @@ ga('send', 'pageview');
          <h2 class="mbn typeEmphasize">
           Home Details
           <span class="typeWeightNormal typeLowLight">
-           for 30 Freedomway #404
+           for 67 Bright St #1
           </span>
          </h2>
         </div>
@@ -1667,12 +1671,16 @@ ga('send', 'pageview');
             Jersey City
            </a>
            &gt;
-           <a class="linkLowlight" href="/NJ/Jersey_City/07305/">
-            07305
+           <a class="linkLowlight" href="/NJ/Jersey_City/07302/">
+            07302
+           </a>
+           &gt;
+           <a class="linkLowlight" href="/NJ/Jersey_City,4592,Downtown_-_Van_Vorst_Park/">
+            Downtown - Van Vorst Park
            </a>
            &gt;
            <span class="typeLowlight">
-            30 Freedomway #404
+            67 Bright St #1
            </span>
           </div>
          </div>
@@ -1683,15 +1691,15 @@ ga('send', 'pageview');
          <div class="col cols14">
           <div>
            <span id="corepropertydescription">
-            JUST LISTED!!!- PORT LIBERTE - Top Floor Corner Condo with direct unobstructed
+            Have you been searching for a spacious open floor plan updated two bedroom in
             <wbr>
             </wbr>
-            NYC Views and Park Views! Picture of Views are true views from inside the home! Open floor plan allows free flowing use of space. Warm toned hardwood floors in living room and dining space. Great sized windows throughout the home. Private balcony from French doors leading from social space. Gourmet kitchen with tall cherry cabinets. Granite workspaces and breakfast bar. Cabinets are appointed with brushed stainless handles and all stainless steel appliances. Large ear-in area and terrific cupboard space. Larg
+            vibrant downtown Jersey city, within waking distance to Liberty State Park, Grove and Newark St shops restaurants and bars, the PATH, VanVorst Park and so much more... then your search is over. This home features a stylish upgraded kitchen with stainless appliances, a dining area, large living area, two ample sized bedrooms with loads of storage, wood floors throughout, central air conditioning, in-home laundry, and a private outdoor oasis is directly thru your sliding doors to a deck and maintenance free high
             <span class="" id="longDescriptionEllipsis">
              ...
             </span>
             <span class="hideVisually" id="moreDescription">
-             e master bedroom with well planned walk-in closet. Luxurious master bath with terrazzo marble, soaking tub, double sinks, linen closet and frameless shower. Contemporary vanity with dark wood and brushed nickel pulls. Additionally, this bath offers a linen closet.
+             quality turf lawn. Enjoy the urban lifestyle from this amazing downtown Jersey City location with all the luxuries of a modern home.
             </span>
             <br>
              <a class="toggle" data-toggle-text="Show less" href="#moreDescription" id="moreDescriptionToggle">
@@ -1700,8 +1708,6 @@ ga('send', 'pageview');
              </a>
             </br>
            </span>
-          </div>
-          <div class="pts">
           </div>
          </div>
          <div class="col lastCol">
@@ -1723,14 +1729,14 @@ ga('send', 'pageview');
            </div>
            <div class="boxBody mvs">
             <div class="h7 typeDeemphasize mvn typeCapitalize">
-             Elementary School
+             Frank R. Conwell No. 3 Elementary School
             </div>
             <div class="h5 typeWeightNormal typeCapitalize %}">
              Below Average
             </div>
             <hr class="mtn">
              <div class="h7 typeDeemphasize mvn typeCapitalize">
-              Middle School
+              Number 4 Middle School
              </div>
              <div class="h5 typeWeightNormal typeCapitalize %}">
               Below Average
@@ -1753,8 +1759,8 @@ ga('send', 'pageview');
           </div>
           <div class="box boxBasic mtn backgroundLowlight clickable crime_glance_details" data-action="showCrimePopup" data-track="AtAGlance|Crime">
            <div class="boxBody media pvs h5">
-            <div class="h5 typeWeightNormal mediaImg mediaImgExt typeHighlight">
-             Lowest
+            <div class="h5 typeWeightNormal mediaImg mediaImgExt typeWarning">
+             High
             </div>
             <div class="typeWeightNormal mediaBody">
              <i class="iconStarShield">
@@ -1772,7 +1778,7 @@ ga('send', 'pageview');
         </div>
         <div class="mtl">
          <div class="pbn mbn h5">
-          Features
+          Listing Info
           <span class="typeWeightNormal typeLowlight">
            of this property
           </span>
@@ -1780,19 +1786,19 @@ ga('send', 'pageview');
          <hr class="mtn">
           <span>
            Information last updated on
-              04/18/2017 12:00 AM:
+              04/07/2017 12:00 AM:
           </span>
           <ul class="listInline pdpFeatureList">
            <li class="cols7 listTopAlign mbn">
             <ul class="listBulleted mbn">
              <li>
-              Price: $559,000
+              Price: $619,000
              </li>
              <li>
               2 Bedrooms
              </li>
              <li>
-              2 full Bathrooms
+              1 full Bathroom
              </li>
              <li>
               Condo
@@ -1802,28 +1808,89 @@ ga('send', 'pageview');
            <li class="cols8 listTopAlign mbn">
             <ul class="listBulleted mbn">
              <li>
-              Status: For Sale
+              Status: Pending
+             </li>
+             <li>
+              Lot Size: 1,825 sqft
+             </li>
+             <li>
+              Neighborhood:
+              <a href="/NJ/Jersey_City,4592,Downtown_-_Van_Vorst_Park/" onclick="o_track_ql_click('ListingInfo|Neighborhood_Link');">
+               Downtown - Van Vorst Park
+              </a>
              </li>
             </ul>
            </li>
            <li class="cols7 listTopAlign mbn">
             <ul class="listBulleted mbn">
              <li>
-              MLS/Source ID: 170006120
+              MLS/Source ID: 170004426
              </li>
              <li>
               Zip:
-              <a href="/NJ/Jersey_City/07305/">
-               07305
+              <a href="/NJ/Jersey_City/07302/">
+               07302
               </a>
              </li>
              <li>
-              1,510 sqft
+              849 sqft
              </li>
              <li>
-              <a class="virtualTour" data-role="virtualTourLink" href="/transfer.php?s_id=192382008&amp;p_id=3262926259&amp;ptype=for_sale&amp;t_id=&amp;l_type=virtual_tour" onclick="o_track_address_click('3262926259', '', '', '', '', '', 'CENTURY21VIEWPOINTREALTY.hudson.paragonrels.com', 'Virtual Tour Link', 'ext', '');" rel="nofollow" target="_blank" title="Watch virtual tour">
-               See Virtual Tour
-              </a>
+              Lawn
+             </li>
+            </ul>
+           </li>
+          </ul>
+         </hr>
+        </div>
+        <div class="mtl">
+         <h2 class="pbn mbn h5">
+          67 Bright St #1
+          <span class="typeWeightNormal typeLowlight">
+           Public Records
+          </span>
+         </h2>
+         <hr class="mtn">
+          <span>
+           Official property, sales, and tax information from county (public) records as of 06/2016:
+          </span>
+          <ul class="listInline mbn pdpFeatureList">
+           <li class="cols7 listTopAlign mbn">
+            <ul class="listBulleted mbn">
+             <li>
+              Condominium (Residential)
+             </li>
+             <li>
+              Built In 1872
+             </li>
+             <li>
+              Construction: Frame
+             </li>
+            </ul>
+           </li>
+           <li class="cols8 listTopAlign mbn">
+            <ul class="listBulleted mbn">
+             <li>
+              849 sqft
+             </li>
+             <li>
+              Stories: 3 story
+             </li>
+             <li>
+              Subdivision: 67 BRIGHT STREET
+             </li>
+            </ul>
+           </li>
+           <li class="cols7 listTopAlign mbn">
+            <ul class="listBulleted mbn">
+             <li>
+              Lot Size: 1,825 sqft
+             </li>
+             <li>
+              3 Units
+             </li>
+             <li>
+              County: Hudson
              </li>
             </ul>
            </li>
@@ -1885,15 +1952,15 @@ ga('send', 'pageview');
         <div class="boxBody phn">
          <div class="media mvn">
           <div class="overlayContainer mediaImg backgroundInverse mhn">
-           <img alt="30 Freedomway #404, Jersey City NJ" class="centerHorizontal" height="155" src="//thumbs.trulia-cdn.com/pictures/thumbs_3/ps.102/7/9/e/9/picture-uh=38e5ff3cbbf6d56c672859a95efe9e1-ps=79e9c702490764a3c8bdf2048714c93-30-Freedomway-404-Jersey-City-NJ-07305.jpg" style="max-width:230px">
+           <img alt="67 Bright Street #1, Jersey City NJ" class="centerHorizontal" height="155" src="//thumbs.trulia-cdn.com/pictures/thumbs_5/ps.102/a/9/5/c/picture-uh=ddb7e313fea232d7ec3f5cc84d7d26ed-ps=a95c5e97e59774ac7c57e4693c319fe6-67-Bright-St-1-Jersey-City-NJ-07302.jpg" style="max-width:230px">
             <div class="overlayLowlight overlayBottom overlayFullWidth pll pts">
              <div class="line">
               <div class="col cols19 pvn plm">
                <span>
-                30 Freedomway #404
+                67 Bright St #1
                </span>
                <div>
-                $559,000
+                $619,000
                </div>
               </div>
               <div class="h2 colExt pls pvn">
@@ -2006,9 +2073,9 @@ ga('send', 'pageview');
                 <i class="iconGraduationCap typeSchools h5 mlxs mrxs prxs activeLink" data-role="nearbyIcon">
                 </i>
                 <strong>
-                 See 4 schools assigned to this home.
+                 See 6 schools assigned to this home.
                 </strong>
-                Henry Snyder High School, Lincoln High School, James J. Ferris High School
+                Number 4 Middle School, Frank R. Conwell No. 3 Elementary School, James J. Ferris High School
                </span>
                <i class="h4 mvn iconDownOpen colExt">
                </i>
@@ -2079,7 +2146,7 @@ ga('send', 'pageview');
            <h2 class="mbn typeEmphasize h5">
             Additional Costs For
             <span class="typeDeemphasize">
-             30 Freedomway #404
+             67 Bright St #1
             </span>
            </h2>
            <hr class="mbs">
@@ -2108,185 +2175,649 @@ ga('send', 'pageview');
           Price History &amp; Trends
          </h2>
          <hr class="mtn">
-          <h2 class="mbm h5">
-           Compare homes in the area
-           <span class="typeWeightNormal typeLowlight">
-           </span>
-          </h2>
-          <div class="mbl" id="price_chart_module">
-           <div class="box pan man" id="price_module_legend">
-            <div class="legend_principal pbn pts prn pls">
-             <div class="mbn">
-              <i class="iconHome typeHighlight h4">
-              </i>
-              This Home
-             </div>
-             <div class="h5 typeEmphasize pll man" id="principal_legend_price">
-              $559,000
-             </div>
-            </div>
-            <div class="legend_averages">
-             <div class="legend_versus">
-              VS
-             </div>
-             <div class="line plm">
-              <div class="col cols6 ptm pll">
-               <select id="price_comparison_selector" name="chart_type">
-                <option selected="selected" value="sold">
-                 Sold Price
-                </option>
-                <option value="ppsqft">
-                 Price/Sqft
-                </option>
-               </select>
-              </div>
-              <div class="col pls cols6">
-               <div class="pdp_imgsheet legend_line zipcode_line">
-               </div>
-               <div class="typeTruncate h7 mvn" title="ZIP 07305">
-                <a href="/NJ/Jersey_City/07305/">
-                 ZIP
-                            07305
-                </a>
-               </div>
-               <div class="h5 typeEmphasize pan man" id="zipcode_legend_price">
-                $0
-               </div>
-              </div>
-              <div class="col pls cols6">
-               <div class="pdp_imgsheet legend_line city_line">
-               </div>
-               <div class="typeTruncate h7 mvn" title="Jersey City">
-                <a href="/NJ/Jersey_City/">
-                 Jersey City
-                </a>
-               </div>
-               <div class="h5 typeEmphasize pan man" id="city_legend_price">
-                $0
-               </div>
-              </div>
-             </div>
+          <div class="mtm">
+           <div class="pbn mbn">
+            <div class="line">
+             <h2 class="col cols16 h5 mbn ptm">
+              Price History
+              <span class="typeWeightNormal typeLowlight">
+               for 67 Bright St #1
+              </span>
+             </h2>
             </div>
            </div>
-           <div class="hideVisually box pan man" id="price_comparison_chart_canvas">
-            <div class="controls">
-             <fieldset style="border: none">
-              <input checked="checked" class="10yr" id="price_module_chart_10yr" name="date_range" type="radio" value="10yr">
-               <label class="sel 10yr" for="price_module_chart_10yr">
-                10yr
-               </label>
-               <input class="5yr" id="price_module_chart_5yr" name="date_range" type="radio" value="5yr">
-                <label class="5yr" for="price_module_chart_5yr">
-                 5yr
-                </label>
-                <input class="1yr" id="price_module_chart_1yr" name="date_range" type="radio" value="1yr">
-                 <label class="1yr" for="price_module_chart_1yr">
-                  1yr
-                 </label>
-                </input>
-               </input>
-              </input>
-             </fieldset>
-            </div>
-            <div id="price_module_chart" style="height: 345px;">
-            </div>
-            <div id="hover_label_container">
-             <div id="hover_label">
-             </div>
-             <div class="hover_label_point">
-             </div>
-            </div>
-           </div>
-           <div class="typeLowlight h7 mbn" id="price_comparison_disclaimer">
-           </div>
-          </div>
-          <div class="pbn mbn ptm">
-           <div class="line">
-            <h2 class="col cols16 h5 mbn">
-             Real Estate Trends
-             <span class="typeWeightNormal typeLowlight">
-              in 07305
-             </span>
-            </h2>
-            <div class="col cols4 lastCol txtR pts">
-             <a class="iconInfo linkLowlight" href="" id="sales_trends_info_icon">
-             </a>
-            </div>
-           </div>
-          </div>
-          <table class="table tableHover tableRowBorderedTop tableRowBorderedBottom txtR">
-           <tbody>
-            <tr>
-             <td class="txtL">
-              Average listing price for all homes in 07305
-             </td>
-             <td>
-              $312,204
-             </td>
-             <td>
-              <strong class="typeWarning">
-               79%
-              </strong>
-              below listing price
-             </td>
-            </tr>
-           </tbody>
-          </table>
-          <div class="mtm mbl">
-           <strong>
-            <a class="plm linkForward" href="/real_estate/07305-Jersey_City/market-trends/">
-             View more Sales Trends for 07305
-            </a>
-           </strong>
+           <hr class="mtn">
+            <table class="table tableRowBorderedTop tableRowBorderedBottom txtL">
+             <thead>
+              <tr>
+               <th>
+                Date
+               </th>
+               <th>
+                Event
+               </th>
+               <th>
+                Price
+               </th>
+               <th>
+                Source
+               </th>
+               <th data-role="agent_header_label">
+                Agents
+               </th>
+              </tr>
+             </thead>
+             <tbody>
+              <tr class="rowHover">
+               <td class="noWrap">
+                11/22/2013
+               </td>
+               <td class="noWrap">
+                <span>
+                 Sold
+                </span>
+                <span class="h7 mlm">
+                 <a class="toggle toggleArrow" data-toggle-text="close detail" href="#property_deed_1">
+                  view detail
+                 </a>
+                </span>
+               </td>
+               <td class="noWrap">
+                $435,000
+               </td>
+               <td class="noWrap">
+                <span class="hideVisually" title="Public records">
+                 Public records
+                </span>
+                <span>
+                 Public records
+                </span>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr class="hideVisually h7 tan" id="property_deed_1">
+               <td colspan="5">
+                <ul class="listBorderedHover man">
+                 <li class="line">
+                  <div class="col cols7 pls">
+                   Recording Date
+                  </div>
+                  <div class="col lastCol pln">
+                   11/22/2013
+                  </div>
+                 </li>
+                 <li class="line">
+                  <div class="col cols7 pls">
+                   Contract Date
+                  </div>
+                  <div class="col lastCol pln">
+                   11/13/2013
+                  </div>
+                 </li>
+                 <li class="line">
+                  <div class="col cols7 pls">
+                   Sale Price
+                  </div>
+                  <div class="col lastCol pln">
+                   $435,000
+                  </div>
+                 </li>
+                 <li class="line">
+                  <div class="col cols7 pls">
+                   Price Type
+                  </div>
+                  <div class="col lastCol pln">
+                   Full amount stated on Document.
+                  </div>
+                 </li>
+                 <li class="line">
+                  <div class="col cols7 pls">
+                   City Transfer Tax
+                  </div>
+                  <div class="col lastCol pln">
+                   $1,088
+                  </div>
+                 </li>
+                 <li class="line">
+                  <div class="col cols7 pls">
+                   County Transfer Tax
+                  </div>
+                  <div class="col lastCol pln">
+                   $435
+                  </div>
+                 </li>
+                 <li class="line">
+                  <div class="col cols7 pls">
+                   Total Transfer Tax
+                  </div>
+                  <div class="col lastCol pln">
+                   $1,523
+                  </div>
+                 </li>
+                 <li class="line">
+                  <div class="col cols7 pls">
+                   Transaction Type
+                  </div>
+                  <div class="col lastCol pln">
+                   Purchase/Resale Arm's Length Residential Transaction
+                  </div>
+                 </li>
+                 <li class="line">
+                  <div class="col cols7 pls">
+                   Document Type
+                  </div>
+                  <div class="col lastCol pln">
+                   Deed
+                  </div>
+                 </li>
+                </ul>
+               </td>
+              </tr>
+              <tr class="rowHover">
+               <td class="noWrap">
+                11/28/2011
+               </td>
+               <td class="noWrap">
+                <span>
+                 Sold
+                </span>
+                <span class="h7 mlm">
+                 <a class="toggle toggleArrow" data-toggle-text="close detail" href="#property_deed_2">
+                  view detail
+                 </a>
+                </span>
+               </td>
+               <td class="noWrap">
+                $335,000
+               </td>
+               <td class="noWrap">
+                <span class="hideVisually" title="Public records">
+                 Public records
+                </span>
+                <span>
+                 Public records
+                </span>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr class="hideVisually h7 tan" id="property_deed_2">
+               <td colspan="5">
+                <ul class="listBorderedHover man">
+                 <li class="line">
+                  <div class="col cols7 pls">
+                   Recording Date
+                  </div>
+                  <div class="col lastCol pln">
+                   11/28/2011
+                  </div>
+                 </li>
+                 <li class="line">
+                  <div class="col cols7 pls">
+                   Contract Date
+                  </div>
+                  <div class="col lastCol pln">
+                   09/12/2011
+                  </div>
+                 </li>
+                 <li class="line">
+                  <div class="col cols7 pls">
+                   Sale Price
+                  </div>
+                  <div class="col lastCol pln">
+                   $335,000
+                  </div>
+                 </li>
+                 <li class="line">
+                  <div class="col cols7 pls">
+                   Price Type
+                  </div>
+                  <div class="col lastCol pln">
+                   Full amount stated on Document.
+                  </div>
+                 </li>
+                 <li class="line">
+                  <div class="col cols7 pls">
+                   City Transfer Tax
+                  </div>
+                  <div class="col lastCol pln">
+                   $0
+                  </div>
+                 </li>
+                 <li class="line">
+                  <div class="col cols7 pls">
+                   County Transfer Tax
+                  </div>
+                  <div class="col lastCol pln">
+                   $0
+                  </div>
+                 </li>
+                 <li class="line">
+                  <div class="col cols7 pls">
+                   Total Transfer Tax
+                  </div>
+                  <div class="col lastCol pln">
+                   $0
+                  </div>
+                 </li>
+                 <li class="line">
+                  <div class="col cols7 pls">
+                   Transaction Type
+                  </div>
+                  <div class="col lastCol pln">
+                   Purchase/Resale Arm's Length Residential Transaction
+                  </div>
+                 </li>
+                 <li class="line">
+                  <div class="col cols7 pls">
+                   Document Type
+                  </div>
+                  <div class="col lastCol pln">
+                   Deed
+                  </div>
+                 </li>
+                </ul>
+               </td>
+              </tr>
+              <tr class="rowHover">
+               <td class="noWrap">
+                12/13/2007
+               </td>
+               <td class="noWrap">
+                <span>
+                 Sold
+                </span>
+                <span class="h7 mlm">
+                 <a class="toggle toggleArrow" data-toggle-text="close detail" href="#property_deed_3">
+                  view detail
+                 </a>
+                </span>
+               </td>
+               <td class="noWrap">
+                $50,000
+               </td>
+               <td class="noWrap">
+                <span class="hideVisually" title="Public records">
+                 Public records
+                </span>
+                <span>
+                 Public records
+                </span>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr class="hideVisually h7 tan" id="property_deed_3">
+               <td colspan="5">
+                <ul class="listBorderedHover man">
+                 <li class="line">
+                  <div class="col cols7 pls">
+                   Recording Date
+                  </div>
+                  <div class="col lastCol pln">
+                   12/13/2007
+                  </div>
+                 </li>
+                 <li class="line">
+                  <div class="col cols7 pls">
+                   Contract Date
+                  </div>
+                  <div class="col lastCol pln">
+                   10/31/2007
+                  </div>
+                 </li>
+                 <li class="line">
+                  <div class="col cols7 pls">
+                   Sale Price
+                  </div>
+                  <div class="col lastCol pln">
+                   $50,000
+                  </div>
+                 </li>
+                 <li class="line">
+                  <div class="col cols7 pls">
+                   Price Type
+                  </div>
+                  <div class="col lastCol pln">
+                   Full amount stated on Document.
+                  </div>
+                 </li>
+                 <li class="line">
+                  <div class="col cols7 pls">
+                   City Transfer Tax
+                  </div>
+                  <div class="col lastCol pln">
+                   $0
+                  </div>
+                 </li>
+                 <li class="line">
+                  <div class="col cols7 pls">
+                   County Transfer Tax
+                  </div>
+                  <div class="col lastCol pln">
+                   $50
+                  </div>
+                 </li>
+                 <li class="line">
+                  <div class="col cols7 pls">
+                   Total Transfer Tax
+                  </div>
+                  <div class="col lastCol pln">
+                   $200
+                  </div>
+                 </li>
+                 <li class="line">
+                  <div class="col cols7 pls">
+                   Transaction Type
+                  </div>
+                  <div class="col lastCol pln">
+                   Purchase/Resale Arm's Length Residential Transaction
+                  </div>
+                 </li>
+                 <li class="line">
+                  <div class="col cols7 pls">
+                   Document Type
+                  </div>
+                  <div class="col lastCol pln">
+                   Deed
+                  </div>
+                 </li>
+                </ul>
+               </td>
+              </tr>
+              <tr class="rowHover">
+               <td class="noWrap">
+                06/13/2007
+               </td>
+               <td class="noWrap">
+                <span>
+                 Sold
+                </span>
+                <span class="h7 mlm">
+                 <a class="toggle toggleArrow" data-toggle-text="close detail" href="#property_deed_4">
+                  view detail
+                 </a>
+                </span>
+               </td>
+               <td class="noWrap">
+                $430,000
+               </td>
+               <td class="noWrap">
+                <span class="hideVisually" title="Public records">
+                 Public records
+                </span>
+                <span>
+                 Public records
+                </span>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr class="hideVisually h7 tan" id="property_deed_4">
+               <td colspan="5">
+                <ul class="listBorderedHover man">
+                 <li class="line">
+                  <div class="col cols7 pls">
+                   Recording Date
+                  </div>
+                  <div class="col lastCol pln">
+                   06/13/2007
+                  </div>
+                 </li>
+                 <li class="line">
+                  <div class="col cols7 pls">
+                   Contract Date
+                  </div>
+                  <div class="col lastCol pln">
+                   03/23/2007
+                  </div>
+                 </li>
+                 <li class="line">
+                  <div class="col cols7 pls">
+                   Sale Price
+                  </div>
+                  <div class="col lastCol pln">
+                   $430,000
+                  </div>
+                 </li>
+                 <li class="line">
+                  <div class="col cols7 pls">
+                   Price Type
+                  </div>
+                  <div class="col lastCol pln">
+                   Full amount stated on Document.
+                  </div>
+                 </li>
+                 <li class="line">
+                  <div class="col cols7 pls">
+                   City Transfer Tax
+                  </div>
+                  <div class="col lastCol pln">
+                   $0
+                  </div>
+                 </li>
+                 <li class="line">
+                  <div class="col cols7 pls">
+                   County Transfer Tax
+                  </div>
+                  <div class="col lastCol pln">
+                   $430
+                  </div>
+                 </li>
+                 <li class="line">
+                  <div class="col cols7 pls">
+                   Total Transfer Tax
+                  </div>
+                  <div class="col lastCol pln">
+                   $3,503
+                  </div>
+                 </li>
+                 <li class="line">
+                  <div class="col cols7 pls">
+                   Transaction Type
+                  </div>
+                  <div class="col lastCol pln">
+                   Purchase/Resale Arm's Length Residential Transaction
+                  </div>
+                 </li>
+                 <li class="line">
+                  <div class="col cols7 pls">
+                   Document Type
+                  </div>
+                  <div class="col lastCol pln">
+                   Other
+                  </div>
+                 </li>
+                </ul>
+               </td>
+              </tr>
+             </tbody>
+            </table>
+           </hr>
           </div>
           <hr class="divider">
-           <div class="mtm containerFluid" style="width:1030px;">
-            <div data-role="nearbyHomesMapContainer">
+           <h2 class="mbm h5">
+            Compare homes in the area
+            <span class="typeWeightNormal typeLowlight">
+            </span>
+           </h2>
+           <div class="mbl" id="price_chart_module">
+            <div class="box pan man" id="price_module_legend">
+             <div class="legend_principal pbn pts prn pls">
+              <div class="mbn">
+               <i class="iconHome typeHighlight h4">
+               </i>
+               This Home
+              </div>
+              <div class="h5 typeEmphasize pll man" id="principal_legend_price">
+               $619,000
+              </div>
+             </div>
+             <div class="legend_averages">
+              <div class="legend_versus">
+               VS
+              </div>
+              <div class="line plm">
+               <div class="col cols6 ptm pll">
+                <select id="price_comparison_selector" name="chart_type">
+                 <option selected="selected" value="sold">
+                  Sold Price
+                 </option>
+                 <option value="ppsqft">
+                  Price/Sqft
+                 </option>
+                </select>
+               </div>
+               <div class="col pls cols6">
+                <div class="pdp_imgsheet legend_line zipcode_line">
+                </div>
+                <div class="typeTruncate h7 mvn" title="ZIP 07302">
+                 <a href="/NJ/Jersey_City/07302/">
+                  ZIP
+                            07302
+                 </a>
+                </div>
+                <div class="h5 typeEmphasize pan man" id="zipcode_legend_price">
+                 $0
+                </div>
+               </div>
+               <div class="col pls cols6">
+                <div class="pdp_imgsheet legend_line city_line">
+                </div>
+                <div class="typeTruncate h7 mvn" title="Jersey City">
+                 <a href="/NJ/Jersey_City/">
+                  Jersey City
+                 </a>
+                </div>
+                <div class="h5 typeEmphasize pan man" id="city_legend_price">
+                 $0
+                </div>
+               </div>
+              </div>
+             </div>
+            </div>
+            <div class="hideVisually box pan man" id="price_comparison_chart_canvas">
+             <div class="controls">
+              <fieldset style="border: none">
+               <input checked="checked" class="10yr" id="price_module_chart_10yr" name="date_range" type="radio" value="10yr">
+                <label class="sel 10yr" for="price_module_chart_10yr">
+                 10yr
+                </label>
+                <input class="5yr" id="price_module_chart_5yr" name="date_range" type="radio" value="5yr">
+                 <label class="5yr" for="price_module_chart_5yr">
+                  5yr
+                 </label>
+                 <input class="1yr" id="price_module_chart_1yr" name="date_range" type="radio" value="1yr">
+                  <label class="1yr" for="price_module_chart_1yr">
+                   1yr
+                  </label>
+                 </input>
+                </input>
+               </input>
+              </fieldset>
+             </div>
+             <div id="price_module_chart" style="height: 345px;">
+             </div>
+             <div id="hover_label_container">
+              <div id="hover_label">
+              </div>
+              <div class="hover_label_point">
+              </div>
+             </div>
+            </div>
+            <div class="typeLowlight h7 mbn" id="price_comparison_disclaimer">
             </div>
            </div>
-           <div class="txtC" style="width:1030px;">
-            <a href="https://www.trulia.com/NJ/Jersey_City/" title="View all Jersey City real estate">
-             View all Jersey City real estate
-            </a>
-            <hr class="divider">
-            </hr>
-           </div>
-           <div id="endFloaterAnchor">
-           </div>
-           <div id="bottomLeadFormContainer">
-            <div class="txtC mal pvm">
-             <i class="iconSpinner">
-             </i>
-            </div>
-           </div>
-           <div class="mvl ptm bts">
-            <h2 class="typeEmphasize">
-             Listing Provided by
-            </h2>
+           <div class="pbn mbn ptm">
             <div class="line">
-             <div class="col cols18">
-              <p>
-               <span>
-                Carla Vonbyrden,
-               </span>
-               <a href="/transfer.php?s_id=192382008&amp;p_id=3262926259&amp;t_id=odpl1&amp;feat=&amp;ptype=for_sale&amp;plid=3262926259" ref="nofollow" target="_blank" title="CENTURY 21 VIEWPOINT REALTY">
-                CENTURY 21 VIEWPOINT REALTY,
-               </a>
-               <span>
-                (201) 332-6300
-               </span>
-              </p>
-              <p>
-               Agent Phone: (201) 231-7728
-              </p>
-             </div>
-             <div class="col colsExt">
+             <h2 class="col cols16 h5 mbn">
+              Real Estate Trends
+              <span class="typeWeightNormal typeLowlight">
+               in Downtown - Van Vorst Park
+              </span>
+             </h2>
+             <div class="col cols4 lastCol txtR pts">
+              <a class="iconInfo linkLowlight" href="" id="sales_trends_info_icon">
+              </a>
              </div>
             </div>
-            <p>
-             MLS Disclaimer: Copyright Hudson County MLS. All rights reserved. Information is deemed reliable but not guaranteed.
-            </p>
            </div>
+           <table class="table tableHover tableRowBorderedTop tableRowBorderedBottom txtR">
+            <tbody>
+             <tr>
+              <td class="txtL">
+               Average listing price for all homes in Downtown - Van Vorst Park
+              </td>
+              <td>
+               $922,444
+              </td>
+              <td>
+               <strong class="typeHighlight">
+                33%
+               </strong>
+               above listing price
+              </td>
+             </tr>
+            </tbody>
+           </table>
+           <div class="mtm mbl">
+            <strong>
+             <a class="plm linkForward" href="/real_estate/Downtown_Van_Vorst_Park-Jersey_City/4592/market-trends/">
+              View more Sales Trends for Downtown - Van Vorst Park
+             </a>
+            </strong>
+           </div>
+           <hr class="divider">
+            <div class="mtm containerFluid" style="width:1030px;">
+             <div data-role="nearbyHomesMapContainer">
+             </div>
+            </div>
+            <div class="txtC" style="width:1030px;">
+             <a href="https://www.trulia.com/NJ/Jersey_City/" title="View all Jersey City real estate">
+              View all Jersey City real estate
+             </a>
+             <hr class="divider">
+             </hr>
+            </div>
+            <div id="endFloaterAnchor">
+            </div>
+            <div id="bottomLeadFormContainer">
+             <div class="txtC mal pvm">
+              <i class="iconSpinner">
+              </i>
+             </div>
+            </div>
+            <div class="mvl ptm bts">
+             <h2 class="typeEmphasize">
+              Listing Provided by
+             </h2>
+             <div class="line">
+              <div class="col cols18">
+               <p>
+                <span>
+                 Steve Salzer &amp; Rossy Guzman,
+                </span>
+                <a href="/transfer.php?s_id=120271&amp;p_id=3039415415&amp;t_id=fdpl1&amp;feat=1&amp;ptype=pending&amp;plid=3262372074" ref="nofollow" target="_blank" title="Keller Williams - Hoboken">
+                 Keller Williams - Hoboken,
+                </a>
+                <span>
+                 (201) 659-8600
+                </span>
+               </p>
+               <p>
+                Agent Phone: (201) 730-2767
+               </p>
+              </div>
+              <div class="col colsExt">
+               <div class="txtR">
+                <img alt="" src="//logos.trulia-cdn.com/pictures/logos/listings/mls_logo_brokerlogo_13949_1481926961_m.gif">
+                </img>
+               </div>
+              </div>
+             </div>
+            </div>
+           </hr>
           </hr>
          </hr>
         </div>
@@ -2325,7 +2856,7 @@ ga('send', 'pageview');
          <div class="clearfix ">
           <div id="error_box_content">
            <div class="property_info_detail_address">
-            30 Freedomway #404, Jersey City NJ
+            67 Bright Street #1, Jersey City NJ
            </div>
            <div style="clear:both;">
            </div>
@@ -2382,24 +2913,24 @@ ga('send', 'pageview');
            </div>
            <div style="clear:both;">
            </div>
-           <input id="flag_property_id" type="hidden" value="3262926259"/>
-           <input id="flag_site_id" type="hidden" value="192382008"/>
-           <input id="property_hash" type="hidden" value=""/>
+           <input id="flag_property_id" type="hidden" value="3039415415"/>
+           <input id="flag_site_id" type="hidden" value="120271"/>
+           <input id="property_hash" type="hidden" value="e74adfdcc35f5e61a1243caddce479df"/>
            <input id="property_state_code" type="hidden" value="NJ"/>
-           <input id="property_status" type="hidden" value="For Sale"/>
+           <input id="property_status" type="hidden" value="Pending"/>
            <input id="property_detail_type_org" type="hidden" value="Condo"/>
            <input id="property_detail_listing_type_org" type="hidden" value="--"/>
-           <input id="property_detail_status_org" type="hidden" value="For Sale"/>
-           <input id="property_detail_price_org" type="hidden" value="559,000"/>
+           <input id="property_detail_status_org" type="hidden" value="Pending"/>
+           <input id="property_detail_price_org" type="hidden" value="619,000"/>
            <input id="property_detail_beds_org" type="hidden" value="2"/>
-           <input id="property_detail_baths_org" type="hidden" value="2"/>
-           <input id="property_detail_sqft_org" type="hidden" value="1,510"/>
+           <input id="property_detail_baths_org" type="hidden" value="1"/>
+           <input id="property_detail_sqft_org" type="hidden" value="849"/>
            <input id="property_detail_lot_size_org" type="hidden" value="n/a"/>
            <input id="property_detail_year_built_org" type="hidden" value="n/a"/>
            <input id="istp" type="hidden" value=""/>
            <input id="user_type" type="hidden" value=""/>
            <input id="user_id" type="hidden" value=""/>
-           <input id="property_data" type="hidden" value="ZGlyPVBEUCZjb250cm9sbGVyPVBEUEZyb250JmFjdGlvbj1pbmRleCZwcm9wZXJ0eUlkPTMyNjI5MjYyNTkmc2VvYWRkcmVzcz0zMC1GcmVlZG9td2F5LTQwNC1KZXJzZXktQ2l0eS1OSi0wNzMwNSZzdGF0dXM9Rm9yK1NhbGU="/>
+           <input id="property_data" type="hidden" value="ZGlyPVBEUCZjb250cm9sbGVyPVBEUEZyb250JmFjdGlvbj1pbmRleCZwcm9wZXJ0eUlkPTMwMzk0MTU0MTUmc2VvYWRkcmVzcz02Ny1CcmlnaHQtU3QtMS1KZXJzZXktQ2l0eS1OSi0wNzMwMiZzdGF0dXM9Rm9yK1NhbGU="/>
           </div>
           <div id="error_box_status" style="display:none;">
            <div id="error_box_status_msg">
@@ -2484,7 +3015,7 @@ ga('send', 'pageview');
             </div>
             <textarea class="cols23" cols="43" id="questionBody_TB" maxlength="1000" name="questionBody" onblur="handle_edit_box(this,'Optional details about your question',false)" onfocus="handle_edit_box(this,'Optional details about your question',true)" onkeyup="textCounter(this,'questionBodyCounter_TB', 1000);" rows="4" style="height:75px;color:#999;">Optional details about your question</textarea>
             <div class="f10 tcenter pad5">
-             This question is about this property: https://www.trulia.com/property/3262926259-30-Freedomway-404-Jersey-City-NJ-07305
+             This question is about this property: https://www.trulia.com/property/3039415415-67-Bright-St-1-Jersey-City-NJ-07302
             </div>
             <div id="error_questionBody_TB">
             </div>
@@ -2505,9 +3036,9 @@ ga('send', 'pageview');
             </div>
             <input name="from" type="hidden" value="details"/>
             <input name="from_where" type="hidden" value="details_open_form"/>
-            <input name="from_id" type="hidden" value="3262926259"/>
+            <input name="from_id" type="hidden" value="3039415415"/>
             <input name="from_type" type="hidden" value="property"/>
-            <input name="from_url" type="hidden" value="https://www.trulia.com/property/3262926259-30-Freedomway-404-Jersey-City-NJ-07305"/>
+            <input name="from_url" type="hidden" value="https://www.trulia.com/property/3039415415-67-Bright-St-1-Jersey-City-NJ-07302"/>
             <input name="questionLocation" type="hidden" value="Jersey City, NJ"/>
             <input name="categoryId" type="hidden" value="53"/>
             <input name="fs" type="hidden" value="1"/>
@@ -2565,34 +3096,14 @@ ga('send', 'pageview');
     <div class="media mvn prxxl pbl">
      <img class="h4 mediaImg linkTypeReversed typeEmphasize" height="100" src="//static.trulia-cdn.com/images/footer/discovery-ill.svg" width="160">
       <div class="mediaBody h7 ptl prxl prxxl">
-       This Condo located at 30 Freedomway, Jersey City NJ,
-       <a href="/property-sitemap/NJ/Jersey_City/07305/">
-        07305
-       </a>
-       is currently for sale. This property is listed by CENTURY 21 VIEWPOINT REALTY for $559,000. 30 Freedomway #404 has 2 beds, 2 baths, and approximately 1,510 square feet. 30 Freedomway is in
-       <a href="/real_estate/Jersey_City-New_Jersey/">
-        Jersey City
-       </a>
-       and in ZIP Code
-       <a href="/real_estate/07305-Jersey_City/">
-        07305
-       </a>
-       . The list price of $559,000 is 79% higher than the average list price of $312,204 for
-       <a href="/NJ/Jersey_City/07305/">
-        07305 real estate
-       </a>
-       and 14% higher than the average list price of $491,813 for
-       <a href="/NJ/Jersey_City/">
-        Jersey City, NJ real estate
-       </a>
-       .
+       This Condo is located at 67 Bright Street #1, Jersey City, NJ.  67 Bright St #1 is in the Downtown - Van Vorst Park neighborhood in Jersey City, NJ and in ZIP Code 07302.  The average listing price for Downtown - Van Vorst Park is $922,444.  67 Bright St #1 has 2 beds, 1 bath, and approximately 849 square feet
       </div>
      </img>
     </div>
    </div>
    <div class="backgroundInverse content contentResponsive phl">
     <div class="h3 typeReversed pvs">
-     Communities near 30 Freedomway #404, Jersey City, NJ | MLS# 170006120
+     Communities near 67 Bright Street #1, Jersey City, NJ | MLS# 170004426
     </div>
     <hr class="divider pvs mvn">
     </hr>
@@ -2790,8 +3301,8 @@ ga('send', 'pageview');
          </span>
         </div>
         <div class="pvs">
-         <a class="linkLowlight" href="/NJ/Jersey_City,4592,Downtown_Van_Vorst_Park/" title="Downtown - Van Vorst Park">
-          Downtown - Van Vorst Park
+         <a class="linkLowlight" href="/NJ/Jersey_City,4598,Paullus_Hook/" title="Paullus Hook">
+          Paullus Hook
          </a>
          <span class="breaker typeLowlight" style="opacity: .2;">
           |
@@ -2806,8 +3317,8 @@ ga('send', 'pageview');
          </span>
         </div>
         <div class="pvs">
-         <a class="linkLowlight" href="/NJ/Jersey_City,4598,Paullus_Hook/" title="Paullus Hook">
-          Paullus Hook
+         <a class="linkLowlight" href="/NJ/Jersey_City,4594,Hamilton_Park/" title="Hamilton Park">
+          Hamilton Park
          </a>
          <span class="breaker typeLowlight" style="opacity: .2;">
           |
@@ -2815,8 +3326,8 @@ ga('send', 'pageview');
         </div>
         <div class="hideVisually" id="toggleColumn1">
          <div class="pvs">
-          <a class="linkLowlight" href="/NJ/Jersey_City,4594,Hamilton_Park/" title="Hamilton Park">
-           Hamilton Park
+          <a class="linkLowlight" href="/NJ/Jersey_City,4593,Exchange_Place_North/" title="Exchange Place North">
+           Exchange Place North
           </a>
           <span class="breaker typeLowlight" style="opacity: .2;">
            |
@@ -2847,8 +3358,136 @@ ga('send', 'pageview');
           </span>
          </div>
          <div class="pvs">
-          <a class="linkLowlight" href="/NJ/Jersey_City,4593,Exchange_Place_North/" title="Exchange Place North">
-           Exchange Place North
+          <a class="linkLowlight" href="/NJ/Jersey_City,5028,Battery_Park_City/" title="Battery Park City">
+           Battery Park City
+          </a>
+          <span class="breaker typeLowlight" style="opacity: .2;">
+           |
+          </span>
+         </div>
+         <div class="pvs">
+          <a class="linkLowlight" href="/NJ/Jersey_City,5255,Tribeca/" title="Tribeca">
+           Tribeca
+          </a>
+          <span class="breaker typeLowlight" style="opacity: .2;">
+           |
+          </span>
+         </div>
+         <div class="pvs">
+          <a class="linkLowlight" href="/NJ/Jersey_City,5101,Financial_District/" title="Financial District">
+           Financial District
+          </a>
+          <span class="breaker typeLowlight" style="opacity: .2;">
+           |
+          </span>
+         </div>
+         <div class="pvs">
+          <a class="linkLowlight" href="/NJ/Jersey_City,5233,SoHo/" title="SoHo">
+           SoHo
+          </a>
+          <span class="breaker typeLowlight" style="opacity: .2;">
+           |
+          </span>
+         </div>
+         <div class="pvs">
+          <a class="linkLowlight" href="/NJ/Jersey_City,5064,Civic_Center/" title="Civic Center">
+           Civic Center
+          </a>
+          <span class="breaker typeLowlight" style="opacity: .2;">
+           |
+          </span>
+         </div>
+         <div class="pvs">
+          <a class="linkLowlight" href="/NJ/Jersey_City,5269,West_Village/" title="West Village">
+           West Village
+          </a>
+          <span class="breaker typeLowlight" style="opacity: .2;">
+           |
+          </span>
+         </div>
+         <div class="pvs">
+          <a class="linkLowlight" href="/NJ/Jersey_City,5062,Chinatown/" title="Chinatown">
+           Chinatown
+          </a>
+          <span class="breaker typeLowlight" style="opacity: .2;">
+           |
+          </span>
+         </div>
+         <div class="pvs">
+          <a class="linkLowlight" href="/NJ/Jersey_City,5166,Meatpacking_District/" title="Meatpacking District">
+           Meatpacking District
+          </a>
+          <span class="breaker typeLowlight" style="opacity: .2;">
+           |
+          </span>
+         </div>
+         <div class="pvs">
+          <a class="linkLowlight" href="/NJ/Jersey_City,5158,Little_Italy/" title="Little Italy">
+           Little Italy
+          </a>
+          <span class="breaker typeLowlight" style="opacity: .2;">
+           |
+          </span>
+         </div>
+         <div class="pvs">
+          <a class="linkLowlight" href="/NJ/Jersey_City,5257,Two_Bridges/" title="Two Bridges">
+           Two Bridges
+          </a>
+          <span class="breaker typeLowlight" style="opacity: .2;">
+           |
+          </span>
+         </div>
+         <div class="pvs">
+          <a class="linkLowlight" href="/NJ/Jersey_City,5191,NoLita/" title="NoLita">
+           NoLita
+          </a>
+          <span class="breaker typeLowlight" style="opacity: .2;">
+           |
+          </span>
+         </div>
+         <div class="pvs">
+          <a class="linkLowlight" href="/NJ/Jersey_City,5126,Greenwich_Village/" title="Greenwich Village">
+           Greenwich Village
+          </a>
+          <span class="breaker typeLowlight" style="opacity: .2;">
+           |
+          </span>
+         </div>
+         <div class="pvs">
+          <a class="linkLowlight" href="/NJ/Jersey_City,5190,NoHo/" title="NoHo">
+           NoHo
+          </a>
+          <span class="breaker typeLowlight" style="opacity: .2;">
+           |
+          </span>
+         </div>
+         <div class="pvs">
+          <a class="linkLowlight" href="/NJ/Jersey_City,5061,Chelsea/" title="Chelsea">
+           Chelsea
+          </a>
+          <span class="breaker typeLowlight" style="opacity: .2;">
+           |
+          </span>
+         </div>
+         <div class="pvs">
+          <a class="linkLowlight" href="/NJ/Jersey_City,5159,Lower_East_Side/" title="Lower East Side">
+           Lower East Side
+          </a>
+          <span class="breaker typeLowlight" style="opacity: .2;">
+           |
+          </span>
+         </div>
+         <div class="pvs">
+          <a class="linkLowlight" href="/NJ/Jersey_City,5048,Brooklyn_Heights/" title="Brooklyn Heights">
+           Brooklyn Heights
+          </a>
+          <span class="breaker typeLowlight" style="opacity: .2;">
+           |
+          </span>
+         </div>
+         <div class="pvs">
+          <a class="linkLowlight" href="/NJ/Jersey_City,5264,Vinegar_Hill/" title="Vinegar Hill">
+           Vinegar Hill
           </a>
           <span class="breaker typeLowlight" style="opacity: .2;">
            |
@@ -2868,7 +3507,7 @@ ga('send', 'pageview');
        </div>
        <div class="listContent">
         <div class="pvs">
-         <a class="linkLowlight" href="/for_sale/Jersey_City,NJ/SINGLE-FAMILY_HOME_type/" title="Single-Family Homes">
+         <a class="linkLowlight" href="/for_sale/4592_nh/SINGLE-FAMILY_HOME_type/" title="Single-Family Homes">
           Single-Family Homes
          </a>
          <span class="breaker typeLowlight" style="opacity: .2;">
@@ -2876,7 +3515,7 @@ ga('send', 'pageview');
          </span>
         </div>
         <div class="pvs">
-         <a class="linkLowlight" href="/for_sale/Jersey_City,NJ/CONDO_type/" title="Condos">
+         <a class="linkLowlight" href="/for_sale/4592_nh/CONDO_type/" title="Condos">
           Condos
          </a>
          <span class="breaker typeLowlight" style="opacity: .2;">
@@ -2884,7 +3523,7 @@ ga('send', 'pageview');
          </span>
         </div>
         <div class="pvs">
-         <a class="linkLowlight" href="/for_sale/Jersey_City,NJ/TOWNHOUSE_type/" title="Townhomes">
+         <a class="linkLowlight" href="/for_sale/4592_nh/TOWNHOUSE_type/" title="Townhomes">
           Townhomes
          </a>
          <span class="breaker typeLowlight" style="opacity: .2;">
@@ -2892,7 +3531,7 @@ ga('send', 'pageview');
          </span>
         </div>
         <div class="pvs">
-         <a class="linkLowlight" href="/for_sale/Jersey_City,NJ/COOP_type/" title="Coops">
+         <a class="linkLowlight" href="/for_sale/4592_nh/COOP_type/" title="Coops">
           Coops
          </a>
          <span class="breaker typeLowlight" style="opacity: .2;">
@@ -2901,7 +3540,7 @@ ga('send', 'pageview');
         </div>
         <div class="hideVisually" id="toggleColumn2">
          <div class="pvs">
-          <a class="linkLowlight" href="/for_sale/Jersey_City,NJ/LOFT_type/" title="Lofts">
+          <a class="linkLowlight" href="/for_sale/4592_nh/LOFT_type/" title="Lofts">
            Lofts
           </a>
           <span class="breaker typeLowlight" style="opacity: .2;">
@@ -2909,7 +3548,7 @@ ga('send', 'pageview');
           </span>
          </div>
          <div class="pvs">
-          <a class="linkLowlight" href="/for_sale/Jersey_City,NJ/APARTMENT|CONDO|TOWNHOUSE_type/" title="Apartments/Condos/Townhomes">
+          <a class="linkLowlight" href="/for_sale/4592_nh/APARTMENT|CONDO|TOWNHOUSE_type/" title="Apartments/Condos/Townhomes">
            Apartments/Condos/Townhomes
           </a>
           <span class="breaker typeLowlight" style="opacity: .2;">
@@ -2917,7 +3556,7 @@ ga('send', 'pageview');
           </span>
          </div>
          <div class="pvs">
-          <a class="linkLowlight" href="/for_sale/Jersey_City,NJ/MOBILE|MANUFACTURED_type/" title="Mobile/Manufactured Homes">
+          <a class="linkLowlight" href="/for_sale/4592_nh/MOBILE|MANUFACTURED_type/" title="Mobile/Manufactured Homes">
            Mobile/Manufactured Homes
           </a>
           <span class="breaker typeLowlight" style="opacity: .2;">
@@ -3149,7 +3788,7 @@ var trulia = (typeof(trulia) !== "undefined") ? trulia : {};
   </script>
   <script>
    window.trulia = window.trulia || {};
-    window.trulia.navbar = {"location_display_name":"07305","location_id":43271,"site_root":"\/","links":[{"label":"Buy","uri":"\/NJ\/Jersey_City\/07305\/","tracking_string":"Buy","children":[{"group":{"heading":"07305","links":[{"label":"Homes for Sale","uri":"\/NJ\/Jersey_City\/07305\/","tracking_string":"Buy|Zip|HomesForSale"},{"label":"Open Houses","uri":"\/for_sale\/07305_zip\/p_oh\/","tracking_string":"Buy|Zip|OpenHouse"},{"label":"Foreclosures","uri":"\/for_sale\/07305_zip\/foreclosure_lt\/","tracking_string":"Buy|Zip|Foreclosure"},{"label":"New Homes","uri":"\/for_sale\/07305_zip\/new_homes_lt\/","tracking_string":"Buy|Zip|NewHome"},{"label":"Recently Sold","uri":"\/sold\/07305_zip\/","tracking_string":"Buy|Zip|RecentlySold"},{"divider":true}]}},{"group":{"heading":"Jersey City","links":[{"label":"Homes for Sale","uri":"\/NJ\/Jersey_City\/","tracking_string":"Buy|City|HomesForSale"},{"label":"Open Houses","uri":"\/for_sale\/Jersey_City,NJ\/p_oh\/","tracking_string":"Buy|City|OpenHouse"},{"label":"Recently Sold","uri":"\/sold\/Jersey_City,NJ\/","tracking_string":"Buy|City|RecentlySold"},{"divider":true}]}},{"label":"Most Recent New Jersey Listings","uri":"\/new-for-sale-properties\/NJ\/"},{"label":"All New Jersey Homes for Sale","uri":"\/sitemap\/New_Jersey-real-estate\/"},{"label":"All Trulia Homes for Sale","uri":"\/sitemap\/","tracking_string":"Buy|AllHomesForSale"}]},{"label":"Rent","uri":"\/for_rent\/07305_zip\/","tracking_string":"Rent","children":[{"group":{"heading":"07305","links":[{"label":"Apartments for Rent","uri":"\/for_rent\/07305_zip\/","tracking_string":"Rent|Zip|Apartment"},{"label":"Houses for Rent","uri":"\/for_rent\/07305_zip\/SINGLE-FAMILY_HOME_type\/","tracking_string":"Rent|Zip|Home"},{"label":"Rooms for Rent","uri":"\/for_rent\/07305_zip\/ROOM_FOR_RENT_type\/","tracking_string":"Rent|Zip|Room"},{"divider":true}]}},{"group":{"heading":"Jersey City","links":[{"label":"Apartments for Rent","uri":"\/for_rent\/Jersey_City,NJ\/","tracking_string":"Rent|City|Apartment"},{"label":"Houses for Rent","uri":"\/for_rent\/Jersey_City,NJ\/SINGLE-FAMILY_HOME_type\/","tracking_string":"Rent|City|Home"},{"label":"Rooms for Rent","uri":"\/for_rent\/Jersey_City,NJ\/ROOM_FOR_RENT_type\/","tracking_string":"Rent|City|Room"},{"divider":true}]}},{"label":"All New Jersey Rentals","uri":"\/rent-sitemap\/New_Jersey-apartments\/"},{"label":"See the Newest Listings","uri":"\/new-for-rent-properties\/NJ"},{"label":"All Trulia Rentals","uri":"\/rent-sitemap\/","tracking_string":"Rent|AllApartmentsForRent"},{"label":"Create Your Rental Resume","uri":"\/rent\/rental-resume\/","tracking_string":"Rent|Rental_Resume","nofollow":true},{"label":"Post Your Rental Listing","uri":"\/post-rental\/","tracking_string":"Rent|SLS"}]},{"label":"Mortgage","uri":"\/mortgages\/pre-approval?omni_src=mortgage%7Cglobal_nav","tracking_string":"Mortgage","children":[{"label":"Get Pre-Qualified","uri":"\/mortgages\/pre-approval?omni_src=mortgage%7Cglobal_nav","tracking_string":"Mortgage|Preapproval"},{"divider":true},{"label":"Jersey City Mortgage Rates","uri":"\/mortgage-rates\/Jersey_City,NJ\/","tracking_string":"Mortgage|Mortgage"},{"label":"Jersey City Refinance Rates","uri":"\/refinance-rates\/Jersey_City,NJ\/","tracking_string":"Mortgage|Refinance"},{"divider":true},{"label":"New Jersey Mortgage Rates","uri":"\/mortgage-rates\/NJ\/","tracking_string":"Mortgage|Mortgage"},{"label":"New Jersey Refinance Rates","uri":"\/refinance-rates\/NJ\/","tracking_string":"Mortgage|Refinance"},{"divider":true},{"label":"Mortgage Calculator","uri":"\/mortgage-payment-calculator\/","tracking_string":"Mortgage|Calculators"},{"label":"Affordability Calculator","uri":"\/house-affordability-calculator\/","tracking_string":"Mortgage|Calculators"},{"label":"Rent vs Buy Calculator","uri":"\/rent_vs_buy\/","tracking_string":"Mortgage|Calculators"},{"label":"Refinance Calculator","uri":"\/home-loan-refinance-calculator\/","tracking_string":"Mortgage|Calculators"},{"divider":true},{"label":"Jersey City Mortgage Lenders","uri":"\/mortgage-lender-directory\/NJ\/jersey-city\/?omni_src=mortgage%7Cglobal_nav","tracking_string":"Mortgage|LenderDirectory","nofollow":true},{"divider":true},{"label":"All Trulia Mortgage & Refi Rates","uri":"\/mortgage-sitemap\/"}]},{"label":"Sell","uri":"\/sell\/?ts=trulia&tscamp=global_nav_sell","tracking_string":"Sell","children":[{"label":"What's My Home Worth","uri":"\/sell\/?ts=trulia&tscamp=global_nav_whats_my_home_worth","tracking_string":"Sell|Whats My Home Worth","nofollow":true},{"label":"Post Your Home For Sale","uri":"\/submit_listings\/"}],"nofollow":true},{"label":"Find an Agent","uri":"\/directory\/07305-agent--43271\/","tracking_string":"FindPro","children":[{"group":{"heading":"07305","links":[{"label":"Real Estate Agents","uri":"\/directory\/07305-agent--43271\/","tracking_string":"FindPro|Agents"},{"label":"Real Estate Brokers","uri":"\/directory\/07305-broker--43271\/","tracking_string":"FindPro|Brokers"},{"divider":true}]}},{"group":{"heading":"Jersey City","links":[{"label":"Real Estate Agents","uri":"\/directory\/Jersey_City-agent--19824\/","tracking_string":"FindPro|Agents"},{"label":"Real Estate Brokers","uri":"\/directory\/Jersey_City-broker--19824\/","tracking_string":"FindPro|Brokers"},{"label":"Builders\/Developers","uri":"\/directory\/Jersey_City-builder_developer--19824\/","tracking_string":"FindPro|Builders"},{"divider":true}]}},{"label":"Trulia Agent Directory","uri":"\/directory\/","tracking_string":"FindPro|FindPro"}]},{"label":"For Professionals","uri":"\/real-estate-leads\/","tracking_string":"ForProfessionals","children":[{"label":"Get Leads by ZIP","uri":"\/real-estate-leads\/","tracking_string":"ForProfessionals|PremierAgent","nofollow":true},{"label":"Submit Listings","uri":"\/submit_listings\/","tracking_string":"ForProfessionals|Listings","nofollow":true}],"nofollow":true,"pro":true},{"label":"Local Scoop","uri":"\/real_estate\/07305-Jersey_City\/","tracking_string":"LocalScoop","children":[{"group":{"heading":"07305","links":[{"label":"Real Estate Overview","uri":"\/real_estate\/07305-Jersey_City\/","tracking_string":"LocalScoop|Local|Home|Zip|Overview"},{"label":"Market Trends","uri":"\/real_estate\/07305-Jersey_City\/market-trends\/","tracking_string":"LocalScoop|Local|Home|Zip|Trends"},{"label":"Schools","uri":"\/real_estate\/07305-Jersey_City\/schools\/","tracking_string":"LocalScoop|Local|Home|Zip|Schools"},{"label":"Crime","uri":"\/real_estate\/07305-Jersey_City\/crime\/","tracking_string":"LocalScoop|Local|Home|Zip|Crime"}]}},{"divider":true},{"group":{"heading":"Jersey City","links":[{"label":"Real Estate Overview","uri":"\/real_estate\/Jersey_City-New_Jersey\/","tracking_string":"LocalScoop|Local|Home|City|Overview"},{"label":"Market Trends","uri":"\/real_estate\/Jersey_City-New_Jersey\/market-trends\/","tracking_string":"LocalScoop|Local|Home|City|Trends"},{"label":"Schools","uri":"\/real_estate\/Jersey_City-New_Jersey\/schools\/","tracking_string":"LocalScoop|Local|Home|City|Schools"},{"label":"Crime","uri":"\/real_estate\/Jersey_City-New_Jersey\/crime\/","tracking_string":"LocalScoop|Local|Home|City|Crime"}]}},{"divider":true},{"label":"Maps by Trulia","uri":"\/local\/","tracking_string":"LocalScoop|Local|Maps"}]},{"label":"More","tracking_string":"More","children":[{"label":"Trulia Blogs","uri":"\/blog\/","tracking_string":"More|Blog"},{"label":"All Trulia Neighborhood Guides","uri":"\/local-info\/cities","tracking_string":"More|Neighborhood_Guides"},{"label":"Go Mobile with Trulia","uri":"\/mobile\/","tracking_string":"More|Mobile"},{"label":"Advice","uri":"\/voices\/","tracking_string":"More|Voices","children":[{"label":"07305 Q&A","uri":"\/voices\/","tracking_string":"More|Voices|LocationQA"},{"label":"Guides","uri":"\/voices\/guides\/","tracking_string":"More|Voices|Guides"}]},{"label":"Ask a Question","uri":"\/ask\/","tracking_string":"More|Ask"},{"label":"Help Center","uri":"\/help\/","tracking_string":"More|Help"},{"label":"For Professionals","uri":"\/real-estate-leads\/","tracking_string":"ForProfessionals","children":[{"label":"Get Leads by ZIP","uri":"\/real-estate-leads\/","tracking_string":"More|PremierAgent","nofollow":true},{"label":"Submit Listings","uri":"\/submit_listings\/","tracking_string":"More|Listings","nofollow":true}],"nofollow":true,"customKey":"forProfessionalsMore"}]}]};
+    window.trulia.navbar = {"location_display_name":"Downtown - Van Vorst Park, Jersey City, NJ","location_id":84713,"site_root":"\/","links":[{"label":"Buy","uri":"\/NJ\/Jersey_City,4592,Downtown__Van_Vorst_Park\/","tracking_string":"Buy","children":[{"group":{"heading":"Downtown - Van Vorst Park","links":[{"label":"Homes for Sale","uri":"\/NJ\/Jersey_City,4592,Downtown__Van_Vorst_Park\/","tracking_string":"Buy|NH|HomesForSale"},{"label":"Open Houses","uri":"\/for_sale\/4592_nh\/p_oh\/","tracking_string":"Buy|NH|OpenHouse"},{"label":"Foreclosures","uri":"\/for_sale\/4592_nh\/foreclosure_lt\/","tracking_string":"Buy|NH|Foreclosure"},{"label":"New Homes","uri":"\/for_sale\/4592_nh\/new_homes_lt\/","tracking_string":"Buy|NH|NewHome"},{"label":"Recently Sold","uri":"\/sold\/4592_nh\/","tracking_string":"Buy|NH|RecentlySold"},{"divider":true}]}},{"group":{"heading":"Jersey City","links":[{"label":"Homes for Sale","uri":"\/NJ\/Jersey_City\/","tracking_string":"Buy|City|HomesForSale"},{"label":"Open Houses","uri":"\/for_sale\/Jersey_City,NJ\/p_oh\/","tracking_string":"Buy|City|OpenHouse"},{"label":"Recently Sold","uri":"\/sold\/Jersey_City,NJ\/","tracking_string":"Buy|City|RecentlySold"},{"divider":true}]}},{"label":"Most Recent New Jersey Listings","uri":"\/new-for-sale-properties\/NJ\/"},{"label":"All New Jersey Homes for Sale","uri":"\/sitemap\/New_Jersey-real-estate\/"},{"label":"All Trulia Homes for Sale","uri":"\/sitemap\/","tracking_string":"Buy|AllHomesForSale"}]},{"label":"Rent","uri":"\/for_rent\/4592_nh\/","tracking_string":"Rent","children":[{"group":{"heading":"Downtown - Van Vorst Park","links":[{"label":"Apartments for Rent","uri":"\/for_rent\/4592_nh\/","tracking_string":"Rent|NH|Apartment"},{"label":"Houses for Rent","uri":"\/for_rent\/4592_nh\/SINGLE-FAMILY_HOME_type\/","tracking_string":"Rent|NH|Home"},{"label":"Rooms for Rent","uri":"\/for_rent\/4592_nh\/ROOM_FOR_RENT_type\/","tracking_string":"Rent|NH|Room"},{"divider":true}]}},{"group":{"heading":"Jersey City","links":[{"label":"Apartments for Rent","uri":"\/for_rent\/Jersey_City,NJ\/","tracking_string":"Rent|City|Apartment"},{"label":"Houses for Rent","uri":"\/for_rent\/Jersey_City,NJ\/SINGLE-FAMILY_HOME_type\/","tracking_string":"Rent|City|Home"},{"label":"Rooms for Rent","uri":"\/for_rent\/Jersey_City,NJ\/ROOM_FOR_RENT_type\/","tracking_string":"Rent|City|Room"},{"divider":true}]}},{"label":"All New Jersey Rentals","uri":"\/rent-sitemap\/New_Jersey-apartments\/"},{"label":"See the Newest Listings","uri":"\/new-for-rent-properties\/NJ"},{"label":"All Trulia Rentals","uri":"\/rent-sitemap\/","tracking_string":"Rent|AllApartmentsForRent"},{"label":"Create Your Rental Resume","uri":"\/rent\/rental-resume\/","tracking_string":"Rent|Rental_Resume","nofollow":true},{"label":"Post Your Rental Listing","uri":"\/post-rental\/","tracking_string":"Rent|SLS"}]},{"label":"Mortgage","uri":"\/mortgages\/pre-approval?omni_src=mortgage%7Cglobal_nav","tracking_string":"Mortgage","children":[{"label":"Get Pre-Qualified","uri":"\/mortgages\/pre-approval?omni_src=mortgage%7Cglobal_nav","tracking_string":"Mortgage|Preapproval"},{"divider":true},{"label":"Jersey City Mortgage Rates","uri":"\/mortgage-rates\/Jersey_City,NJ\/","tracking_string":"Mortgage|Mortgage"},{"label":"Jersey City Refinance Rates","uri":"\/refinance-rates\/Jersey_City,NJ\/","tracking_string":"Mortgage|Refinance"},{"divider":true},{"label":"New Jersey Mortgage Rates","uri":"\/mortgage-rates\/NJ\/","tracking_string":"Mortgage|Mortgage"},{"label":"New Jersey Refinance Rates","uri":"\/refinance-rates\/NJ\/","tracking_string":"Mortgage|Refinance"},{"divider":true},{"label":"Mortgage Calculator","uri":"\/mortgage-payment-calculator\/","tracking_string":"Mortgage|Calculators"},{"label":"Affordability Calculator","uri":"\/house-affordability-calculator\/","tracking_string":"Mortgage|Calculators"},{"label":"Rent vs Buy Calculator","uri":"\/rent_vs_buy\/","tracking_string":"Mortgage|Calculators"},{"label":"Refinance Calculator","uri":"\/home-loan-refinance-calculator\/","tracking_string":"Mortgage|Calculators"},{"divider":true},{"label":"Jersey City Mortgage Lenders","uri":"\/mortgage-lender-directory\/NJ\/jersey-city\/?omni_src=mortgage%7Cglobal_nav","tracking_string":"Mortgage|LenderDirectory","nofollow":true},{"divider":true},{"label":"All Trulia Mortgage & Refi Rates","uri":"\/mortgage-sitemap\/"}]},{"label":"Sell","uri":"\/sell\/?ts=trulia&tscamp=global_nav_sell","tracking_string":"Sell","children":[{"label":"What's My Home Worth","uri":"\/sell\/?ts=trulia&tscamp=global_nav_whats_my_home_worth","tracking_string":"Sell|Whats My Home Worth","nofollow":true},{"label":"Post Your Home For Sale","uri":"\/submit_listings\/"}],"nofollow":true},{"label":"Find an Agent","uri":"\/directory\/Downtown__Van_Vorst_Park-agent--84713\/","tracking_string":"FindPro","children":[{"group":{"heading":"Downtown - Van Vorst Park","links":[{"label":"Real Estate Agents","uri":"\/directory\/Downtown__Van_Vorst_Park-agent--84713\/","tracking_string":"FindPro|Agents"},{"label":"Real Estate Brokers","uri":"\/directory\/Downtown__Van_Vorst_Park-broker--84713\/","tracking_string":"FindPro|Brokers"},{"divider":true}]}},{"group":{"heading":"Jersey City","links":[{"label":"Real Estate Agents","uri":"\/directory\/Jersey_City-agent--19824\/","tracking_string":"FindPro|Agents"},{"label":"Real Estate Brokers","uri":"\/directory\/Jersey_City-broker--19824\/","tracking_string":"FindPro|Brokers"},{"label":"Builders\/Developers","uri":"\/directory\/Jersey_City-builder_developer--19824\/","tracking_string":"FindPro|Builders"},{"divider":true}]}},{"label":"Trulia Agent Directory","uri":"\/directory\/","tracking_string":"FindPro|FindPro"}]},{"label":"For Professionals","uri":"\/real-estate-leads\/","tracking_string":"ForProfessionals","children":[{"label":"Get Leads by ZIP","uri":"\/real-estate-leads\/","tracking_string":"ForProfessionals|PremierAgent","nofollow":true},{"label":"Submit Listings","uri":"\/submit_listings\/","tracking_string":"ForProfessionals|Listings","nofollow":true}],"nofollow":true,"pro":true},{"label":"Local Scoop","uri":"\/real_estate\/Downtown__Van_Vorst_Park-Jersey_City\/4592\/","tracking_string":"LocalScoop","children":[{"group":{"heading":"Downtown - Van Vorst Park","links":[{"label":"Real Estate Overview","uri":"\/real_estate\/Downtown__Van_Vorst_Park-Jersey_City\/4592\/","tracking_string":"LocalScoop|Local|Home|NH|Overview"},{"label":"Market Trends","uri":"\/real_estate\/Downtown__Van_Vorst_Park-Jersey_City\/4592\/market-trends\/","tracking_string":"LocalScoop|Local|Home|NH|Trends"},{"label":"Schools","uri":"\/real_estate\/Downtown__Van_Vorst_Park-Jersey_City\/4592\/schools\/","tracking_string":"LocalScoop|Local|Home|NH|Schools"},{"label":"Crime","uri":"\/real_estate\/Downtown__Van_Vorst_Park-Jersey_City\/4592\/crime\/","tracking_string":"LocalScoop|Local|Home|NH|Crime"}]}},{"divider":true},{"group":{"heading":"Jersey City","links":[{"label":"Real Estate Overview","uri":"\/real_estate\/Jersey_City-New_Jersey\/","tracking_string":"LocalScoop|Local|Home|City|Overview"},{"label":"Market Trends","uri":"\/real_estate\/Jersey_City-New_Jersey\/market-trends\/","tracking_string":"LocalScoop|Local|Home|City|Trends"},{"label":"Schools","uri":"\/real_estate\/Jersey_City-New_Jersey\/schools\/","tracking_string":"LocalScoop|Local|Home|City|Schools"},{"label":"Crime","uri":"\/real_estate\/Jersey_City-New_Jersey\/crime\/","tracking_string":"LocalScoop|Local|Home|City|Crime"}]}},{"divider":true},{"label":"Maps by Trulia","uri":"\/local\/","tracking_string":"LocalScoop|Local|Maps"}]},{"label":"More","tracking_string":"More","children":[{"label":"Trulia Blogs","uri":"\/blog\/","tracking_string":"More|Blog"},{"label":"All Trulia Neighborhood Guides","uri":"\/local-info\/cities","tracking_string":"More|Neighborhood_Guides"},{"label":"Go Mobile with Trulia","uri":"\/mobile\/","tracking_string":"More|Mobile"},{"label":"Advice","uri":"\/voices\/Jersey_City---19824\/","tracking_string":"More|Voices","children":[{"label":"Downtown - Van Vorst Park Q&A","uri":"\/voices\/Jersey_City---19824\/","tracking_string":"More|Voices|LocationQA"},{"label":"Guides","uri":"\/voices\/guides\/","tracking_string":"More|Voices|Guides"}]},{"label":"Ask a Question","uri":"\/ask\/","tracking_string":"More|Ask"},{"label":"Help Center","uri":"\/help\/","tracking_string":"More|Help"},{"label":"For Professionals","uri":"\/real-estate-leads\/","tracking_string":"ForProfessionals","children":[{"label":"Get Leads by ZIP","uri":"\/real-estate-leads\/","tracking_string":"More|PremierAgent","nofollow":true},{"label":"Submit Listings","uri":"\/submit_listings\/","tracking_string":"More|Listings","nofollow":true}],"nofollow":true,"customKey":"forProfessionalsMore"}]}]};
     window.trulia.isMobileUser = false;
   </script>
   <script src="//static.trulia-cdn.com/javascript/release-2017.15.2/include/js/_built/navbar/main.01d524bbb654365cad6c.js">
@@ -3162,32 +3801,32 @@ var trulia = (typeof(trulia) !== "undefined") ? trulia : {};
 
   window.TRULIA_MAPS_BOOTSTRAP = {"heatMapVersions":{"domain":"https:\/\/tiles.trulia.com","slope":{"uri":"tiles\/slope","version":"20161205"},"wildfires":{"uri":"tiles\/wildfires","version":"20160224"},"hurricanes":{"uri":"tiles\/hurricanes","version":"20160224"},"percent_college":{"uri":"tiles\/percent_college","version":"20160224"},"transit":{"uri":"tiles\/transit","version":"20160224"},"median_age":{"uri":"tiles\/median_age","version":"20160224"},"groceries":{"uri":"tiles\/groceries","version":"20170405"},"aspect":{"uri":"tiles\/aspect","version":"20170113"},"seismic_hazard":{"uri":"tiles\/seismic_hazard","version":"20160224"},"arts":{"uri":"tiles\/arts","version":"20170405"},"home_prices_sales":{"uri":"tiles\/home_prices_sales","version":"20170307"},"care_essentials":{"uri":"tiles\/care_essentials","version":"20170412"},"singles_living_alone":{"uri":"tiles\/singles_living_alone","version":"20160224"},"zombie_risk":{"uri":"tiles\/zombie_risk","version":"20161022"},"shopping":{"uri":"tiles\/shopping","version":"20170405"},"valuations":{"uri":"tiles\/valuations","version":"20160224"},"great_places_to_play":{"uri":"tiles\/great_places_to_play","version":"20170412"},"parallel_universe":{"uri":"tiles\/parallel_universe","version":"20161023"},"rental_prices":{"uri":"tiles\/rental_prices","version":"20170307"},"tornados":{"uri":"tiles\/tornados","version":"20160224"},"schools":{"uri":"tiles\/schools","version":"20160224"},"tree_cover":{"uri":"tiles\/tree_cover","version":"20161221"},"zipcode_labels":{"uri":"tiles\/zipcode_labels","version":"20160224"},"gyms":{"uri":"tiles\/gyms","version":"20170405"},"nightlife":{"uri":"tiles\/nightlife","version":"20170405"},"flood_zones":{"uri":"tiles\/flood_zones","version":"20160224"},"restaurants":{"uri":"tiles\/restaurants","version":"20170405"},"quiet_streets":{"uri":"tiles\/quiet_streets","version":"20160224"},"home_prices_sales_sqft":{"uri":"tiles\/home_prices_sales_sqft","version":"20170307"},"percent_married":{"uri":"tiles\/percent_married","version":"20160224"},"crime_email":{"uri":"tiles\/crime_email","version":"20161027"},"owner_occupied":{"uri":"tiles\/owner_occupied","version":"20160224"},"traffic_volume":{"uri":"tiles\/traffic_volume","version":"20160903"},"percent_multiunit":{"uri":"tiles\/percent_multiunit","version":"20160224"},"faults":{"uri":"tiles\/faults","version":"20160224"},"beauty":{"uri":"tiles\/beauty","version":"20170405"},"crime_heatmap":{"uri":"tiles\/crime_heatmap","version":"20160711"},"vampire_risk":{"uri":"tiles\/vampire_risk","version":"20161022"},"median_move_in_year":{"uri":"tiles\/median_move_in_year","version":"20160224"},"year_built":{"uri":"tiles\/year_built","version":"20160224"},"cafes":{"uri":"tiles\/cafes","version":"20170405"},"commute_time":{"uri":"tiles\/commute_time","version":"20160224"},"home_prices_listings_neighborhood":{"uri":"tiles\/home_prices_listings_neighborhood","version":"20160224"},"ghost_risk":{"uri":"tiles\/ghost_risk","version":"20161022"},"parcels":{"uri":"tiles\/parcels","version":"20160224"},"home_prices_listings":{"uri":"tiles\/home_prices_listings","version":"20170307"},"rental_prices_nolabel":{"uri":"tiles\/rental_prices_nolabel","version":"20170307"}},"mapTileServer":"https:\/\/tiles.trulia.com\/","commuteMapTileServer":"https:\/\/tiles.trulia.com\/"};
 
-  trulia.pdp.isAdproxyEnabled = true;
-  trulia.pdp.agentDisplayData = [{"id":"470985","picture":"https:\/\/photos.zillowstatic.com\/h_g\/IStgchglauk3zz0000000000.jpg","meta_data":{"agent_match_location":"19824","agent_match_campaign":null,"agent_match_type":null,"agent_in_area":"470985","agent_search_rank_level":null}}];
-  trulia.pdp.leadFormDetails = {"name":"","phoneNumber":"","emailAddress":"","message":"I am interested in 30 Freedomway #404, Jersey City, NJ 07305."};
+  trulia.pdp.isAdproxyEnabled = false;
+  trulia.pdp.agentDisplayData = [{"id":"799013","picture":"https:\/\/photos.zillowstatic.com\/h_g\/ISt863vjpkfnub1000000000.jpg","meta_data":{"agent_match_location":"84713","agent_match_campaign":null,"agent_match_type":null,"agent_in_area":"799013","agent_search_rank_level":null}}];
+  trulia.pdp.leadFormDetails = {"name":"","phoneNumber":"","emailAddress":"","message":"I am interested in 67 Bright St #1, Jersey City, NJ 07302."};
   trulia.pdp.isMediacarouselDFPEnabled = false;
   trulia.pdp.comparableProperties = {"forSale":[],"sold":[]};
-  trulia.pdp.foreclosureAgentDirectoryURL = "\/directory\/07305-agent--43271\/?specialty=foreclosure_specialist";
-  trulia.pdp.forSaleSaveSearchUrl = "/for_sale/Jersey_City,NJ/2_beds/CONDO_type/";
-  trulia.pdp.soldSaveSearchUrl = "/sold/Jersey_City,NJ/2_beds/CONDO_type/";
+  trulia.pdp.foreclosureAgentDirectoryURL = "\/directory\/?specialty=foreclosure_specialist";
+  trulia.pdp.forSaleSaveSearchUrl = "/for_sale/4592_nh/2_beds/CONDO_type/";
+  trulia.pdp.soldSaveSearchUrl = "/sold/4592_nh/2_beds/CONDO_type/";
   trulia.pdp.rentalSearchUrl = "https://www.trulia.com/for_rent/Jersey_City,NJ/";
   trulia.pdp.forSaleSearchUrl = "https://www.trulia.com/NJ/Jersey_City/";
-  trulia.pdp.leadFormDisplayData = {"isAdProxyEnabled":true,"isOpaqueBalEnabled":false,"isThirdPartyLeadEnabled":false,"isForeclosure":false,"isAgentDirectory":false,"adProxyConfig":{"fetchUrl":"https:\/\/qcproxy.trulia.com\/ads\/property\/3262926259.json?sessionId=m5qldq1lqtak518cjdlo9b2166&adType=SSA&searchType=for+sale&stateCode=NJ&source=www&userIdType=truliaLifetimeId&userId=170418m5qldq1lqtak518cjdlo9b2166","postUrl":"https:\/\/qcproxy.trulia.com\/ads\/delivery","leadSubmitValues":{"propertyId":"3262926259","propertyStatus":"for sale","isBuilderCommunity":false,"phpSessionId":"m5qldq1lqtak518cjdlo9b2166"}}};
+  trulia.pdp.leadFormDisplayData = {"isAdProxyEnabled":false,"isOpaqueBalEnabled":false,"isThirdPartyLeadEnabled":false,"isForeclosure":false,"isAgentDirectory":false,"nonAdProxyConfig":{"formTypes":{"isFeaturedListingByBroker":false,"isFeaturedBrokerWithOverride":false,"isFeaturedListingByAgentPro":true,"isFeaturedByBrokerAndAgent":false,"isNrtFeaturedListing":false,"isAuctionCom":false,"isAuctionForeclosure":false,"isTenX":false,"isForeclosure":false,"isBuilder":false,"isBuilderCommunity":false},"formBehavior":{"isExternalLinkBlocked":false,"showAgentProBadge":true,"showAgentPhoto":true,"showBrokerLogo":false,"showAgentProfileUrl":true},"formItems":{"contactName":"Steve Salzer & Rossy Guzman","contactPhoneNumber":"(201) 730-2767","agentPhoto":"https:\/\/photos.zillowstatic.com\/h_i\/ISt863vjpkfnub1000000000.jpg","brokerName":"Keller Williams - Hoboken","brokerPhoneNumber":"(201) 659-8600","brokerLogo":"\/\/logos.trulia-cdn.com\/pictures\/logos\/listings\/mls_logo_brokerlogo_13949_1481926961_m.gif","agentRatings":4.83,"agentReviewCount":30,"agentRecentSales":32,"agentProfileUrl":"\/profile\/steve-salzer-rossy-guzman-agent-hoboken-nj-zg4c3bl8\/"},"formUserDataValues":{"userName":"","userEmail":"","userPhone":"","userId":0},"formTextFields":{"name":{"errorText":"Please enter your name."},"email":{"errorText":"Please enter a valid email address."},"phone":{"errorText":"Please enter a valid phone number"},"message":{"defaultValue":"I am interested in 67 Bright St #1, Jersey City, NJ 07302."}},"leadSubmitValues":{"fromWhere":"details","emailType":"standard","propertyId":"3039415415","propertyHash":"a9netmymuqxich2nq3oa6l5p","propertyStatus":"Pending","stateCode":"NJ","locationId":"43268","agentName":"Steve Salzer & Rossy Guzman","phoneRequiredFlag":"1","leadTrack":"TopRightModule","isBuilderCommunity":0,"mlsId":"170004426","isSRPFeatured":true,"brokerSiteId":"120271","featureType":"pro","proPlan":"deluxe"}}};
   trulia.pdp.isPropertySaved = false
-  trulia.pdp.mortgageRates = {"Fixed30Year":3.766,"Fixed15Year":2.996,"ARM5":2.854};
+  trulia.pdp.mortgageRates = {"Fixed30Year":3.733,"Fixed15Year":2.945,"ARM5":2.774};
   trulia.pdp.localAvgTaxRate = 2.1;
 
-  trulia.pdp.schoolNcesIds = ["340783002776","340783000391","340783002774","340783002778","340783002772"];
+  trulia.pdp.schoolNcesIds = ["340783000539","340783002784","340783002776","340783000391","340783002774","340783002778","340783002772"];
   trulia.pdp.canEnableSaveFeature = true;
   trulia.pdp.canEnableShareFeature = true;
 
-  trulia.pdp.longformUrlsUbtp = "/mortgages/pre-approval/?omni_src=mortgage|pdp_ubtp&propertyId=3262926259&city=Jersey+City&state_code=NJ";
-  trulia.pdp.longformUrlsPdpWidget = "/mortgages/pre-approval/?omni_src=mortgage|pdp_widget&propertyId=3262926259&city=Jersey+City&state_code=NJ";
+  trulia.pdp.longformUrlsUbtp = "/mortgages/pre-approval/?omni_src=mortgage|pdp_ubtp&propertyId=3039415415&city=Jersey+City&state_code=NJ";
+  trulia.pdp.longformUrlsPdpWidget = "/mortgages/pre-approval/?omni_src=mortgage|pdp_widget&propertyId=3039415415&city=Jersey+City&state_code=NJ";
 
   trulia.pdp.isRamboTopThirdEnabled = false;
   </script>
   <script type="text/javascript">
-   trulia = trulia || {};trulia.pdp = trulia.pdp || {};trulia.pdp.propertyJSON = {"id":"3262926259","mlsID":"170006120","agentName":"Carla Vonbyrden","feedId":12489,"hash":"beaf88f215b5f1ea73836819e93d69a","neighborhood":null,"neighborhoodId":null,"zipCode":"07305","city":"Jersey City","county":"Hudson","countyFIPS":"34017","stateCode":"NJ","stateName":"New Jersey","latitude":40.691036,"longitude":-74.07502,"addressForDisplay":"30 Freedomway #404, Jersey City, NJ","addressForLeadForm":"30 Freedomway #404, Jersey City, NJ 07305","addressForUrl":"30-Freedomway-404-Jersey-City-NJ-07305","streetNumber":"30","street":"Freedomway","apartmentNumber":"404","urlType":null,"status":"For Sale","listingId":"3262926259","locationId":"43271","type":"CONDO","typeDisplay":"Condo","numBedrooms":"2","numBathrooms":2,"numPartialBathrooms":0,"numFullBathrooms":2,"siteId":"192382008","siteUrl":"CENTURY21VIEWPOINTREALTY.hudson.paragonrels.com","listingType":0,"dmaId":43,"claimed":null,"numBeds":2,"indexSource":"Active","isForeclosure":false,"isOpaqueBAL":false,"foreclosureStatus":"","isSrpFeatured":false,"price":559000,"sqft":1510,"isRental":false,"isRentalCommunity":false,"rentalPartnerDisplayText":null,"hasStreetView":"-1","showStreetView":"1","blockStreetView":false,"walkScore":null,"photos":["ps.102\/7\/9\/e\/9\/picture-uh=38e5ff3cbbf6d56c672859a95efe9e1-ps=79e9c702490764a3c8bdf2048714c93.jpg:7","ps.102\/f\/d\/6\/a\/picture-uh=8bb2af381a48d0f1fc5c732edc82245-ps=fd6a7fd17ab98f8964f2cb34c0d48f3.jpg:15","ps.102\/7\/1\/9\/d\/picture-uh=1ec38c72d28cf9bccae8bafb5601452-ps=719d3f489bf53499df16126ac074be3.jpg:31","ps.102\/2\/7\/4\/3\/picture-uh=d09edebcb0515d92c158315d35a53deb-ps=2743b27c6b24c39f84cb55c668e92dd.jpg:31","ps.102\/d\/4\/c\/2\/picture-uh=5ad319c73f9bb4c5a84bb21d1f7dc3fa-ps=d4c2d6d6a2392a0c713502891277c0.jpg:31","ps.102\/3\/c\/b\/6\/picture-uh=75406ccab66ff7ed0bfd71c20367af6-ps=3cb6d4a29e2f4b89c338c07d1689d29.jpg:31","ps.102\/4\/5\/9\/f\/picture-uh=218c36823ebd163ccf4103849bce838-ps=459feb54c6daa8a8b9fd65b3e355c43.jpg:31","ps.102\/7\/c\/a\/8\/picture-uh=49f661ec6684677740bbd8b578816ed-ps=7ca8b2fc26bdcb11eb566cc63a146.jpg:31","ps.102\/8\/5\/e\/f\/picture-uh=e042b2cf311cc35ae28999d68e82276f-ps=85ef91dedb18f34af143163119952.jpg:7","ps.102\/1\/1\/3\/3\/picture-uh=3258777a260e73b687d3662ff12126f-ps=11336c6183afd5e2ae771b25ee1314c.jpg:31","ps.102\/d\/3\/8\/1\/picture-uh=f7a3a543ab0e76d6d1de5ad3dd3dc2c-ps=d3811ad4862354d76f8152ba1107a8.jpg:31","ps.102\/1\/4\/1\/a\/picture-uh=1753d5d2cd78b7871bf9518de265ddac-ps=141abafac3113a590b2e590cef514.jpg:63","ps.102\/1\/0\/d\/e\/picture-uh=832ca9aa4012aaa233ccbb1554ad229e-ps=10dee87775b922d2e4c645df1af95cb5.jpg:31","ps.102\/1\/0\/6\/2\/picture-uh=d7bc80b588a702ecbc8c28d10329b4-ps=106226706bf4e0f08293d616f3c3e1.jpg:7","ps.102\/d\/6\/1\/e\/picture-uh=26a542b17a1060789b1ce42c27f17e2-ps=d61e1f8629693d131c987145bb5364ac.jpg:31"],"adCampaign":null,"hasPhotos":true,"userHidden":null,"userLiked":null,"isUserSaved":null,"isAddressNotDisclosed":false,"_isDefault":true,"intersectionName":null,"agentClaimable":true,"pdpURL":"\/property\/3262926259-30-Freedomway-404-Jersey-City-NJ-07305","thumbnail":"\/\/thumbs.trulia-cdn.com\/pictures\/thumbs\/ps.102\/7\/9\/e\/9\/picture-uh=38e5ff3cbbf6d56c672859a95efe9e1-ps=79e9c702490764a3c8bdf2048714c93.jpg","formattedPrice":"$559,000","shortDescription":"30 Freedomway #404","formattedBedAndBath":"2bd, 2 full ba","formattedSqft":"1,510 sqft","dataPhotos":"{\"photos\":[{\"thumbnail_url\":\"\\\/\\\/thumbs.trulia-cdn.com\\\/pictures\\\/thumbs\\\/ps.102\\\/7\\\/9\\\/e\\\/9\\\/picture-uh=38e5ff3cbbf6d56c672859a95efe9e1-ps=79e9c702490764a3c8bdf2048714c93.jpg\",\"standard_url\":\"\\\/\\\/thumbs.trulia-cdn.com\\\/pictures\\\/thumbs_3\\\/ps.102\\\/7\\\/9\\\/e\\\/9\\\/picture-uh=38e5ff3cbbf6d56c672859a95efe9e1-ps=79e9c702490764a3c8bdf2048714c93-30-Freedomway-404-Jersey-City-NJ-07305.jpg\",\"raw_path\":\"ps.102\\\/7\\\/9\\\/e\\\/9\\\/picture-uh=38e5ff3cbbf6d56c672859a95efe9e1-ps=79e9c702490764a3c8bdf2048714c93.jpg\",\"thumbsBitmap\":null},{\"thumbnail_url\":\"\\\/\\\/thumbs.trulia-cdn.com\\\/pictures\\\/thumbs\\\/ps.102\\\/f\\\/d\\\/6\\\/a\\\/picture-uh=8bb2af381a48d0f1fc5c732edc82245-ps=fd6a7fd17ab98f8964f2cb34c0d48f3.jpg\",\"standard_url\":\"\\\/\\\/thumbs.trulia-cdn.com\\\/pictures\\\/thumbs_4\\\/ps.102\\\/f\\\/d\\\/6\\\/a\\\/picture-uh=8bb2af381a48d0f1fc5c732edc82245-ps=fd6a7fd17ab98f8964f2cb34c0d48f3.jpg\",\"raw_path\":\"ps.102\\\/f\\\/d\\\/6\\\/a\\\/picture-uh=8bb2af381a48d0f1fc5c732edc82245-ps=fd6a7fd17ab98f8964f2cb34c0d48f3.jpg\",\"thumbsBitmap\":null},{\"thumbnail_url\":\"\\\/\\\/thumbs.trulia-cdn.com\\\/pictures\\\/thumbs\\\/ps.102\\\/7\\\/1\\\/9\\\/d\\\/picture-uh=1ec38c72d28cf9bccae8bafb5601452-ps=719d3f489bf53499df16126ac074be3.jpg\",\"standard_url\":\"\\\/\\\/thumbs.trulia-cdn.com\\\/pictures\\\/thumbs_5\\\/ps.102\\\/7\\\/1\\\/9\\\/d\\\/picture-uh=1ec38c72d28cf9bccae8bafb5601452-ps=719d3f489bf53499df16126ac074be3.jpg\",\"raw_path\":\"ps.102\\\/7\\\/1\\\/9\\\/d\\\/picture-uh=1ec38c72d28cf9bccae8bafb5601452-ps=719d3f489bf53499df16126ac074be3.jpg\",\"thumbsBitmap\":null},{\"thumbnail_url\":\"\\\/\\\/thumbs.trulia-cdn.com\\\/pictures\\\/thumbs\\\/ps.102\\\/2\\\/7\\\/4\\\/3\\\/picture-uh=d09edebcb0515d92c158315d35a53deb-ps=2743b27c6b24c39f84cb55c668e92dd.jpg\",\"standard_url\":\"\\\/\\\/thumbs.trulia-cdn.com\\\/pictures\\\/thumbs_5\\\/ps.102\\\/2\\\/7\\\/4\\\/3\\\/picture-uh=d09edebcb0515d92c158315d35a53deb-ps=2743b27c6b24c39f84cb55c668e92dd.jpg\",\"raw_path\":\"ps.102\\\/2\\\/7\\\/4\\\/3\\\/picture-uh=d09edebcb0515d92c158315d35a53deb-ps=2743b27c6b24c39f84cb55c668e92dd.jpg\",\"thumbsBitmap\":null},{\"thumbnail_url\":\"\\\/\\\/thumbs.trulia-cdn.com\\\/pictures\\\/thumbs\\\/ps.102\\\/d\\\/4\\\/c\\\/2\\\/picture-uh=5ad319c73f9bb4c5a84bb21d1f7dc3fa-ps=d4c2d6d6a2392a0c713502891277c0.jpg\",\"standard_url\":\"\\\/\\\/thumbs.trulia-cdn.com\\\/pictures\\\/thumbs_5\\\/ps.102\\\/d\\\/4\\\/c\\\/2\\\/picture-uh=5ad319c73f9bb4c5a84bb21d1f7dc3fa-ps=d4c2d6d6a2392a0c713502891277c0.jpg\",\"raw_path\":\"ps.102\\\/d\\\/4\\\/c\\\/2\\\/picture-uh=5ad319c73f9bb4c5a84bb21d1f7dc3fa-ps=d4c2d6d6a2392a0c713502891277c0.jpg\",\"thumbsBitmap\":null},{\"thumbnail_url\":\"\\\/\\\/thumbs.trulia-cdn.com\\\/pictures\\\/thumbs\\\/ps.102\\\/3\\\/c\\\/b\\\/6\\\/picture-uh=75406ccab66ff7ed0bfd71c20367af6-ps=3cb6d4a29e2f4b89c338c07d1689d29.jpg\",\"standard_url\":\"\\\/\\\/thumbs.trulia-cdn.com\\\/pictures\\\/thumbs_5\\\/ps.102\\\/3\\\/c\\\/b\\\/6\\\/picture-uh=75406ccab66ff7ed0bfd71c20367af6-ps=3cb6d4a29e2f4b89c338c07d1689d29.jpg\",\"raw_path\":\"ps.102\\\/3\\\/c\\\/b\\\/6\\\/picture-uh=75406ccab66ff7ed0bfd71c20367af6-ps=3cb6d4a29e2f4b89c338c07d1689d29.jpg\",\"thumbsBitmap\":null},{\"thumbnail_url\":\"\\\/\\\/thumbs.trulia-cdn.com\\\/pictures\\\/thumbs\\\/ps.102\\\/4\\\/5\\\/9\\\/f\\\/picture-uh=218c36823ebd163ccf4103849bce838-ps=459feb54c6daa8a8b9fd65b3e355c43.jpg\",\"standard_url\":\"\\\/\\\/thumbs.trulia-cdn.com\\\/pictures\\\/thumbs_5\\\/ps.102\\\/4\\\/5\\\/9\\\/f\\\/picture-uh=218c36823ebd163ccf4103849bce838-ps=459feb54c6daa8a8b9fd65b3e355c43.jpg\",\"raw_path\":\"ps.102\\\/4\\\/5\\\/9\\\/f\\\/picture-uh=218c36823ebd163ccf4103849bce838-ps=459feb54c6daa8a8b9fd65b3e355c43.jpg\",\"thumbsBitmap\":null},{\"thumbnail_url\":\"\\\/\\\/thumbs.trulia-cdn.com\\\/pictures\\\/thumbs\\\/ps.102\\\/7\\\/c\\\/a\\\/8\\\/picture-uh=49f661ec6684677740bbd8b578816ed-ps=7ca8b2fc26bdcb11eb566cc63a146.jpg\",\"standard_url\":\"\\\/\\\/thumbs.trulia-cdn.com\\\/pictures\\\/thumbs_5\\\/ps.102\\\/7\\\/c\\\/a\\\/8\\\/picture-uh=49f661ec6684677740bbd8b578816ed-ps=7ca8b2fc26bdcb11eb566cc63a146.jpg\",\"raw_path\":\"ps.102\\\/7\\\/c\\\/a\\\/8\\\/picture-uh=49f661ec6684677740bbd8b578816ed-ps=7ca8b2fc26bdcb11eb566cc63a146.jpg\",\"thumbsBitmap\":null},{\"thumbnail_url\":\"\\\/\\\/thumbs.trulia-cdn.com\\\/pictures\\\/thumbs\\\/ps.102\\\/8\\\/5\\\/e\\\/f\\\/picture-uh=e042b2cf311cc35ae28999d68e82276f-ps=85ef91dedb18f34af143163119952.jpg\",\"standard_url\":\"\\\/\\\/thumbs.trulia-cdn.com\\\/pictures\\\/thumbs_3\\\/ps.102\\\/8\\\/5\\\/e\\\/f\\\/picture-uh=e042b2cf311cc35ae28999d68e82276f-ps=85ef91dedb18f34af143163119952.jpg\",\"raw_path\":\"ps.102\\\/8\\\/5\\\/e\\\/f\\\/picture-uh=e042b2cf311cc35ae28999d68e82276f-ps=85ef91dedb18f34af143163119952.jpg\",\"thumbsBitmap\":null},{\"thumbnail_url\":\"\\\/\\\/thumbs.trulia-cdn.com\\\/pictures\\\/thumbs\\\/ps.102\\\/1\\\/1\\\/3\\\/3\\\/picture-uh=3258777a260e73b687d3662ff12126f-ps=11336c6183afd5e2ae771b25ee1314c.jpg\",\"standard_url\":\"\\\/\\\/thumbs.trulia-cdn.com\\\/pictures\\\/thumbs_5\\\/ps.102\\\/1\\\/1\\\/3\\\/3\\\/picture-uh=3258777a260e73b687d3662ff12126f-ps=11336c6183afd5e2ae771b25ee1314c.jpg\",\"raw_path\":\"ps.102\\\/1\\\/1\\\/3\\\/3\\\/picture-uh=3258777a260e73b687d3662ff12126f-ps=11336c6183afd5e2ae771b25ee1314c.jpg\",\"thumbsBitmap\":null},{\"thumbnail_url\":\"\\\/\\\/thumbs.trulia-cdn.com\\\/pictures\\\/thumbs\\\/ps.102\\\/d\\\/3\\\/8\\\/1\\\/picture-uh=f7a3a543ab0e76d6d1de5ad3dd3dc2c-ps=d3811ad4862354d76f8152ba1107a8.jpg\",\"standard_url\":\"\\\/\\\/thumbs.trulia-cdn.com\\\/pictures\\\/thumbs_5\\\/ps.102\\\/d\\\/3\\\/8\\\/1\\\/picture-uh=f7a3a543ab0e76d6d1de5ad3dd3dc2c-ps=d3811ad4862354d76f8152ba1107a8.jpg\",\"raw_path\":\"ps.102\\\/d\\\/3\\\/8\\\/1\\\/picture-uh=f7a3a543ab0e76d6d1de5ad3dd3dc2c-ps=d3811ad4862354d76f8152ba1107a8.jpg\",\"thumbsBitmap\":null},{\"thumbnail_url\":\"\\\/\\\/thumbs.trulia-cdn.com\\\/pictures\\\/thumbs\\\/ps.102\\\/1\\\/4\\\/1\\\/a\\\/picture-uh=1753d5d2cd78b7871bf9518de265ddac-ps=141abafac3113a590b2e590cef514.jpg\",\"standard_url\":\"\\\/\\\/thumbs.trulia-cdn.com\\\/pictures\\\/thumbs_6\\\/ps.102\\\/1\\\/4\\\/1\\\/a\\\/picture-uh=1753d5d2cd78b7871bf9518de265ddac-ps=141abafac3113a590b2e590cef514.jpg\",\"raw_path\":\"ps.102\\\/1\\\/4\\\/1\\\/a\\\/picture-uh=1753d5d2cd78b7871bf9518de265ddac-ps=141abafac3113a590b2e590cef514.jpg\",\"thumbsBitmap\":null},{\"thumbnail_url\":\"\\\/\\\/thumbs.trulia-cdn.com\\\/pictures\\\/thumbs\\\/ps.102\\\/1\\\/0\\\/d\\\/e\\\/picture-uh=832ca9aa4012aaa233ccbb1554ad229e-ps=10dee87775b922d2e4c645df1af95cb5.jpg\",\"standard_url\":\"\\\/\\\/thumbs.trulia-cdn.com\\\/pictures\\\/thumbs_5\\\/ps.102\\\/1\\\/0\\\/d\\\/e\\\/picture-uh=832ca9aa4012aaa233ccbb1554ad229e-ps=10dee87775b922d2e4c645df1af95cb5.jpg\",\"raw_path\":\"ps.102\\\/1\\\/0\\\/d\\\/e\\\/picture-uh=832ca9aa4012aaa233ccbb1554ad229e-ps=10dee87775b922d2e4c645df1af95cb5.jpg\",\"thumbsBitmap\":null},{\"thumbnail_url\":\"\\\/\\\/thumbs.trulia-cdn.com\\\/pictures\\\/thumbs\\\/ps.102\\\/1\\\/0\\\/6\\\/2\\\/picture-uh=d7bc80b588a702ecbc8c28d10329b4-ps=106226706bf4e0f08293d616f3c3e1.jpg\",\"standard_url\":\"\\\/\\\/thumbs.trulia-cdn.com\\\/pictures\\\/thumbs_3\\\/ps.102\\\/1\\\/0\\\/6\\\/2\\\/picture-uh=d7bc80b588a702ecbc8c28d10329b4-ps=106226706bf4e0f08293d616f3c3e1.jpg\",\"raw_path\":\"ps.102\\\/1\\\/0\\\/6\\\/2\\\/picture-uh=d7bc80b588a702ecbc8c28d10329b4-ps=106226706bf4e0f08293d616f3c3e1.jpg\",\"thumbsBitmap\":null},{\"thumbnail_url\":\"\\\/\\\/thumbs.trulia-cdn.com\\\/pictures\\\/thumbs\\\/ps.102\\\/d\\\/6\\\/1\\\/e\\\/picture-uh=26a542b17a1060789b1ce42c27f17e2-ps=d61e1f8629693d131c987145bb5364ac.jpg\",\"standard_url\":\"\\\/\\\/thumbs.trulia-cdn.com\\\/pictures\\\/thumbs_5\\\/ps.102\\\/d\\\/6\\\/1\\\/e\\\/picture-uh=26a542b17a1060789b1ce42c27f17e2-ps=d61e1f8629693d131c987145bb5364ac.jpg\",\"raw_path\":\"ps.102\\\/d\\\/6\\\/1\\\/e\\\/picture-uh=26a542b17a1060789b1ce42c27f17e2-ps=d61e1f8629693d131c987145bb5364ac.jpg\",\"thumbsBitmap\":null}],\"static_map_path\":\"\\\/\\\/maps.googleapis.com\\\/maps\\\/api\\\/staticmap?client=gme-truliainc&zoom=18&size=640x480&maptype=satellite&sensor=false&center=40.691036%2C-74.07502&signature=KBsrFbAp89u-7yUs7h-ohyt32Lo=\"}","isBuilder":false,"isBuilderCommunity":false,"isPlan":false,"isSpec":false,"isPromotedCommunity":false,"builderName":null,"builderCommunityId":null,"userClaimed":false,"truliaRank":null,"isSubsidized":false,"richMedia":[],"pricePerSqft":370.19867,"formattedLotSize":null,"yearBuilt":null,"daysOnTrulia":"<1","foreclosureSubType":"","brokerName":"CENTURY 21 VIEWPOINT REALTY","hasOpenHouse":false,"isStudio":false,"isForSale":true,"lastSaleDate":null,"isRealogy":false,"brokerLogo":null,"formattedEstimate":""};pdp_location_data = {"city":{"locationId":"19824","name":"Jersey City","locationType":"city","altId":"44683"},"state":{"locationId":"32","name":"New Jersey","locationType":"state","altId":"NJ"},"county":{"locationId":"252","name":"Hudson County","locationType":"county","altId":"34017"},"propertyId":"3262926259","addressHash":"beaf88f215b5f1ea73836819e93d69a","address":"30 Freedomway #404","geohash":"dr5r6rs4qyvs","latitude":40.691036,"longitude":-74.07502,"unknown":true,"isCountySupportsValuation":false};trulia.pdp.streetViewBlocked = false;trulia.pdp.isCountySupportsValuation =  true;trulia.pdp.isInHighDemandRegion = false;trulia.pdp.marketTrendsUrl = "/real_estate/07305-Jersey_City/market-trends/";var _SPANLONG = pdp_location_data.longitude;var _SPANLAT  = pdp_location_data.latitude;var _CENLONG  = pdp_location_data.longitude;var _CENLAT   = pdp_location_data.latitude;var _LOCATION_UNKNOWN = pdp_location_data.unknown;var TruliaProTakeOverURL = "";var _dsapi = true;var _IS_SHOWING_MODAL = false;var _IMAGE_SERVER = '//static.trulia-cdn.com';var _JS_SERVER_ROOT = '//static.trulia-cdn.com/javascript/release-2017.15.2/';var _MAPTILE_SERVER = 'https://tiles.trulia.com/';var _HEATMAP_VERSIONS = {"domain":"https:\/\/tiles.trulia.com","slope":{"uri":"tiles\/slope","version":"20161205"},"wildfires":{"uri":"tiles\/wildfires","version":"20160224"},"hurricanes":{"uri":"tiles\/hurricanes","version":"20160224"},"percent_college":{"uri":"tiles\/percent_college","version":"20160224"},"transit":{"uri":"tiles\/transit","version":"20160224"},"median_age":{"uri":"tiles\/median_age","version":"20160224"},"groceries":{"uri":"tiles\/groceries","version":"20170405"},"aspect":{"uri":"tiles\/aspect","version":"20170113"},"seismic_hazard":{"uri":"tiles\/seismic_hazard","version":"20160224"},"arts":{"uri":"tiles\/arts","version":"20170405"},"home_prices_sales":{"uri":"tiles\/home_prices_sales","version":"20170307"},"care_essentials":{"uri":"tiles\/care_essentials","version":"20170412"},"singles_living_alone":{"uri":"tiles\/singles_living_alone","version":"20160224"},"zombie_risk":{"uri":"tiles\/zombie_risk","version":"20161022"},"shopping":{"uri":"tiles\/shopping","version":"20170405"},"valuations":{"uri":"tiles\/valuations","version":"20160224"},"great_places_to_play":{"uri":"tiles\/great_places_to_play","version":"20170412"},"parallel_universe":{"uri":"tiles\/parallel_universe","version":"20161023"},"rental_prices":{"uri":"tiles\/rental_prices","version":"20170307"},"tornados":{"uri":"tiles\/tornados","version":"20160224"},"schools":{"uri":"tiles\/schools","version":"20160224"},"tree_cover":{"uri":"tiles\/tree_cover","version":"20161221"},"zipcode_labels":{"uri":"tiles\/zipcode_labels","version":"20160224"},"gyms":{"uri":"tiles\/gyms","version":"20170405"},"nightlife":{"uri":"tiles\/nightlife","version":"20170405"},"flood_zones":{"uri":"tiles\/flood_zones","version":"20160224"},"restaurants":{"uri":"tiles\/restaurants","version":"20170405"},"quiet_streets":{"uri":"tiles\/quiet_streets","version":"20160224"},"home_prices_sales_sqft":{"uri":"tiles\/home_prices_sales_sqft","version":"20170307"},"percent_married":{"uri":"tiles\/percent_married","version":"20160224"},"crime_email":{"uri":"tiles\/crime_email","version":"20161027"},"owner_occupied":{"uri":"tiles\/owner_occupied","version":"20160224"},"traffic_volume":{"uri":"tiles\/traffic_volume","version":"20160903"},"percent_multiunit":{"uri":"tiles\/percent_multiunit","version":"20160224"},"faults":{"uri":"tiles\/faults","version":"20160224"},"beauty":{"uri":"tiles\/beauty","version":"20170405"},"crime_heatmap":{"uri":"tiles\/crime_heatmap","version":"20160711"},"vampire_risk":{"uri":"tiles\/vampire_risk","version":"20161022"},"median_move_in_year":{"uri":"tiles\/median_move_in_year","version":"20160224"},"year_built":{"uri":"tiles\/year_built","version":"20160224"},"cafes":{"uri":"tiles\/cafes","version":"20170405"},"commute_time":{"uri":"tiles\/commute_time","version":"20160224"},"home_prices_listings_neighborhood":{"uri":"tiles\/home_prices_listings_neighborhood","version":"20160224"},"ghost_risk":{"uri":"tiles\/ghost_risk","version":"20161022"},"parcels":{"uri":"tiles\/parcels","version":"20160224"},"home_prices_listings":{"uri":"tiles\/home_prices_listings","version":"20170307"},"rental_prices_nolabel":{"uri":"tiles\/rental_prices_nolabel","version":"20170307"}};var _LOGOS_SERVER = '//logos.trulia-cdn.com';var _SHOW_PARCEL_BOUNDARIES = 1;var thumbs_root = '';var _default_zoom_level = '15';var _default_map_view = 'G_MAP_TYPE';var _show_poi = '0';var direction = 0;var z_details_pg = 1;var showStreetview = true;var showAddressControl = true;var _z_api_host = 'mortgageapi.zillow.com';
+   trulia = trulia || {};trulia.pdp = trulia.pdp || {};trulia.pdp.propertyJSON = {"id":"3039415415","mlsID":"170004426","agentName":"Steve Salzer & Rossy Guzman","feedId":1000,"hash":"e74adfdcc35f5e61a1243caddce479df","neighborhood":"Downtown - Van Vorst Park","neighborhoodId":"4592","zipCode":"07302","city":"Jersey City","county":"Hudson","countyFIPS":"34017","stateCode":"NJ","stateName":"New Jersey","latitude":40.716873,"longitude":-74.04805,"addressForDisplay":"67 Bright Street #1, Jersey City, NJ","addressForLeadForm":"67 Bright St #1, Jersey City, NJ 07302","addressForUrl":"67-Bright-St-1-Jersey-City-NJ-07302","streetNumber":"67","street":"Bright St","apartmentNumber":"1","urlType":null,"status":"Pending","listingId":"3262372074","locationId":"43268","type":"CONDO","typeDisplay":"Condo","numBedrooms":"2","numBathrooms":1,"numPartialBathrooms":null,"numFullBathrooms":null,"siteId":"120271","siteUrl":"www.kw.com","listingType":0,"dmaId":43,"claimed":null,"numBeds":2,"indexSource":"Pending","isForeclosure":false,"isOpaqueBAL":false,"foreclosureStatus":"","isSrpFeatured":true,"price":619000,"sqft":849,"isRental":false,"isRentalCommunity":false,"rentalPartnerDisplayText":null,"hasStreetView":"-1","showStreetView":"1","blockStreetView":false,"walkScore":null,"photos":["ps.102\/a\/9\/5\/c\/picture-uh=ddb7e313fea232d7ec3f5cc84d7d26ed-ps=a95c5e97e59774ac7c57e4693c319fe6.jpg:31","ps.102\/e\/6\/f\/3\/picture-uh=37e8599d224dfd4d9b2170fbf53d787a-ps=e6f3e8444b88b4358f1a6bb6ddc32c5.jpg:31","ps.102\/4\/2\/7\/d\/picture-uh=90eb7b87b0e6f195fa1729acde26755-ps=427dc41f3a5c6ca65043978592c3c880.jpg:31","ps.102\/a\/5\/d\/3\/picture-uh=4ac56be87e0cb5bec43452ddd84f4-ps=a5d3f58b529e5af8c8a9c2136f3c970.jpg:31","ps.102\/4\/c\/7\/b\/picture-uh=4fb31ec4cdd494dd962bb01236d8e4ec-ps=4c7b8eb768f48eec79c88ada55c3133b.jpg:31","ps.102\/4\/6\/2\/f\/picture-uh=65e227c55f5561487becb8540c191ad-ps=462f72345d649de7f4fe1d611663fba.jpg:31","ps.102\/1\/b\/d\/f\/picture-uh=d87ae53e558522d2388e1f7f32e60d9-ps=1bdfc8961cd2495a49996377544b10.jpg:31","ps.102\/f\/b\/8\/1\/picture-uh=a084cce4bef1221341ea7571f2608266-ps=fb81ed131812ace7c726af747132319b.jpg:31","ps.102\/3\/7\/e\/7\/picture-uh=379cd7ae665b32a1a72f345783e080d5-ps=37e7287d21992217af21c4e5d0cb221a.jpg:31","ps.102\/8\/4\/b\/e\/picture-uh=df8665aaa737c81b64e3d3e3688aed7-ps=84be23a85fac3176ed7b5457fd5ad38.jpg:31","ps.102\/d\/d\/d\/6\/picture-uh=f2d881c62dd36772fc18da8f8d599d1-ps=ddd6a76af52deb931c88d31d6f646.jpg:31","ps.102\/8\/a\/6\/c\/picture-uh=91e6a9f26348aeb39cf04f26c2efee-ps=8a6c67a9e6f0a010de263439eb41e9.jpg:31","ps.102\/a\/e\/c\/4\/picture-uh=d4ad159d66fdc1d85cda78b01ebce061-ps=aec412594e516bed317f65b9e5bc84a.jpg:31","ps.101\/f\/c\/5\/e\/picture-uh=cbcc7cb13bed2eee38bf5fa2e8e6f60-ps=fc5ebc941dc8f7bbfcb6483f539b91b.jpg:63","ps.102\/a\/d\/5\/0\/picture-uh=c1d33cc357c155488a692edbf2d9cb4-ps=ad5023b9861219d6a851861c383dcc5.jpg:31"],"adCampaign":null,"hasPhotos":true,"userHidden":null,"userLiked":null,"isUserSaved":null,"isAddressNotDisclosed":false,"_isDefault":true,"intersectionName":null,"agentClaimable":true,"pdpURL":"\/property\/3039415415-67-Bright-St-1-Jersey-City-NJ-07302","thumbnail":"\/\/thumbs.trulia-cdn.com\/pictures\/thumbs\/ps.102\/a\/9\/5\/c\/picture-uh=ddb7e313fea232d7ec3f5cc84d7d26ed-ps=a95c5e97e59774ac7c57e4693c319fe6.jpg","formattedPrice":"$619,000","shortDescription":"67 Bright St #1","formattedBedAndBath":"2bd, 1 full ba","formattedSqft":"849 sqft","dataPhotos":"{\"photos\":[{\"thumbnail_url\":\"\\\/\\\/thumbs.trulia-cdn.com\\\/pictures\\\/thumbs\\\/ps.102\\\/a\\\/9\\\/5\\\/c\\\/picture-uh=ddb7e313fea232d7ec3f5cc84d7d26ed-ps=a95c5e97e59774ac7c57e4693c319fe6.jpg\",\"standard_url\":\"\\\/\\\/thumbs.trulia-cdn.com\\\/pictures\\\/thumbs_5\\\/ps.102\\\/a\\\/9\\\/5\\\/c\\\/picture-uh=ddb7e313fea232d7ec3f5cc84d7d26ed-ps=a95c5e97e59774ac7c57e4693c319fe6-67-Bright-St-1-Jersey-City-NJ-07302.jpg\",\"raw_path\":\"ps.102\\\/a\\\/9\\\/5\\\/c\\\/picture-uh=ddb7e313fea232d7ec3f5cc84d7d26ed-ps=a95c5e97e59774ac7c57e4693c319fe6.jpg\",\"thumbsBitmap\":null},{\"thumbnail_url\":\"\\\/\\\/thumbs.trulia-cdn.com\\\/pictures\\\/thumbs\\\/ps.102\\\/e\\\/6\\\/f\\\/3\\\/picture-uh=37e8599d224dfd4d9b2170fbf53d787a-ps=e6f3e8444b88b4358f1a6bb6ddc32c5.jpg\",\"standard_url\":\"\\\/\\\/thumbs.trulia-cdn.com\\\/pictures\\\/thumbs_5\\\/ps.102\\\/e\\\/6\\\/f\\\/3\\\/picture-uh=37e8599d224dfd4d9b2170fbf53d787a-ps=e6f3e8444b88b4358f1a6bb6ddc32c5.jpg\",\"raw_path\":\"ps.102\\\/e\\\/6\\\/f\\\/3\\\/picture-uh=37e8599d224dfd4d9b2170fbf53d787a-ps=e6f3e8444b88b4358f1a6bb6ddc32c5.jpg\",\"thumbsBitmap\":null},{\"thumbnail_url\":\"\\\/\\\/thumbs.trulia-cdn.com\\\/pictures\\\/thumbs\\\/ps.102\\\/4\\\/2\\\/7\\\/d\\\/picture-uh=90eb7b87b0e6f195fa1729acde26755-ps=427dc41f3a5c6ca65043978592c3c880.jpg\",\"standard_url\":\"\\\/\\\/thumbs.trulia-cdn.com\\\/pictures\\\/thumbs_5\\\/ps.102\\\/4\\\/2\\\/7\\\/d\\\/picture-uh=90eb7b87b0e6f195fa1729acde26755-ps=427dc41f3a5c6ca65043978592c3c880.jpg\",\"raw_path\":\"ps.102\\\/4\\\/2\\\/7\\\/d\\\/picture-uh=90eb7b87b0e6f195fa1729acde26755-ps=427dc41f3a5c6ca65043978592c3c880.jpg\",\"thumbsBitmap\":null},{\"thumbnail_url\":\"\\\/\\\/thumbs.trulia-cdn.com\\\/pictures\\\/thumbs\\\/ps.102\\\/a\\\/5\\\/d\\\/3\\\/picture-uh=4ac56be87e0cb5bec43452ddd84f4-ps=a5d3f58b529e5af8c8a9c2136f3c970.jpg\",\"standard_url\":\"\\\/\\\/thumbs.trulia-cdn.com\\\/pictures\\\/thumbs_5\\\/ps.102\\\/a\\\/5\\\/d\\\/3\\\/picture-uh=4ac56be87e0cb5bec43452ddd84f4-ps=a5d3f58b529e5af8c8a9c2136f3c970.jpg\",\"raw_path\":\"ps.102\\\/a\\\/5\\\/d\\\/3\\\/picture-uh=4ac56be87e0cb5bec43452ddd84f4-ps=a5d3f58b529e5af8c8a9c2136f3c970.jpg\",\"thumbsBitmap\":null},{\"thumbnail_url\":\"\\\/\\\/thumbs.trulia-cdn.com\\\/pictures\\\/thumbs\\\/ps.102\\\/4\\\/c\\\/7\\\/b\\\/picture-uh=4fb31ec4cdd494dd962bb01236d8e4ec-ps=4c7b8eb768f48eec79c88ada55c3133b.jpg\",\"standard_url\":\"\\\/\\\/thumbs.trulia-cdn.com\\\/pictures\\\/thumbs_5\\\/ps.102\\\/4\\\/c\\\/7\\\/b\\\/picture-uh=4fb31ec4cdd494dd962bb01236d8e4ec-ps=4c7b8eb768f48eec79c88ada55c3133b.jpg\",\"raw_path\":\"ps.102\\\/4\\\/c\\\/7\\\/b\\\/picture-uh=4fb31ec4cdd494dd962bb01236d8e4ec-ps=4c7b8eb768f48eec79c88ada55c3133b.jpg\",\"thumbsBitmap\":null},{\"thumbnail_url\":\"\\\/\\\/thumbs.trulia-cdn.com\\\/pictures\\\/thumbs\\\/ps.102\\\/4\\\/6\\\/2\\\/f\\\/picture-uh=65e227c55f5561487becb8540c191ad-ps=462f72345d649de7f4fe1d611663fba.jpg\",\"standard_url\":\"\\\/\\\/thumbs.trulia-cdn.com\\\/pictures\\\/thumbs_5\\\/ps.102\\\/4\\\/6\\\/2\\\/f\\\/picture-uh=65e227c55f5561487becb8540c191ad-ps=462f72345d649de7f4fe1d611663fba.jpg\",\"raw_path\":\"ps.102\\\/4\\\/6\\\/2\\\/f\\\/picture-uh=65e227c55f5561487becb8540c191ad-ps=462f72345d649de7f4fe1d611663fba.jpg\",\"thumbsBitmap\":null},{\"thumbnail_url\":\"\\\/\\\/thumbs.trulia-cdn.com\\\/pictures\\\/thumbs\\\/ps.102\\\/1\\\/b\\\/d\\\/f\\\/picture-uh=d87ae53e558522d2388e1f7f32e60d9-ps=1bdfc8961cd2495a49996377544b10.jpg\",\"standard_url\":\"\\\/\\\/thumbs.trulia-cdn.com\\\/pictures\\\/thumbs_5\\\/ps.102\\\/1\\\/b\\\/d\\\/f\\\/picture-uh=d87ae53e558522d2388e1f7f32e60d9-ps=1bdfc8961cd2495a49996377544b10.jpg\",\"raw_path\":\"ps.102\\\/1\\\/b\\\/d\\\/f\\\/picture-uh=d87ae53e558522d2388e1f7f32e60d9-ps=1bdfc8961cd2495a49996377544b10.jpg\",\"thumbsBitmap\":null},{\"thumbnail_url\":\"\\\/\\\/thumbs.trulia-cdn.com\\\/pictures\\\/thumbs\\\/ps.102\\\/f\\\/b\\\/8\\\/1\\\/picture-uh=a084cce4bef1221341ea7571f2608266-ps=fb81ed131812ace7c726af747132319b.jpg\",\"standard_url\":\"\\\/\\\/thumbs.trulia-cdn.com\\\/pictures\\\/thumbs_5\\\/ps.102\\\/f\\\/b\\\/8\\\/1\\\/picture-uh=a084cce4bef1221341ea7571f2608266-ps=fb81ed131812ace7c726af747132319b.jpg\",\"raw_path\":\"ps.102\\\/f\\\/b\\\/8\\\/1\\\/picture-uh=a084cce4bef1221341ea7571f2608266-ps=fb81ed131812ace7c726af747132319b.jpg\",\"thumbsBitmap\":null},{\"thumbnail_url\":\"\\\/\\\/thumbs.trulia-cdn.com\\\/pictures\\\/thumbs\\\/ps.102\\\/3\\\/7\\\/e\\\/7\\\/picture-uh=379cd7ae665b32a1a72f345783e080d5-ps=37e7287d21992217af21c4e5d0cb221a.jpg\",\"standard_url\":\"\\\/\\\/thumbs.trulia-cdn.com\\\/pictures\\\/thumbs_5\\\/ps.102\\\/3\\\/7\\\/e\\\/7\\\/picture-uh=379cd7ae665b32a1a72f345783e080d5-ps=37e7287d21992217af21c4e5d0cb221a.jpg\",\"raw_path\":\"ps.102\\\/3\\\/7\\\/e\\\/7\\\/picture-uh=379cd7ae665b32a1a72f345783e080d5-ps=37e7287d21992217af21c4e5d0cb221a.jpg\",\"thumbsBitmap\":null},{\"thumbnail_url\":\"\\\/\\\/thumbs.trulia-cdn.com\\\/pictures\\\/thumbs\\\/ps.102\\\/8\\\/4\\\/b\\\/e\\\/picture-uh=df8665aaa737c81b64e3d3e3688aed7-ps=84be23a85fac3176ed7b5457fd5ad38.jpg\",\"standard_url\":\"\\\/\\\/thumbs.trulia-cdn.com\\\/pictures\\\/thumbs_5\\\/ps.102\\\/8\\\/4\\\/b\\\/e\\\/picture-uh=df8665aaa737c81b64e3d3e3688aed7-ps=84be23a85fac3176ed7b5457fd5ad38.jpg\",\"raw_path\":\"ps.102\\\/8\\\/4\\\/b\\\/e\\\/picture-uh=df8665aaa737c81b64e3d3e3688aed7-ps=84be23a85fac3176ed7b5457fd5ad38.jpg\",\"thumbsBitmap\":null},{\"thumbnail_url\":\"\\\/\\\/thumbs.trulia-cdn.com\\\/pictures\\\/thumbs\\\/ps.102\\\/d\\\/d\\\/d\\\/6\\\/picture-uh=f2d881c62dd36772fc18da8f8d599d1-ps=ddd6a76af52deb931c88d31d6f646.jpg\",\"standard_url\":\"\\\/\\\/thumbs.trulia-cdn.com\\\/pictures\\\/thumbs_5\\\/ps.102\\\/d\\\/d\\\/d\\\/6\\\/picture-uh=f2d881c62dd36772fc18da8f8d599d1-ps=ddd6a76af52deb931c88d31d6f646.jpg\",\"raw_path\":\"ps.102\\\/d\\\/d\\\/d\\\/6\\\/picture-uh=f2d881c62dd36772fc18da8f8d599d1-ps=ddd6a76af52deb931c88d31d6f646.jpg\",\"thumbsBitmap\":null},{\"thumbnail_url\":\"\\\/\\\/thumbs.trulia-cdn.com\\\/pictures\\\/thumbs\\\/ps.102\\\/8\\\/a\\\/6\\\/c\\\/picture-uh=91e6a9f26348aeb39cf04f26c2efee-ps=8a6c67a9e6f0a010de263439eb41e9.jpg\",\"standard_url\":\"\\\/\\\/thumbs.trulia-cdn.com\\\/pictures\\\/thumbs_5\\\/ps.102\\\/8\\\/a\\\/6\\\/c\\\/picture-uh=91e6a9f26348aeb39cf04f26c2efee-ps=8a6c67a9e6f0a010de263439eb41e9.jpg\",\"raw_path\":\"ps.102\\\/8\\\/a\\\/6\\\/c\\\/picture-uh=91e6a9f26348aeb39cf04f26c2efee-ps=8a6c67a9e6f0a010de263439eb41e9.jpg\",\"thumbsBitmap\":null},{\"thumbnail_url\":\"\\\/\\\/thumbs.trulia-cdn.com\\\/pictures\\\/thumbs\\\/ps.102\\\/a\\\/e\\\/c\\\/4\\\/picture-uh=d4ad159d66fdc1d85cda78b01ebce061-ps=aec412594e516bed317f65b9e5bc84a.jpg\",\"standard_url\":\"\\\/\\\/thumbs.trulia-cdn.com\\\/pictures\\\/thumbs_5\\\/ps.102\\\/a\\\/e\\\/c\\\/4\\\/picture-uh=d4ad159d66fdc1d85cda78b01ebce061-ps=aec412594e516bed317f65b9e5bc84a.jpg\",\"raw_path\":\"ps.102\\\/a\\\/e\\\/c\\\/4\\\/picture-uh=d4ad159d66fdc1d85cda78b01ebce061-ps=aec412594e516bed317f65b9e5bc84a.jpg\",\"thumbsBitmap\":null},{\"thumbnail_url\":\"\\\/\\\/thumbs.trulia-cdn.com\\\/pictures\\\/thumbs\\\/ps.101\\\/f\\\/c\\\/5\\\/e\\\/picture-uh=cbcc7cb13bed2eee38bf5fa2e8e6f60-ps=fc5ebc941dc8f7bbfcb6483f539b91b.jpg\",\"standard_url\":\"\\\/\\\/thumbs.trulia-cdn.com\\\/pictures\\\/thumbs_6\\\/ps.101\\\/f\\\/c\\\/5\\\/e\\\/picture-uh=cbcc7cb13bed2eee38bf5fa2e8e6f60-ps=fc5ebc941dc8f7bbfcb6483f539b91b.jpg\",\"raw_path\":\"ps.101\\\/f\\\/c\\\/5\\\/e\\\/picture-uh=cbcc7cb13bed2eee38bf5fa2e8e6f60-ps=fc5ebc941dc8f7bbfcb6483f539b91b.jpg\",\"thumbsBitmap\":null},{\"thumbnail_url\":\"\\\/\\\/thumbs.trulia-cdn.com\\\/pictures\\\/thumbs\\\/ps.102\\\/a\\\/d\\\/5\\\/0\\\/picture-uh=c1d33cc357c155488a692edbf2d9cb4-ps=ad5023b9861219d6a851861c383dcc5.jpg\",\"standard_url\":\"\\\/\\\/thumbs.trulia-cdn.com\\\/pictures\\\/thumbs_5\\\/ps.102\\\/a\\\/d\\\/5\\\/0\\\/picture-uh=c1d33cc357c155488a692edbf2d9cb4-ps=ad5023b9861219d6a851861c383dcc5.jpg\",\"raw_path\":\"ps.102\\\/a\\\/d\\\/5\\\/0\\\/picture-uh=c1d33cc357c155488a692edbf2d9cb4-ps=ad5023b9861219d6a851861c383dcc5.jpg\",\"thumbsBitmap\":null}],\"static_map_path\":\"\\\/\\\/maps.googleapis.com\\\/maps\\\/api\\\/staticmap?client=gme-truliainc&zoom=18&size=640x480&maptype=satellite&sensor=false&center=40.716873%2C-74.04805&signature=l00Q7JG0Jkjqx6NgylwDI54QhvA=\"}","isBuilder":false,"isBuilderCommunity":false,"isPlan":false,"isSpec":false,"isPromotedCommunity":false,"builderName":null,"builderCommunityId":null,"userClaimed":false,"truliaRank":null,"isSubsidized":false,"richMedia":[],"pricePerSqft":729.0931,"formattedLotSize":"1,825 sqft","yearBuilt":null,"daysOnTrulia":28,"foreclosureSubType":"","brokerName":"Keller Williams - Hoboken","hasOpenHouse":false,"isStudio":false,"isForSale":true,"lastSaleDate":null,"isRealogy":false,"brokerLogo":"mls_logo_brokerlogo_13949_1481926961_m.gif","formattedEstimate":""};pdp_location_data = {"neighborhood":{"locationId":"84713","name":"Downtown - Van Vorst Park","locationType":"neighborhood","altId":"4592"},"state":{"locationId":"32","name":"New Jersey","locationType":"state","altId":"NJ"},"county":{"locationId":"252","name":"Hudson County","locationType":"county","altId":"34017"},"city":{"locationId":"19824","name":"Jersey City","locationType":"city","altId":"44683"},"propertyId":"3039415415","addressHash":"e74adfdcc35f5e61a1243caddce479df","address":"67 Bright St #1","zipCode":{"locationId":"43268","name":"07302","locationType":"zipCode","altName":"07302","altId":"07302"},"geohash":"dr5rdurbgrk0","latitude":40.716873,"longitude":-74.04805,"unknown":true,"isCountySupportsValuation":false};trulia.pdp.streetViewBlocked = false;trulia.pdp.isCountySupportsValuation =  true;trulia.pdp.isInHighDemandRegion = false;trulia.pdp.marketTrendsUrl = "/real_estate/Downtown_Van_Vorst_Park-Jersey_City/4592/market-trends/";var _SPANLONG = pdp_location_data.longitude;var _SPANLAT  = pdp_location_data.latitude;var _CENLONG  = pdp_location_data.longitude;var _CENLAT   = pdp_location_data.latitude;var _LOCATION_UNKNOWN = pdp_location_data.unknown;var TruliaProTakeOverURL = "";var _dsapi = true;var _IS_SHOWING_MODAL = false;var _IMAGE_SERVER = '//static.trulia-cdn.com';var _JS_SERVER_ROOT = '//static.trulia-cdn.com/javascript/release-2017.15.2/';var _MAPTILE_SERVER = 'https://tiles.trulia.com/';var _HEATMAP_VERSIONS = {"domain":"https:\/\/tiles.trulia.com","slope":{"uri":"tiles\/slope","version":"20161205"},"wildfires":{"uri":"tiles\/wildfires","version":"20160224"},"hurricanes":{"uri":"tiles\/hurricanes","version":"20160224"},"percent_college":{"uri":"tiles\/percent_college","version":"20160224"},"transit":{"uri":"tiles\/transit","version":"20160224"},"median_age":{"uri":"tiles\/median_age","version":"20160224"},"groceries":{"uri":"tiles\/groceries","version":"20170405"},"aspect":{"uri":"tiles\/aspect","version":"20170113"},"seismic_hazard":{"uri":"tiles\/seismic_hazard","version":"20160224"},"arts":{"uri":"tiles\/arts","version":"20170405"},"home_prices_sales":{"uri":"tiles\/home_prices_sales","version":"20170307"},"care_essentials":{"uri":"tiles\/care_essentials","version":"20170412"},"singles_living_alone":{"uri":"tiles\/singles_living_alone","version":"20160224"},"zombie_risk":{"uri":"tiles\/zombie_risk","version":"20161022"},"shopping":{"uri":"tiles\/shopping","version":"20170405"},"valuations":{"uri":"tiles\/valuations","version":"20160224"},"great_places_to_play":{"uri":"tiles\/great_places_to_play","version":"20170412"},"parallel_universe":{"uri":"tiles\/parallel_universe","version":"20161023"},"rental_prices":{"uri":"tiles\/rental_prices","version":"20170307"},"tornados":{"uri":"tiles\/tornados","version":"20160224"},"schools":{"uri":"tiles\/schools","version":"20160224"},"tree_cover":{"uri":"tiles\/tree_cover","version":"20161221"},"zipcode_labels":{"uri":"tiles\/zipcode_labels","version":"20160224"},"gyms":{"uri":"tiles\/gyms","version":"20170405"},"nightlife":{"uri":"tiles\/nightlife","version":"20170405"},"flood_zones":{"uri":"tiles\/flood_zones","version":"20160224"},"restaurants":{"uri":"tiles\/restaurants","version":"20170405"},"quiet_streets":{"uri":"tiles\/quiet_streets","version":"20160224"},"home_prices_sales_sqft":{"uri":"tiles\/home_prices_sales_sqft","version":"20170307"},"percent_married":{"uri":"tiles\/percent_married","version":"20160224"},"crime_email":{"uri":"tiles\/crime_email","version":"20161027"},"owner_occupied":{"uri":"tiles\/owner_occupied","version":"20160224"},"traffic_volume":{"uri":"tiles\/traffic_volume","version":"20160903"},"percent_multiunit":{"uri":"tiles\/percent_multiunit","version":"20160224"},"faults":{"uri":"tiles\/faults","version":"20160224"},"beauty":{"uri":"tiles\/beauty","version":"20170405"},"crime_heatmap":{"uri":"tiles\/crime_heatmap","version":"20160711"},"vampire_risk":{"uri":"tiles\/vampire_risk","version":"20161022"},"median_move_in_year":{"uri":"tiles\/median_move_in_year","version":"20160224"},"year_built":{"uri":"tiles\/year_built","version":"20160224"},"cafes":{"uri":"tiles\/cafes","version":"20170405"},"commute_time":{"uri":"tiles\/commute_time","version":"20160224"},"home_prices_listings_neighborhood":{"uri":"tiles\/home_prices_listings_neighborhood","version":"20160224"},"ghost_risk":{"uri":"tiles\/ghost_risk","version":"20161022"},"parcels":{"uri":"tiles\/parcels","version":"20160224"},"home_prices_listings":{"uri":"tiles\/home_prices_listings","version":"20170307"},"rental_prices_nolabel":{"uri":"tiles\/rental_prices_nolabel","version":"20170307"}};var _LOGOS_SERVER = '//logos.trulia-cdn.com';var _SHOW_PARCEL_BOUNDARIES = 1;var thumbs_root = '';var _default_zoom_level = '15';var _default_map_view = 'G_MAP_TYPE';var _show_poi = '0';var direction = 0;var z_details_pg = 1;var showStreetview = true;var showAddressControl = true;var _z_api_host = 'mortgageapi.zillow.com';
   </script>
   <script>
    trulia.ad_proxy = {
@@ -3245,7 +3884,7 @@ var trulia = (typeof(trulia) !== "undefined") ? trulia : {};
   <script type="text/javascript">
    trulia.data = trulia.data || {};
 
-    trulia.data.user = {"userId":"","secondaryId":"170418m5qldq1lqtak518cjdlo9b2166","sessionId":"m5qldq1lqtak518cjdlo9b2166"};
+    trulia.data.user = {"userId":"","secondaryId":"1704188nb05mgo97i18k9d6kia7qcj42","sessionId":"8nb05mgo97i18k9d6kia7qcj42"};
   </script>
   <script type="text/javascript">
    trulia.PixelTracking.firePixel(trulia.PixelTracking.TYPE_GLOBAL_REMARKETING);
@@ -3256,31 +3895,31 @@ trulia.PixelTracking.firePixel(trulia.PixelTracking.TYPE_UNIQUE_CONVERSION);
   s.channel = unescape('Find%20Homes');
   s.events = unescape('event2%2Cevent5');
   s.eVar1 = unescape('NJ.Jersey%20City');
-  s.eVar2 = unescape('NJ%2CJersey%20City%2C07305');
-  s.prop1 = unescape('NJ%2CJersey%20City%2C07305');
-  s.prop4 = unescape('3262926259');
-  s.eVar7 = unescape('3262926259');
-  s.eVar34 = unescape('For%20Sale%7CUnClaimedStatus%7CNonProStatus%7CUnBranded');
+  s.eVar2 = unescape('NJ%2CJersey%20City%2CDowntown%20-%20Van%20Vorst%20Park%2C07302');
+  s.prop1 = unescape('NJ%2CJersey%20City%2CDowntown%20-%20Van%20Vorst%20Park%2C07302');
+  s.prop4 = unescape('3039415415');
+  s.eVar7 = unescape('3039415415');
+  s.eVar34 = unescape('For%20Sale%7CClaimedStatus%7CProStatus%7CBranded');
   s.eVar3 = unescape('');
   s.eVar35 = unescape('LargePresentMultiplePresent');
   s.eVar21 = unescape('Not%20Home%20Owner%20Claimed');
-  s.eVar8 = unescape('192382008');
+  s.eVar8 = unescape('120271');
   s.pageType = unescape('pdp');
   s.pageName = unescape('details%3AOverview');
   s.prop58 = unescape('details%3AOverview');
   s.eVar58 = unescape('details%3AOverview');
-  s.eVar15 = unescape('902');
+  s.eVar15 = unescape('24');
   s.eVar19 = unescape('cbs000');
   s.eVar6 = unescape('2017.16');
-  s.eVar18 = unescape('m5qldq1lqtak518cjdlo9b2166');
-  s.eVar5 = unescape('170418m5qldq1lqtak518cjdlo9b2166');
+  s.eVar18 = unescape('8nb05mgo97i18k9d6kia7qcj42');
+  s.eVar5 = unescape('1704188nb05mgo97i18k9d6kia7qcj42');
   s.prop38 = unescape('details%3AOverview%7CUnregistered');
   s.eVar25 = unescape('20170418');
   s.eVar39 = unescape('NULL');
   s.eVar40 = unescape('NULL');
   s.eVar41 = unescape('NULL');
   s_campaign = unescape('');
-  s.contextData['trul.testAB'] = unescape('855%3A855b%3B855b%3B837a');
+  s.contextData['trul.testAB'] = unescape('855%3A855a%3B855a');
 
 s.loadOmniFromDTM = true;
 s_campaign = typeof s_campaign === 'undefined' ? '' : s_campaign;
@@ -3303,14 +3942,14 @@ if ((typeof _satellite === 'undefined') || (_satellite.getDataElement("adobeDTMf
 
 
 
-var utag_data = {"page_type":"pdp","page_name":"details:Overview","campaign":"","site_section":"Find Homes","server_code":"902","session_id":"m5qldq1lqtak518cjdlo9b2166","cobrand_site":"cbs000","date_first_visit":"20170418","page_reg_status":"details:Overview|Unregistered","user_id":"170418m5qldq1lqtak518cjdlo9b2166","user_type":"NULL","user_sub_type":"NULL","broker_id":"192382008","property_id":"3262926259","property_location":"NJ,Jersey City,07305","property_status":"For Sale|UnClaimedStatus|NonProStatus|UnBranded","property_address":"30-Freedomway-404-Jersey-City-NJ-07305"};
+var utag_data = {"page_type":"pdp","page_name":"details:Overview","campaign":"","site_section":"Find Homes","server_code":"24","session_id":"8nb05mgo97i18k9d6kia7qcj42","cobrand_site":"cbs000","date_first_visit":"20170418","page_reg_status":"details:Overview|Unregistered","user_id":"1704188nb05mgo97i18k9d6kia7qcj42","user_type":"NULL","user_sub_type":"NULL","broker_id":"120271","property_id":"3039415415","property_location":"NJ,Jersey City,Downtown - Van Vorst Park,07302","property_status":"For Sale|ClaimedStatus|ProStatus|Branded","property_address":"67-Bright-St-1-Jersey-City-NJ-07302"};
   </script>
   <div class="hideVisually">
    <div>
     <div id="session" style="display:none">
-     170418m5qldq1lqtak518cjdlo9b2166
+     1704188nb05mgo97i18k9d6kia7qcj42
     </div>
-    <img alt="" height="1" id="internal_tracking_pixel" src="https://origin-tracking.trulia.com/trackingPixel.gif?impSource=trulia&amp;rsz=&amp;type=det&lt;s=170418m5qldq1lqtak518cjdlo9b2166&amp;uid=&amp;ts=1492532048&amp;ptype=for_sale&amp;stype=overview&amp;p1=3262926259&amp;s1=192382008&amp;f1=12489&amp;st1=NJ&amp;plid1=170006120&amp;locId=19824" width="1"/>
+    <img alt="" height="1" id="internal_tracking_pixel" src="https://origin-tracking.trulia.com/trackingPixel.gif?impSource=trulia&amp;rsz=&amp;type=det&lt;s=1704188nb05mgo97i18k9d6kia7qcj42&amp;uid=&amp;ts=1492535595&amp;ptype=pending&amp;stype=overview&amp;p1=f_3039415415&amp;s1=120271&amp;f1=1000&amp;st1=NJ&amp;plid1=8792156&amp;locId=19824" width="1"/>
    </div>
   </div>
   <script>
@@ -3318,10 +3957,7 @@ var utag_data = {"page_type":"pdp","page_name":"details:Overview","campaign":"",
       _satellite.pageBottom();
     }
   </script>
-  <script type="text/javascript">
-   window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"28d67b3a7a","applicationID":"43449896","transactionName":"ZANTYEFXXBIFVE1cDl1JckFAQl0MS2d9ZSdBCV9AcFlcFRZYVVkEQVwLUUtTURQQUmZcD1cDSQ==","queueTime":0,"applicationTime":437,"atts":"SEREFglNT01GVhsPGk4b","errorBeacon":"bam.nr-data.net","agent":""}
-  </script>
  </body>
 </html>
-<!-- T:456.5749168396 H:902 S:146684 M:8388608 P:8388608 -->
+<!-- T:219.37203407288 H:24 S:165330 M:6291456 P:6291456 -->
 

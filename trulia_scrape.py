@@ -1,6 +1,6 @@
 from bs4 import BeautifulSoup
 import requests
-
+import pandas as pd
 
 
 def get_home_urls(url):
@@ -9,6 +9,8 @@ def get_home_urls(url):
     soup = BeautifulSoup(trulia_content, "html.parser")
     for home in soup.find_all('a', class_='tileLink'):
         home_urls.append("https://www.trulia.com/" + home['href'])
+    
+    print(home_urls)
 
     return home_urls
 
@@ -17,7 +19,7 @@ def get_home_info(home_url):
     soup = BeautifulSoup(trulia_content, "html.parser")
     print(soup.prettify())
 
-    return
+    
 
 
 
@@ -27,4 +29,4 @@ def get_home_info(home_url):
 # get_home_urls("https://www.trulia.com/NJ/Jersey_City/x_p/") #page etc
 
 
-home_data = get_home_info("https://www.trulia.com//property/3262926259-30-Freedomway-404-Jersey-City-NJ-07305")
+home_data = get_home_info("https://www.trulia.com/property/3039415415-67-Bright-St-1-Jersey-City-NJ-07302")
