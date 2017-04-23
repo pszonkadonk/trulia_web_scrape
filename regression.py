@@ -15,13 +15,11 @@ def run_regression_price_squarefeet(filename):
     home_data = pd.read_csv(filename, encoding="latin1")
     home_data = home_data[home_data.price < 1500000]
     home_data = home_data[home_data.square_feet < 2500]
-    home_data_matrix = home_data.as_matrix()
 
     price = home_data[['price']]
     square_feet = home_data[['square_feet']]
     
-    model = LinearRegression().fit(price, square_feet)
-
+    model = LinearRegression().fit(square_feet, price)
 
     m = model.coef_[0]
     b = model.intercept_
@@ -29,28 +27,24 @@ def run_regression_price_squarefeet(filename):
 
     ax = plt.subplot()
     plt.xticks(fontsize= 8)
-    plt.yticks()
+    plt.yticks(fontsize=8)
     
 
-    plt.scatter(price, square_feet , color="purple", s=4.5)
-    ax.xaxis.set_major_formatter(tkr.FuncFormatter(currency_fmt))
+    plt.scatter(square_feet, price , color="purple", s=4.5)
+    ax.yaxis.set_major_formatter(tkr.FuncFormatter(currency_fmt))
     
 
-    plt.plot(price, model.predict(price), color='black', linewidth=2)
+    plt.plot(square_feet, model.predict(square_feet), color='black', linewidth=2)
 
     plt.title("Jersey City Housing Price Against Square Feet")
-    plt.ylabel("Square Feet")
-    plt.xlabel("Price")
+    plt.ylabel("Price")
+    plt.xlabel("Square Feet")
 
-    
- 
-    
     plt.show()
 
 def plot_price_years(filename):
     home_data = pd.read_csv(filename, encoding="latin1")
     home_data = home_data[home_data.price < 1500000]
-    home_data_matrix = home_data.as_matrix()
 
     ax = plt.subplot()
     ax.yaxis.set_major_formatter(tkr.FuncFormatter(currency_fmt))
