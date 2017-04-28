@@ -2,7 +2,23 @@ import requests
 from bs4 import BeautifulSoup
 from xml.etree import ElementTree
 import xml.dom.minidom
+import pandas as pd
+import numpy as np
+import csv
 
+def get_home_addresses():
+    home_data = pd.read_csv("foo.csv")
+    home_addressess = pd.DataFrame()
+    home_addressess['street'] = home_data['street']
+    home_addressess['city_state'] = home_data.city + ", " + home_data.state
+
+    return home_addressess
+
+def write_to_csv(data): 
+    print("writing data to file...")
+    with open('zillow-data.csv', 'a', newline='') as csvfile:
+        writer = csv.writer(csvfile)
+        writer.writerow(data)   
 
 def pretty_print(xml_content):
     content = xml.dom.minidom.parseString(xml_content)
@@ -11,6 +27,7 @@ def pretty_print(xml_content):
     print(pretty_xml)
 
 def property_deep_search(address, city_state_zip):
+
 
     endpoint = "http://www.zillow.com/webservice/GetDeepSearchResults.htm?"
     
@@ -24,61 +41,72 @@ def property_deep_search(address, city_state_zip):
     response = requests.get(endpoint, params=params)
     root = ElementTree.fromstring(response.content)
 
-    pretty_print(response.content)
+    # pretty_print(response.content)
 
 
-    #RESPONSE
+    # RESPONSE
+    try:
+        results= root[2][0]
+        result = results[0]
 
-    results= root[2][0]
-    result = results[0]
+        zpid = result[1]
 
-    zpid = result[1]
+        # ADDRESS
+        address = result.find('address')
+        street = address.find('street').text
+        zip_code = address.find('zipcode').text
+        city = address.find('city').text
+        state = address.find('state').text
+        latitude = address.find('latitude').text
+        longitude = address.find('longitude').text
+    except Exception:
+        pass
+        # HOUSE INFO
+    try:    
+        use_code = result.find('useCode').text if result.find('useCode') != None else "N/A"
+        tax_assessment_year = result.find('taxAssessmentYear').text if result.find('taxAssessmentYear') != None else "N/A"
+        tax_assessment = result.find('taxAssessment').text if result.find('taxAssessment') != None else "N/A"
+        year_built = result.find('yearBuilt').text if result.find('yearBuilt') != None else "N/A"
+        lot_size_sqft = result.find('lotSizeSqFt').text if result.find('lotSizeSqFt') != None else "N/A"
+        finished_sqft = result.find('finishedSqFt').text if result.find('finishedSqFt') != None else "N/A"
+        bathroom = result.find('bathrooms').text if result.find('bathrooms') != None else "N/A"
+        bedrooms = result.find('bedrooms').text if result.find('bedrooms') != None else "N/A"
+        last_sold_date = result.find('lastSoldDate').text if result.find('lastSoldDate') != None else "N/A"
+        last_sold_price = result.find('lastSoldPrice ').text if result.find('lastSoldPrice ') != None else "N/A"
 
-    # ADDRESS
-    address = result[2]
-    street = address[0]
-    zip_code = address[1]
-    city = address[2]
-    state = address[3]
-    latitude = address[4]
-    longitude = address[5]
+        zestimate_amount = result.find('zestimate')
 
-    # HOUSE INFO
+        # LOCAL REAL ESTATE
 
-    use_code = result[4]
-    tax_assessment_year = result[5]
-    tax_assessment = result[6]
-    year_built = result[7]
-    lot_size_sqft = result[8]
-    finished_sqft = result[9]
-    bathroom = result[10]
-    bedrooms = result[11]
-    last_sold_date = result[12]
-    last_sold_price = result[13]
+        local_real_estate = result.find('localRealEstate')
+        region = local_real_estate.find('region')
+        # neighborhood_type = result[15][1]
+        # neighborhood_name = result[15][2]
 
-    zestimate_amount = result[14][0]
+        region_id = region.get('id')
+        region_type = region.get('type')
+        region_name = region.get('name')
+    except Exception:
+        pass
 
-    # LOCAL REAL ESTATE
+    zillow_home_data = [street, zip_code, city, state, latitude, longitude, use_code, tax_assessment_year, tax_assessment,
+                        year_built, lot_size_sqft, finished_sqft, bathroom, bedrooms, last_sold_date, last_sold_price, region_id,
+                        region_type, region_name]
 
-    region = result[15][0]
-    neighborhood_type = result[15][1]
-    neighborhood_name = result[15][2]
+    write_to_csv(zillow_home_data)
 
-    region_id = region.get('id')
-    region_type = region.get('type')
-    region_name = region.get('name')
 
+
+        
 
     
+home_addresses = get_home_addresses()
+
+for index, row in home_addresses.iterrows():
+    property_deep_search(row['street'], row['city_state'])
     
 
-    
-    
-
-    
 
 
 
-
-property_deep_search("120 Lincoln Street", "Jersey City, NJ")
-
+# property_deep_search("270 Harrison Ave", "Jersey City, NJ")
