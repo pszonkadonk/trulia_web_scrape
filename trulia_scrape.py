@@ -2,31 +2,32 @@ from bs4 import BeautifulSoup
 import requests
 import pandas as pd
 
+def write_street_address(addresses, city):
+    with open("trulia-street-addresses-"+city+".txt", "w") as street_file:
+        for home in addresses:
+            street_file.write(home)
+            street_file.write('\n')
 
-def get_home_urls(url):
-    home_urls = []
-    trulia_content = requests.get(url).content
-    soup = BeautifulSoup(trulia_content, "html.parser")
-    for home in soup.find_all('a', class_='tileLink'):
-        home_urls.append("https://www.trulia.com/" + home['href'])
+
+def get_street_addresses(city):
+    count = 1
+    limit_page = 3
+    home_addresses = []
+    url = "https://www.trulia.com/NJ/" + city + "/"
+
+    while(count < limit_page):
+        url = url + str(count) + "_p"
+        trulia_content = requests.get(url).content
+        soup = BeautifulSoup(trulia_content, "html.parser")
+        for home in soup.find_all('a', class_='tileLink phm'):
+            home_addresses.append(home.get('alt'))
+
+        count+=1
+    print(home_addresses)
+    write_street_address(home_addresses, city)
+
+
+
     
-    print(home_urls)
 
-    return home_urls
-
-def get_home_info(home_url):
-    trulia_content = requests.get(home_url).content
-    soup = BeautifulSoup(trulia_content, "html.parser")
-    print(soup.prettify())
-
-    
-
-
-
-# home_urls = get_home_urls("https://www.trulia.com/NJ/Jersey_City/")
-# get_home_urls("https://www.trulia.com/NJ/Jersey_City/2_p/") #page 2
-# get_home_urls("https://www.trulia.com/NJ/Jersey_City/3_p/") #page 3
-# get_home_urls("https://www.trulia.com/NJ/Jersey_City/x_p/") #page etc
-
-
-home_data = get_home_info("https://www.trulia.com/property/3039415415-67-Bright-St-1-Jersey-City-NJ-07302")
+get_street_addresses("Jersey City")

@@ -1,0 +1,117 @@
+Clustering / Classification / Unsupervised Learning/ Supervised Learning
+
+Performing cluster analysis for homes across the state of new jersey.  For example, doing cluster analys
+on homes in Short Hills New Jersey vs homes in Wayne New Jersey. (Perhaps performs even a cluster analysis
+ in singoe family homes / condos across counties in the state).  
+
+ Perhaps run cluster on homes in different counties in Northern New Jersey.  On x axis run square feet,
+ and then on y axis run price?
+
+ 
+
+
+Northren New Jersey counties
+
+For the 8 counties considered to be part of "Northern New Jersey", find homes in the 10 largest
+municipalities in those counties
+
+Bergen County
+    Hackensack
+    Teaneck	township
+    Fort Lee
+    Fair Lawn
+    Garfield
+    Englewood
+    Bergenfield
+    Paramus
+    Mahwah
+    Ridgewood
+
+Essex County
+    Newark
+    East Orange
+    Irvington
+    Bloomfield
+    West Orange
+    Montclair
+    Belleville
+    Orange
+    Livingston
+    Nutley
+
+Hudson County
+    Jersey City
+    Union City
+    Bayonne
+    North Bergen
+    Hoboken
+    West New York
+    Kearny
+    Secaucus
+    Harrison
+    Weehawken
+
+Morris County
+    Parsippany-Troy Hills Township
+    Lake Hiawatha
+    Mount Olive Township
+    Randolph
+    Rockaway Township
+    Morris Township
+    Montville
+    Jefferson Township
+    Washington Township
+    Morristown
+
+Passaic County
+    Paterson
+    Clifton
+    Passaic
+    Wayne
+    West Milford
+    Hawthorne
+    Little Falls
+    Ringwood
+    Woodland Park
+    Wanaque
+
+
+Sussex County
+    Andover Township
+    Byram Township
+    Frankford Township
+    Franklin 
+    Hampton Township
+    Hopatcong
+    Newton
+    Sparta
+    Vernon Township
+    Wantage Township
+    
+    Union County
+
+    Elizabeth
+    Union
+    Plainfield
+    Linden
+    Westfield
+    Rahway
+    Scotch Plains
+    Cranford
+    Summit
+    Hillside 
+
+
+
+Warren County
+
+Phillipsburg
+Hackettstown
+Lopatcong Township
+Mansfield Township
+Washington Township
+Washington Borough
+Blairstown Township
+Greenwich Township
+Independence Township
+White Township
