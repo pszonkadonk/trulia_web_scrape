@@ -7,8 +7,6 @@ on homes in Short Hills New Jersey vs homes in Wayne New Jersey. (Perhaps perfor
  Perhaps run cluster on homes in different counties in Northern New Jersey.  On x axis run square feet,
  and then on y axis run price?
 
- 
-
 
 Northren New Jersey counties
 
@@ -39,7 +37,7 @@ Essex County
     Livingston
     Nutley
 
-Hudson County
+Hudson Countymm
     Jersey City
     Union City
     Bayonne
@@ -76,17 +74,6 @@ Passaic County
     Wanaque
 
 
-Sussex County
-    Andover Township
-    Byram Township
-    Frankford Township
-    Franklin 
-    Hampton Township
-    Hopatcong
-    Newton
-    Sparta
-    Vernon Township
-    Wantage Township
     
     Union County
 
@@ -115,3 +102,29 @@ Blairstown Township
 Greenwich Township
 Independence Township
 White Township
+
+
+
+
+
+*not used
+Sussex County
+    Andover Township
+    Byram Township
+    Frankford Township
+    Franklin 
+    Hampton Township
+    Hopatcong
+    Newton
+    Sparta
+    Vernon Township
+    Wantage Township
+
+
+
+
+
+Comparsion of description vs some normalized price
+Something normalized by age, price  and size of the house.
+
+Study correlation between description and price of the house

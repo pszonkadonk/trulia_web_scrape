@@ -21,7 +21,7 @@ def write_to_csv(data):
     print("writing data to file...")
     with open('data-with-year-remaining.csv', 'w', newline='') as csvfile:
         writer = csv.writer(csvfile)
-        writer.writerows(data)   
+        writer.writerows([data])   
 
 def scrapeData():
     count = 31
