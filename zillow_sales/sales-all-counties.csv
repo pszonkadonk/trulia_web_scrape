@@ -1,0 +1,1320 @@
+street,zip_code,city,state,county,latitude,longitude,use_code,tax_assessment_year,tax_assessment,year_built,lot_size_sqft,finished_sqft,bathroom,bedrooms,last_sold_date,last_sold_price,region_id,region_type,region_name
+14 S Woodside Ave,7621,Bergenfield,NJ,Bergen,40.927623,-73.991965,SingleFamily,2015,282489,1950,N/A,1120,2,3,5/3/17,425000,44137,city,Bergenfield
+6 Sherwood Rd,7628,Dumont,NJ,Bergen,40.947162,-73.99576,SingleFamily,2015,305902,1900,8350,1436,3,4,5/2/17,505000,17827,city,Dumont
+514 Roff Ave,7650,PALISADES PARK,NJ,Bergen,40.85059,-73.990288,MultiFamily2To4,2015,438351,N/A,N/A,N/A,8,8,5/2/17,755000,19819,city,Palisades Park
+352 Edstan Way,7652,Paramus,NJ,Bergen,40.939427,-74.043964,SingleFamily,2015,376574,1950,N/A,1408,N/A,N/A,5/2/17,429000,46984,city,Paramus
+11 Emily Ct,7627,Demarest,NJ,Bergen,40.958667,-73.951128,SingleFamily,2015,1333215,1970,24598,3396,4,5,5/2/17,1350000,44903,city,Demarest
+95 Melville Rd,7642,Hillsdale,NJ,Bergen,41.008734,-74.075814,SingleFamily,2015,679415,1964,15681,2568,4,5,5/2/17,740000,5169,city,Hillsdale
+323 Grant Ave,7628,Dumont,NJ,Bergen,40.947391,-73.976473,SingleFamily,2015,309996,1940,5898,1392,2,3,5/1/17,367000,17827,city,Dumont
+160 Overlook Ave APT 12D,7601,Hackensack,NJ,Bergen,40.888007,-74.054469,Condominium,2015,199394,1986,222,N/A,1,1,5/1/17,200000,38835,city,Hackensack
+1595 Anderson Ave,7024,Fort Lee,NJ,Bergen,40.851947,-73.97631,SingleFamily,2016,409141,1947,6612,1434,N/A,N/A,5/1/17,618000,11491,city,Fort Lee
+92 Elmwood Ave,7423,Ho Ho Kus,NJ,Bergen,40.999451,-74.106534,SingleFamily,2015,657561,1950,N/A,1814,2,3,5/1/17,707000,25143,city,Ho Ho Kus
+294 Continental Ave,7661,River Edge,NJ,Bergen,40.935364,-74.041524,SingleFamily,2015,428898,1976,6299,2352,2,3,5/1/17,445000,43381,city,River Edge
+8 Fordham Rd,7436,Oakland,NJ,Bergen,41.032361,-74.224416,SingleFamily,2015,399118,1955,11587,2097,N/A,N/A,5/1/17,620000,19724,city,Oakland
+628 Lincoln Blvd,7675,Westwood,NJ,Bergen,40.979457,-74.040384,SingleFamily,2015,367045,1942,5998,1764,2,4,5/1/17,499900,27912,city,Westwood
+116 Leroy St,7670,Tenafly,NJ,Bergen,40.911767,-73.954972,SingleFamily,2015,842359,1950,N/A,N/A,4,4,5/1/17,850000,47961,city,Tenafly
+742 Lancaster Rd,7657,Ridgefield,NJ,Bergen,40.827681,-74.004814,SingleFamily,2015,386095,1954,5249,2157,3,3,5/1/17,435000,22330,city,Ridgefield
+445 Lasalle Ave,7604,Hasbrouck Heights,NJ,Bergen,40.862856,-74.067858,SingleFamily,2015,302099,1958,4800,910,N/A,0,5/1/17,323000,38911,city,Hasbrouck Heights
+8 Meredith Rd,7627,Demarest,NJ,Bergen,40.958175,-73.953167,SingleFamily,2015,805928,1950,17424,3800,4,4,4/29/17,1225000,44903,city,Demarest
+25 Hillside Ter,7645,Montvale,NJ,Bergen,41.038052,-74.023964,SingleFamily,2015,399145,1954,12502,1525,1.5,3,4/28/17,412000,25968,city,Montvale
+736 Bogert Rd,7661,River Edge,NJ,Bergen,40.934608,-74.034226,SingleFamily,2015,371583,1900,N/A,N/A,1,3,4/28/17,390000,43381,city,River Edge
+443 Banta Ave,7026,Garfield,NJ,Bergen,40.889121,-74.105179,MultiFamily2To4,2015,384841,1900,4791,2860,4,8,4/28/17,595000,42213,city,Garfield
+45 Lasalle Ave,7604,Hasbrouck Heights,NJ,Bergen,40.869811,-74.079693,SingleFamily,2015,331593,N/A,N/A,N/A,2,3,4/28/17,390000,38911,city,Hasbrouck Heights
+22 Eagle St,7031,North Arlington,NJ,Bergen,40.790988,-74.132462,SingleFamily,2015,228100,2010,N/A,N/A,3,3,4/28/17,415000,19654,city,North Arlington
+370 Union Ave,7075,Wood Ridge,NJ,Bergen,40.847057,-74.091007,SingleFamily,2015,335223,N/A,N/A,N/A,1,4,4/28/17,344000,48563,city,Wood Ridge
+555 Mill Run,7652,Paramus,NJ,Bergen,40.963323,-74.094197,SingleFamily,2015,810465,1988,18949,3727,3,5,4/28/17,688000,46984,city,Paramus
+97 Large Ave,7642,Hillsdale,NJ,Bergen,41.004971,-74.03571,SingleFamily,2015,418052,1919,15908,1400,2,3,4/2/02,242500,5169,city,Hillsdale
+55 Woods Ave,7621,Bergenfield,NJ,Bergen,40.929232,-74.010026,MultiFamily2To4,2015,381126,N/A,6098,N/A,2,5,4/28/17,410000,44137,city,Bergenfield
+268 Manning Ave,7661,River Edge,NJ,Bergen,40.929077,-74.043261,SingleFamily,2015,451894,1940,7375,2226,4,3,4/28/17,575000,43381,city,River Edge
+433 Chestnut Ave,7606,South Hackensack,NJ,Bergen,40.863698,-74.043196,SingleFamily,2015,404320,1981,7501,2600,N/A,N/A,4/28/17,400000,398243,city,South Hackensack Township
+117 Stony Ridge Dr,7642,Hillsdale,NJ,Bergen,41.00764,-74.06185,SingleFamily,2015,529399,1950,N/A,N/A,2,5,4/28/17,515000,5169,city,Hillsdale
+300 Winston Dr APT 1017,7010,Cliffside Park,NJ,Bergen,40.827727,-73.980366,Condominium,2015,320890,1970,N/A,N/A,2,2,4/28/17,395000,4131,city,Cliffside Park
+236 Paterson Ave,7644,Lodi,NJ,Bergen,40.869515,-74.0771,SingleFamily,2015,270025,N/A,N/A,N/A,1,3,4/28/17,285000,53018,city,Lodi
+250 Stover Ave,7031,North Arlington,NJ,Bergen,40.794137,-74.137661,SingleFamily,2015,240100,N/A,N/A,N/A,4,3,4/28/17,399000,19654,city,North Arlington
+97 Valley Rd,7452,Glen Rock,NJ,Bergen,40.963994,-74.129506,SingleFamily,2015,643535,1920,17698,2516,4,3,4/28/17,740000,38710,city,Glen Rock
+177 Harding Pl,7607,Maywood,NJ,Bergen,40.913999,-74.063517,SingleFamily,2015,410543,1996,7000,2421,3.5,5,4/28/17,485000,22369,city,Maywood
+140 W Englewood Ave # 14,7666,Teaneck,NJ,Bergen,40.900245,-74.00473,Condominium,2016,135789,1935,435,644,1,1,5/27/16,90000,47956,city,Teaneck
+221 Park Ave,7666,Teaneck,NJ,Bergen,40.870571,-74.018217,SingleFamily,2015,410251,1940,5001,2448,4,4,4/28/17,475000,47956,city,Teaneck
+77 Hill St,7075,Wood Ridge,NJ,Bergen,40.843692,-74.086181,SingleFamily,2015,292630,1904,4995,1409,2,4,4/28/17,415000,48563,city,Wood Ridge
+83 Holland Ave,7627,Demarest,NJ,Bergen,40.942142,-73.948335,SingleFamily,2015,571395,1950,N/A,N/A,6,5,4/28/17,1200000,44903,city,Demarest
+59 Louville Ave,7656,Park Ridge,NJ,Bergen,41.038876,-74.04567,SingleFamily,2015,358938,1900,10000,1484,1,3,4/28/17,707500,53809,city,Park Ridge
+19 Columbine Rd,7652,Paramus,NJ,Bergen,40.953009,-74.075332,SingleFamily,2015,549718,1968,N/A,1919,4,4,4/28/17,760000,46984,city,Paramus
+407 Poets Way,7430,Mahwah,NJ,Bergen,41.071151,-74.167037,Condominium,2015,285201,1980,N/A,N/A,1,3,4/28/17,255000,12515,city,Mahwah
+80 Truman Blvd,7436,Oakland,NJ,Bergen,41.035408,-74.244016,SingleFamily,2015,365670,1960,17859,1548,2,4,4/27/17,218000,19724,city,Oakland
+1052 Abbott Blvd,7024,Fort Lee,NJ,Bergen,40.833883,-73.981335,SingleFamily,2015,689715,1939,5001,5000,4,3,4/27/17,840000,11491,city,Fort Lee
+2008 Beatrice Ct,7430,Mahwah,NJ,Bergen,41.101441,-74.142458,Townhouse,2015,96017,1960,N/A,960,1,2,4/27/17,104000,12515,city,Mahwah
+72 Andover Ter,7452,Glen Rock,NJ,Bergen,40.954933,-74.105325,SingleFamily,2015,430445,2016,10498,4785,4,5,4/27/17,1215000,38710,city,Glen Rock
+138 Sicomac Ave,7432,Midland Park,NJ,Bergen,40.989025,-74.150903,SingleFamily,2015,304329,1952,8712,1075,1,3,4/27/17,355000,25884,city,Midland Park
+196 W Clinton Ave,7670,Tenafly,NJ,Bergen,40.924413,-73.974652,SingleFamily,2015,455859,1900,6852,2172,2,3,4/27/17,625000,47961,city,Tenafly
+658 Summit St,7632,Englewood Cliffs,NJ,Bergen,40.890293,-73.94935,SingleFamily,2015,1293900,1959,13909,3168,4,3,4/27/17,1137000,31443,city,Englewood Cliffs
+48 Wayne Ave,7661,River Edge,NJ,Bergen,40.922273,-74.035971,SingleFamily,2015,381878,1939,N/A,1798,1,3,4/27/17,424900,43381,city,River Edge
+1143 Cumbermeade Rd,7024,Fort Lee,NJ,Bergen,40.836511,-73.980008,SingleFamily,2015,757662,1950,N/A,N/A,4,5,4/26/17,945000,11491,city,Fort Lee
+782 Birchwood Dr,7481,Wyckoff,NJ,Bergen,40.982707,-74.185907,SingleFamily,2015,940700,2016,45302,5700,6,6,4/26/17,2175000,29390,city,Wyckoff
+67 Woodside Ave,7432,Midland Park,NJ,Bergen,40.998003,-74.134461,SingleFamily,2015,572312,1950,16988,2337,3,4,4/26/17,605000,25884,city,Midland Park
+3307 Riverview Ave # 307,7631,Englewood,NJ,Bergen,40.8799,-73.9882,Condominium,2015,353424,2010,N/A,N/A,2.5,2,4/26/17,390000,11326,city,Englewood
+68 Norwood Ave,7644,Lodi,NJ,Bergen,40.867715,-74.089589,SingleFamily,2015,389433,1950,5001,2100,N/A,N/A,4/26/17,318000,53018,city,Lodi
+45 Central Ave,7644,Lodi,NJ,Bergen,40.871138,-74.085719,MultiFamily2To4,2015,457818,N/A,N/A,N/A,4,3,4/26/17,462000,53018,city,Lodi
+10 Stony Ridge Dr,7642,Hillsdale,NJ,Bergen,41.010909,-74.060049,SingleFamily,2015,590211,1951,22298,2244,3,4,4/26/17,576000,5169,city,Hillsdale
+446 Santiago Ct,7430,Mahwah,NJ,Bergen,41.090267,-74.166893,Condominium,2015,443118,1990,N/A,N/A,3,2,4/26/17,420000,12515,city,Mahwah
+314 The Promenade,7020,Edgewater,NJ,Bergen,40.806492,-73.987177,Condominium,2015,567404,2000,N/A,N/A,2,3,4/25/17,672500,9859,city,Edgewater
+16 Momar Dr,7621,Bergenfield,NJ,Bergen,40.935622,-73.981732,SingleFamily,2015,582876,2005,5662,2383,4,4,4/25/17,433000,44137,city,Bergenfield
+39 Pangborn Pl,7601,Hackensack,NJ,Bergen,40.893594,-74.041616,SingleFamily,2015,242770,1907,4900,1453,2,3,4/25/17,280000,38835,city,Hackensack
+269 Adriana St,7663,Saddle Brook,NJ,Bergen,40.893598,-74.090927,SingleFamily,2015,296364,1947,5502,1854,N/A,1,4/25/17,1000,6877,city,Saddle Brook
+23 Fairview Ave,7452,Glen Rock,NJ,Bergen,40.958082,-74.142618,SingleFamily,2015,490033,1920,11848,1715,2,3,4/27/17,620000,38710,city,Glen Rock
+132 Harrison Ave,7026,Garfield,NJ,Bergen,40.870819,-74.100182,MultiFamily2To4,2015,272930,1910,8200,2800,3,7,4/24/17,399900,42213,city,Garfield
+639 7th St,7071,Lyndhurst,NJ,Bergen,40.803224,-74.126817,SingleFamily,2015,249300,N/A,N/A,N/A,1,2,4/24/17,311600,25687,city,Lyndhurst
+583 Abbott Ave,7657,Ridgefield,NJ,Bergen,40.834212,-74.004417,SingleFamily,2015,413995,N/A,N/A,N/A,3,3,4/24/17,570000,22330,city,Ridgefield
+256 Engle St,7670,Tenafly,NJ,Bergen,40.925608,-73.957602,SingleFamily,2015,799803,2016,30952,5000,6,5,4/24/17,1805000,47961,city,Tenafly
+57 Birchwood Dr,7031,North Arlington,NJ,Bergen,40.796827,-74.13711,SingleFamily,2015,274800,1941,4791,4987,1,3,4/24/17,329000,19654,city,North Arlington
+421 Columbia Ave,7010,Cliffside Park,NJ,Bergen,40.828507,-73.989413,SingleFamily,2015,363177,1926,4508,1640,2,3,4/24/17,312500,4131,city,Cliffside Park
+49 E Grand Ave,7645,Montvale,NJ,Bergen,41.041361,-74.021694,SingleFamily,2015,372396,1955,9500,1220,1,2,4/6/17,360000,25968,city,Montvale
+563 Overlook Pl,7631,Englewood,NJ,Bergen,40.871028,-73.973018,SingleFamily,2015,449989,1948,9178,1324,3,3,4/24/17,291375,11326,city,Englewood
+285 Castle Dr,7632,Englewood Cliffs,NJ,Bergen,40.87489,-73.961509,SingleFamily,2015,884800,1963,10454,2670,N/A,4,4/24/17,750000,31443,city,Englewood Cliffs
+187 Woodland Ave,7070,Rutherford,NJ,Bergen,40.818322,-74.109447,SingleFamily,2015,419700,1918,6804,1551,N/A,N/A,4/24/17,340000,26885,city,Rutherford
+449 Stuyvesant Ave,7071,Lyndhurst,NJ,Bergen,40.810239,-74.129546,SingleFamily,2016,288484,1925,4095,1338,3,4,4/24/17,440000,25687,city,Lyndhurst
+24 Cambridge Dr,7401,Allendale,NJ,Bergen,41.022605,-74.132974,SingleFamily,2015,774839,1950,29620,3753,3,5,4/24/17,860000,10081,city,Allendale
+145 Stuart St,7652,Paramus,NJ,Bergen,40.937581,-74.0592,SingleFamily,2015,580764,1950,N/A,2985,3,4,4/24/17,614600,46984,city,Paramus
+39 Hemlock Dr,7652,Paramus,NJ,Bergen,40.937257,-74.067678,SingleFamily,2015,465154,1970,N/A,2307,3,3,4/24/17,390000,46984,city,Paramus
+283 Goffle Rd,7450,Ridgewood,NJ,Bergen,40.980176,-74.14303,SingleFamily,2015,475362,1920,10018,N/A,3,4,4/24/17,460000,20176,city,Ridgewood
+31 Lindley Ave,7670,Tenafly,NJ,Bergen,40.916667,-73.969573,SingleFamily,2015,475769,1900,5998,1910,3,4,4/24/17,680000,47961,city,Tenafly
+231 Main St,7010,Cliffside Park,NJ,Bergen,40.813998,-73.993151,SingleFamily,2015,279975,1922,2613,1698,N/A,N/A,4/24/17,262500,4131,city,Cliffside Park
+240 Riverview Pl,7010,Cliffside Park,NJ,Bergen,40.812509,-73.994408,MultiFamily2To4,2015,334704,1922,2901,1760,2,4,4/24/17,305000,4131,city,Cliffside Park
+291 Carlton Ter,7666,Teaneck,NJ,Bergen,40.890706,-74.015314,SingleFamily,2015,365755,1927,5001,2622,2,3,4/24/17,325000,47956,city,Teaneck
+8 Lowell Ct # 708,7666,Teaneck,NJ,Bergen,40.875805,-74.002905,Condominium,2015,345172,1983,2087,1910,N/A,N/A,4/24/17,265000,47956,city,Teaneck
+411 2nd St APT B,7650,Palisades Park,NJ,Bergen,40.849264,-73.994573,SingleFamily,2015,485332,2007,5000,1956,N/A,N/A,1/6/16,850000,19819,city,Palisades Park
+101 Grove St,7436,Oakland,NJ,Bergen,41.01211,-74.243363,SingleFamily,2015,395677,1954,19166,N/A,2,3,4/24/17,318750,19724,city,Oakland
+162 Clinton St,7607,Maywood,NJ,Bergen,40.891764,-74.062911,SingleFamily,2015,286662,1955,5000,2800,2,4,4/24/17,400000,22369,city,Maywood
+106 Debaun Ave,7446,Ramsey,NJ,Bergen,41.061551,-74.126645,SingleFamily,2015,476567,1900,14985,2407,3,4,4/24/17,365000,6679,city,Ramsey
+516 Fairway Rd,7450,Ridgewood,NJ,Bergen,40.980973,-74.101645,SingleFamily,2015,658418,1946,6000,1900,4,4,4/24/17,792000,20176,city,Ridgewood
+631 Albin St,7666,Teaneck,NJ,Bergen,40.880879,-74.012418,SingleFamily,2015,302895,1930,5001,1766,3,4,4/27/17,387000,47956,city,Teaneck
+89 Halstead Ave,7057,Wallington,NJ,Bergen,40.856345,-74.113982,MultiFamily2To4,2015,327175,1900,3746,1702,4,8,4/24/17,499000,50015,city,Wallington
+193 Johnson Ave,7628,Dumont,NJ,Bergen,40.942777,-73.999044,SingleFamily,2015,279621,1948,4791,1260,1,2,4/24/17,274900,17827,city,Dumont
+465 S Elm St,7607,Maywood,NJ,Bergen,40.900953,-74.06091,SingleFamily,2015,309758,1940,N/A,N/A,2,3,4/24/17,440000,22369,city,Maywood
+140 W Englewood Ave APT 5B,7666,Teaneck,NJ,Bergen,40.900212,-74.004753,MultiFamily2To4,N/A,N/A,N/A,N/A,N/A,1,2,N/A,N/A,47956,city,Teaneck
+143 Broad Ave,7605,Leonia,NJ,Bergen,40.855506,-73.991967,SingleFamily,2015,377494,N/A,N/A,N/A,2,2,4/21/17,430500,12368,city,Leonia
+767 Darlington Ave,7430,Mahwah,NJ,Bergen,41.071753,-74.177948,SingleFamily,2015,441322,N/A,N/A,N/A,1,2,4/21/17,280000,12515,city,Mahwah
+745 Greeley Ave,7022,Fairview,NJ,Bergen,40.824301,-74.007365,SingleFamily,2015,313644,1960,5610,2200,3,3,4/21/17,485000,18065,city,Fairview
+214 Fairfield Ave,7450,Ridgewood,NJ,Bergen,40.983542,-74.105097,SingleFamily,2015,780960,1940,12196,3123,4,5,4/21/17,1050000,20176,city,Ridgewood
+184 Clayton Ter,7652,Paramus,NJ,Bergen,40.936086,-74.055862,SingleFamily,2015,394051,1950,9344,1299,N/A,N/A,4/21/17,1150000,46984,city,Paramus
+1005 Carnation Dr,7646,New Milford,NJ,Bergen,40.920842,-74.021703,SingleFamily,2015,278244,1950,N/A,1414,2,4,4/26/17,362000,19592,city,New Milford
+10 Grand St,7675,Westwood,NJ,Bergen,40.995736,-74.03247,SingleFamily,2015,514749,N/A,7500,2231,3.5,4,4/21/17,557501,27912,city,Westwood
+208 Cambridge Ave,7026,Garfield,NJ,Bergen,40.872352,-74.110711,MultiFamily2To4,2015,219054,1960,2178,2000,3,4,4/21/17,345000,42213,city,Garfield
+716 6th Ave,7661,River Edge,NJ,Bergen,40.935902,-74.041648,SingleFamily,2015,506006,1950,11249,1807,2,3,4/21/17,347239,43381,city,River Edge
+664 Stewart St,7657,Ridgefield,NJ,Bergen,40.83022,-73.995836,SingleFamily,2015,889751,N/A,N/A,N/A,5,4,4/21/17,1125000,22330,city,Ridgefield
+251 Post Ave,7071,Lyndhurst,NJ,Bergen,40.811413,-74.129568,SingleFamily,2015,300500,1920,4574,1743,3,3,4/21/17,490000,25687,city,Lyndhurst
+58 Mackay Ave,7463,Waldwick,NJ,Bergen,41.018804,-74.117646,SingleFamily,2015,565600,1951,6969,996,4,4,4/21/17,649900,48302,city,Waldwick
+49 Park Ave,7031,North Arlington,NJ,Bergen,40.782295,-74.131692,SingleFamily,2015,274700,N/A,N/A,N/A,1,2,4/21/17,291000,19654,city,North Arlington
+29A W Harwood Ter # 1,7650,Palisades Park,NJ,Bergen,40.845294,-74.001166,SingleFamily,2015,576531,2005,N/A,2048,N/A,N/A,4/21/17,655000,19819,city,Palisades Park
+78 Manhattan Ave,7463,Waldwick,NJ,Bergen,41.012331,-74.113125,SingleFamily,2015,339000,1957,4791,5001,2,3,4/21/17,375000,48302,city,Waldwick
+66 Ramapo River Trce,7436,Oakland,NJ,Bergen,41.039193,-74.241733,SingleFamily,2015,614219,2000,7405,2932,4,4,4/21/17,619888,19724,city,Oakland
+15 Woodvale Rd,7452,Glen Rock,NJ,Bergen,40.952739,-74.108662,SingleFamily,2015,489394,1950,N/A,N/A,3,5,4/21/17,581000,38710,city,Glen Rock
+66 E Crescent Ave,7446,Ramsey,NJ,Bergen,41.04953,-74.123186,SingleFamily,2015,116525,1900,N/A,200,3.5,4,4/21/17,613000,43328,city,Upper Saddle River
+1114 Boulevard,7646,New Milford,NJ,Bergen,40.917594,-74.018298,SingleFamily,2015,363935,1950,8550,N/A,3,4,4/21/17,325000,19592,city,New Milford
+24 Valley Rd,7641,Haworth,NJ,Bergen,40.955605,-73.986897,SingleFamily,2015,784903,2006,13372,2900,3,4,4/21/17,815000,5098,city,Haworth
+5 Kearney St,7071,Lyndhurst,NJ,Bergen,40.821388,-74.122664,SingleFamily,2015,259700,1949,4138,1495,2,4,4/21/17,230000,25687,city,Lyndhurst
+451 Springfield Ave UNIT 110,7604,Hasbrouck Heights,NJ,Bergen,40.853595,-74.075294,Condominium,N/A,N/A,N/A,N/A,2200,3,2,4/21/17,430000,38911,city,Hasbrouck Heights
+66 Sunset Ct,7430,Mahwah,NJ,Bergen,41.080825,-74.165548,Condominium,2015,327559,1970,30927,1320,3,2,4/21/17,405000,12515,city,Mahwah
+322 Cambridge Dr,7446,Ramsey,NJ,Bergen,41.072194,-74.121824,SingleFamily,2015,320852,1993,N/A,1074,N/A,N/A,4/21/17,335000,6679,city,Ramsey
+16 La Rosa Dr,7643,Little Ferry,NJ,Bergen,40.849924,-74.04859,SingleFamily,2015,373204,1972,8276,2008,3,4,4/21/17,419900,46267,city,Little Ferry
+234 4th Ave,7675,Westwood,NJ,Bergen,40.981551,-74.042119,SingleFamily,2015,430362,1949,12502,2826,3,4,4/21/17,409000,27912,city,Westwood
+442 Argyle St,7649,Oradell,NJ,Bergen,40.94344,-74.027405,SingleFamily,2015,427291,1900,3920,2134,3,5,4/21/17,380000,26308,city,Oradell
+641 Lincoln Ave,7607,Maywood,NJ,Bergen,40.908542,-74.064467,SingleFamily,2015,366559,1927,5000,1982,3,3,4/21/17,510000,22369,city,Maywood
+379 S Pleasant Ave,7450,Ridgewood,NJ,Bergen,40.965428,-74.10225,SingleFamily,2015,401016,1950,6098,N/A,1,4,4/21/17,440000,20176,city,Ridgewood
+68 Liberty St,7644,Lodi,NJ,Bergen,40.875274,-74.083334,MultiFamily2To4,2015,370154,1922,6299,1995,2,4,4/21/17,329000,53018,city,Lodi
+11 Grandview Ter,7670,Tenafly,NJ,Bergen,40.927517,-73.956294,SingleFamily,2015,762827,1956,9701,2035,N/A,N/A,4/21/17,1500000,47961,city,Tenafly
+702 Bergen Blvd,7657,Ridgefield,NJ,Bergen,40.831604,-73.991868,MultiFamily2To4,2015,744516,2006,5001,2984,5,6,4/27/17,625000,22330,city,Ridgefield
+55 Park Ave,7642,Hillsdale,NJ,Bergen,41.003284,-74.03984,SingleFamily,2015,328001,1900,N/A,N/A,1,3,4/21/17,355000,5169,city,Hillsdale
+14 Linden Ter,7605,Leonia,NJ,Bergen,40.860821,-73.983414,SingleFamily,2015,412329,N/A,N/A,N/A,2,3,4/21/17,505000,12368,city,Leonia
+279 Grand Ave,7605,Leonia,NJ,Bergen,40.862063,-73.993891,SingleFamily,2015,353319,1960,5650,1331,N/A,0,4/21/17,440000,12368,city,Leonia
+51 Myrtle Ave,7020,Edgewater,NJ,Bergen,40.836912,-73.971511,Condominium,2015,461100,2017,5001,3000,5,3,4/21/17,1180000,9859,city,Edgewater
+14 Large Ave,7642,Hillsdale,NJ,Bergen,41.006014,-74.031615,SingleFamily,2015,502172,1961,17621,1510,3,3,4/21/17,481777,5169,city,Hillsdale
+114 Colony Ave,7656,Park Ridge,NJ,Bergen,41.043298,-74.047083,MultiFamily2To4,2015,403351,N/A,N/A,N/A,2,4,4/21/17,377000,53809,city,Park Ridge
+39 Gunther Ave,7644,Lodi,NJ,Bergen,40.892379,-74.07752,SingleFamily,2015,293992,1953,5049,1413,2,4,4/21/17,315000,53018,city,Lodi
+645 Summit Ave,7601,Hackensack,NJ,Bergen,40.905508,-74.051581,SingleFamily,2015,739632,1900,N/A,N/A,5,4,4/21/17,485000,38835,city,Hackensack
+16 Florence Rd,7640,Harrington Park,NJ,Bergen,40.982636,-73.984215,SingleFamily,2015,530840,1950,N/A,N/A,3,4,4/21/17,725000,25045,city,Harrington Park
+224 Macarthur Ave,7026,Garfield,NJ,Bergen,40.874845,-74.097913,MultiFamily2To4,2015,222808,1940,N/A,N/A,2,3,4/25/17,223000,42213,city,Garfield
+130 E Edsall Ave,7650,Palisades Park,NJ,Bergen,40.841784,-73.997114,SingleFamily,2015,378720,1940,3598,1119,2,3,4/21/17,343000,19819,city,Palisades Park
+92 Spring Valley Rd,7652,Paramus,NJ,Bergen,40.923914,-74.058299,SingleFamily,2015,1085541,1989,63510,8000,6,6,4/21/17,1120000,46984,city,Paramus
+293 Herman St,7601,Hackensack,NJ,Bergen,40.910453,-74.041418,SingleFamily,2015,378838,1936,14664,1782,N/A,N/A,9/22/16,290000,38835,city,Hackensack
+210 Elm Ave,7601,Hackensack,NJ,Bergen,40.906232,-74.048921,SingleFamily,2015,356535,1900,4791,N/A,2,3,N/A,N/A,38835,city,Hackensack
+139 Bonhomme St,7601,Hackensack,NJ,Bergen,40.873089,-74.043924,MultiFamily2To4,2015,351490,1900,4800,1854,2,4,11/21/16,360000,38835,city,Hackensack
+83 S Prospect Ave,7601,Hackensack,NJ,Bergen,40.881137,-74.060998,SingleFamily,2015,263955,1900,N/A,N/A,2,3,3/28/17,315000,38835,city,Hackensack
+443 Maple Hill Dr,7601,Hackensack,NJ,Bergen,40.897751,-74.056495,SingleFamily,2015,278188,1953,7749,1344,1,3,1/18/17,350000,38835,city,Hackensack
+314A 3rd St # 314A,7601,Hackensack,NJ,Bergen,40.891673,-74.051413,SingleFamily,2015,366846,2006,4064,1915,N/A,N/A,3/18/08,440000,38835,city,Hackensack
+110 Clinton Pl,7601,Hackensack,NJ,Bergen,40.896474,-74.043441,SingleFamily,2015,304192,1916,9147,1811,4,4,4/5/17,430000,38835,city,Hackensack
+140 Euclid Ave,7601,Hackensack,NJ,Bergen,40.898196,-74.044566,SingleFamily,2015,558507,1986,255366,N/A,N/A,N/A,4/5/17,246000,38835,city,Hackensack
+326 Parker Ave,7601,Hackensack,NJ,Bergen,40.881824,-74.05839,MultiFamily2To4,2015,375365,N/A,N/A,N/A,2,5,2/6/17,359000,38835,city,Hackensack
+259 1st St,7601,Hackensack,NJ,Bergen,40.88937,-74.049951,MultiFamily2To4,2015,316857,1926,5101,2164,3,3,1/31/17,260000,38835,city,Hackensack
+273 Jackson Ave,7601,Hackensack,NJ,Bergen,40.869513,-74.04275,MultiFamily2To4,2015,369424,1936,5171,2330,4,5,2/17/17,386000,38835,city,Hackensack
+160 Overlook Ave APT 6A,7601,Hackensack,NJ,Bergen,40.888007,-74.054469,Condominium,2015,271912,1986,344,N/A,2,2,1/17/08,333000,38835,city,Hackensack
+72 Pine St,7601,Hackensack,NJ,Bergen,40.902444,-74.044167,SingleFamily,2015,278189,1936,5001,1400,2.5,3,3/30/17,373500,38835,city,Hackensack
+285 Louis St,7601,Hackensack,NJ,Bergen,40.910852,-74.042649,SingleFamily,2015,312038,1931,5000,1664,1,4,1/9/17,330000,38835,city,Hackensack
+205 Ross Ave,7601,Hackensack,NJ,Bergen,40.900804,-74.047441,SingleFamily,2015,314167,1940,5001,1486,1,3,9/7/16,339000,38835,city,Hackensack
+63 Krone Pl,7601,Hackensack,NJ,Bergen,40.903629,-74.046779,SingleFamily,2015,242434,1936,5001,1272,N/A,N/A,1/27/17,237900,38835,city,Hackensack
+146 Summit Ave,7601,Hackensack,NJ,Bergen,40.888743,-74.056853,SingleFamily,2015,640103,1900,N/A,N/A,5,5,1/27/17,590000,38835,city,Hackensack
+378 Kaplan Ave,7601,Hackensack,NJ,Bergen,40.883455,-74.059618,SingleFamily,2015,287492,1940,5001,1497,3,2,1/11/17,280000,38835,city,Hackensack
+493 W Anderson St,7601,Hackensack,NJ,Bergen,40.901397,-74.056319,SingleFamily,2015,238287,1930,7405,786,1.5,2,11/30/16,289000,38835,city,Hackensack
+433 Thompson St,7601,Hackensack,NJ,Bergen,40.885554,-74.060929,MultiFamily2To4,2015,286146,1950,7,2848,3,4,2/13/17,197000,38835,city,Hackensack
+134 Ricardo Pl,7601,Hackensack,NJ,Bergen,40.884543,-74.047872,SingleFamily,2015,197490,1936,2674,891,N/A,N/A,1/17/17,250000,38835,city,Hackensack
+1 Frederick Ct,7656,Park Ridge,NJ,Bergen,41.033768,-74.043236,SingleFamily,2015,761075,2002,11325,3600,3,5,4/13/17,716000,53809,city,Park Ridge
+2084 Jones Rd,7024,Fort Lee,NJ,Bergen,40.85955,-73.977516,SingleFamily,2016,505427,1940,N/A,N/A,2,4,4/14/17,410000,11491,city,Fort Lee
+111 Upper Saddle River Rd,7645,Montvale,NJ,Bergen,41.065915,-74.065012,SingleFamily,2015,691844,1960,N/A,N/A,3,4,4/19/17,855000,25968,city,Montvale
+205 Union Ave,7075,Wood Ridge,NJ,Bergen,40.850826,-74.096623,SingleFamily,2015,329117,1960,5000,1600,2,3,4/19/17,415000,48563,city,Wood Ridge
+355 Bradley Ave,7647,Northvale,NJ,Bergen,41.013298,-73.949707,SingleFamily,2015,384355,1950,N/A,N/A,2,4,4/19/17,475000,33185,city,Northvale
+144 Ridge Ave,7656,Park Ridge,NJ,Bergen,41.040894,-74.052779,SingleFamily,2015,453824,1900,25110,2115,3,5,4/19/17,426000,53809,city,Park Ridge
+9 Judith Pl,7621,Bergenfield,NJ,Bergen,40.91733,-74.00434,SingleFamily,2015,280354,1968,5301,1355,2,3,4/19/17,285000,44137,city,Bergenfield
+21 W Pierrepont Ave,7070,Rutherford,NJ,Bergen,40.823896,-74.115095,SingleFamily,2015,441400,1927,5663,1918,3,4,4/19/17,638900,26885,city,Rutherford
+302 Werimus Rd,7677,Woodcliff Lake,NJ,Bergen,41.032841,-74.065552,SingleFamily,2015,1453463,2000,65340,5404,6,5,4/19/17,1500000,21367,city,Woodcliff Lake
+88 Woodland Park Dr,7670,Tenafly,NJ,Bergen,40.911826,-73.95649,SingleFamily,2015,1027458,N/A,N/A,2688,3.5,4,4/19/17,1245000,47961,city,Tenafly
+77 W Edsall Ave,7650,Palisades Park,NJ,Bergen,40.845879,-74.003297,SingleFamily,2015,403592,1953,5001,1361,2,3,4/19/17,725000,19819,city,Palisades Park
+13 Denison Dr E,7458,Saddle River,NJ,Bergen,41.029315,-74.075845,SingleFamily,2015,2260042,1962,101930,4600,6,5,4/19/17,1720000,9501,city,Saddle River
+32 E Ruby Ave,7650,Palisades Park,NJ,Bergen,40.842575,-74.000106,SingleFamily,2015,504571,1945,6700,1984,N/A,N/A,4/19/17,790000,19819,city,Palisades Park
+3913 Melville Ct,7430,Mahwah,NJ,Bergen,41.069084,-74.162216,SingleFamily,2015,291645,N/A,N/A,N/A,1,2,4/19/17,300000,12515,city,Mahwah
+9 Shelby St,7628,Dumont,NJ,Bergen,40.937181,-73.983074,SingleFamily,2015,324214,N/A,N/A,N/A,2,3,4/19/17,474000,17827,city,Dumont
+1507 Hudson Park,7020,Edgewater,NJ,Bergen,40.718494,-74.034373,SingleFamily,2015,442208,2007,N/A,746,N/A,N/A,4/17/17,500000,275730,neighborhood,The Waterfront
+28B Cleveland Pl # 2,7650,Palisades Park,NJ,Bergen,40.847747,-73.998444,Condominium,2015,609375,2010,N/A,3300,4,4,4/19/10,667000,19819,city,Palisades Park
+270 Greenridge Rd,7417,Franklin Lakes,NJ,Bergen,41.029743,-74.190246,SingleFamily,2015,758133,1959,43560,2500,4,3,4/19/17,600000,11527,city,Franklin Lakes
+811 Golf Pl,7649,Oradell,NJ,Bergen,40.969167,-74.03175,SingleFamily,2015,850499,1968,21117,3915,4,5,4/19/17,799000,26308,city,Oradell
+29 N Lyle Ave,7670,Tenafly,NJ,Bergen,40.92551,-73.979552,SingleFamily,2015,577071,1933,7018,2082,3,4,4/19/17,590000,47961,city,Tenafly
+7 Eldorado Ct,7662,Rochelle Park,NJ,Bergen,40.910065,-74.078708,SingleFamily,2015,307600,1955,5218,1362,2,3,4/19/17,294000,20206,city,Rochelle Park
+133 Circle Ave,7450,Ridgewood,NJ,Bergen,40.973509,-74.102647,SingleFamily,2015,608169,N/A,N/A,N/A,3,4,4/19/17,750000,20176,city,Ridgewood
+44 Cedar Ave,7607,Maywood,NJ,Bergen,40.912538,-74.05536,SingleFamily,2015,326335,1940,6200,1371,2,3,4/19/17,340000,22369,city,Maywood
+119 Eagle Ave,7646,New Milford,NJ,Bergen,40.948989,-74.017033,SingleFamily,2015,758546,2012,8002,2868,5,4,4/19/17,650000,19592,city,New Milford
+168 Kemah Rd,7450,Ridgewood,NJ,Bergen,40.9911,-74.123262,SingleFamily,2015,722066,1900,8712,8494,4,4,4/19/17,855000,20176,city,Ridgewood
+402 Briarwood Ln,7647,Northvale,NJ,Bergen,41.012737,-73.955645,SingleFamily,2015,555943,1960,N/A,N/A,4,3,4/19/17,585000,33185,city,Northvale
+501 Weymouth Dr,7481,Wyckoff,NJ,Bergen,41.004412,-74.186409,SingleFamily,2015,1791000,1990,N/A,N/A,6,5,4/19/17,1475000,29390,city,Wyckoff
+330 Cedar Hill Ave,7481,Wyckoff,NJ,Bergen,40.995487,-74.157112,SingleFamily,2015,595500,1957,26001,1938,3,4,4/19/17,575000,29390,city,Wyckoff
+17 Earl St,7114,Newark,NJ,Essex,40.719466,-74.188382,MultiFamily5Plus,2016,174258,1900,2613,1250,1,4,11/14/16,60500,275415,neighborhood,South Broad Street
+33 Mount Vernon Pl,7106,Newark,NJ,Essex,40.735994,-74.238542,SingleFamily,2015,146132,1927,3484,1384,N/A,3,11/17/16,136000,12970,city,Newark
+583 N 7th St,7107,Newark,NJ,Essex,40.770022,-74.181825,Condominium,2015,219904,1902,2500,2601,N/A,N/A,9/21/16,340000,275830,neighborhood,Upper Roseville
+192 Littleton Ave,7103,Newark,NJ,Essex,40.74051,-74.19517,MultiFamily2To4,2015,208062,1930,2613,2325,2,4,4/15/16,299670,273684,neighborhood,Fairmuont
+319 Lake St,7104,Newark,NJ,Essex,40.761653,-74.178108,MultiFamily2To4,2016,272883,2005,3484,2964,6,9,10/31/05,558000,275335,neighborhood,Seventh Avenue
+378 Lafayette St,7105,Newark,NJ,Essex,40.7262,-74.156017,MultiFamily5Plus,2015,277597,1895,N/A,2984,1,2,9/30/16,330000,274724,neighborhood,North Ironbound
+799 S 13th St,7108,Newark,NJ,Essex,40.72617,-74.209311,SingleFamily,2015,162972,1910,3049,N/A,1,3,12/21/16,127000,276619,neighborhood,Upper Clinton Hill
+291 W Runyon St,7108,Newark,NJ,Essex,40.719593,-74.208527,MultiFamily2To4,2015,189157,1900,3484,1760,2,3,9/27/16,60000,276619,neighborhood,Upper Clinton Hill
+27 Schalk St,7105,Newark,NJ,Essex,40.73275,-74.140442,SingleFamily,2015,165798,1887,2500,1278,N/A,N/A,8/22/16,180000,274724,neighborhood,North Ironbound
+106 S 10th St,7107,Newark,NJ,Essex,40.749456,-74.195872,MultiFamily2To4,2015,112886,1902,2052,1631,2,6,4/6/17,40000,273684,neighborhood,Fairmuont
+84 W Kinney St,7102,Newark,NJ,Essex,40.729812,-74.180295,Apartment,2015,66710,2016,3001,1600,2,3,8/20/16,420000,275415,neighborhood,South Broad Street
+21 N 6th St,7107,Newark,NJ,Essex,40.749073,-74.192231,SingleFamily,2016,155028,1940,2500,1945,1,5,10/25/16,62000,273684,neighborhood,Fairmuont
+146 S 11th St,7107,Newark,NJ,Essex,40.749416,-74.196935,SingleFamily,2016,149979,1940,1882,1926,1,5,12/16/16,90000,273684,neighborhood,Fairmuont
+32 Boylan St,7106,Newark,NJ,Essex,40.744701,-74.225702,MultiFamily2To4,2015,131574,1940,2613,1745,2,5,2/1/17,180000,275833,neighborhood,Upper Vailsburg
+100 Wright St,7114,Newark,NJ,Essex,40.720833,-74.183257,MultiFamily2To4,2015,270426,2002,2613,2558,4,6,8/12/16,250000,275415,neighborhood,South Broad Street
+352 7th Ave W,7107,Newark,NJ,Essex,40.754129,-74.188563,MultiFamily2To4,2015,177314,1900,2509,N/A,2,4,1/20/17,95000,274372,neighborhood,Lower Roseville
+103 Pulaski St,7105,Newark,NJ,Essex,40.722657,-74.158975,MultiFamily5Plus,2015,191438,1916,2613,2850,1,2,12/22/16,270000,274724,neighborhood,North Ironbound
+280 Littleton Ave,7103,Newark,NJ,Essex,40.73732,-74.196567,MultiFamily2To4,2015,142656,1914,2613,2628,N/A,0,4/11/17,115000,275990,neighborhood,West Side
+132 Court St,7103,Newark,NJ,Essex,40.733152,-74.181828,SingleFamily,2015,73121,1915,1812,2603,N/A,N/A,12/28/16,285000,275519,neighborhood,Springfield-Belmont
+54 Elliott St,7104,Newark,NJ,Essex,40.775203,-74.16213,MultiFamily2To4,2015,155476,1915,4567,2080,N/A,6,3/3/17,87000,274692,neighborhood,North Broadway
+40 Eastern Pkwy,7106,Newark,NJ,Essex,40.741206,-74.238099,SingleFamily,2015,182856,1927,3920,1478,1,3,11/29/16,143352,12970,city,Newark
+175 S 7th St,7103,Newark,NJ,Essex,40.742984,-74.196685,MultiFamily2To4,2015,150043,1891,1712,2244,3,4,8/19/16,95000,273684,neighborhood,Fairmuont
+37 Rose Ter,7108,Newark,NJ,Essex,40.726748,-74.20094,Townhouse,2016,158681,1930,3463,2591,2,3,8/9/16,340000,275990,neighborhood,West Side
+423 18th Ave,7108,Newark,NJ,Essex,40.731018,-74.20153,MultiFamily2To4,2016,164160,1920,9239,2855,2,5,11/7/16,175000,275990,neighborhood,West Side
+72 Schuyler Ave,7112,Newark,NJ,Essex,40.715131,-74.209975,MultiFamily2To4,2015,223924,1927,3484,N/A,3,7,3/7/17,105000,275941,neighborhood,Weequahic
+9 Varsity Rd,7106,Newark,NJ,Essex,40.739238,-74.235713,MultiFamily2To4,2015,202630,1952,5227,2599,3,7,12/1/00,142000,12970,city,Newark
+17 Earl St,7114,Newark,NJ,Essex,40.719466,-74.188382,MultiFamily5Plus,2016,174258,1900,2613,1250,1,4,11/14/16,60500,275415,neighborhood,South Broad Street
+33 Mount Vernon Pl,7106,Newark,NJ,Essex,40.735994,-74.238542,SingleFamily,2015,146132,1927,3484,1384,N/A,3,11/17/16,136000,12970,city,Newark
+583 N 7th St,7107,Newark,NJ,Essex,40.770022,-74.181825,Condominium,2015,219904,1902,2500,2601,N/A,N/A,9/21/16,340000,275830,neighborhood,Upper Roseville
+192 Littleton Ave,7103,Newark,NJ,Essex,40.74051,-74.19517,MultiFamily2To4,2015,208062,1930,2613,2325,2,4,4/15/16,299670,273684,neighborhood,Fairmuont
+319 Lake St,7104,Newark,NJ,Essex,40.761653,-74.178108,MultiFamily2To4,2016,272883,2005,3484,2964,6,9,10/31/05,558000,275335,neighborhood,Seventh Avenue
+378 Lafayette St,7105,Newark,NJ,Essex,40.7262,-74.156017,MultiFamily5Plus,2015,277597,1895,N/A,2984,1,2,9/30/16,330000,274724,neighborhood,North Ironbound
+799 S 13th St,7108,Newark,NJ,Essex,40.72617,-74.209311,SingleFamily,2015,162972,1910,3049,N/A,1,3,12/21/16,127000,276619,neighborhood,Upper Clinton Hill
+291 W Runyon St,7108,Newark,NJ,Essex,40.719593,-74.208527,MultiFamily2To4,2015,189157,1900,3484,1760,2,3,9/27/16,60000,276619,neighborhood,Upper Clinton Hill
+27 Schalk St,7105,Newark,NJ,Essex,40.73275,-74.140442,SingleFamily,2015,165798,1887,2500,1278,N/A,N/A,8/22/16,180000,274724,neighborhood,North Ironbound
+106 S 10th St,7107,Newark,NJ,Essex,40.749456,-74.195872,MultiFamily2To4,2015,112886,1902,2052,1631,2,6,4/6/17,40000,273684,neighborhood,Fairmuont
+84 W Kinney St,7102,Newark,NJ,Essex,40.729812,-74.180295,Apartment,2015,66710,2016,3001,1600,2,3,8/20/16,420000,275415,neighborhood,South Broad Street
+21 N 6th St,7107,Newark,NJ,Essex,40.749073,-74.192231,SingleFamily,2016,155028,1940,2500,1945,1,5,10/25/16,62000,273684,neighborhood,Fairmuont
+146 S 11th St,7107,Newark,NJ,Essex,40.749416,-74.196935,SingleFamily,2016,149979,1940,1882,1926,1,5,12/16/16,90000,273684,neighborhood,Fairmuont
+32 Boylan St,7106,Newark,NJ,Essex,40.744701,-74.225702,MultiFamily2To4,2015,131574,1940,2613,1745,2,5,2/1/17,180000,275833,neighborhood,Upper Vailsburg
+100 Wright St,7114,Newark,NJ,Essex,40.720833,-74.183257,MultiFamily2To4,2015,270426,2002,2613,2558,4,6,8/12/16,250000,275415,neighborhood,South Broad Street
+352 7th Ave W,7107,Newark,NJ,Essex,40.754129,-74.188563,MultiFamily2To4,2015,177314,1900,2509,N/A,2,4,1/20/17,95000,274372,neighborhood,Lower Roseville
+103 Pulaski St,7105,Newark,NJ,Essex,40.722657,-74.158975,MultiFamily5Plus,2015,191438,1916,2613,2850,1,2,12/22/16,270000,274724,neighborhood,North Ironbound
+280 Littleton Ave,7103,Newark,NJ,Essex,40.73732,-74.196567,MultiFamily2To4,2015,142656,1914,2613,2628,N/A,0,4/11/17,115000,275990,neighborhood,West Side
+132 Court St,7103,Newark,NJ,Essex,40.733152,-74.181828,SingleFamily,2015,73121,1915,1812,2603,N/A,N/A,12/28/16,285000,275519,neighborhood,Springfield-Belmont
+54 Elliott St,7104,Newark,NJ,Essex,40.775203,-74.16213,MultiFamily2To4,2015,155476,1915,4567,2080,N/A,6,3/3/17,87000,274692,neighborhood,North Broadway
+40 Eastern Pkwy,7106,Newark,NJ,Essex,40.741206,-74.238099,SingleFamily,2015,182856,1927,3920,1478,1,3,11/29/16,143352,12970,city,Newark
+175 S 7th St,7103,Newark,NJ,Essex,40.742984,-74.196685,MultiFamily2To4,2015,150043,1891,1712,2244,3,4,8/19/16,95000,273684,neighborhood,Fairmuont
+37 Rose Ter,7108,Newark,NJ,Essex,40.726748,-74.20094,Townhouse,2016,158681,1930,3463,2591,2,3,8/9/16,340000,275990,neighborhood,West Side
+423 18th Ave,7108,Newark,NJ,Essex,40.731018,-74.20153,MultiFamily2To4,2016,164160,1920,9239,2855,2,5,11/7/16,175000,275990,neighborhood,West Side
+72 Schuyler Ave,7112,Newark,NJ,Essex,40.715131,-74.209975,MultiFamily2To4,2015,223924,1927,3484,N/A,3,7,3/7/17,105000,275941,neighborhood,Weequahic
+9 Varsity Rd,7106,Newark,NJ,Essex,40.739238,-74.235713,MultiFamily2To4,2015,202630,1952,5227,2599,3,7,12/1/00,142000,12970,city,Newark
+111 Orchard St,7003,Bloomfield,NJ,Essex,40.797444,-74.184908,SingleFamily,2015,469636,1925,7649,4054,N/A,N/A,4/21/17,520000,3699,city,Bloomfield
+52 Merkel Dr,7003,Bloomfield,NJ,Essex,40.845614,-74.180773,SingleFamily,2015,217693,1958,5227,N/A,1,2,4/21/17,280000,3699,city,Bloomfield
+1614 Hamilton St,7109,Belleville,NJ,Essex,40.799116,-74.173045,Condominium,2015,252786,2008,N/A,1100,3,2,4/21/17,265000,37362,city,Belleville
+706 Hero Way,7109,Belleville,NJ,Essex,40.798407,-74.171544,SingleFamily,2015,275795,N/A,N/A,N/A,N/A,N/A,4/21/17,292000,37362,city,Belleville
+44 Jessica Way,7079,South Orange,NJ,Essex,40.761184,-74.264674,SingleFamily,2015,622997,1998,10454,2586,4,4,4/20/17,739000,34059,city,South Orange
+34 Hickory Dr,7040,Maplewood,NJ,Essex,40.733953,-74.28343,SingleFamily,2015,757831,1908,11761,N/A,3.5,5,4/19/17,1300000,39616,city,Maplewood
+176 Millburn Ave # C1015,7041,Millburn,NJ,Essex,40.721755,-74.294776,Condominium,2015,326850,1948,N/A,N/A,1,2,4/19/17,360000,36150,city,Millburn
+189 Adelaide St,7109,Belleville,NJ,Essex,40.803884,-74.155571,SingleFamily,2015,256397,1950,3920,1400,2,3,4/19/17,322000,37362,city,Belleville
+45 Oak Ln,7044,Verona,NJ,Essex,40.839344,-74.235451,SingleFamily,2015,348371,1955,8120,1425,2,4,4/19/17,400000,14839,city,Cedar Grove
+54 S Ashby Ave,7039,Livingston,NJ,Essex,40.792028,-74.323047,SingleFamily,2015,381926,1950,8712,3100,4,4,4/19/17,825000,56428,city,Livingston
+14 Forest St # C4302,7042,Montclair,NJ,Essex,40.814334,-74.216087,Condominium,2015,188438,1924,23749,692,1,1,4/19/17,157000,39839,city,Montclair
+26 Woodside Rd,7009,CEDAR GROVE,NJ,Essex,40.856779,-74.223548,SingleFamily,2015,486069,1940,8930,1911,2,4,4/19/17,465000,14839,city,Cedar Grove
+384 S Harrison St,7018,East Orange,NJ,Essex,40.757227,-74.230914,SingleFamily,2015,199332,1930,8276,1593,3,3,4/18/17,225000,51806,city,East Orange
+59 Herbert Ter,7052,West Orange,NJ,Essex,40.773827,-74.296222,Townhouse,2015,305801,1984,N/A,1656,2,2,4/18/17,250000,16216,city,West Orange
+4 Rawding Ct,7044,Verona,NJ,Essex,40.8455,-74.2419,SingleFamily,N/A,N/A,2016,10018,N/A,5,5,4/18/17,885000,43078,city,Verona
+280 Centre St,7110,Nutley,NJ,Essex,40.813579,-74.158103,SingleFamily,2015,265139,1947,3798,N/A,2,3,4/18/17,330000,13056,city,Nutley
+42 Rutgers St,7040,Maplewood,NJ,Essex,40.721708,-74.265646,SingleFamily,2015,412130,1927,7405,1918,2,3,4/17/17,512000,39616,city,Maplewood
+50 N Jefferson St,7050,Orange,NJ,Essex,40.776847,-74.236437,MultiFamily2To4,2015,244081,1901,2178,N/A,2,5,4/17/17,154000,53733,city,Orange
+26 Curtis Pl,7040,Maplewood,NJ,Essex,40.732667,-74.283664,SingleFamily,2015,965674,1909,17998,2887,4,5,4/17/17,1310000,39616,city,Maplewood
+19 Western Dr,7078,Short Hills,NJ,Essex,40.734024,-74.324722,SingleFamily,2015,2633452,1913,58806,5000,6,6,4/17/17,1795000,13829,city,Short Hills
+44 Grosvenor Rd,7078,Short Hills,NJ,Essex,40.739476,-74.318553,SingleFamily,2015,2567670,1929,31999,6000,6,5,4/17/17,2450000,13829,city,Short Hills
+41 Delaware Ave,7003,Bloomfield,NJ,Essex,40.785317,-74.194936,MultiFamily2To4,2015,257407,1900,3700,1480,3,4,4/17/17,360000,3699,city,Bloomfield
+272 Linden Ave,7109,Belleville,NJ,Essex,40.80341,-74.148744,SingleFamily,2015,278064,1946,5662,1260,2,4,4/17/17,290500,37362,city,Belleville
+9 Montgomery St UNIT A1,7109,Belleville,NJ,Essex,40.793295,-74.178524,Condominium,2015,151259,N/A,283140,N/A,N/A,N/A,4/17/17,185000,37362,city,Belleville
+12 Kinder Dr,7003,Bloomfield,NJ,Essex,40.83759,-74.171808,SingleFamily,2015,481614,1987,5227,N/A,3,4,4/17/17,410000,3699,city,Bloomfield
+21 Powell Dr,7052,West Orange,NJ,Essex,40.780187,-74.282417,SingleFamily,2015,494445,1969,15002,2380,4,4,4/16/17,465000,16216,city,West Orange
+20 Grove St,7003,Bloomfield,NJ,Essex,40.774262,-74.193845,SingleFamily,2015,222106,1950,3484,1162,2,3,4/14/17,149900,3699,city,Bloomfield
+15 Burr Rd,7040,Maplewood,NJ,Essex,40.733608,-74.25785,SingleFamily,2015,489669,1930,8276,2210,4,5,4/14/17,825000,39616,city,Maplewood
+17 Whittingham Ter,7041,Millburn,NJ,Essex,40.723754,-74.304795,SingleFamily,2015,846356,1985,7601,2191,3,4,4/14/17,980000,36150,city,Millburn
+247 Springdale Ave,7017,East Orange,NJ,Essex,40.76966,-74.201054,MultiFamily2To4,2015,192992,1925,7405,2124,2,4,4/14/17,170000,51806,city,East Orange
+207 Metzger Dr,7052,West Orange,NJ,Essex,40.77105,-74.292476,Condominium,2015,901152,2009,N/A,2662,3,2,4/14/17,985000,16216,city,West Orange
+8 Northview Ter,7040,Maplewood,NJ,Essex,40.721053,-74.27873,SingleFamily,2015,334592,1951,4791,N/A,3,3,4/14/17,560000,39616,city,Maplewood
+293 Leslie St,7112,Newark,NJ,Essex,40.713962,-74.220518,MultiFamily2To4,2015,165037,1925,3001,2700,2,4,4/14/17,208500,275941,neighborhood,Weequahic
+3 Tuscan Rd,7040,Maplewood,NJ,Essex,40.726675,-74.2735,SingleFamily,2015,347923,1926,12632,N/A,1,3,4/14/17,547500,39616,city,Maplewood
+1 Winthrop Pl,7040,Maplewood,NJ,Essex,40.729225,-74.280941,SingleFamily,2015,514108,1918,6800,2400,4,5,4/14/17,920000,39616,city,Maplewood
+29 Van Rensselear St,7109,Belleville,NJ,Essex,40.783213,-74.155394,SingleFamily,2016,171963,1897,2500,1289,1,2,4/14/17,150000,37362,city,Belleville
+115 New St,7109,Belleville,NJ,Essex,40.79169,-74.15887,SingleFamily,2015,270223,1927,4791,1663,2,4,4/14/17,260000,37362,city,Belleville
+100 Bellevue Ter,7003,Bloomfield,NJ,Essex,40.841193,-74.185091,SingleFamily,2015,348602,1955,7405,1589,3,3,4/14/17,470000,3699,city,Bloomfield
+86 Jacoby St,7040,Maplewood,NJ,Essex,40.719955,-74.253003,SingleFamily,2016,199156,1928,5662,1346,2,3,4/13/17,379500,39616,city,Maplewood
+14 Exeter Rd,7078,Short Hills,NJ,Essex,40.757489,-74.307104,SingleFamily,2015,808946,1940,10441,1352,2,3,4/13/17,739000,13829,city,Short Hills
+22 Rosedale Ave,7041,Millburn,NJ,Essex,40.725277,-74.287091,SingleFamily,2015,501659,1925,3920,1674,2,3,4/13/17,640000,36150,city,Millburn
+103 Metzger Dr,7052,West Orange,NJ,Essex,40.770786,-74.292973,Townhouse,2015,761160,2009,N/A,2501,3,2,4/13/17,937500,16216,city,West Orange
+74 Whiteoak Dr,7079,South Orange,NJ,Essex,40.754143,-74.277226,SingleFamily,2015,577804,1952,14810,N/A,5,4,4/13/17,985000,34059,city,South Orange
+58 Grant Ave,7110,Nutley,NJ,Essex,40.814162,-74.142192,SingleFamily,2015,305292,1947,6098,854,2,2,4/13/17,265000,13056,city,Nutley
+101 Inwood Ave,7043,Montclair,NJ,Essex,40.843812,-74.195341,SingleFamily,2015,955206,N/A,N/A,N/A,5,6,4/13/17,1040000,39839,city,Montclair
+55 Beech St,7009,Cedar Grove,NJ,Essex,40.862527,-74.234594,SingleFamily,2015,391379,1947,5662,1490,2,3,4/13/17,440000,14839,city,Cedar Grove
+35 Clara Pl,7009,Cedar Grove,NJ,Essex,40.844852,-74.230934,SingleFamily,2015,296689,1950,5227,1377,2,3,4/13/17,369900,14839,city,Cedar Grove
+73 Mount Prospect Ave,7044,Verona,NJ,Essex,40.822143,-74.235915,SingleFamily,2015,781756,1919,19602,2910,3.5,5,4/13/17,489000,43078,city,Verona
+15 Augusta St,7111,Irvington,NJ,Essex,40.725273,-74.226921,SingleFamily,2016,165978,1887,3484,N/A,3,5,4/12/17,79900,12067,city,Irvington
+37 Whittingham Pl,7052,West Orange,NJ,Essex,40.77456,-74.241922,MultiFamily2To4,2015,257149,1950,4791,2167,3,4,4/12/17,305000,16216,city,West Orange
+43 N 18th St,7017,East Orange,NJ,Essex,40.759553,-74.199337,MultiFamily2To4,2015,194883,1920,2617,2620,3,5,4/12/17,60000,415711,neighborhood,Greenwood
+24 Llewellyn Ave,7052,West Orange,NJ,Essex,40.788097,-74.23254,MultiFamily2To4,2016,247711,1926,2613,1566,2,4,4/12/17,320000,16216,city,West Orange
+28 Carolyn Rd,7109,Belleville,NJ,Essex,40.808107,-74.169242,SingleFamily,2015,241230,1959,7369,982,2,2,4/12/17,245000,37362,city,Belleville
+280 Littleton Ave,7103,Newark,NJ,Essex,40.73732,-74.196567,MultiFamily2To4,2015,142656,1914,2613,2628,N/A,0,4/11/17,115000,275990,neighborhood,West Side
+10 Sycamore Ave,7039,Livingston,NJ,Essex,40.772061,-74.307973,SingleFamily,2015,344316,1951,9601,1084,N/A,N/A,4/11/17,337000,56428,city,Livingston
+57 Spring St,7003,Bloomfield,NJ,Essex,40.803537,-74.189881,MultiFamily2To4,2015,312881,1909,5662,2504,4,6,4/11/17,349500,3699,city,Bloomfield
+39 Benson St,7003,Bloomfield,NJ,Essex,40.804783,-74.196745,SingleFamily,2015,375079,1904,6098,2080,3,5,4/11/17,445000,3699,city,Bloomfield
+17 Earl St,7114,Newark,NJ,Essex,40.719466,-74.188382,MultiFamily5Plus,2016,174258,1900,2613,1250,1,4,11/14/16,60500,275415,neighborhood,South Broad Street
+33 Mount Vernon Pl,7106,Newark,NJ,Essex,40.735994,-74.238542,SingleFamily,2015,146132,1927,3484,1384,N/A,3,11/17/16,136000,12970,city,Newark
+583 N 7th St,7107,Newark,NJ,Essex,40.770022,-74.181825,Condominium,2015,219904,1902,2500,2601,N/A,N/A,9/21/16,340000,275830,neighborhood,Upper Roseville
+192 Littleton Ave,7103,Newark,NJ,Essex,40.74051,-74.19517,MultiFamily2To4,2015,208062,1930,2613,2325,2,4,4/15/16,299670,273684,neighborhood,Fairmuont
+319 Lake St,7104,Newark,NJ,Essex,40.761653,-74.178108,MultiFamily2To4,2016,272883,2005,3484,2964,6,9,10/31/05,558000,275335,neighborhood,Seventh Avenue
+378 Lafayette St,7105,Newark,NJ,Essex,40.7262,-74.156017,MultiFamily5Plus,2015,277597,1895,N/A,2984,1,2,9/30/16,330000,274724,neighborhood,North Ironbound
+799 S 13th St,7108,Newark,NJ,Essex,40.72617,-74.209311,SingleFamily,2015,162972,1910,3049,N/A,1,3,12/21/16,127000,276619,neighborhood,Upper Clinton Hill
+291 W Runyon St,7108,Newark,NJ,Essex,40.719593,-74.208527,MultiFamily2To4,2015,189157,1900,3484,1760,2,3,9/27/16,60000,276619,neighborhood,Upper Clinton Hill
+27 Schalk St,7105,Newark,NJ,Essex,40.73275,-74.140442,SingleFamily,2015,165798,1887,2500,1278,N/A,N/A,8/22/16,180000,274724,neighborhood,North Ironbound
+106 S 10th St,7107,Newark,NJ,Essex,40.749456,-74.195872,MultiFamily2To4,2015,112886,1902,2052,1631,2,6,4/6/17,40000,273684,neighborhood,Fairmuont
+84 W Kinney St,7102,Newark,NJ,Essex,40.729812,-74.180295,Apartment,2015,66710,2016,3001,1600,2,3,8/20/16,420000,275415,neighborhood,South Broad Street
+21 N 6th St,7107,Newark,NJ,Essex,40.749073,-74.192231,SingleFamily,2016,155028,1940,2500,1945,1,5,10/25/16,62000,273684,neighborhood,Fairmuont
+146 S 11th St,7107,Newark,NJ,Essex,40.749416,-74.196935,SingleFamily,2016,149979,1940,1882,1926,1,5,12/16/16,90000,273684,neighborhood,Fairmuont
+32 Boylan St,7106,Newark,NJ,Essex,40.744701,-74.225702,MultiFamily2To4,2015,131574,1940,2613,1745,2,5,2/1/17,180000,275833,neighborhood,Upper Vailsburg
+100 Wright St,7114,Newark,NJ,Essex,40.720833,-74.183257,MultiFamily2To4,2015,270426,2002,2613,2558,4,6,8/12/16,250000,275415,neighborhood,South Broad Street
+352 7th Ave W,7107,Newark,NJ,Essex,40.754129,-74.188563,MultiFamily2To4,2015,177314,1900,2509,N/A,2,4,1/20/17,95000,274372,neighborhood,Lower Roseville
+103 Pulaski St,7105,Newark,NJ,Essex,40.722657,-74.158975,MultiFamily5Plus,2015,191438,1916,2613,2850,1,2,12/22/16,270000,274724,neighborhood,North Ironbound
+280 Littleton Ave,7103,Newark,NJ,Essex,40.73732,-74.196567,MultiFamily2To4,2015,142656,1914,2613,2628,N/A,0,4/11/17,115000,275990,neighborhood,West Side
+132 Court St,7103,Newark,NJ,Essex,40.733152,-74.181828,SingleFamily,2015,73121,1915,1812,2603,N/A,N/A,12/28/16,285000,275519,neighborhood,Springfield-Belmont
+54 Elliott St,7104,Newark,NJ,Essex,40.775203,-74.16213,MultiFamily2To4,2015,155476,1915,4567,2080,N/A,6,3/3/17,87000,274692,neighborhood,North Broadway
+40 Eastern Pkwy,7106,Newark,NJ,Essex,40.741206,-74.238099,SingleFamily,2015,182856,1927,3920,1478,1,3,11/29/16,143352,12970,city,Newark
+175 S 7th St,7103,Newark,NJ,Essex,40.742984,-74.196685,MultiFamily2To4,2015,150043,1891,1712,2244,3,4,8/19/16,95000,273684,neighborhood,Fairmuont
+37 Rose Ter,7108,Newark,NJ,Essex,40.726748,-74.20094,Townhouse,2016,158681,1930,3463,2591,2,3,8/9/16,340000,275990,neighborhood,West Side
+423 18th Ave,7108,Newark,NJ,Essex,40.731018,-74.20153,MultiFamily2To4,2016,164160,1920,9239,2855,2,5,11/7/16,175000,275990,neighborhood,West Side
+72 Schuyler Ave,7112,Newark,NJ,Essex,40.715131,-74.209975,MultiFamily2To4,2015,223924,1927,3484,N/A,3,7,3/7/17,105000,275941,neighborhood,Weequahic
+9 Varsity Rd,7106,Newark,NJ,Essex,40.739238,-74.235713,MultiFamily2To4,2015,202630,1952,5227,2599,3,7,12/1/00,142000,12970,city,Newark
+50 Chestnut St,7110,Nutley,NJ,Essex,40.817264,-74.150479,SingleFamily,2015,320131,1950,5227,N/A,2,3,4/6/17,449900,13056,city,Nutley
+59 Anderson Pkwy,7009,Cedar Grove,NJ,Essex,40.872533,-74.230004,SingleFamily,2015,398244,N/A,N/A,N/A,3,5,4/6/17,410000,14839,city,Cedar Grove
+47 Rhoda Ave,7110,Nutley,NJ,Essex,40.832811,-74.1661,SingleFamily,2015,423895,1939,4791,N/A,3,3,4/6/17,429000,13056,city,Nutley
+15 Matt Dr,7004,Fairfield,NJ,Essex,40.860256,-74.308964,SingleFamily,2015,377052,1961,18295,1803,2,3,4/6/17,385000,51976,city,Fairfield
+99 Summer Ave,7104,Newark,NJ,Essex,40.754096,-74.173137,MultiFamily2To4,2015,129835,1930,2496,2772,N/A,N/A,4/5/17,170000,275335,neighborhood,Seventh Avenue
+920 S Orange Ave,7078,Short Hills,NJ,Essex,40.754029,-74.307622,SingleFamily,2015,463677,1966,10018,1745,3,4,4/5/17,612000,13829,city,Short Hills
+15 Oxford Ter,7052,West Orange,NJ,Essex,40.765112,-74.254641,SingleFamily,2016,362939,1925,7405,2440,3,6,4/5/17,520000,16216,city,West Orange
+301 Orange St,7103,Newark,NJ,Essex,40.749539,-74.181484,MultiFamily2To4,2015,149717,1915,2613,2800,3,9,4/5/17,170000,276616,neighborhood,University Heights
+533 Norwood St,7018,East Orange,NJ,Essex,40.747787,-74.227798,MultiFamily2To4,2015,157620,1930,10890,1835,3,4,4/5/17,165000,51806,city,East Orange
+5 Highland Blvd,7052,West Orange,NJ,Essex,40.775322,-74.267863,SingleFamily,2015,320613,2014,11325,3000,3,5,4/4/17,679000,16216,city,West Orange
+81 Sand Rd,7004,Fairfield,NJ,Essex,40.887817,-74.287155,SingleFamily,2015,353023,1930,7427,1800,N/A,N/A,4/4/17,460000,51976,city,Fairfield
+348 N Fullerton Ave,7043,Montclair,NJ,Essex,40.831529,-74.204406,SingleFamily,2015,697702,1920,12196,2312,2,6,4/4/17,627000,39839,city,Montclair
+56 Irving Ave,7039,Livingston,NJ,Essex,40.789013,-74.317031,SingleFamily,2015,365928,N/A,5662,2500,3,4,4/4/17,660000,56428,city,Livingston
+23 Oak St,7109,Belleville,NJ,Essex,40.795464,-74.154332,SingleFamily,2015,214507,1922,4791,1120,2,3,4/4/17,210000,37362,city,Belleville
+71 Fellswood Dr,7039,Livingston,NJ,Essex,40.801357,-74.308463,SingleFamily,2015,433097,1950,9147,3300,3,4,4/4/17,850000,56428,city,Livingston
+441 Overhill Rd,7079,South Orange,NJ,Essex,40.749925,-74.272769,SingleFamily,2015,984782,1930,10890,5095,5,7,4/3/17,1165000,34059,city,South Orange
+23 Triton Ter,7104,Newark,NJ,Essex,40.768033,-74.159987,MultiFamily2To4,2015,143308,1909,2613,N/A,3,6,4/3/17,165000,274692,neighborhood,North Broadway
+8 West St,7003,Bloomfield,NJ,Essex,40.791877,-74.191802,SingleFamily,2015,224522,1908,2213,896,1,3,4/3/17,199000,3699,city,Bloomfield
+112 William St,7109,Belleville,NJ,Essex,40.784977,-74.154467,MultiFamily2To4,2015,391767,1887,5854,2810,4,6,4/3/17,390000,37362,city,Belleville
+87 Valley Way,7052,West Orange,NJ,Essex,40.795196,-74.23492,SingleFamily,2016,309372,1930,6534,N/A,2,4,4/3/17,355000,16216,city,West Orange
+14 Eastwood Pl,7009,Cedar Grove,NJ,Essex,40.849055,-74.227074,SingleFamily,2015,684231,2007,13503,3660,5,5,4/3/17,709000,14839,city,Cedar Grove
+118 Essex Ave,7028,Glen Ridge,NJ,Essex,40.809615,-74.196513,SingleFamily,2015,480840,1916,10000,1965,2,4,4/3/17,533675,42270,city,Glen Ridge
+7 Crestview Dr,7052,West Orange,NJ,Essex,40.776318,-74.259975,SingleFamily,2015,521189,1958,N/A,N/A,3,3,3/31/17,580000,16216,city,West Orange
+36 Crest Dr,7079,South Orange,NJ,Essex,40.747779,-74.278418,SingleFamily,2015,776887,1958,22215,5784,6,5,3/31/17,785000,34059,city,South Orange
+110 Lessing Rd,7052,West Orange,NJ,Essex,40.776742,-74.276321,SingleFamily,2015,378420,1955,30492,2068,3,4,3/31/17,550000,16216,city,West Orange
+96 South Ter,7078,Short Hills,NJ,Essex,40.727645,-74.33366,SingleFamily,2015,1775312,1932,32234,1,5,6,3/31/17,1380000,13829,city,Short Hills
+3 Village Green Ct,7079,South Orange,NJ,Essex,40.748737,-74.264997,SingleFamily,2015,437071,1987,199679,1816,N/A,N/A,3/31/17,517500,34059,city,South Orange
+71 Harper Ave,7111,Irvington,NJ,Essex,40.713488,-74.244514,SingleFamily,2015,144138,1959,2496,1800,3,4,3/31/17,185000,12067,city,Irvington
+656 S 15th St,7103,Newark,NJ,Essex,40.732074,-74.208389,SingleFamily,2015,160148,2000,3498,1777,N/A,N/A,3/31/17,157000,275990,neighborhood,West Side
+59 Chester Ave,7104,Newark,NJ,Essex,40.768139,-74.162582,SingleFamily,2016,141599,1882,2121,1468,2,4,3/31/17,160000,274692,neighborhood,North Broadway
+182 Broughton Ave,7003,Bloomfield,NJ,Essex,40.816355,-74.185277,SingleFamily,2015,234713,1952,3049,1195,2,2,3/31/17,269000,3699,city,Bloomfield
+173 Horseneck Rd,7004,Fairfield,NJ,Essex,40.876097,-74.310372,SingleFamily,2015,340709,1930,6534,N/A,2,4,3/31/17,420500,51976,city,Fairfield
+2 Januson Ct,7052,West Orange,NJ,Essex,40.808476,-74.247563,SingleFamily,2015,711684,2003,10454,4631,4,5,3/31/17,692000,16216,city,West Orange
+386 Orange Rd,7042,Montclair,NJ,Essex,40.792863,-74.219107,SingleFamily,2015,373711,1925,7405,2553,2.5,3,3/31/17,575000,39839,city,Montclair
+4 Bauer Dr,7052,West Orange,NJ,Essex,40.802738,-74.260032,SingleFamily,2015,333471,1960,12632,1628,3,3,3/31/17,425500,16216,city,West Orange
+15 Henning Dr,7004,Fairfield,NJ,Essex,40.881321,-74.307188,SingleFamily,2015,458150,N/A,14810,N/A,3,4,3/31/17,651000,51976,city,Fairfield
+52 Adams Pl,7028,Glen Ridge,NJ,Essex,40.790049,-74.211343,SingleFamily,2015,446354,1912,N/A,N/A,3,4,3/31/17,475000,42270,city,Glen Ridge
+93 Darling Ave,7003,Bloomfield,NJ,Essex,40.833869,-74.167987,SingleFamily,2015,337781,1947,N/A,N/A,3,4,3/31/17,336000,3699,city,Bloomfield
+17 Laurel Ave,7039,Livingston,NJ,Essex,40.798452,-74.298701,SingleFamily,2015,445069,1940,12196,1392,1,3,3/31/17,379000,56428,city,Livingston
+245 N 16th St,7003,Bloomfield,NJ,Essex,40.775091,-74.188214,SingleFamily,2016,154024,1942,2299,N/A,1,2,3/30/17,180000,3699,city,Bloomfield
+145 W Northfield Rd,7039,Livingston,NJ,Essex,40.780281,-74.330222,SingleFamily,2015,406293,1960,18295,1480,2,3,3/30/17,426000,56428,city,Livingston
+34 Franklin Ter,7111,Irvington,NJ,Essex,40.725387,-74.246492,MultiFamily2To4,2015,138317,1910,3484,2653,5,8,3/30/17,290000,12067,city,Irvington
+11 Edgar St,7018,East Orange,NJ,Essex,40.756017,-74.224414,SingleFamily,2015,149055,N/A,N/A,1687,1.5,3,3/30/17,72500,51806,city,East Orange
+63 Blanchard Rd,7079,South Orange,NJ,Essex,40.760192,-74.266177,SingleFamily,2015,536613,1964,14374,N/A,3,3,3/30/17,753000,34059,city,South Orange
+61 Hillside Ave,7044,Verona,NJ,Essex,40.826035,-74.255418,SingleFamily,2015,352472,1900,6952,1258,2,3,3/30/17,322000,43078,city,Verona
+30 Aspen Dr,7039,Livingston,NJ,Essex,40.808632,-74.293131,SingleFamily,2015,1391673,1991,23522,6000,6,8,3/30/17,974000,56428,city,Livingston
+33 Cross St,7110,Nutley,NJ,Essex,40.811672,-74.160745,SingleFamily,2015,309220,1951,4791,1326,N/A,4,3/30/17,380000,13056,city,Nutley
+20 Overhill Rd,7109,Belleville,NJ,Essex,40.801335,-74.174036,SingleFamily,2015,224722,1952,5227,N/A,2,3,3/30/17,250000,37362,city,Belleville
+47 4th St,7107,Newark,NJ,Essex,40.748664,-74.190551,SingleFamily,2015,202955,2001,3484,2694,3,6,3/29/17,279000,273684,neighborhood,Fairmuont
+135 Ward Pl,7079,South Orange,NJ,Essex,40.741453,-74.252096,SingleFamily,2015,353204,1910,7405,1866,N/A,5,3/29/17,370000,192024,neighborhood,Seton Village
+39 Claremont Ave,7042,Montclair,NJ,Essex,40.812599,-74.20669,MultiFamily5Plus,2015,480769,1907,3920,30130,1,2,3/29/17,640000,39839,city,Montclair
+357 Little St,7109,Belleville,NJ,Essex,40.799028,-74.156674,SingleFamily,2015,241746,1922,4791,1126,3,3,3/29/17,265000,37362,city,Belleville
+19 E Lincoln St,7044,Verona,NJ,Essex,40.832887,-74.250231,SingleFamily,2015,337287,1942,5227,N/A,2,2,3/29/17,320000,43078,city,Verona
+20 Bodwell Ter,7041,Millburn,NJ,Essex,40.723531,-74.314123,SingleFamily,2015,650727,1923,6050,2071,4,4,3/28/17,772000,36150,city,Millburn
+16 Euclid Ave,7040,Maplewood,NJ,Essex,40.736021,-74.279815,SingleFamily,2015,749944,1923,9583,N/A,3,5,3/28/17,650000,39616,city,Maplewood
+89 Park Ave,7017,East Orange,NJ,Essex,40.762199,-74.196428,MultiFamily2To4,2015,176529,1930,6969,3000,3,5,3/28/17,230000,415711,neighborhood,Greenwood
+21 Rutgers St,7040,Maplewood,NJ,Essex,40.723208,-74.266037,SingleFamily,2015,472339,1927,7405,1802,2,3,3/28/17,649000,39616,city,Maplewood
+2 Baldwin Ave,7304,Jersey City,NJ,Hudson,40.72163,-74.065507,MultiFamily2To4,2015,186876,N/A,1720,N/A,3,7,5/2/17,535000,274464,neighborhood,McGinley Square
+425 Egret Ln,7094,Secaucus,NJ,Hudson,40.787301,-74.076457,Condominium,2015,263041,1976,N/A,1347,2,2,5/2/17,345000,33911,city,Secaucus
+410 Jefferson St APT 1L,7030,Hoboken,NJ,Hudson,40.742751,-74.037059,Condominium,2015,255864,N/A,510,510,1,1,5/1/17,385000,25146,city,Hoboken
+12 Linden Ave,7305,Jersey City,NJ,Hudson,40.692314,-74.088741,MultiFamily5Plus,2015,283144,N/A,N/A,N/A,1,2,5/1/17,1200,189019,neighborhood,Greenville
+405 2nd St APT 3L,7302,Jersey City,NJ,Hudson,40.723213,-74.051577,Condominium,2015,247835,1900,N/A,578,1,2,5/1/17,420000,273483,neighborhood,Downtown
+126 Webster Ave APT 2D,7307,Jersey City,NJ,Hudson,40.742739,-74.046738,Condominium,2015,314123,N/A,N/A,1387,1,2,5/1/17,650000,275707,neighborhood,The Heights
+1450 Washington St APT 521,7030,Hoboken,NJ,Hudson,40.753839,-74.02596,MultiFamily2To4,2015,538001,2012,N/A,749,1,1,4/28/17,690000,25146,city,Hoboken
+210 Jackson St APT 3,7030,Hoboken,NJ,Hudson,40.740754,-74.040633,Condominium,2015,639491,2000,1258,1258,2,2,4/28/17,839500,25146,city,Hoboken
+4801 Palisade Ave APT 3B,7087,Union City,NJ,Hudson,40.780879,-74.019792,Condominium,2015,337838,2005,1980,1300,2,2,4/28/17,322000,54791,city,Union City
+612 Jersey Ave # 2,7302,Jersey City,NJ,Hudson,40.724921,-74.045451,Condominium,2015,161226,N/A,N/A,600,1,1,4/28/17,491000,273483,neighborhood,Downtown
+124 Madison St APT 3L,7030,Hoboken,NJ,Hudson,40.739832,-74.039026,Condominium,2015,328258,N/A,N/A,550,1,1,4/28/17,430000,25146,city,Hoboken
+384 Whimbrel Ln,7094,Secaucus,NJ,Hudson,40.786345,-74.075944,Condominium,2016,308841,1970,N/A,1861,3,3,4/28/17,436000,33911,city,Secaucus
+4514 Smith Ave # 4-2A,7047,North Bergen,NJ,Hudson,40.781289,-74.026777,Condominium,2015,211990,1986,867,867,N/A,N/A,4/27/17,214900,245503,neighborhood,Meadowview
+40 Willow Ter,7030,Hoboken,NJ,Hudson,40.745227,-74.033019,SingleFamily,2015,624492,1901,622,864,1,3,4/26/17,837500,25146,city,Hoboken
+219 Clendenny Ave,7304,Jersey City,NJ,Hudson,40.720618,-74.086862,SingleFamily,2015,283144,N/A,2026,1447,2,3,4/26/17,355000,276653,neighborhood,West Side
+1425 Garden St APT 303,7030,Hoboken,NJ,Hudson,40.753737,-74.027336,Condominium,2015,680311,2009,1141,1145,1.5,1,4/25/17,750000,25146,city,Hoboken
+7423 Durham Ave,7047,North Bergen,NJ,Hudson,40.802231,-74.015648,SingleFamily,2015,186995,N/A,N/A,N/A,N/A,3,4/25/17,280000,40038,city,North Bergen
+129 Franklin St APT B1,7307,Jersey City,NJ,Hudson,40.647879,-74.1898,Condominium,N/A,N/A,N/A,N/A,N/A,1,2,N/A,N/A,31388,city,Elizabeth
+212 William St,7029,Harrison,NJ,Hudson,40.74842,-74.159607,SingleFamily,2015,177549,2005,2613,1780,3,3,4/24/17,340000,8762,city,Harrison
+1604 Central Ave,7087,Union City,NJ,Hudson,40.763504,-74.038113,MultiFamily2To4,2015,375376,N/A,2700,N/A,4,6,4/24/17,500000,54791,city,Union City
+503 Bloomfield St # 1,7030,Hoboken,NJ,Hudson,40.742473,-74.030006,Condominium,2015,835927,1882,N/A,1236,3,2,4/24/17,967000,25146,city,Hoboken
+56 Storms Ave,7306,Jersey City,NJ,Hudson,40.722312,-74.067469,SingleFamily,2015,251832,N/A,N/A,N/A,2,5,4/24/17,274000,274464,neighborhood,McGinley Square
+1204 86th St,7047,North Bergen,NJ,Hudson,40.809019,-74.009045,SingleFamily,2015,165382,N/A,2500,N/A,2,3,4/24/17,312000,40038,city,North Bergen
+1500 Hudson St APT 8A,7030,Hoboken,NJ,Hudson,40.754274,-74.024783,Condominium,2015,466847,N/A,740,740,1,1,4/21/17,625000,25146,city,Hoboken
+1108 Park Ave APT 3R,7030,Hoboken,NJ,Hudson,40.75088,-74.029897,Condominium,2015,472485,N/A,N/A,812,1,2,4/21/17,555000,25146,city,Hoboken
+305 Saint Michaels Walk,7087,Union City,NJ,Hudson,40.765158,-74.037056,Condominium,2015,235951,2005,N/A,1116,2,2,4/21/17,321500,54791,city,Union City
+149 Essex St # 1503,7302,Jersey City,NJ,Hudson,40.713062,-74.041152,Condominium,2015,34644,N/A,37239,968,N/A,N/A,6/30/11,455000,273483,neighborhood,Downtown
+1602 75th St,7047,North Bergen,NJ,Hudson,40.803606,-74.017665,SingleFamily,2015,256155,N/A,3402,N/A,N/A,3,4/21/17,390000,40038,city,North Bergen
+110 Grant Ave,7029,Harrison,NJ,Hudson,40.748486,-74.161993,SingleFamily,N/A,N/A,1960,2500,N/A,2,6,4/20/17,325000,8762,city,Harrison
+527 78th St,7047,North Bergen,NJ,Hudson,40.801474,-74.008766,SingleFamily,2015,216313,1926,3333,1361,3,3,4/20/17,529000,762011,neighborhood,Racetrack
+88 Morgan St APT 2308,7302,Jersey City,NJ,Hudson,40.719844,-74.035942,Condominium,2015,6995,N/A,75542,837,1,1,11/10/16,707000,275730,neighborhood,The Waterfront
+811 Montgomery St APT 2L,7306,Jersey City,NJ,Hudson,40.726229,-74.071033,Condominium,2015,258494,1904,3498,861,1,1,8/30/07,245000,274464,neighborhood,McGinley Square
+277 4th St,7302,Jersey City,NJ,Hudson,40.72394,-74.046483,SingleFamily,2015,443038,N/A,1899,N/A,N/A,N/A,N/A,N/A,273483,neighborhood,Downtown
+60 Erie St APT 306,7302,Jersey City,NJ,Hudson,40.723461,-74.043967,Condominium,2015,410060,N/A,9901,1172,2,3,8/9/16,819000,273483,neighborhood,Downtown
+263 Armstrong Ave,7305,Jersey City,NJ,Hudson,40.705186,-74.090957,SingleFamily,2015,261826,N/A,1938,N/A,1.5,4,11/3/16,329000,189019,neighborhood,Greenville
+187 Liberty Ave,7306,Jersey City,NJ,Hudson,40.743288,-74.061956,MultiFamily2To4,2015,333112,N/A,3825,890,4,6,1/26/17,475000,275707,neighborhood,The Heights
+145 Sherman Ave APT 1R,7307,Jersey City,NJ,Hudson,40.745839,-74.046505,Condominium,2016,205573,N/A,2800,830,1,2,9/21/16,278000,275707,neighborhood,The Heights
+353 Webster Ave,7307,Jersey City,NJ,Hudson,40.750657,-74.042515,SingleFamily,2015,406395,N/A,23099,N/A,2,4,9/9/16,775000,275707,neighborhood,The Heights
+126 Zabriskie St,7307,Jersey City,NJ,Hudson,40.74764,-74.055092,SingleFamily,2015,575616,N/A,2500,N/A,N/A,0,9/12/16,499000,275707,neighborhood,The Heights
+172 Bergen Ave,7305,Jersey City,NJ,Hudson,40.708335,-74.085069,MultiFamily2To4,2015,188875,1925,1451,2700,3,7,2/22/17,140000,189019,neighborhood,Greenville
+203 Washington St,7302,Jersey City,NJ,Hudson,40.714148,-74.038291,MultiFamily2To4,2015,582945,N/A,3123,6840,5,8,9/6/16,3125000,275730,neighborhood,The Waterfront
+39 Union St,7304,Jersey City,NJ,Hudson,40.712055,-74.072529,MultiFamily2To4,2015,349767,N/A,1001880,N/A,5,7,2/28/17,417000,272945,neighborhood,Bergen-Lafayette
+129 Franklin St APT B1,7307,Jersey City,NJ,Hudson,40.647879,-74.1898,Condominium,N/A,N/A,N/A,N/A,N/A,1,2,N/A,N/A,31388,city,Elizabeth
+15 Warren St APT 411X,7302,Jersey City,NJ,Hudson,40.711566,-74.040208,SingleFamily,2012,1966188,2002,63649,1370,N/A,N/A,N/A,N/A,273483,neighborhood,Downtown
+142 Webster Ave # B1,7307,Jersey City,NJ,Hudson,40.743428,-74.046641,Condominium,2015,198202,N/A,2500,992,1,2,12/9/16,335000,275707,neighborhood,The Heights
+311 Washington St APT 11D,7302,Jersey City,NJ,Hudson,40.719261,-74.037261,Condominium,2015,561293,2007,10000,1306,2,2,8/22/16,830000,275730,neighborhood,The Waterfront
+357 Varick St # 126A,7302,Jersey City,NJ,Hudson,40.720723,-74.048466,Condominium,2015,307128,N/A,27399,802,1,1,10/7/16,474000,273483,neighborhood,Downtown
+354 Terrace Ave,7307,Jersey City,NJ,Hudson,40.75806,-74.052084,SingleFamily,2015,383078,N/A,385219,N/A,2,4,10/17/16,439650,275707,neighborhood,The Heights
+77 Hudson St APT 1504,7302,Jersey City,NJ,Hudson,40.714542,-74.034598,Condominium,2015,11659,N/A,80586,758,1,1,8/30/16,739000,275730,neighborhood,The Waterfront
+1 Greene St APT 209,7302,Jersey City,NJ,Hudson,40.712794,-74.036888,Condominium,2015,478348,N/A,51836,1197,2,2,12/8/16,765000,275730,neighborhood,The Waterfront
+479 Monmouth St # 1,7302,Jersey City,NJ,Hudson,40.726935,-74.048652,Condominium,2015,243505,N/A,2500,522,N/A,N/A,6/18/10,180000,273483,neighborhood,Downtown
+136 Sherman Ave,7307,Jersey City,NJ,Hudson,40.745161,-74.045903,MultiFamily2To4,2015,266489,1920,2000,1824,2,5,9/16/16,380000,275707,neighborhood,The Heights
+108 Sanford Pl,7307,Jersey City,NJ,Hudson,40.74712,-74.055515,MultiFamily2To4,2015,283144,N/A,2212,N/A,3,5,3/15/17,435000,275707,neighborhood,The Heights
+72 Bidwell Ave,7305,Jersey City,NJ,Hudson,40.703873,-74.079325,SingleFamily,2015,188541,N/A,2500,N/A,N/A,N/A,2/14/17,275000,189019,neighborhood,Greenville
+45 River Dr S APT 2904,7310,Jersey City,NJ,Hudson,40.727601,-74.032081,Condominium,2015,26316,1989,43996,909,1,1,8/15/16,580000,275730,neighborhood,The Waterfront
+129 Orient Ave,7305,Jersey City,NJ,Hudson,40.711657,-74.082016,SingleFamily,2015,191872,1991,2775,N/A,N/A,N/A,1/10/17,227000,272945,neighborhood,Bergen-Lafayette
+46 Bleecker St,7307,Jersey City,NJ,Hudson,40.750659,-74.048802,SingleFamily,2015,149900,N/A,482,N/A,N/A,N/A,9/16/16,220000,275707,neighborhood,The Heights
+235 North St,7307,Jersey City,NJ,Hudson,40.754417,-74.05115,SingleFamily,2015,245503,1930,871,1400,1,3,2/22/17,174300,275707,neighborhood,The Heights
+311 Washington St APT 7E,7302,Jersey City,NJ,Hudson,40.719261,-74.037261,Condominium,2015,515657,2007,10000,1200,2,2,11/1/16,790000,275730,neighborhood,The Waterfront
+7400 River Rd APT 227,7047,North Bergen,NJ,Hudson,40.792306,-73.998122,Condominium,2015,461943,2006,N/A,1075,2,2,4/28/17,425000,40038,city,North Bergen
+162 Woodlawn Ave,7305,Jersey City,NJ,Hudson,40.703683,-74.086521,MultiFamily2To4,2015,193204,N/A,1089000,N/A,1,2,4/7/17,150000,189019,neighborhood,Greenville
+1450 Washington St # 511,7030,Hoboken,NJ,Hudson,40.753839,-74.02596,Condominium,2015,924673,2012,N/A,1207,2,2,4/7/17,999999,25146,city,Hoboken
+157 Van Horne St,7304,Jersey City,NJ,Hudson,40.711571,-74.06568,MultiFamily2To4,2015,233178,1945,1698,2160,2,4,4/7/17,430000,272945,neighborhood,Bergen-Lafayette
+1461 52nd St,7047,North Bergen,NJ,Hudson,40.787062,-74.027984,SingleFamily,2015,130802,N/A,2099,N/A,1,2,4/7/17,245000,40038,city,North Bergen
+62 Carlton Ave,7306,Jersey City,NJ,Hudson,40.743647,-74.057086,Condominium,2015,226182,1901,2874,N/A,4,4,4/6/17,495000,275707,neighborhood,The Heights
+3515 Charles Ct,7047,North Bergen,NJ,Hudson,40.777976,-74.03708,SingleFamily,2015,208232,N/A,2295,N/A,2,3,4/6/17,310000,40038,city,North Bergen
+714 9th St,7094,Secaucus,NJ,Hudson,40.793214,-74.068033,SingleFamily,2015,239097,1900,5000,1379,3,4,4/6/17,405000,33911,city,Secaucus
+7618 1st Ave,7047,North Bergen,NJ,Hudson,40.800918,-74.008002,SingleFamily,2015,203534,1950,2500,1431,4,3,4/6/17,499000,762011,neighborhood,Racetrack
+8 Waverly St,7306,Jersey City,NJ,Hudson,40.737088,-74.049246,SingleFamily,2015,283145,N/A,2158,N/A,N/A,N/A,4/11/17,1400,275707,neighborhood,The Heights
+185 South St,7307,Jersey City,NJ,Hudson,40.750277,-74.050704,MultiFamily2To4,2015,416389,N/A,2500,N/A,3,6,4/5/17,530000,275707,neighborhood,The Heights
+1156 50th St,7047,North Bergen,NJ,Hudson,40.784585,-74.02498,MultiFamily2To4,2015,196580,N/A,1751,N/A,N/A,7,4/11/17,1700,40038,city,North Bergen
+126 Webster Ave APT 1F,7307,Jersey City,NJ,Hudson,40.742771,-74.046958,MultiFamily2To4,N/A,N/A,N/A,N/A,1710,2,2,4/4/17,530000,275707,neighborhood,The Heights
+24 Union St,7304,Jersey City,NJ,Hudson,40.711837,-74.071116,SingleFamily,2015,173218,N/A,2064,N/A,1,3,4/4/17,115000,272945,neighborhood,Bergen-Lafayette
+64 Jefferson St # 64-B,7030,Hoboken,NJ,Hudson,40.738066,-74.038498,Condominium,2015,1118967,1998,2175,2175,N/A,3,4/4/17,1400000,25146,city,Hoboken
+691 3rd St,7094,Secaucus,NJ,Hudson,40.789069,-74.064425,SingleFamily,2016,268841,2016,5301,3300,4,4,4/4/17,740000,33911,city,Secaucus
+89 Bostwick Ave,7305,Jersey City,NJ,Hudson,40.707814,-74.081807,MultiFamily5Plus,2015,295803,1970,2726,N/A,1,3,4/3/17,437000,189019,neighborhood,Greenville
+3502 Givernaud Ter,7047,North Bergen,NJ,Hudson,40.777878,-74.035566,SingleFamily,2015,193009,N/A,2029,N/A,N/A,3,4/3/17,310000,40038,city,North Bergen
+30 Manhattan Ave,7307,Jersey City,NJ,Hudson,40.742232,-74.050027,MultiFamily2To4,2015,283144,N/A,2574,N/A,1,3,4/3/17,400000,275707,neighborhood,The Heights
+327 Maple St,7032,Kearny,NJ,Hudson,40.763515,-74.150427,MultiFamily2To4,2016,353338,1900,2500,N/A,3,6,4/3/17,344900,5382,city,Kearny
+2601 Palisade Ave # 2,7087,Union City,NJ,Hudson,40.768003,-74.029046,Condominium,2015,193050,1900,2500,932,1,2,4/1/17,180000,54791,city,Union City
+9019 Wall St APT 2C,7047,North Bergen,NJ,Hudson,40.804569,-73.995515,MultiFamily2To4,2015,169705,1980,14418,935,2,2,4/1/17,1950,762010,neighborhood,Bulls Ferry
+611 Schuyler Ave,7032,Kearny,NJ,Hudson,40.768664,-74.137386,MultiFamily2To4,2015,447920,1974,4050,4050,4,6,3/31/17,394000,5382,city,Kearny
+421 Adams St APT 2R,7030,Hoboken,NJ,Hudson,40.742632,-74.035998,Condominium,2015,374155,N/A,N/A,543,1,1,3/31/17,375000,25146,city,Hoboken
+207 Maple St,7086,Weehawken,NJ,Hudson,40.768254,-74.027255,SingleFamily,2015,292408,N/A,1149,N/A,2,3,3/31/17,500000,48385,city,Weehawken
+741 Park Ave APT 3,7030,Hoboken,NJ,Hudson,40.745746,-74.031135,Condominium,2015,418133,1901,N/A,671,1,1,3/31/17,436000,25146,city,Hoboken
+209 Hutton St,7307,Jersey City,NJ,Hudson,40.746341,-74.055112,SingleFamily,2016,421643,1900,1089000,1973,3,4,3/31/17,540000,275707,neighborhood,The Heights
+307 1st St APT 3,7030,Hoboken,NJ,Hudson,40.737997,-74.03498,Condominium,2015,458841,N/A,1611,861,2,1,3/31/17,571000,25146,city,Hoboken
+16 Roosevelt Ter,7002,Bayonne,NJ,Hudson,40.676549,-74.11703,SingleFamily,2015,447740,1955,5000,1872,3,3,3/31/17,445000,21685,city,Bayonne
+111 W 4th St,7002,Bayonne,NJ,Hudson,40.650158,-74.13452,SingleFamily,2015,381009,N/A,N/A,N/A,4,6,3/31/17,445000,21685,city,Bayonne
+78 Jackson St # 5B,7030,Hoboken,NJ,Hudson,40.738475,-74.041702,Condominium,2015,861412,2009,1600,1600,2,3,3/31/17,1132500,25146,city,Hoboken
+1 Shore Ln APT 1602,7310,Jersey City,NJ,Hudson,40.730388,-74.032325,Condominium,2015,20653,2000,40511,1120,2,2,3/31/17,965000,275730,neighborhood,The Waterfront
+192 Prospect Ave,7002,Bayonne,NJ,Hudson,40.666389,-74.110959,MultiFamily2To4,2015,239656,1920,2500,1640,2,4,3/31/17,350000,21685,city,Bayonne
+222 Monroe St # A2RS,7030,Hoboken,NJ,Hudson,40.74152,-74.039604,Condominium,2015,413171,1987,719,719,1,1,1/24/07,430000,25146,city,Hoboken
+8804 1st Ave,7047,North Bergen,NJ,Hudson,40.807567,-74.003291,SingleFamily,2015,213870,N/A,2500,N/A,3,4,3/31/17,459000,40038,city,North Bergen
+123 Harmon Cove Tower,7094,Secaucus,NJ,Hudson,40.781315,-74.078682,MultiFamily2To4,2015,205918,N/A,N/A,1379,2,2,3/31/17,302500,33911,city,Secaucus
+4315 Newkirk Ave # 17,7047,North Bergen,NJ,Hudson,40.781251,-74.02967,SingleFamily,2015,299379,N/A,2500,3237,N/A,N/A,3/31/17,390000,245503,neighborhood,Meadowview
+83 Bright St # 4B,7302,Jersey City,NJ,Hudson,40.717162,-74.04904,Condominium,2015,230513,1908,3999,1730,2,2,3/30/17,1250000,273483,neighborhood,Downtown
+536 28th St,7087,Union City,NJ,Hudson,40.77076,-74.03205,MultiFamily2To4,2015,327757,1908,2478,N/A,3,4,3/30/17,255900,54791,city,Union City
+270 Harrison Ave APT 108,7304,Jersey City,NJ,Hudson,40.72152,-74.079826,Condominium,2015,99267,1950,N/A,850,1,2,3/30/17,240000,276653,neighborhood,West Side
+120 W 22nd St,7002,Bayonne,NJ,Hudson,40.665552,-74.12425,SingleFamily,2015,261182,N/A,2613,N/A,2,4,3/30/17,315000,21685,city,Bayonne
+2600 John F Kennedy Blvd APT 8C,7306,Jersey City,NJ,Hudson,40.725626,-74.072716,Condominium,2015,173551,N/A,30527,1302,N/A,N/A,3/5/14,228000,276653,neighborhood,West Side
+89 Windsor St,7032,Kearny,NJ,Hudson,40.761148,-74.153028,SingleFamily,2015,524670,1998,5001,2962,N/A,N/A,3/30/17,550000,5382,city,Kearny
+90 Osprey Ct,7094,Secaucus,NJ,Hudson,40.801465,-74.06291,Condominium,2015,530187,2000,N/A,2369,4,4,3/30/17,635000,33911,city,Secaucus
+312 William St,7029,Harrison,NJ,Hudson,40.748655,-74.158069,SingleFamily,2015,297629,N/A,2500,N/A,N/A,N/A,3/29/17,355000,8762,city,Harrison
+14A Riverview Cir,7047,North Bergen,NJ,Hudson,40.796167,-73.993524,Condominium,2015,253523,1983,308361,1600,2,2,5/16/02,440000,40038,city,North Bergen
+19 W 53rd St,7002,Bayonne,NJ,Hudson,40.68513,-74.10139,MultiFamily2To4,2015,301124,1900,2500,2760,2,2,3/28/17,241000,21685,city,Bayonne
+392 New York Ave,7307,Jersey City,NJ,Hudson,40.749442,-74.041533,MultiFamily2To4,2015,403064,N/A,2500,1200,3,7,3/28/17,620000,275707,neighborhood,The Heights
+71 Griffith St,7307,Jersey City,NJ,Hudson,40.74429,-74.04585,SingleFamily,2015,235510,N/A,1002,N/A,2,2,3/28/17,305000,275707,neighborhood,The Heights
+1450 Washington St APT 210,7030,Hoboken,NJ,Hudson,40.753839,-74.02596,Condominium,2015,1262742,2012,N/A,1504,2,3,3/28/17,1330000,25146,city,Hoboken
+1450 Washington St APT 614,7030,Hoboken,NJ,Hudson,40.753839,-74.02596,Condominium,2015,582769,2012,N/A,771,1,1,3/28/17,685000,25146,city,Hoboken
+1450 Washington St APT 620,7030,Hoboken,NJ,Hudson,40.753839,-74.02596,Condominium,2015,823185,N/A,N/A,1115,2,1,3/28/17,903000,25146,city,Hoboken
+22 Colonial Dr,7002,Bayonne,NJ,Hudson,40.69587,-74.10433,SingleFamily,2015,378140,1970,5625,2320,N/A,N/A,3/28/17,460000,21685,city,Bayonne
+118 Willow Ave APT 1,7030,Hoboken,NJ,Hudson,40.738846,-74.034615,Condominium,2015,510826,N/A,N/A,868,1,2,3/27/17,755000,25146,city,Hoboken
+107 Kensington Ave APT 203A,7304,Jersey City,NJ,Hudson,40.723512,-74.076738,Condominium,2016,120521,N/A,N/A,N/A,1,1,3/27/17,170000,276653,neighborhood,West Side
+1010 Willow Ave APT 1,7030,Hoboken,NJ,Hudson,40.749624,-74.031263,Condominium,2015,501917,1930,10367,950,1,1,3/27/17,700000,25146,city,Hoboken
+16 Willow Ter,7030,Hoboken,NJ,Hudson,40.744821,-74.032928,SingleFamily,2015,650992,1900,631,1548,3,3,3/27/17,1042000,25146,city,Hoboken
+120 32nd St APT 1L,7087,Union City,NJ,Hudson,40.768347,-74.025813,Condominium,2015,117761,N/A,N/A,572,1,1,3/27/17,158000,54791,city,Union City
+1727 41st St,7047,North Bergen,NJ,Hudson,40.781794,-74.035538,MultiFamily2To4,2015,359143,N/A,2374,N/A,2,4,3/27/17,450000,189654,neighborhood,New Durham
+803 Sip St APT 301,7087,Union City,NJ,Hudson,40.773754,-74.03286,Condominium,2015,309738,2006,1011,1026,1,2,3/24/17,345000,54791,city,Union City
+203 Belmont Ave,7304,Jersey City,NJ,Hudson,40.721746,-74.075216,SingleFamily,2015,249833,1890,1189,N/A,2,4,3/24/17,429000,274464,neighborhood,McGinley Square
+44 Sherman Ave APT 2F,7307,Jersey City,NJ,Hudson,40.742196,-74.04819,Condominium,2015,93604,N/A,N/A,624,1,0,3/24/17,216000,275707,neighborhood,The Heights
+129 Franklin St APT D3,7307,Jersey City,NJ,Hudson,40.742784,-74.050099,Condominium,2015,171553,N/A,N/A,606,1,1,3/24/17,229000,275707,neighborhood,The Heights
+165 Hickory St,7032,Kearny,NJ,Hudson,40.759209,-74.145911,SingleFamily,2015,328281,N/A,N/A,N/A,2,3,3/24/17,280000,5382,city,Kearny
+15A Claremont Ave,7305,Jersey City,NJ,Hudson,40.706845,-74.074208,SingleFamily,2015,133244,1940,1550,1550,2,3,3/24/17,295000,272945,neighborhood,Bergen-Lafayette
+2 Radio Ave APT C24,7094,Secaucus,NJ,Hudson,40.794214,-74.056255,Condominium,2015,147597,1980,N/A,800,1,2,3/24/17,187500,33911,city,Secaucus
+207 Blue Heron Dr,7094,Secaucus,NJ,Hudson,40.801355,-74.060482,Townhouse,2016,352274,N/A,N/A,1780,3,2,3/24/17,474000,33911,city,Secaucus
+7111 Palisade Ave APT D1,7047,North Bergen,NJ,Hudson,40.796008,-74.008488,MultiFamily5Plus,2015,78933,1920,N/A,602,1,1,3/24/17,99000,40038,city,North Bergen
+2208 Harmon Cove Tower,7094,Secaucus,NJ,Hudson,40.781324,-74.078772,Condominium,2015,265606,1980,N/A,1508,2,2,3/24/17,420000,33911,city,Secaucus
+1 Greene St APT 608,7302,Jersey City,NJ,Hudson,40.712583,-74.036727,Condominium,2015,435376,N/A,51836,1005,1,2,3/23/17,760000,275730,neighborhood,The Waterfront
+600 Harbor Blvd UNIT 1058,7086,Weehawken,NJ,Hudson,40.758385,-74.025382,Condominium,2015,675828,2000,N/A,1365,2,2,3/23/17,700000,48385,city,Weehawken
+106 Humphrey Ave,7002,Bayonne,NJ,Hudson,40.650531,-74.133947,SingleFamily,2015,244200,1920,2692,1174,3,4,3/23/17,360000,21685,city,Bayonne
+3907 Hudson Ave,7087,Union City,NJ,Hudson,40.77463,-74.023084,MultiFamily2To4,2015,360790,1898,1742,3178,3,6,3/22/17,365000,54791,city,Union City
+56 Park St,7304,Jersey City,NJ,Hudson,40.717524,-74.068438,SingleFamily,2015,299800,1890,1564,1120,1,3,3/22/17,225000,274464,neighborhood,McGinley Square
+2614 Palisade Ave # 1A,7086,Weehawken,NJ,Hudson,40.768016,-74.028907,Condominium,2015,145303,1970,N/A,848,1,2,3/22/17,315000,48385,city,Weehawken
+122 18th St,7087,Union City,NJ,Hudson,40.761423,-74.029878,SingleFamily,2015,284427,1910,2613,1880,N/A,3,3/21/17,238000,54791,city,Union City
+12 Audubon Ave APT 104,7305,Jersey City,NJ,Hudson,40.707794,-74.08665,Condominium,2015,96602,N/A,12855,725,1,2,3/21/17,85000,189019,neighborhood,Greenville
+228 Monroe St # D2RS,7030,Hoboken,NJ,Hudson,40.741382,-74.039819,Condominium,2016,399715,1985,719,719,N/A,1,9/8/14,330000,25146,city,Hoboken
+77 Hudson St APT 1708,7302,Jersey City,NJ,Hudson,40.714542,-74.034598,Condominium,2015,11659,N/A,80586,872,1,1,3/21/17,885000,275730,neighborhood,The Waterfront
+206 Seaview Ave,7305,Jersey City,NJ,Hudson,40.694856,-74.098018,MultiFamily2To4,2015,165223,2015,2844,N/A,4,6,3/20/17,480000,189019,neighborhood,Greenville
+109 Winfield Ave,7305,Jersey City,NJ,Hudson,40.692847,-74.094661,MultiFamily2To4,2015,253164,1895,2613,N/A,3,7,3/20/17,180000,189019,neighborhood,Greenville
+261 Ogden Ave,7307,Jersey City,NJ,Hudson,40.742863,-74.04429,MultiFamily2To4,2015,393071,N/A,2500,N/A,N/A,6,3/20/17,699000,275707,neighborhood,The Heights
+11 Cuneo Pl # D,7307,Jersey City,NJ,Hudson,40.738601,-74.047447,Condominium,2015,141572,N/A,5597,783,1,2,3/20/17,324900,275707,neighborhood,The Heights
+7 Marina Ky,7094,Secaucus,NJ,Hudson,40.787801,-74.076279,Townhouse,2015,284932,1976,N/A,1452,3,2,3/20/17,388000,33911,city,Secaucus
+509 Madison St APT 2C,7030,Hoboken,NJ,Hudson,40.743948,-74.037308,Condominium,2015,451962,N/A,805,805,2,2,3/17/17,603000,25146,city,Hoboken
+88 Morgan St APT 2308,7302,Jersey City,NJ,Hudson,40.719844,-74.035942,Condominium,2015,6995,N/A,75542,837,1,1,11/10/16,707000,275730,neighborhood,The Waterfront
+811 Montgomery St APT 2L,7306,Jersey City,NJ,Hudson,40.726229,-74.071033,Condominium,2015,258494,1904,3498,861,1,1,8/30/07,245000,274464,neighborhood,McGinley Square
+277 4th St,7302,Jersey City,NJ,Hudson,40.72394,-74.046483,SingleFamily,2015,443038,N/A,1899,N/A,N/A,N/A,N/A,N/A,273483,neighborhood,Downtown
+60 Erie St APT 306,7302,Jersey City,NJ,Hudson,40.723461,-74.043967,Condominium,2015,410060,N/A,9901,1172,2,3,8/9/16,819000,273483,neighborhood,Downtown
+263 Armstrong Ave,7305,Jersey City,NJ,Hudson,40.705186,-74.090957,SingleFamily,2015,261826,N/A,1938,N/A,1.5,4,11/3/16,329000,189019,neighborhood,Greenville
+187 Liberty Ave,7306,Jersey City,NJ,Hudson,40.743288,-74.061956,MultiFamily2To4,2015,333112,N/A,3825,890,4,6,1/26/17,475000,275707,neighborhood,The Heights
+145 Sherman Ave APT 1R,7307,Jersey City,NJ,Hudson,40.745839,-74.046505,Condominium,2016,205573,N/A,2800,830,1,2,9/21/16,278000,275707,neighborhood,The Heights
+353 Webster Ave,7307,Jersey City,NJ,Hudson,40.750657,-74.042515,SingleFamily,2015,406395,N/A,23099,N/A,2,4,9/9/16,775000,275707,neighborhood,The Heights
+126 Zabriskie St,7307,Jersey City,NJ,Hudson,40.74764,-74.055092,SingleFamily,2015,575616,N/A,2500,N/A,N/A,0,9/12/16,499000,275707,neighborhood,The Heights
+172 Bergen Ave,7305,Jersey City,NJ,Hudson,40.708335,-74.085069,MultiFamily2To4,2015,188875,1925,1451,2700,3,7,2/22/17,140000,189019,neighborhood,Greenville
+203 Washington St,7302,Jersey City,NJ,Hudson,40.714148,-74.038291,MultiFamily2To4,2015,582945,N/A,3123,6840,5,8,9/6/16,3125000,275730,neighborhood,The Waterfront
+39 Union St,7304,Jersey City,NJ,Hudson,40.712055,-74.072529,MultiFamily2To4,2015,349767,N/A,1001880,N/A,5,7,2/28/17,417000,272945,neighborhood,Bergen-Lafayette
+129 Franklin St APT B1,7307,Jersey City,NJ,Hudson,40.647879,-74.1898,Condominium,N/A,N/A,N/A,N/A,N/A,1,2,N/A,N/A,31388,city,Elizabeth
+15 Warren St APT 411X,7302,Jersey City,NJ,Hudson,40.711566,-74.040208,SingleFamily,2012,1966188,2002,63649,1370,N/A,N/A,N/A,N/A,273483,neighborhood,Downtown
+142 Webster Ave # B1,7307,Jersey City,NJ,Hudson,40.743428,-74.046641,Condominium,2015,198202,N/A,2500,992,1,2,12/9/16,335000,275707,neighborhood,The Heights
+311 Washington St APT 11D,7302,Jersey City,NJ,Hudson,40.719261,-74.037261,Condominium,2015,561293,2007,10000,1306,2,2,8/22/16,830000,275730,neighborhood,The Waterfront
+357 Varick St # 126A,7302,Jersey City,NJ,Hudson,40.720723,-74.048466,Condominium,2015,307128,N/A,27399,802,1,1,10/7/16,474000,273483,neighborhood,Downtown
+354 Terrace Ave,7307,Jersey City,NJ,Hudson,40.75806,-74.052084,SingleFamily,2015,383078,N/A,385219,N/A,2,4,10/17/16,439650,275707,neighborhood,The Heights
+77 Hudson St APT 1504,7302,Jersey City,NJ,Hudson,40.714542,-74.034598,Condominium,2015,11659,N/A,80586,758,1,1,8/30/16,739000,275730,neighborhood,The Waterfront
+1 Greene St APT 209,7302,Jersey City,NJ,Hudson,40.712794,-74.036888,Condominium,2015,478348,N/A,51836,1197,2,2,12/8/16,765000,275730,neighborhood,The Waterfront
+479 Monmouth St # 1,7302,Jersey City,NJ,Hudson,40.726935,-74.048652,Condominium,2015,243505,N/A,2500,522,N/A,N/A,6/18/10,180000,273483,neighborhood,Downtown
+136 Sherman Ave,7307,Jersey City,NJ,Hudson,40.745161,-74.045903,MultiFamily2To4,2015,266489,1920,2000,1824,2,5,9/16/16,380000,275707,neighborhood,The Heights
+108 Sanford Pl,7307,Jersey City,NJ,Hudson,40.74712,-74.055515,MultiFamily2To4,2015,283144,N/A,2212,N/A,3,5,3/15/17,435000,275707,neighborhood,The Heights
+72 Bidwell Ave,7305,Jersey City,NJ,Hudson,40.703873,-74.079325,SingleFamily,2015,188541,N/A,2500,N/A,N/A,N/A,2/14/17,275000,189019,neighborhood,Greenville
+45 River Dr S APT 2904,7310,Jersey City,NJ,Hudson,40.727601,-74.032081,Condominium,2015,26316,1989,43996,909,1,1,8/15/16,580000,275730,neighborhood,The Waterfront
+129 Orient Ave,7305,Jersey City,NJ,Hudson,40.711657,-74.082016,SingleFamily,2015,191872,1991,2775,N/A,N/A,N/A,1/10/17,227000,272945,neighborhood,Bergen-Lafayette
+46 Bleecker St,7307,Jersey City,NJ,Hudson,40.750659,-74.048802,SingleFamily,2015,149900,N/A,482,N/A,N/A,N/A,9/16/16,220000,275707,neighborhood,The Heights
+235 North St,7307,Jersey City,NJ,Hudson,40.754417,-74.05115,SingleFamily,2015,245503,1930,871,1400,1,3,2/22/17,174300,275707,neighborhood,The Heights
+311 Washington St APT 7E,7302,Jersey City,NJ,Hudson,40.719261,-74.037261,Condominium,2015,515657,2007,10000,1200,2,2,11/1/16,790000,275730,neighborhood,The Waterfront
+88 Morgan St APT 2308,7302,Jersey City,NJ,Hudson,40.719844,-74.035942,Condominium,2015,6995,N/A,75542,837,1,1,11/10/16,707000,275730,neighborhood,The Waterfront
+811 Montgomery St APT 2L,7306,Jersey City,NJ,Hudson,40.726229,-74.071033,Condominium,2015,258494,1904,3498,861,1,1,8/30/07,245000,274464,neighborhood,McGinley Square
+277 4th St,7302,Jersey City,NJ,Hudson,40.72394,-74.046483,SingleFamily,2015,443038,N/A,1899,N/A,N/A,N/A,N/A,N/A,273483,neighborhood,Downtown
+60 Erie St APT 306,7302,Jersey City,NJ,Hudson,40.723461,-74.043967,Condominium,2015,410060,N/A,9901,1172,2,3,8/9/16,819000,273483,neighborhood,Downtown
+263 Armstrong Ave,7305,Jersey City,NJ,Hudson,40.705186,-74.090957,SingleFamily,2015,261826,N/A,1938,N/A,1.5,4,11/3/16,329000,189019,neighborhood,Greenville
+187 Liberty Ave,7306,Jersey City,NJ,Hudson,40.743288,-74.061956,MultiFamily2To4,2015,333112,N/A,3825,890,4,6,1/26/17,475000,275707,neighborhood,The Heights
+145 Sherman Ave APT 1R,7307,Jersey City,NJ,Hudson,40.745839,-74.046505,Condominium,2016,205573,N/A,2800,830,1,2,9/21/16,278000,275707,neighborhood,The Heights
+353 Webster Ave,7307,Jersey City,NJ,Hudson,40.750657,-74.042515,SingleFamily,2015,406395,N/A,23099,N/A,2,4,9/9/16,775000,275707,neighborhood,The Heights
+126 Zabriskie St,7307,Jersey City,NJ,Hudson,40.74764,-74.055092,SingleFamily,2015,575616,N/A,2500,N/A,N/A,0,9/12/16,499000,275707,neighborhood,The Heights
+172 Bergen Ave,7305,Jersey City,NJ,Hudson,40.708335,-74.085069,MultiFamily2To4,2015,188875,1925,1451,2700,3,7,2/22/17,140000,189019,neighborhood,Greenville
+203 Washington St,7302,Jersey City,NJ,Hudson,40.714148,-74.038291,MultiFamily2To4,2015,582945,N/A,3123,6840,5,8,9/6/16,3125000,275730,neighborhood,The Waterfront
+39 Union St,7304,Jersey City,NJ,Hudson,40.712055,-74.072529,MultiFamily2To4,2015,349767,N/A,1001880,N/A,5,7,2/28/17,417000,272945,neighborhood,Bergen-Lafayette
+129 Franklin St APT B1,7307,Jersey City,NJ,Hudson,40.647879,-74.1898,Condominium,N/A,N/A,N/A,N/A,N/A,1,2,N/A,N/A,31388,city,Elizabeth
+15 Warren St APT 411X,7302,Jersey City,NJ,Hudson,40.711566,-74.040208,SingleFamily,2012,1966188,2002,63649,1370,N/A,N/A,N/A,N/A,273483,neighborhood,Downtown
+142 Webster Ave # B1,7307,Jersey City,NJ,Hudson,40.743428,-74.046641,Condominium,2015,198202,N/A,2500,992,1,2,12/9/16,335000,275707,neighborhood,The Heights
+311 Washington St APT 11D,7302,Jersey City,NJ,Hudson,40.719261,-74.037261,Condominium,2015,561293,2007,10000,1306,2,2,8/22/16,830000,275730,neighborhood,The Waterfront
+357 Varick St # 126A,7302,Jersey City,NJ,Hudson,40.720723,-74.048466,Condominium,2015,307128,N/A,27399,802,1,1,10/7/16,474000,273483,neighborhood,Downtown
+354 Terrace Ave,7307,Jersey City,NJ,Hudson,40.75806,-74.052084,SingleFamily,2015,383078,N/A,385219,N/A,2,4,10/17/16,439650,275707,neighborhood,The Heights
+77 Hudson St APT 1504,7302,Jersey City,NJ,Hudson,40.714542,-74.034598,Condominium,2015,11659,N/A,80586,758,1,1,8/30/16,739000,275730,neighborhood,The Waterfront
+1 Greene St APT 209,7302,Jersey City,NJ,Hudson,40.712794,-74.036888,Condominium,2015,478348,N/A,51836,1197,2,2,12/8/16,765000,275730,neighborhood,The Waterfront
+479 Monmouth St # 1,7302,Jersey City,NJ,Hudson,40.726935,-74.048652,Condominium,2015,243505,N/A,2500,522,N/A,N/A,6/18/10,180000,273483,neighborhood,Downtown
+136 Sherman Ave,7307,Jersey City,NJ,Hudson,40.745161,-74.045903,MultiFamily2To4,2015,266489,1920,2000,1824,2,5,9/16/16,380000,275707,neighborhood,The Heights
+108 Sanford Pl,7307,Jersey City,NJ,Hudson,40.74712,-74.055515,MultiFamily2To4,2015,283144,N/A,2212,N/A,3,5,3/15/17,435000,275707,neighborhood,The Heights
+72 Bidwell Ave,7305,Jersey City,NJ,Hudson,40.703873,-74.079325,SingleFamily,2015,188541,N/A,2500,N/A,N/A,N/A,2/14/17,275000,189019,neighborhood,Greenville
+45 River Dr S APT 2904,7310,Jersey City,NJ,Hudson,40.727601,-74.032081,Condominium,2015,26316,1989,43996,909,1,1,8/15/16,580000,275730,neighborhood,The Waterfront
+129 Orient Ave,7305,Jersey City,NJ,Hudson,40.711657,-74.082016,SingleFamily,2015,191872,1991,2775,N/A,N/A,N/A,1/10/17,227000,272945,neighborhood,Bergen-Lafayette
+46 Bleecker St,7307,Jersey City,NJ,Hudson,40.750659,-74.048802,SingleFamily,2015,149900,N/A,482,N/A,N/A,N/A,9/16/16,220000,275707,neighborhood,The Heights
+235 North St,7307,Jersey City,NJ,Hudson,40.754417,-74.05115,SingleFamily,2015,245503,1930,871,1400,1,3,2/22/17,174300,275707,neighborhood,The Heights
+311 Washington St APT 7E,7302,Jersey City,NJ,Hudson,40.719261,-74.037261,Condominium,2015,515657,2007,10000,1200,2,2,11/1/16,790000,275730,neighborhood,The Waterfront
+13 Beacon Hill Dr,7930,Chester,NJ,Morris,40.753944,-74.67405,SingleFamily,2011,1502700,1992,130680,6148,6,6,6/14/93,725000,395751,city,Chester Township
+28 Greenwood Ave,7928,Chatham,NJ,Morris,40.728839,-74.396144,SingleFamily,2015,1094511,1938,12196,4438,6,5,5/2/17,1750000,41940,city,Chatham
+4 Kenmuir Ave,7960,Morristown,NJ,Morris,40.803786,-74.489079,SingleFamily,2015,449082,1927,6534,1870,2,4,5/2/17,500000,53420,city,Morristown
+79 School House Rd,7438,Oak Ridge,NJ,Morris,41.030384,-74.527589,SingleFamily,2015,450892,1998,20995,2794,2.5,4,5/1/17,455000,12117,city,Jefferson Township
+21 Bonnieview Ln,7082,Towaco,NJ,Morris,40.930417,-74.359765,SingleFamily,2015,783364,2002,55756,N/A,3.5,5,5/1/17,4900,43583,city,Montville
+36 Ranney Rd,7853,Long Valley,NJ,Morris,40.802368,-74.761778,SingleFamily,2015,668200,1992,88862,3900,4.5,4,5/1/17,610000,49769,city,Long Valley
+10 Little Doe Run,7438,Oak Ridge,NJ,Morris,41.031943,-74.498897,SingleFamily,2015,369169,1996,7405,2011,3,4,4/29/17,390000,12117,city,Jefferson Township
+15 Ardsleigh Dr,7940,Madison,NJ,Morris,40.766788,-74.426033,SingleFamily,2015,560711,1950,8712,N/A,2,4,4/28/17,600000,53105,city,Madison
+38 Central Ave,7940,Madison,NJ,Morris,40.760191,-74.413439,SingleFamily,2015,344950,2014,4791,2977,5,5,4/28/17,1075000,53105,city,Madison
+58 Pembrooke Rd,7928,Chatham,NJ,Morris,40.713162,-74.423285,SingleFamily,2015,1027130,1996,30927,3100,4,4,4/28/17,975000,397771,city,Chatham Township
+29 Sanders St,7950,Morris Plains,NJ,Morris,40.819534,-74.485272,SingleFamily,2015,273593,1948,3920,N/A,2,4,4/28/17,405000,398997,city,Morris Township
+70 Hillcrest Dr,7834,Denville,NJ,Morris,40.912742,-74.47828,SingleFamily,2015,830808,2006,20908,3300,4,3,4/28/17,725000,29899,city,Denville
+28 Jennifer Dr,7936,East Hanover,NJ,Morris,40.809714,-74.365856,Condominium,2015,300736,1996,N/A,N/A,2,3,4/28/17,350000,8759,city,East Hanover
+40 N Ridge Rd,7834,Denville,NJ,Morris,40.843085,-74.522155,SingleFamily,2015,1006266,1987,38332,N/A,4,5,4/28/17,615000,29899,city,Denville
+4107 Ramapo Ct,7457,Riverdale,NJ,Morris,40.9881,-74.3155,Condominium,2015,260343,2012,N/A,862,1,2,4/28/17,255000,13534,city,Riverdale
+3 York St,7045,Montville,NJ,Morris,40.891897,-74.351171,SingleFamily,2015,540835,1966,35283,2336,4,3,4/28/17,601000,43583,city,Montville
+13 White Meadow Rd,7866,Rockaway,NJ,Morris,40.913164,-74.51147,SingleFamily,2015,340601,1962,8712,2280,N/A,4,4/28/17,200000,396484,city,Rockaway Township
+1018 Scenic Dr,7438,OAK RIDGE,NJ,Morris,41.050114,-74.530042,VacantResidentialLand,2015,101764,2016,43560,N/A,N/A,4,4/28/17,457000,12117,city,Jefferson Township
+2 River Park Ct,7981,Whippany,NJ,Morris,40.827824,-74.420388,SingleFamily,2015,1000105,2006,37897,4864,4,5,4/28/17,856000,189064,city,Hanover
+521 Boyd St,7005,Boonton,NJ,Morris,40.895873,-74.405914,SingleFamily,2015,251626,1956,10454,780,1,2,4/28/17,250000,3752,city,Boonton
+19 Sylvan Dr,7058,Pine Brook,NJ,Morris,40.870243,-74.343925,SingleFamily,2015,609451,1968,20037,2487,3,3,4/28/17,630000,42807,city,Pine Brook
+36 Oak Knoll Rd,7945,Mendham,NJ,Morris,40.785579,-74.642066,SingleFamily,2015,1036394,1973,218148,4073,N/A,N/A,4/28/17,982250,397829,city,Mendham Township
+60 Shongum Rd,7869,Randolph,NJ,Morris,40.850419,-74.53554,SingleFamily,2015,392180,1960,24829,N/A,3,4,4/28/17,489000,13437,city,Randolph
+23 Hemlock Dr,7853,Long Valley,NJ,Morris,40.809094,-74.784996,SingleFamily,2015,384700,1968,28313,3072,3,5,4/28/17,412058,49769,city,Long Valley
+9 Bell Ct,7850,Landing,NJ,Morris,40.908411,-74.656124,MultiFamily2To4,2015,233267,1950,7022,1816,2,5,4/28/17,275000,398431,city,Roxbury Township
+11 Arbor Way,7853,Long Valley,NJ,Morris,40.834553,-74.770902,SingleFamily,2015,525900,1991,81021,3175,4,4,4/28/17,475000,49769,city,Long Valley
+72 Toby Dr,7876,Succasunna,NJ,Morris,40.842873,-74.667465,SingleFamily,2015,424912,1968,14810,2567,3,4,4/28/17,438000,47885,city,Succasunna
+120 Shawnee Path,7946,Millington,NJ,Morris,40.68379,-74.52389,SingleFamily,N/A,N/A,1982,30927,4800,5,4,4/27/17,950000,397220,city,Long Hill Township
+24 Surrey Ln,7940,Madison,NJ,Morris,40.770205,-74.397469,SingleFamily,2015,521087,1955,7405,N/A,2,3,4/27/17,565000,53105,city,Madison
+311 Pine St,7005,Boonton,NJ,Morris,40.909913,-74.414653,SingleFamily,2015,402415,2002,6098,2007,3,4,4/27/17,470000,3752,city,Boonton
+3 Vanderhoof Rd,7045,Montville,NJ,Morris,40.900466,-74.368386,Condominium,2015,339843,1994,N/A,N/A,3,2,4/27/17,355000,43583,city,Montville
+11 Oneida Ave,7866,Rockaway,NJ,Morris,40.916724,-74.519719,SingleFamily,2015,263802,1965,7405,N/A,2,3,4/27/17,285000,396484,city,Rockaway Township
+142 Crescent Rd,7932,Florham Park,NJ,Morris,40.788234,-74.378827,SingleFamily,2015,640900,1972,16988,2340,3,4,4/27/17,655000,38545,city,Florham Park
+1 Chilton Rd,7930,Chester,NJ,Morris,40.756419,-74.688192,SingleFamily,2015,1155160,1992,108028,5300,5,5,4/27/17,942000,395751,city,Chester Township
+2 Rebecca Ct,7869,Randolph,NJ,Morris,40.849719,-74.548818,SingleFamily,2015,647516,1994,45302,2921,3,4,4/27/17,650000,13437,city,Randolph
+105 Lake Shore Dr,7866,Rockaway,NJ,Morris,40.919275,-74.52095,SingleFamily,2015,384103,1970,12196,2367,3,3,4/26/17,435018,396484,city,Rockaway Township
+36 Willow Ave,7866,Rockaway,NJ,Morris,40.90281,-74.522508,SingleFamily,2015,367168,1963,9527,1875,N/A,N/A,4/26/17,365000,396484,city,Rockaway Township
+33 Mountainside Ave,7460,Stockholm,NJ,Morris,41.064934,-74.528348,SingleFamily,2015,215740,1945,13503,N/A,1,3,4/26/17,55000,272593,city,Hardyston
+32 Callahan St,7936,East Hanover,NJ,Morris,40.830582,-74.359217,SingleFamily,2015,378573,1958,25700,N/A,1,3,4/26/17,400000,8759,city,East Hanover
+531 Logan Dr,7850,Landing,NJ,Morris,40.912136,-74.651989,SingleFamily,2015,248361,1966,8276,1392,2,3,4/26/17,265000,398431,city,Roxbury Township
+42 Springhill Rd,7869,Randolph,NJ,Morris,40.834134,-74.551325,SingleFamily,2015,504103,1974,21780,2538,3,4,4/26/17,550000,13437,city,Randolph
+66 Connelly Ave,7828,Budd Lake,NJ,Morris,40.879112,-74.723421,SingleFamily,2015,324500,1997,10890,N/A,3,3,4/26/17,340000,35236,city,Budd Lake
+30 Tiger Lily Ln,7960,Morristown,NJ,Morris,40.764734,-74.494336,SingleFamily,2015,452495,1974,106722,N/A,2,3,4/25/17,505000,397524,city,Harding Township
+21 Allister Ct,7035,Lincoln Park,NJ,Morris,40.924815,-74.313352,Condominium,2015,293700,2000,218,1680,3,3,4/25/17,325000,25599,city,Lincoln Park
+38 Calais Rd,7869,Randolph,NJ,Morris,40.82726,-74.593611,SingleFamily,2015,339054,1976,36154,N/A,3,4,4/25/17,365000,13437,city,Randolph
+15 Chickadee Rd,7828,Budd Lake,NJ,Morris,40.864696,-74.75789,SingleFamily,2015,215100,1968,19998,1832,2.5,3,4/25/17,290000,35236,city,Budd Lake
+95 Sherwood Ln,7980,Stirling,NJ,Morris,40.683985,-74.499459,SingleFamily,2015,945289,1979,45302,3800,4,4,4/24/17,885000,397220,city,Long Hill Township
+17 Ralph Pl,7960,Morristown,NJ,Morris,40.808814,-74.485831,SingleFamily,2015,345025,1954,7840,1300,2,2,4/24/17,380000,53420,city,Morristown
+8 Merrie Trl,7834,Denville,NJ,Morris,40.892986,-74.486836,SingleFamily,2015,300058,1923,5227,1440,2,3,4/24/17,270000,29899,city,Denville
+228 Reserve St,7005,Boonton,NJ,Morris,40.904248,-74.419786,SingleFamily,2015,654350,2000,18730,N/A,3,4,4/24/17,720000,3752,city,Boonton
+15 Spencer Ct,7950,Morris Plains,NJ,Morris,40.856305,-74.467788,SingleFamily,2015,444734,1972,14374,2104,3,4,4/24/17,543000,396009,city,Parsippany-Troy Hills Township
+16 Larch Dr,7930,Chester,NJ,Morris,40.785717,-74.68198,SingleFamily,2015,512982,1972,43560,N/A,2,4,4/24/17,505000,395751,city,Chester Township
+108 Laurelwood Ct,7866,Rockaway,NJ,Morris,40.906444,-74.538939,Townhouse,2015,255854,1987,6534,N/A,3,3,4/24/17,289900,11144,city,Dover
+205 Flocktown Rd,7853,Long Valley,NJ,Morris,40.816596,-74.783809,SingleFamily,2015,505800,1986,40510,3400,3,5,4/24/17,586000,49769,city,Long Valley
+1621 Long Hill Rd,7946,Millington,NJ,Morris,40.677604,-74.512568,SingleFamily,2015,462006,1953,27225,1501,2,2,4/21/17,370000,397220,city,Long Hill Township
+28 Sterling Dr,7928,Chatham,NJ,Morris,40.748828,-74.432765,Townhouse,2015,1310199,2008,22303,3500,5,3,4/21/17,1262500,397771,city,Chatham Township
+7 Court Pl,7940,Madison,NJ,Morris,40.761923,-74.400599,SingleFamily,2015,576027,1949,11325,1423,2,3,4/21/17,656000,53105,city,Madison
+57 Jesse Ct,7045,Montville,NJ,Morris,40.903953,-74.382797,Condominium,2015,536951,1991,N/A,2608,3,3,4/21/17,585000,43583,city,Montville
+78 Ogden Ave,7866,Rockaway,NJ,Morris,40.901369,-74.504808,SingleFamily,2015,300184,1927,13499,1716,2,3,4/21/17,255000,396484,city,Rockaway Township
+78 Red Oak Ter,7438,Oak Ridge,NJ,Morris,41.034536,-74.508565,Condominium,2015,187976,1988,871,1228,2,2,4/21/17,195000,12117,city,Jefferson Township
+40 Prospect Ave,7444,Pompton Plains,NJ,Morris,40.97171,-74.30081,SingleFamily,2015,395581,1949,8712,2039,2,4,4/21/17,485000,N/A,N/A,N/A
+78 Red Oak Ter,7438,Oak Ridge,NJ,Morris,41.034536,-74.508565,Condominium,2015,187976,1988,871,1228,2,2,4/21/17,195000,12117,city,Jefferson Township
+33 Mountain Ave,7444,Pompton Plains,NJ,Morris,40.976748,-74.300869,SingleFamily,2015,546526,1962,17859,N/A,3,4,4/21/17,568000,N/A,N/A,N/A
+34 Marshall Ave,7866,Rockaway,NJ,Morris,40.900214,-74.518982,SingleFamily,2015,508711,1997,18151,2607,4,4,4/21/17,370000,396484,city,Rockaway Township
+44 Henning Ter,7834,Denville,NJ,Morris,40.860596,-74.506935,Townhouse,2015,525940,2004,N/A,2116,4,3,4/21/17,493000,29899,city,Denville
+28 Drake Rd,7945,Mendham,NJ,Morris,40.777362,-74.584901,SingleFamily,2015,575777,1968,44866,2049,3,4,4/21/17,597000,397829,city,Mendham Township
+12 Salisbury Ln,7853,Long Valley,NJ,Morris,40.814078,-74.778137,SingleFamily,2015,729100,1998,63597,4408,5,4,4/21/17,750000,49769,city,Long Valley
+20126 Westview,7885,Wharton,NJ,Morris,40.90971,-74.585818,Condominium,2015,214491,1983,N/A,N/A,2,2,4/21/17,220000,9195,city,Wharton
+17 Trade Winds Dr,7869,Randolph,NJ,Morris,40.862958,-74.596262,SingleFamily,2015,507386,1992,24829,N/A,3,4,4/21/17,485000,13437,city,Randolph
+20 Burnett Dr,7930,Chester,NJ,Morris,40.812955,-74.634841,SingleFamily,2015,475254,1967,59677,2860,2,4,4/21/17,544000,395751,city,Chester Township
+14 Lenape Way,7869,Randolph,NJ,Morris,40.827135,-74.621634,SingleFamily,2015,312938,1958,18073,1617,2,3,4/21/17,375000,13437,city,Randolph
+23 Brock Ln,7840,Hackettstown,NJ,Morris,40.851276,-74.791418,Condominium,2015,276600,2003,N/A,1807,3,3,4/21/17,285000,397185,city,Mt Olive Township
+15 Mohican Ave,7850,Landing,NJ,Morris,40.91717,-74.645381,SingleFamily,2015,216649,N/A,26136,N/A,1,3,4/21/17,178500,398431,city,Roxbury Township
+122 Lazarus Dr,7852,Ledgewood,NJ,Morris,40.883286,-74.675292,SingleFamily,2015,545510,2000,12632,3036,2.5,4,4/21/17,469000,398431,city,Roxbury Township
+62 Indian Spring Rd,7828,Budd Lake,NJ,Morris,40.878411,-74.762278,SingleFamily,2015,550000,2001,43560,3908,4,4,4/21/17,557000,35236,city,Budd Lake
+25 Alexander Ave,7940,Madison,NJ,Morris,40.75901,-74.40846,SingleFamily,N/A,N/A,1924,9147,3117,4,3,N/A,N/A,53105,city,Madison
+28 Mountainview Rd,7928,Chatham,NJ,Morris,40.706936,-74.431599,SingleFamily,2015,408586,2016,10018,4095,5,5,4/20/17,1382000,397771,city,Chatham Township
+86 Patriots Rd,7950,Morris Plains,NJ,Morris,40.855075,-74.491156,Townhouse,N/A,N/A,1982,N/A,N/A,2.5,3,N/A,N/A,396009,city,Parsippany-Troy Hills Township
+64 Christine Dr,7936,East Hanover,NJ,Morris,40.822653,-74.349731,SingleFamily,2015,489810,1962,20373,2164,3,3,4/20/17,535000,8759,city,East Hanover
+3304 Appleton Way,7981,Whippany,NJ,Morris,40.819376,-74.427393,Townhouse,2015,245422,1993,4356,1164,2,2,4/20/17,312043,189064,city,Hanover
+102 Jesse Ct,7045,Montville,NJ,Morris,40.903601,-74.380933,SingleFamily,2015,426368,1990,4356,1900,3,2,4/20/17,455000,43583,city,Montville
+14 Dorothy Rd,7054,Parsippany,NJ,Morris,40.854088,-74.428412,SingleFamily,2015,387277,1997,6098,1855,3,4,4/20/17,441751,396009,city,Parsippany-Troy Hills Township
+8 Hillcrest Dr,7834,Denville,NJ,Morris,40.904554,-74.485538,SingleFamily,2015,549548,1918,60984,2564,4,3,4/20/17,580000,29899,city,Denville
+8313 Sanctuary Blvd,7457,Riverdale,NJ,Morris,40.993702,-74.322682,Condominium,2015,271811,2006,N/A,1048,2,2,4/20/17,256500,13534,city,Riverdale
+23 Redding Pl,7082,Towaco,NJ,Morris,40.923161,-74.329601,SingleFamily,2015,689071,1950,30056,3752,3,5,4/20/17,555000,43583,city,Montville
+75 Sunrise Dr,7981,Whippany,NJ,Morris,40.83221,-74.422534,Condominium,2015,237950,1993,4574,783,1,1,4/20/17,242000,189064,city,Hanover
+21 Willard Pl,7960,Morristown,NJ,Morris,40.811645,-74.482506,SingleFamily,2015,500877,2009,12632,N/A,3,3,4/20/17,500250,53420,city,Morristown
+18 Oxford Dr,7936,East Hanover,NJ,Morris,40.82234,-74.360773,SingleFamily,2015,529012,1973,20020,2176,3,4,4/20/17,565000,8759,city,East Hanover
+4 Shirley Ter,7405,Kinnelon,NJ,Morris,40.979265,-74.3489,SingleFamily,2016,623512,2001,43124,3000,2.5,4,4/20/17,620000,21851,city,Kinnelon
+9 Stoneleigh Ter,7457,Riverdale,NJ,Morris,40.988097,-74.318171,SingleFamily,2015,496356,1993,48351,2736,3,4,4/20/17,590000,13534,city,Riverdale
+24 Noelle Ct,7035,Lincoln Park,NJ,Morris,40.912235,-74.292906,Condominium,2015,319300,1987,N/A,N/A,3,2,4/20/17,316500,25599,city,Lincoln Park
+53 Lorraine Ter,7005,Boonton,NJ,Morris,40.912568,-74.414695,SingleFamily,2015,359480,1966,4844,1900,1,3,4/20/17,400000,3752,city,Boonton
+100 Burnham Pkwy,7960,Morristown,NJ,Morris,40.796081,-74.498925,SingleFamily,2015,454470,1926,9583,2390,2,4,4/20/17,519000,398997,city,Morris Township
+5 Sunset Ln,7054,Parsippany,NJ,Morris,40.844172,-74.400621,SingleFamily,2015,423173,1974,30927,2020,3,4,4/20/17,470000,396009,city,Parsippany-Troy Hills Township
+17 Kearney Ave,7981,Whippany,NJ,Morris,40.8291,-74.418688,SingleFamily,2015,310145,1936,10019,954,1,2,4/20/17,305000,189064,city,Hanover
+10 Sussex Rd,7054,Parsippany,NJ,Morris,40.857148,-74.439711,SingleFamily,2015,324724,1955,6098,N/A,2,4,4/20/17,355000,396009,city,Parsippany-Troy Hills Township
+8 Druetzler Ct,7981,Whippany,NJ,Morris,40.809634,-74.430097,SingleFamily,2015,713850,1978,15115,4067,4,6,4/20/17,600000,189064,city,Hanover
+62 Conkling Rd,7852,Ledgewood,NJ,Morris,40.88185,-74.677585,SingleFamily,2015,500381,1999,17424,3700,5,4,4/20/17,503531,398431,city,Roxbury Township
+19 Clover Hill Dr,7836,Flanders,NJ,Morris,40.818163,-74.708244,SingleFamily,2015,231100,1969,9583,N/A,1,3,4/20/17,251000,397185,city,Mt Olive Township
+31 N Four Bridges Rd,7853,Long Valley,NJ,Morris,40.809668,-74.738229,SingleFamily,2015,690000,1997,261360,6162,5,4,4/20/17,584000,49769,city,Long Valley
+24 Powhatatan Way,7840,Hackettstown,NJ,Morris,40.856749,-74.807629,SingleFamily,2015,375500,1987,44431,2336,3,4,4/20/17,399000,397185,city,Mt Olive Township
+5 Kerry Pl,7836,Flanders,NJ,Morris,40.841918,-74.73033,SingleFamily,2015,423600,1983,41382,2960,3,4,4/20/17,495000,397185,city,Mt Olive Township
+15 N Dell Ave,7847,Kenvil,NJ,Morris,40.88101,-74.618148,SingleFamily,2015,391066,1994,9583,N/A,3,3,4/20/17,384900,N/A,N/A,N/A
+2 Myrtle Ave,7828,Budd Lake,NJ,Morris,40.863811,-74.756184,SingleFamily,2015,202000,1968,13068,1888,2,3,4/20/17,270000,35236,city,Budd Lake
+188 Riveredge Dr,7928,Chatham,NJ,Morris,40.718684,-74.394276,Townhouse,2015,426999,1993,1663,1663,2,2,4/19/17,458000,397771,city,Chatham Township
+120 Meyersville Rd,7928,Chatham,NJ,Morris,40.703033,-74.439729,SingleFamily,2015,547723,2015,45302,4000,6,5,4/19/17,1412000,397771,city,Chatham Township
+25 House Rd,7960,Morristown,NJ,Morris,40.777936,-74.46344,SingleFamily,2015,404664,1930,10049,2523,3,4,4/19/17,739000,398997,city,Morris Township
+40 Elm St,7940,Madison,NJ,Morris,40.764933,-74.422994,SingleFamily,2015,444506,1958,16552,1040,2,3,4/19/17,410000,53105,city,Madison
+39 Lake Rd,7928,Chatham,NJ,Morris,40.743299,-74.427821,SingleFamily,2015,662127,1986,4791,1640,2.5,3,4/19/17,550000,397771,city,Chatham Township
+3004 Appleton Way,7981,Whippany,NJ,Morris,40.819496,-74.42921,Condominium,2015,245422,1993,4312,1164,2,2,4/19/17,303000,189064,city,Hanover
+6 Maple Ave,7950,Morris Plains,NJ,Morris,40.823658,-74.485905,SingleFamily,2015,409901,1925,7405,N/A,2,4,4/19/17,495000,53418,city,Morris Plains
+42 Brookvale Rd,7405,Kinnelon,NJ,Morris,41.01495,-74.395318,SingleFamily,2015,622469,1969,49658,N/A,3,4,4/19/17,425000,21851,city,Kinnelon
+419 Washington St,7005,Boonton,NJ,Morris,40.898968,-74.409613,SingleFamily,2015,453091,1900,6098,3826,4,6,4/19/17,525000,3752,city,Boonton
+90 Wildflower Ln,7960,Morristown,NJ,Morris,40.815418,-74.516988,Condominium,N/A,N/A,1993,N/A,1700,3,2,7/23/10,350000,398997,city,Morris Township
+444 Mount Kemble Ave,7960,Morristown,NJ,Morris,40.769977,-74.507595,SingleFamily,2015,320364,1923,15246,1408,2,3,9/13/16,280000,398997,city,Morris Township
+9 Forest Dr,7960,Morristown,NJ,Morris,40.778485,-74.504698,SingleFamily,2015,824089,1999,47480,3900,3,4,10/26/16,870000,398997,city,Morris Township
+32 Independence Way,7960,Morristown,NJ,Morris,40.781124,-74.44451,Townhouse,2015,469647,1981,6534,N/A,3,3,3/30/17,749000,398997,city,Morris Township
+5 Jenks Ct,7960,Morristown,NJ,Morris,40.765355,-74.509165,SingleFamily,2015,709741,1988,18295,3606,5,4,10/20/16,945000,397524,city,Harding Township
+27 Eagle Nest Rd,7960,Morristown,NJ,Morris,40.767763,-74.471129,SingleFamily,2015,866998,1982,37026,2852,4,5,2/14/17,826000,398997,city,Morris Township
+38 Nottingham Ct,7960,Morristown,NJ,Morris,40.780528,-74.481807,SingleFamily,2015,452676,1985,3484,2035,3,2,12/22/16,535000,398997,city,Morris Township
+5 Harter Rd,7960,Morristown,NJ,Morris,40.778201,-74.49902,SingleFamily,2015,660596,1982,27007,3100,3.5,5,8/31/16,730000,398997,city,Morris Township
+1 Fairchild Ln,7960,Morristown,NJ,Morris,40.75071,-74.524881,SingleFamily,2015,734365,1989,165964,4710,5,5,12/19/16,950000,397524,city,Harding Township
+218 Blue Mill Rd,7960,Morristown,NJ,Morris,40.749182,-74.457934,SingleFamily,2015,2956090,2005,131115,8361,6,6,12/15/16,2950000,397524,city,Harding Township
+19 Symor Dr,7960,Morristown,NJ,Morris,40.773626,-74.459482,SingleFamily,2015,526215,1965,15246,2742,3,4,12/1/16,620000,398997,city,Morris Township
+9 Squirrel Run,7960,Morristown,NJ,Morris,40.769747,-74.467942,SingleFamily,2015,1073538,1979,33976,4153,4,4,8/17/16,985000,398997,city,Morris Township
+27 Kitchell Rd,7960,Morristown,NJ,Morris,40.771266,-74.446584,SingleFamily,2015,1561259,2001,89733,5917,6,5,8/12/16,1667500,398997,city,Morris Township
+31 Spring Brook Rd,7960,Morristown,NJ,Morris,40.775522,-74.491279,SingleFamily,2015,861341,1927,18295,3160,5,4,3/31/17,866000,398997,city,Morris Township
+56 Bailey Hollow Rd,7960,Morristown,NJ,Morris,40.776094,-74.510993,SingleFamily,2015,928946,1981,131115,4601,3,4,8/5/16,880000,398997,city,Morris Township
+5D Leva Dr # 405,7960,Morristown,NJ,Morris,40.768486,-74.483513,Condominium,2015,287252,1992,3398,1300,N/A,N/A,1/19/17,334500,398997,city,Morris Township
+166 Sand Spring Rd,7960,Morristown,NJ,Morris,40.768292,-74.506812,SingleFamily,2015,295163,1930,8568,1260,N/A,N/A,4/6/17,305000,397524,city,Harding Township
+2 Bishop Ct,7960,Morristown,NJ,Morris,40.776375,-74.445646,SingleFamily,2015,944812,1997,18600,3460,3,4,8/18/16,820000,398997,city,Morris Township
+6 Birch Ln,7960,Morristown,NJ,Morris,40.764445,-74.510491,Townhouse,2015,349204,1979,4765,1568,3,2,10/21/16,468000,397524,city,Harding Township
+392 South St,7960,Morristown,NJ,Morris,40.779663,-74.466743,SingleFamily,2015,404112,1920,15681,2360,2,4,12/12/16,375000,398997,city,Morris Township
+77 Sherwood Dr,7960,Morristown,NJ,Morris,40.78009,-74.48462,SingleFamily,2015,437224,1984,4792,2035,N/A,N/A,9/1/16,450000,398997,city,Morris Township
+15C Leva Dr,7960,Morristown,NJ,Morris,40.767459,-74.484413,Condominium,N/A,N/A,N/A,N/A,1070,2,2,10/14/16,2150,398997,city,Morris Township
+7 Cadence Ct,7960,Morristown,NJ,Morris,40.773279,-74.453266,Condominium,N/A,N/A,1994,1742,N/A,3,4,8/29/16,475000,398997,city,Morris Township
+7 Symor Dr,7960,Morristown,NJ,Morris,40.774997,-74.4581,SingleFamily,2015,498897,1957,12196,2026,2.5,4,12/16/16,630000,398997,city,Morris Township
+9 Armstrong Rd,7960,Morristown,NJ,Morris,40.777155,-74.491371,SingleFamily,2015,839542,2016,29185,4150,5,5,12/29/16,700000,398997,city,Morris Township
+72 Spring Brook Rd,7960,Morristown,NJ,Morris,40.775293,-74.485079,SingleFamily,2015,691501,1958,29185,3165,3,4,4/12/17,625000,398997,city,Morris Township
+41 Crescent Dr,7960,Morristown,NJ,Morris,40.779766,-74.4511,SingleFamily,2015,569123,1952,16117,2403,2,4,8/24/16,650000,398997,city,Morris Township
+25 Eagle Nest Rd,7960,Morristown,NJ,Morris,40.767549,-74.470433,SingleFamily,2015,1170806,1979,46173,3900,3.5,5,8/26/16,785000,398997,city,Morris Township
+404 South St,7960,Morristown,NJ,Morris,40.778513,-74.466523,SingleFamily,2015,361893,1911,12632,1920,N/A,N/A,1/6/17,110000,398997,city,Morris Township
+161 Sand Spring Rd,7960,Morristown,NJ,Morris,40.766927,-74.507156,SingleFamily,2015,540532,1948,29978,2804,3,4,10/5/16,607500,397524,city,Harding Township
+150 Waughaw Rd,7082,Towaco,NJ,Morris,40.940524,-74.362148,SingleFamily,2015,836229,1980,131986,4500,5,5,4/21/17,720000,43583,city,Montville
+2350 State Route 10 APT D31,7950,Morris Plains,NJ,Morris,40.854946,-74.476737,SingleFamily,2015,171188,1960,N/A,852,1,2,4/18/17,195000,396009,city,Parsippany-Troy Hills Township
+49 Beach St,7866,Rockaway,NJ,Morris,40.899034,-74.505343,SingleFamily,2015,243156,1924,6251,1272,N/A,N/A,4/18/17,296000,396484,city,Rockaway Township
+126 Elmwood Dr,7054,Parsippany,NJ,Morris,40.853557,-74.446683,SingleFamily,2015,318208,N/A,N/A,N/A,2,3,4/18/17,299500,396009,city,Parsippany-Troy Hills Township
+18 Chester Ave,7866,Rockaway,NJ,Morris,40.90351,-74.519793,SingleFamily,2015,259063,1954,5227,1650,2,3,4/18/17,310000,396484,city,Rockaway Township
+133 Harrison Rd,7054,Parsippany,NJ,Morris,40.861916,-74.432603,SingleFamily,2015,327923,1965,6969,2000,3,4,4/18/17,382000,396009,city,Parsippany-Troy Hills Township
+4 Fieldcrest Rd,7930,Chester,NJ,Morris,40.778907,-74.689846,SingleFamily,2015,779092,1998,92347,3547,3,4,4/18/17,583000,395751,city,Chester Township
+524 Davsel Rd,7850,Landing,NJ,Morris,40.908899,-74.646357,SingleFamily,2015,169538,1958,7405,750,1,2,4/18/17,104000,398431,city,Roxbury Township
+5 Bell Ct,7850,Landing,NJ,Morris,40.90878,-74.656328,SingleFamily,2015,262540,1966,7405,1972,2,3,4/18/17,330000,398431,city,Roxbury Township
+14 Wexford Dr,7945,Mendham,NJ,Morris,40.791411,-74.589284,SingleFamily,2015,428697,1980,4356,1676,3,3,4/18/17,449100,397829,city,Mendham Township
+12 Ridge Rd,7876,Succasunna,NJ,Morris,40.8476,-74.661991,SingleFamily,2015,452965,1976,32670,N/A,3,5,4/18/17,480000,47885,city,Succasunna
+28 Condict Rd,7850,Landing,NJ,Morris,40.907983,-74.652249,SingleFamily,2015,197591,1955,9147,1152,1,3,4/18/17,117500,398431,city,Roxbury Township
+21 Kern Dr,7836,Flanders,NJ,Morris,40.853615,-74.735721,SingleFamily,2015,276300,1963,24829,1500,2,3,4/18/17,355000,397185,city,Mt Olive Township
+8 Wildwood Ave,7828,Budd Lake,NJ,Morris,40.861346,-74.749168,SingleFamily,2015,286600,1987,43560,2668,3,4,4/18/17,360000,35236,city,Budd Lake
+122 Fairview Ave,7853,LONG VALLEY,NJ,Morris,40.794343,-74.772352,SingleFamily,2015,288500,1970,40075,2662,3,3,4/18/17,382800,49769,city,Long Valley
+25 Swan Ln,7849,Lake Hopatcong,NJ,Morris,40.96221,-74.603724,SingleFamily,2015,515917,2003,53143,3908,3,5,4/18/17,505000,12117,city,Jefferson Township
+513 Wills Rd,7850,Landing,NJ,Morris,40.91126,-74.654173,SingleFamily,2016,274126,1960,7405,2200,2,4,4/18/17,250000,398431,city,Roxbury Township
+34 Weston Ave,7928,Chatham,NJ,Morris,40.744818,-74.378305,SingleFamily,2015,590751,1930,4791,N/A,3,3,4/17/17,686500,41940,city,Chatham
+126 Madison Ave,7940,Madison,NJ,Morris,40.765517,-74.429282,SingleFamily,2015,896781,1960,12632,2323,3,5,4/17/17,529000,53105,city,Madison
+142 Summit Rd,7932,Florham Park,NJ,Morris,40.776176,-74.378695,SingleFamily,2015,1499000,1988,46609,6171,6,5,4/17/17,1198000,38545,city,Florham Park
+12 Sleepy Hollow Rd,7834,Denville,NJ,Morris,40.86475,-74.498543,SingleFamily,2015,438210,1957,21780,2544,4,3,4/17/17,495000,29899,city,Denville
+141 Belleview Ave,7405,Butler,NJ,Morris,40.996057,-74.331218,SingleFamily,2015,383394,1952,16117,1550,2,3,4/17/17,392000,48902,city,Butler
+1 Sioux Ave,7034,Lake Hiawatha,NJ,Morris,40.877735,-74.376534,SingleFamily,2015,204004,2017,9583,2500,3,5,4/21/17,540000,396009,city,Parsippany-Troy Hills Township
+105 Notch Rd,7438,Oak Ridge,NJ,Morris,41.028374,-74.475091,SingleFamily,2015,344328,1986,30927,N/A,3,4,4/17/17,400000,12117,city,Jefferson Township
+40 Glen Rd,7046,Mountain Lakes,NJ,Morris,40.895561,-74.433418,SingleFamily,2015,1997895,1956,31494,5900,5,6,4/17/17,1940000,32998,city,Mountain Lakes
+12 Baccarat Ct,7045,Montville,NJ,Morris,40.907461,-74.385365,Condominium,2015,484842,1990,4356,2405,2.5,2,4/17/17,550000,43583,city,Montville
+33 Rainbow Trl,7046,Mountain Lakes,NJ,Morris,40.887499,-74.460079,SingleFamily,2015,463890,1960,18730,2500,3,4,4/17/17,554000,32998,city,Mountain Lakes
+20 Fulton St,7045,Montville,NJ,Morris,40.911022,-74.391273,SingleFamily,2015,319344,1930,9147,1296,2,3,4/17/17,335000,43583,city,Montville
+10 Nokomis Ave,7866,Rockaway,NJ,Morris,40.915161,-74.516335,SingleFamily,2015,270140,1960,11413,1584,2,3,4/17/17,302000,396484,city,Rockaway Township
+26 S Valley Rd,7035,Lincoln Park,NJ,Morris,40.911947,-74.273619,SingleFamily,2015,191700,1940,7405,840,1,3,4/17/17,230000,25599,city,Lincoln Park
+308 Pitney Pl,7960,Morristown,NJ,Morris,40.786274,-74.456359,Condominium,2015,165563,1965,N/A,N/A,1,1,4/17/17,205000,398997,city,Morris Township
+3 Lalique Dr,7045,Montville,NJ,Morris,40.907812,-74.381435,Condominium,2015,594886,1997,4356,2622,3,3,4/17/17,615000,43583,city,Montville
+154 Valley View Dr,7866,Rockaway,NJ,Morris,40.93215,-74.50079,SingleFamily,2015,335983,1957,15246,2078,2,3,4/17/17,335000,396484,city,Rockaway Township
+6 Henning Ter,7834,Denville,NJ,Morris,40.862005,-74.505527,Condominium,2015,535849,2004,N/A,2340,4,4,4/17/17,506000,29899,city,Denville
+11 Center St,7857,Netcong,NJ,Morris,40.896264,-74.706641,SingleFamily,2015,384500,1960,15000,2700,4,4,4/17/17,305000,39960,city,Netcong
+21 Ludlow St,7885,Wharton,NJ,Morris,40.932109,-74.589098,SingleFamily,2015,154264,1950,10018,N/A,1,2,4/17/17,69900,12117,city,Jefferson Township
+66 E Springtown Rd,7853,Long Valley,NJ,Morris,40.801746,-74.790043,SingleFamily,2015,477300,1986,120225,3481,3,5,4/17/17,445000,49769,city,Long Valley
+29 Ironia Rd,7869,Randolph,NJ,Morris,40.820641,-74.624856,SingleFamily,2015,541561,1989,36590,3250,4,4,4/21/17,569000,13437,city,Randolph
+15 Curtis St,7801,Dover,NJ,Morris,40.875704,-74.551725,SingleFamily,2015,238000,1950,6098,1824,1,3,4/17/17,247000,11144,city,Dover
+28 Winding Way,7054,Parsippany,NJ,Morris,40.881372,-74.426964,SingleFamily,2015,480156,1977,14810,2332,3,4,4/14/17,530000,396009,city,Parsippany-Troy Hills Township
+52 Hill Hollow Rd,7849,Lake Hopatcong,NJ,Morris,40.954305,-74.606464,SingleFamily,2015,437429,2002,10890,2640,3,5,4/14/17,455000,12117,city,Jefferson Township
+107 Sunrise Dr,7933,Gillette,NJ,Morris,40.670207,-74.468542,Townhouse,2015,338576,1987,1742,N/A,3,3,4/13/17,360000,397220,city,Long Hill Township
+25 Spring St,7928,Chatham,NJ,Morris,40.730106,-74.40936,SingleFamily,2015,927762,1929,41382,1902,2,4,4/13/17,790000,397771,city,Chatham Township
+32 Lenape Trl,7928,Chatham,NJ,Morris,40.737039,-74.397529,SingleFamily,2015,653846,2016,24393,4600,6,5,4/21/17,1699000,397771,city,Chatham Township
+25 Meyersville Rd,7933,Gillette,NJ,Morris,40.697968,-74.446034,SingleFamily,2016,531264,1950,45737,2400,3,3,4/13/17,655000,397220,city,Long Hill Township
+55 Della Ave,7444,Pompton Plains,NJ,Morris,40.953907,-74.298775,SingleFamily,2015,342363,1950,7405,1294,2,3,4/13/17,200000,N/A,N/A,N/A
+318 Franklin Rd,7834,Denville,NJ,Morris,40.876564,-74.506508,SingleFamily,N/A,N/A,2011,295772,8502,7,6,4/13/17,1408000,29899,city,Denville
+13 Locust Trl,7834,Denville,NJ,Morris,40.883936,-74.496598,SingleFamily,2016,296048,1975,3920,1200,2,3,4/13/17,329000,29899,city,Denville
+24 Troll Ln,7866,Rockaway,NJ,Morris,40.958172,-74.497424,SingleFamily,2015,243609,1960,17424,N/A,2,2,4/21/17,228000,396484,city,Rockaway Township
+123 Fairmount Ave,7930,Chester,NJ,Morris,40.780399,-74.693127,SingleFamily,2015,360623,1969,18730,N/A,3,2,4/21/17,3390000,395751,city,Chester Township
+92 Winding Hill Dr,7840,Hackettstown,NJ,Morris,40.850211,-74.79453,SingleFamily,2015,309600,2002,4356,2186,3,4,4/13/17,340000,397185,city,Mt Olive Township
+7 Ashland Rd,7940,Madison,NJ,Morris,40.755191,-74.403385,SingleFamily,2015,568257,1966,10890,N/A,3,4,4/12/17,680000,53105,city,Madison
+12 Garden Pl,7928,Chatham,NJ,Morris,40.74678,-74.39424,SingleFamily,N/A,N/A,1928,4792,N/A,3,3,N/A,N/A,41940,city,Chatham
+52 Watchung Ave,7928,CHATHAM,NJ,Morris,40.731539,-74.382401,SingleFamily,2015,587159,1906,26136,3000,4,5,4/12/17,810000,41940,city,Chatham
+72 Spring Brook Rd,7960,Morristown,NJ,Morris,40.775293,-74.485079,SingleFamily,2015,691501,1958,29185,3165,3,4,4/12/17,625000,398997,city,Morris Township
+15 Beech Ln,7960,Morristown,NJ,Morris,40.764952,-74.510007,Condominium,2015,351492,1983,4356,1545,3,2,4/12/17,465000,397524,city,Harding Township
+240 Longwood Ave,7928,Chatham,NJ,Morris,40.73097,-74.403239,SingleFamily,2015,1104380,1985,20037,2949,4,4,4/12/17,1300000,397771,city,Chatham Township
+326 Cambridge Dr,7405,Butler,NJ,Morris,41.011506,-74.360629,Condominium,2015,281254,N/A,N/A,N/A,2,2,4/12/17,250000,48902,city,Butler
+111 6th St,7011,Clifton,NJ,Passaic,40.876874,-74.153015,SingleFamily,2015,306306,1935,5331,2300,2,3,5/2/17,375000,24120,city,Clifton
+69 Sperling Rd,7013,Clifton,NJ,Passaic,40.876895,-74.181089,SingleFamily,2015,270447,1952,4791,N/A,2,4,5/2/17,305000,24120,city,Clifton
+55 Eleron Pl,7470,Wayne,NJ,Passaic,40.941017,-74.241608,SingleFamily,2015,441898,1960,21780,2166,4,4,5/1/17,569000,27808,city,Wayne
+33 Rillo Dr,7470,Wayne,NJ,Passaic,40.940544,-74.230477,SingleFamily,2015,431614,1961,16117,1898,3,3,5/1/17,495000,27808,city,Wayne
+366 Lafayette Ave,7055,PASSAIC,NJ,Passaic,40.858798,-74.134872,MultiFamily2To4,2015,379608,1900,N/A,N/A,4,10,5/1/17,330000,19870,city,Passaic
+1454 Madison Pl,7442,Pompton Lakes,NJ,Passaic,40.986237,-74.281706,SingleFamily,2015,262976,1950,6969,N/A,2,3,4/28/17,232500,53952,city,Pompton Lakes
+15 Jessica Way,7470,Wayne,NJ,Passaic,40.950946,-74.258995,SingleFamily,2015,652292,1985,14810,2967,4,5,4/28/17,756000,27808,city,Wayne
+148 Stewart Ter,7512,Totowa,NJ,Passaic,40.901012,-74.21859,SingleFamily,2015,319400,1950,4791,N/A,1,3,4/28/17,340000,27446,city,Totowa
+30 Merselis Ave,7011,Clifton,NJ,Passaic,40.88637,-74.133794,MultiFamily2To4,2015,323088,1950,4791,N/A,2,4,4/28/17,410000,24120,city,Clifton
+271 Levinberg Ln,7470,Wayne,NJ,Passaic,40.964305,-74.252487,Condominium,2015,455431,2003,N/A,2389,3,3,4/28/17,479000,27808,city,Wayne
+35 Overlook Ave,7424,Little Falls,NJ,Passaic,40.876345,-74.208598,SingleFamily,2015,461147,1950,6098,N/A,4,4,4/28/17,505000,43491,city,Little Falls
+82 Mountainside Dr,7442,Pompton Lakes,NJ,Passaic,41.010799,-74.288497,Condominium,2015,216697,2003,3484,N/A,2,2,4/28/17,295000,53952,city,Pompton Lakes
+1 Oak Ln,7456,Ringwood,NJ,Passaic,41.066779,-74.278732,SingleFamily,2015,270234,1954,4791,N/A,2,4,4/28/17,300000,47392,city,Ringwood
+155 Bogert St,7512,Totowa,NJ,Passaic,40.901382,-74.218541,SingleFamily,2015,264600,1954,6098,N/A,1,3,4/28/17,318000,27446,city,Totowa
+22 Sunnycrest Ave,7013,Clifton,NJ,Passaic,40.864131,-74.165023,SingleFamily,2015,310899,1949,4791,N/A,2,3,4/27/17,376000,24120,city,Clifton
+46 Boonstra Dr,7470,Wayne,NJ,Passaic,40.924564,-74.208877,SingleFamily,2015,433959,1965,14810,2416,3,4,4/27/17,505000,27808,city,Wayne
+10 Cottage Ln,7012,Clifton,NJ,Passaic,40.843723,-74.161468,SingleFamily,2015,268328,1950,4791,5001,1,3,4/26/17,325000,24120,city,Clifton
+18 Dudley Ct,7470,Wayne,NJ,Passaic,40.977732,-74.230341,SingleFamily,2015,653013,1993,12197,3000,4,4,4/26/17,695000,27808,city,Wayne
+58 Lakeview Ct,7442,Pompton Lakes,NJ,Passaic,40.994472,-74.280097,Townhouse,2015,265880,2000,N/A,N/A,2.5,2,4/25/17,332500,53952,city,Pompton Lakes
+19 Ploch Rd,7013,Clifton,NJ,Passaic,40.882917,-74.173066,SingleFamily,2015,305070,1960,5227,N/A,2,3,4/24/17,296900,24120,city,Clifton
+1206 Warrens Way,7465,Wanaque,NJ,Passaic,41.046247,-74.283181,Condominium,2015,284069,2012,N/A,1768,2,2,4/24/17,313000,30048,city,Wanaque
+19 Pinecrest Ter,7470,Wayne,NJ,Passaic,40.977424,-74.259972,SingleFamily,2015,259654,1948,5227,1252,1,3,4/24/17,300000,27808,city,Wayne
+3 Walnut St,7442,Pompton Lakes,NJ,Passaic,41.0097,-74.284889,SingleFamily,2015,151724,N/A,3920,N/A,2,3,4/21/17,194000,53952,city,Pompton Lakes
+46 Coventry Rd,7470,Wayne,NJ,Passaic,40.954462,-74.258469,SingleFamily,2015,472934,1963,14810,1898,3,4,4/21/17,500000,27808,city,Wayne
+378 Union Ave,7011,CLIFTON,NJ,Passaic,40.87442,-74.155776,SingleFamily,2015,320438,1954,5650,1714,2,3,4/21/17,400000,24120,city,Clifton
+160 Garside Ave,7470,Wayne,NJ,Passaic,40.937591,-74.212318,SingleFamily,2015,493504,1993,18730,N/A,3,5,4/21/17,440000,27808,city,Wayne
+22 Leslie Dr,7470,Wayne,NJ,Passaic,40.955962,-74.240332,SingleFamily,2015,455612,1962,15246,1929,4,4,4/21/17,462000,27808,city,Wayne
+337 Highland Ave,7011,Clifton,NJ,Passaic,40.868757,-74.140668,MultiFamily2To4,2015,306129,N/A,N/A,N/A,2,4,4/20/17,80000,24120,city,Clifton
+340 E 22nd St,7514,Paterson,NJ,Passaic,40.928892,-74.149836,SingleFamily,2015,115112,1900,4791,1235,1,3,4/20/17,95000,190055,neighborhood,Riverside
+132 Easedale Rd,7470,Wayne,NJ,Passaic,40.940311,-74.204872,Condominium,2015,372609,1980,3049,1889,3,2,4/20/17,423000,27808,city,Wayne
+22 Joan Pl,7012,Clifton,NJ,Passaic,40.85667,-74.171617,SingleFamily,2015,302773,1950,6534,1100,2,3,4/20/17,300000,24120,city,Clifton
+669 Riverview Dr,7512,Totowa,NJ,Passaic,40.886178,-74.232739,SingleFamily,2015,334200,1925,7250,1778,2,4,4/20/17,226765,27446,city,Totowa
+3 Corvair Pl,7470,Wayne,NJ,Passaic,40.932964,-74.236167,SingleFamily,2015,428907,1959,20560,2196,3,4,4/20/17,410000,27808,city,Wayne
+2 Alden Ter,7522,Paterson,NJ,Passaic,40.928665,-74.189928,SingleFamily,2015,150602,1950,5227,N/A,1,2,N/A,N/A,264176,neighborhood,Totowa
+16 Apache Rd,7470,Wayne,NJ,Passaic,40.999122,-74.257408,SingleFamily,2015,854565,1972,42253,4128,3,3,4/20/17,510000,27808,city,Wayne
+182 Bennington Ct,7013,Clifton,NJ,Passaic,40.86206,-74.161102,SingleFamily,N/A,N/A,1940,5227,N/A,2,3,N/A,N/A,24120,city,Clifton
+163 Patricia Pl,7012,Clifton,NJ,Passaic,40.837014,-74.14349,SingleFamily,2015,352941,1940,5662,N/A,2,3,4/20/17,355000,24120,city,Clifton
+503 Riverdale Blvd,7442,Pompton Lakes,NJ,Passaic,40.984468,-74.291993,SingleFamily,2015,245735,1956,6098,N/A,1,4,4/19/17,269000,53952,city,Pompton Lakes
+168 Paterson Ave,7502,Paterson,NJ,Passaic,40.919017,-74.188209,MultiFamily2To4,2015,130748,1940,3123,1400,3,5,4/18/17,274000,264176,neighborhood,Totowa
+14 Quartz Ln,7501,Paterson,NJ,Passaic,40.904804,-74.181221,Condominium,2014,328100,N/A,N/A,N/A,2,2,4/18/17,200000,19873,city,Paterson
+106 Surrey Dr,7470,Wayne,NJ,Passaic,40.966732,-74.259712,SingleFamily,2015,534464,1952,25264,2777,2,3,4/18/17,550000,27808,city,Wayne
+322 E 30th St,7504,Paterson,NJ,Passaic,40.915781,-74.145449,MultiFamily2To4,2015,240922,N/A,2500,1813,2,5,4/18/17,104000,764248,neighborhood,Eastside
+206 Washington Pl,7512,Totowa,NJ,Passaic,40.899422,-74.213417,SingleFamily,2015,268100,1950,4791,N/A,1,2,4/18/17,294000,27446,city,Totowa
+31 Custer Dr,7456,Ringwood,NJ,Passaic,41.089424,-74.316809,SingleFamily,2015,397213,1984,45737,2300,3,4,4/18/17,380000,47392,city,Ringwood
+776 Ringwood Ave,7442,Pompton Lakes,NJ,Passaic,41.002069,-74.29549,SingleFamily,2015,259347,1950,10454,N/A,2,2,4/17/17,220000,53952,city,Pompton Lakes
+137 Redwood Ave,7470,Wayne,NJ,Passaic,40.979535,-74.2629,SingleFamily,2015,281848,1968,5227,N/A,1,3,4/17/17,280000,27808,city,Wayne
+17 Iron Forge Vlg S,7442,Pompton Lakes,NJ,Passaic,41.006407,-74.289281,Condominium,2015,240109,1980,N/A,N/A,2,2,4/17/17,230000,53952,city,Pompton Lakes
+210 Lakeside Ave,7442,Pompton Lakes,NJ,Passaic,41.004938,-74.285821,SingleFamily,2015,267333,1930,10454,1593,1,3,4/17/17,215000,53952,city,Pompton Lakes
+236 Totowa Rd,7512,Totowa,NJ,Passaic,40.905052,-74.204706,MultiFamily2To4,2015,324100,1950,3484,2044,3,4,4/17/17,355000,27446,city,Totowa
+9 Chris Ter,7456,Ringwood,NJ,Passaic,41.080449,-74.255371,SingleFamily,2015,346935,1969,54540,2130,2,4,4/17/17,420200,47392,city,Ringwood
+316 3rd St,7011,Clifton,NJ,Passaic,40.878184,-74.146334,SingleFamily,2015,345698,1950,8712,N/A,2,4,4/14/17,227000,24120,city,Clifton
+17 Vizcaya Ct,7470,Wayne,NJ,Passaic,40.985198,-74.271712,SingleFamily,2015,1110971,N/A,N/A,N/A,5,5,4/14/17,698250,27808,city,Wayne
+339 Paxton St,7503,Paterson,NJ,Passaic,40.89393,-74.161732,SingleFamily,2015,160478,N/A,2500,1408,N/A,N/A,4/13/17,95000,7165,neighborhood,South Paterson
+104 Sturbridge Cir,7470,Wayne,NJ,Passaic,40.974067,-74.23852,SingleFamily,2015,531758,1980,19602,2417,4,4,4/13/17,655000,27808,city,Wayne
+57 Norwood Ter,7512,Totowa,NJ,Passaic,40.894611,-74.202712,SingleFamily,2015,99600,1940,4791,1456,1,3,4/13/17,90500,N/A,N/A,N/A
+47 Minns Ave,7470,Wayne,NJ,Passaic,40.937664,-74.198272,SingleFamily,2015,250090,1900,5227,N/A,2,3,4/13/17,339000,27808,city,Wayne
+19 Catherine St,7403,Bloomingdale,NJ,Passaic,41.007876,-74.343984,SingleFamily,2015,252806,1900,N/A,1800,2,3,4/13/17,255000,51034,city,Bloomingdale
+54 N 13th St,7506,Hawthorne,NJ,Passaic,40.940113,-74.167625,SingleFamily,2015,271752,1900,5001,1472,N/A,N/A,4/13/17,295000,25074,city,Hawthorne
+9 Haddon Rd,7470,Wayne,NJ,Passaic,40.963863,-74.270027,SingleFamily,2015,438650,N/A,16117,N/A,2,4,4/13/17,530000,27808,city,Wayne
+87 Robin Hood Way,7470,Wayne,NJ,Passaic,40.951129,-74.256835,SingleFamily,2015,493504,1985,14985,2380,N/A,N/A,4/13/17,500000,27808,city,Wayne
+28 Eastside Ave,7465,Wanaque,NJ,Passaic,41.056397,-74.285001,SingleFamily,2015,363779,1978,14810,N/A,3,4,4/13/17,410000,30048,city,Wanaque
+411 Montclair Ave,7442,Pompton Lakes,NJ,Passaic,41.007547,-74.298817,SingleFamily,2015,214882,1942,11325,N/A,1,2,4/13/17,305000,53952,city,Pompton Lakes
+126 Montgomery St,7501,Paterson,NJ,Passaic,40.924644,-74.161239,SingleFamily,2015,94949,1900,2613,1039,2.5,2,4/13/17,64000,764251,neighborhood,Wrigley Park
+39 8th Ave,7055,Passaic,NJ,Passaic,40.860828,-74.13977,SingleFamily,2015,328630,N/A,3498,N/A,N/A,N/A,11/28/12,250000,19870,city,Passaic
+701 E 29th St,7504,Paterson,NJ,Passaic,40.911873,-74.146691,SingleFamily,2015,127353,1940,2613,1482,N/A,3,4/13/17,52500,764248,neighborhood,Eastside
+42 Sturr St,7508,North Haledon,NJ,Passaic,40.96243,-74.188997,SingleFamily,2015,425030,1967,17341,1865,4,3,4/13/17,415000,26185,city,North Haledon
+4 Hampton Ter,7470,Wayne,NJ,Passaic,40.959327,-74.266441,SingleFamily,2015,456333,1962,15638,1934,2,4,4/13/17,465000,27808,city,Wayne
+704 E 27TH St,7504,PATERSON,NJ,Passaic,40.913593,-74.148849,MultiFamily2To4,2015,181772,N/A,3484,N/A,2,6,4/13/17,106000,764248,neighborhood,Eastside
+344 Cupsaw Dr,7456,Ringwood,NJ,Passaic,41.11634,-74.251271,SingleFamily,2015,419621,1981,19166,2625,3,4,4/13/17,384900,47392,city,Ringwood
+157 Luddington Ave,7011,Clifton,NJ,Passaic,40.877409,-74.150416,SingleFamily,2015,285109,1940,6098,N/A,1,2,4/13/17,310000,24120,city,Clifton
+12 Park Pl,7442,Pompton Lakes,NJ,Passaic,41.010375,-74.274505,SingleFamily,2015,163339,N/A,7749,768,1,2,4/13/17,195000,53952,city,Pompton Lakes
+1 Cherba Pl,7512,Totowa,NJ,Passaic,40.90348,-74.219053,SingleFamily,2015,446100,1975,6534,2120,3,4,4/13/17,38000,27446,city,Totowa
+68 Ravona St,7012,Clifton,NJ,Passaic,40.844474,-74.147087,SingleFamily,2015,626037,2012,11325,N/A,5,8,4/13/17,998000,24120,city,Clifton
+47 New Brier Ln,7012,Clifton,NJ,Passaic,40.846283,-74.167445,SingleFamily,2015,290408,1932,3999,N/A,N/A,N/A,4/13/17,305000,24120,city,Clifton
+23 Glen Oaks Ct,7012,Clifton,NJ,Passaic,40.858927,-74.157612,SingleFamily,2015,286521,1953,5227,N/A,2,4,4/13/17,325000,24120,city,Clifton
+18 Coyles Ct,7013,Clifton,NJ,Passaic,40.859686,-74.177132,Condominium,2015,285462,1954,5623,N/A,1,3,4/13/17,336000,24120,city,Clifton
+113 Demott Ave,7011,Clifton,NJ,Passaic,40.872722,-74.143249,SingleFamily,2015,239887,1910,4356,N/A,2,3,4/13/17,200000,24120,city,Clifton
+72 Pearl Brook Dr,7013,Clifton,NJ,Passaic,40.86029,-74.19282,SingleFamily,2015,693340,N/A,N/A,N/A,5,3,4/13/17,505000,39839,city,Montclair
+29 Butler St,7011,Clifton,NJ,Passaic,40.892274,-74.164861,MultiFamily2To4,2015,360360,1964,4791,N/A,3,6,4/12/17,449900,24120,city,Clifton
+13 Bender Dr,7013,Clifton,NJ,Passaic,40.878421,-74.169509,SingleFamily,2015,398339,1959,9784,N/A,3,3,4/12/17,414900,24120,city,Clifton
+1485 Ratzer Rd,7470,Wayne,NJ,Passaic,40.947345,-74.213773,SingleFamily,2015,303320,1953,29185,1252,1,2,4/12/17,220000,27808,city,Wayne
+52 Dawson Ave,7012,CLIFTON,NJ,Passaic,40.850964,-74.147079,SingleFamily,2015,252075,1928,3484,1240,2,3,4/12/17,250101,24120,city,Clifton
+162 Terrace Ct,7442,Pompton Lakes,NJ,Passaic,41.010725,-74.288708,Townhouse,2015,216697,2003,3484,N/A,2,2,4/12/17,265000,53952,city,Pompton Lakes
+113 Greglawn Dr,7013,Clifton,NJ,Passaic,40.867287,-74.175837,SingleFamily,2015,337043,1954,6969,N/A,2,4,4/12/17,365000,24120,city,Clifton
+326 Vernon Ave,7503,Paterson,NJ,Passaic,40.892368,-74.142562,SingleFamily,2015,182800,1955,3920,2800,2,3,4/12/17,268000,189284,neighborhood,Lakeview
+10 Oakwood Ter,7403,Bloomingdale,NJ,Passaic,41.013686,-74.337005,SingleFamily,2015,240825,1960,4791,N/A,2,4,4/12/17,303250,51034,city,Bloomingdale
+12 Ravine Dr W,7506,Hawthorne,NJ,Passaic,40.97261,-74.156822,SingleFamily,2015,326554,1951,N/A,N/A,1,2,4/12/17,326900,25074,city,Hawthorne
+48 Scoles Ave,7012,Clifton,NJ,Passaic,40.849387,-74.149259,MultiFamily2To4,2016,382117,1960,6251,2370,3,6,4/12/17,43000,24120,city,Clifton
+233 Hamilton Ave,7011,Clifton,NJ,Passaic,40.880759,-74.138931,SingleFamily,2015,247659,1930,3994,1300,1,3,4/12/17,270000,24120,city,Clifton
+17 Portland Ave,7011,Clifton,NJ,Passaic,40.872886,-74.131156,MultiFamily2To4,2015,305776,1915,3484,N/A,2,6,4/12/17,370000,24120,city,Clifton
+85 Charles St,7013,Clifton,NJ,Passaic,40.86455,-74.189412,SingleFamily,2015,407702,1956,12196,2800,2,4,4/11/17,315000,24120,city,Clifton
+44 Ronald Dr,7013,Clifton,NJ,Passaic,40.864959,-74.185244,SingleFamily,2015,591415,N/A,N/A,N/A,5,5,4/11/17,515000,24120,city,Clifton
+419 Harrison St,7055,Passaic,NJ,Passaic,40.867225,-74.133094,Condominium,2015,277196,N/A,3484,N/A,2,6,4/11/17,235000,19870,city,Passaic
+112 Riverdale Blvd,7442,Pompton Lakes,NJ,Passaic,40.986897,-74.292568,SingleFamily,2015,294374,N/A,10999,N/A,2,3,4/11/17,319900,53952,city,Pompton Lakes
+151 Redwood Ave,7522,Paterson,NJ,Passaic,40.923701,-74.18685,MultiFamily2To4,2015,198127,N/A,2426,2207,3,7,4/11/17,171500,264176,neighborhood,Totowa
+30 Luddington Ave,7011,Clifton,NJ,Passaic,40.87894,-74.144951,SingleFamily,2015,254726,N/A,6098,N/A,N/A,N/A,4/11/17,207000,24120,city,Clifton
+29 Ethel Dr,7424,Little Falls,NJ,Passaic,40.86857,-74.21616,SingleFamily,2015,328758,1962,14810,1344,2,3,4/11/17,355000,43491,city,Little Falls
+49 Ryle Ave,7522,Paterson,NJ,Passaic,40.92161,-74.177146,MultiFamily2To4,2015,140109,1930,2613,N/A,3,9,12/8/16,40000,264176,neighborhood,Totowa
+142 Walnut St,7522,Paterson,NJ,Passaic,40.915425,-74.185746,SingleFamily,2015,154819,N/A,3484,1196,N/A,N/A,2/13/17,150000,264176,neighborhood,Totowa
+651 E 25th St,7504,Paterson,NJ,Passaic,40.917209,-74.149414,MultiFamily2To4,2015,262525,1900,2500,3137,3,10,9/27/16,280000,764248,neighborhood,Eastside
+396 E 30th St,7504,Paterson,NJ,Passaic,40.913311,-74.146049,SingleFamily,2015,221994,1940,2613,3287,4,4,9/14/16,175000,764248,neighborhood,Eastside
+365 E 30th St,7504,Paterson,NJ,Passaic,40.91424,-74.145268,SingleFamily,2015,181669,N/A,2500,1874,N/A,N/A,11/17/16,107000,764248,neighborhood,Eastside
+12 Elm St,7501,Paterson,NJ,Passaic,40.914271,-74.175847,MultiFamily2To4,2015,195247,1940,3484,N/A,3,7,1/13/17,120000,764250,neighborhood,Downtown
+151 Ryerson Ave,7502,Paterson,NJ,Passaic,40.920446,-74.191854,MultiFamily2To4,2015,147515,1940,2613,2000,2,3,1/17/17,145000,264176,neighborhood,Totowa
+339 Paxton St,7503,Paterson,NJ,Passaic,40.89393,-74.161732,SingleFamily,2015,160478,N/A,2500,1408,N/A,N/A,4/13/17,95000,7165,neighborhood,South Paterson
+383 Pacific St,7503,Paterson,NJ,Passaic,40.894379,-74.159676,MultiFamily2To4,2015,168809,1940,1306,N/A,2,4,1/3/17,148000,7165,neighborhood,South Paterson
+105 Lyon St,7524,Paterson,NJ,Passaic,40.929145,-74.159965,MultiFamily2To4,2015,160786,1940,2500,2240,3,6,4/6/17,135000,190055,neighborhood,Riverside
+79 Garfield Ave,7522,Paterson,NJ,Passaic,40.927818,-74.1716,MultiFamily2To4,2015,157494,1898,2500,2551,3,6,11/15/16,42500,764254,neighborhood,Northside
+167 Pearl St,7501,Paterson,NJ,Passaic,40.916621,-74.15828,MultiFamily2To4,2015,168810,N/A,2613,2136,2,4,10/11/16,120000,153287,neighborhood,Sandy Hill
+6 Barnert Pl,7522,Paterson,NJ,Passaic,40.929308,-74.17033,MultiFamily2To4,2015,157391,1910,2613,N/A,2,6,2/21/17,220000,764254,neighborhood,Northside
+162 E 17th St,7524,Paterson,NJ,Passaic,40.933341,-74.152397,MultiFamily2To4,2015,198539,1960,2613,N/A,2,4,6/5/12,1000,190055,neighborhood,Riverside
+118 Wayne Ave,7502,Paterson,NJ,Passaic,40.918745,-74.185411,MultiFamily2To4,2015,196687,1940,N/A,N/A,2,6,2/10/17,90000,264176,neighborhood,Totowa
+40 19th Ave,7513,Paterson,NJ,Passaic,40.909793,-74.154342,MultiFamily2To4,2015,215925,1900,2613,2468,2,6,1/3/17,275000,26460,neighborhood,People's Park
+14 12th Ave,7501,Paterson,NJ,Passaic,40.921367,-74.165016,MultiFamily2To4,2015,221068,2008,2500,N/A,3,5,10/27/16,136500,764251,neighborhood,Wrigley Park
+102 16th Ave,7501,Paterson,NJ,Passaic,40.915811,-74.163104,SingleFamily,2015,255735,2005,2500,1992,N/A,N/A,10/19/16,215000,153287,neighborhood,Sandy Hill
+158 Wabash Ave,7503,Paterson,NJ,Passaic,40.898531,-74.150551,SingleFamily,2015,187841,N/A,5724,1613,N/A,N/A,11/17/16,200000,189284,neighborhood,Lakeview
+139 Park Ave,7501,Paterson,NJ,Passaic,40.915436,-74.160491,MultiFamily2To4,2015,163152,N/A,2613,2220,3,5,11/9/16,120000,153287,neighborhood,Sandy Hill
+105 Lyon St,7524,Paterson,NJ,Passaic,40.929145,-74.159965,MultiFamily2To4,2015,160786,1940,2500,2240,3,6,4/6/17,135000,190055,neighborhood,Riverside
+596 Terhune Dr,7470,Wayne,NJ,Passaic,41.007756,-74.269698,SingleFamily,2015,459762,1965,30361,2508,4,4,4/6/17,565000,27808,city,Wayne
+50 Eider Ct,7470,Wayne,NJ,Passaic,40.953072,-74.204645,Condominium,2015,382714,1993,N/A,2262,3,4,4/6/17,405000,27808,city,Wayne
+143 Brighton Rd,7012,Clifton,NJ,Passaic,40.849982,-74.159936,SingleFamily,2015,257199,1955,4791,N/A,1,2,4/6/17,265000,24120,city,Clifton
+63 Lilly Rd,7465,Wanaque,NJ,Passaic,41.067746,-74.30105,SingleFamily,2015,420459,1980,30056,N/A,3,4,4/6/17,442000,30048,city,Wanaque
+3 Tanager Ct,7470,Wayne,NJ,Passaic,40.954036,-74.209747,Townhouse,N/A,N/A,1980,4791,N/A,3,2,3/31/17,320000,27808,city,Wayne
+3315 Warrens Way,7465,Wanaque,NJ,Passaic,41.044863,-74.28325,Condominium,2015,390833,2000,N/A,1910,2,2,4/6/17,325000,30048,city,Wanaque
+14 Summer Hill Rd,7470,Wayne,NJ,Passaic,40.978481,-74.237602,SingleFamily,2015,533201,1997,5662,2826,3,3,4/6/17,450000,27808,city,Wayne
+143 Pine Tree Rd,7403,Bloomingdale,NJ,Passaic,41.019749,-74.333678,SingleFamily,2015,354491,1930,240,1077,N/A,N/A,4/6/17,309000,51034,city,Bloomingdale
+25 Pearl St,7403,Bloomingdale,NJ,Passaic,41.005995,-74.331716,SingleFamily,2015,230030,1960,7405,N/A,1,3,4/6/17,240000,51034,city,Bloomingdale
+196 Columbia Ave,7055,Passaic,NJ,Passaic,40.867472,-74.124469,MultiFamily2To4,2015,396223,1954,3920,N/A,4,8,4/6/17,470000,19870,city,Passaic
+4111 Warrens Way,7465,Wanaque,NJ,Passaic,41.044303,-74.283559,Condominium,2015,297708,N/A,N/A,1768,2,2,4/6/17,318000,30048,city,Wanaque
+99 Miller Ln,7456,Ringwood,NJ,Passaic,41.101836,-74.311649,SingleFamily,2015,558417,2003,91040,N/A,3,3,4/6/17,565000,47392,city,Ringwood
+2 Iron Forge Sq,7442,Pompton Lakes,NJ,Passaic,41.00657,-74.290764,Condominium,2015,184937,1986,N/A,N/A,2,2,4/6/17,165000,53952,city,Pompton Lakes
+39 Braen Ave,7506,Hawthorne,NJ,Passaic,40.971537,-74.154586,SingleFamily,2015,339171,N/A,8124,N/A,1.5,2,4/6/17,184800,25074,city,Hawthorne
+39 Aycrigg Ave,7055,Passaic,NJ,Passaic,40.848594,-74.123241,Condominium,2014,279465,1988,2613,1600,3,2,4/12/17,199000,19870,city,Passaic
+38 Vreeland Ave,7055,Passaic,NJ,Passaic,40.865986,-74.122383,SingleFamily,2015,245335,N/A,N/A,N/A,3,3,4/5/17,90000,19870,city,Passaic
+35 Center St,7011,Clifton,NJ,Passaic,40.875583,-74.125297,MultiFamily2To4,2015,266561,N/A,N/A,N/A,2,5,4/4/17,258000,24120,city,Clifton
+11 N 17th St,7508,Prospect Park,NJ,Passaic,40.937398,-74.180661,SingleFamily,2015,194900,1940,6098,N/A,1,3,4/3/17,125000,20068,city,Prospect Park
+870 Rifle Camp Rd,7424,Woodland Park,NJ,Passaic,40.879123,-74.20021,SingleFamily,2015,283171,1950,24829,N/A,2,3,4/3/17,210000,16217,city,Woodland Park
+118 Cathay Rd,7013,Clifton,NJ,Passaic,40.884284,-74.178817,SingleFamily,2015,439675,1948,8712,N/A,3,4,4/3/17,365000,24120,city,Clifton
+45 Kaywin Ave,7506,Hawthorne,NJ,Passaic,40.965551,-74.147129,SingleFamily,2015,264971,1949,6433,1152,2,2,4/3/17,332000,25074,city,Hawthorne
+69 Easedale Rd,7470,Wayne,NJ,Passaic,40.939949,-74.20298,Condominium,2015,327138,1987,4051,1742,3,2,4/3/17,425000,27808,city,Wayne
+99 Central Ave,7508,North Haledon,NJ,Passaic,40.960293,-74.18853,SingleFamily,2015,362124,1965,14810,1824,2,4,4/3/17,323700,26185,city,North Haledon
+224 Pompton Rd,7508,Haledon,NJ,Passaic,40.940269,-74.196197,SingleFamily,2015,269471,1950,12632,2182,2,5,4/3/17,146200,27808,city,Wayne
+19 Dumont Ave,7013,Clifton,NJ,Passaic,40.894165,-74.169224,MultiFamily2To4,2015,264264,1940,13299,N/A,2,2,4/3/17,251500,24120,city,Clifton
+19 Roy Ct,7012,Clifton,NJ,Passaic,40.850047,-74.171141,SingleFamily,2015,291468,1958,7148,N/A,2,3,4/3/17,350692,24120,city,Clifton
+105 Bloomfield Ave,7503,Paterson,NJ,Passaic,40.897146,-74.162708,MultiFamily2To4,2015,166238,N/A,2613,1773,2,4,3/31/17,170000,7165,neighborhood,South Paterson
+16 Vineyard Pl,7055,Passaic,NJ,Passaic,40.859111,-74.131487,MultiFamily2To4,2015,403960,2008,3179880,N/A,4,6,3/31/17,410000,19870,city,Passaic
+1007 Rinwood Ave,7420,Wanaque,NJ,Passaic,41.0269,-74.2976,Unknown,N/A,N/A,1940,N/A,N/A,2,4,N/A,N/A,N/A,N/A,N/A
+8 Van Dam Ave,7403,Bloomingdale,NJ,Passaic,41.00194,-74.322125,SingleFamily,2016,213977,1912,6098,N/A,1,2,3/31/17,122350,51034,city,Bloomingdale
+658 Lincoln Ave,7442,Pompton Lakes,NJ,Passaic,40.998079,-74.285322,SingleFamily,2015,298548,1940,12196,N/A,2,4,3/31/17,158000,53952,city,Pompton Lakes
+87 E 4th St,7011,Clifton,NJ,Passaic,40.89001,-74.13533,SingleFamily,2015,286522,1900,3001,1500,2,3,3/31/17,325000,24120,city,Clifton
+2 Mullen Ave,7465,Wanaque,NJ,Passaic,41.053635,-74.285914,SingleFamily,2015,273002,1990,9544,1475,2.5,3,3/31/17,255000,30048,city,Wanaque
+66 Turnberry Rd,7424,Little Falls,NJ,Passaic,40.880886,-74.220352,SingleFamily,2015,493358,1995,5662,N/A,4,4,3/31/17,549900,43491,city,Little Falls
+47 Battle Ridge Trl,7512,Totowa,NJ,Passaic,40.919179,-74.215021,SingleFamily,2015,608600,1976,40075,2552,2.1,4,3/31/17,410000,27446,city,Totowa
+181 Llewellyn Ave,7506,HAWTHORNE,NJ,Passaic,40.945873,-74.157333,SingleFamily,2015,283616,1925,4199,1180,N/A,N/A,10/19/05,2926,25074,city,Hawthorne
+8611 Brittany Dr,7470,Wayne,NJ,Passaic,40.965705,-74.239082,SingleFamily,2015,305305,1995,N/A,1628,2,2,3/31/17,275000,27808,city,Wayne
+470 Madison Ave,7524,Paterson,NJ,Passaic,40.924748,-74.152157,MultiFamily2To4,2015,162535,1930,2613,2427,3,5,3/31/17,90000,190055,neighborhood,Riverside
+1118 Colfax Ave,7442,Pompton Lakes,NJ,Passaic,41.015628,-74.269368,SingleFamily,2015,304537,1960,9147,N/A,3,4,1/29/01,19000,53952,city,Pompton Lakes
+24 River Rd # F647,7014,Clifton,NJ,Passaic,40.823547,-74.134581,Condominium,2015,262497,1981,5227,1216,N/A,N/A,6/22/07,350000,24120,city,Clifton
+5 Salem Rd,7502,Paterson,NJ,Passaic,40.923723,-74.194138,SingleFamily,2015,197408,1965,6534,1950,2,3,3/31/17,258000,264176,neighborhood,Totowa
+479 Conklintown Rd,7456,Ringwood,NJ,Passaic,41.072559,-74.256424,SingleFamily,2015,290636,1964,14810,1276,2,3,3/31/17,190000,47392,city,Ringwood
+108 Urban Club Rd,7470,Wayne,NJ,Passaic,40.967544,-74.219947,SingleFamily,2015,584086,1975,30797,2800,3,5,3/31/17,660000,27808,city,Wayne
+107 Gordon Ave,7512,Totowa,NJ,Passaic,40.907627,-74.209121,SingleFamily,2015,261700,1940,4500,1600,1,3,3/31/17,320000,27446,city,Totowa
+42 Wayne Ave,7522,Paterson,NJ,Passaic,40.916669,-74.183311,SingleFamily,2015,184961,N/A,2500,1808,N/A,N/A,8/21/06,335000,264176,neighborhood,Totowa
+1591 Deer Path,7092,Mountainside,NJ,Union,40.673081,-74.380543,SingleFamily,2015,815450,1977,30056,N/A,3,4,5/3/17,699900,39910,city,Mountainside
+719 Colonial Arms Rd,7083,Union,NJ,Union,40.680218,-74.248453,SingleFamily,2015,276045,1956,5662,2000,2,3,5/2/17,369000,20883,city,Union
+91 Passaic Ave,7901,Summit,NJ,Union,40.719699,-74.384132,SingleFamily,2015,456862,1954,8712,1,2,3,5/2/17,605000,27319,city,Summit
+311 Baker Ave,7090,Westfield,NJ,Union,40.661429,-74.3444,SingleFamily,2015,935587,1952,11325,N/A,3,4,5/2/17,925000,27896,city,Westfield
+618 Maple St,7090,Westfield,NJ,Union,40.659373,-74.346008,SingleFamily,2015,530815,1922,6534,N/A,3,4,5/1/17,720800,27896,city,Westfield
+1045 Norton Rd,7083,Union,NJ,Union,40.690982,-74.246535,SingleFamily,2015,324897,1929,7840,8000,3,5,4/28/17,395000,20883,city,Union
+12 Green Hickory Hl,7076,Scotch Plains,NJ,Union,40.620516,-74.362507,SingleFamily,2015,821972,1978,40946,3400,4,5,4/28/17,775000,20391,city,Scotch Plains
+17 Princeton Rd,7016,Cranford,NJ,Union,40.668243,-74.3215,SingleFamily,2015,566113,1960,10890,2600,3,3,4/28/17,599900,31092,city,Cranford
+16 Burnside Ave,7016,Cranford,NJ,Union,40.652506,-74.311941,SingleFamily,2015,293471,1904,5662,1280,2,3,4/28/17,435000,31092,city,Cranford
+100 Park Ave,7901,Summit,NJ,Union,40.712987,-74.349403,SingleFamily,2015,368127,2013,4900,1200,2,3,4/28/17,440000,27319,city,Summit
+11 Lenox Rd,7901,Summit,NJ,Union,40.718372,-74.347374,SingleFamily,2015,2679929,1914,34412,4868,7,8,4/28/17,2300000,27319,city,Summit
+2173 Whittier St,7065,Rahway,NJ,Union,40.617856,-74.272306,SingleFamily,2015,193297,1940,7313,1192,1,3,4/28/17,139000,8854,city,Rahway
+1811 1st St,8812,Dunellen,NJ,Union,40.598472,-74.458396,SingleFamily,2015,244019,1961,7405,N/A,2,3,4/28/17,170000,33445,city,Plainfield
+1515 Dewitt Ter,7036,Linden,NJ,Union,40.636399,-74.272427,SingleFamily,2015,274712,1950,7858,1500,1,4,4/28/17,249900,36718,city,Linden
+714 Harrison Pl,7036,Linden,NJ,Union,40.639464,-74.251451,SingleFamily,2015,258208,1955,6534,2020,3,4,4/28/17,308000,36718,city,Linden
+120 Oak Ridge Ave,7901,Summit,NJ,Union,40.705344,-74.360393,SingleFamily,2015,1977872,1936,11761,N/A,7,6,4/28/17,1515000,27319,city,Summit
+564 Mountain Ave,7081,Springfield,NJ,Union,40.695383,-74.32711,SingleFamily,2015,423472,1985,10018,N/A,3,3,4/28/17,460000,41030,city,Springfield
+736 Norgate,7090,Westfield,NJ,Union,40.635231,-74.349342,SingleFamily,2015,867992,1958,14374,N/A,3,4,4/28/17,970000,27896,city,Westfield
+419 Everson Pl,7090,Westfield,NJ,Union,40.642153,-74.340938,SingleFamily,2015,603976,1925,8712,2321,3,5,4/28/17,835000,27896,city,Westfield
+854 Standish Ave,7090,Westfield,NJ,Union,40.666126,-74.352237,SingleFamily,2015,1209542,1920,13503,3929,N/A,0,4/28/17,1275000,27896,city,Westfield
+1365 Boynton Ave,7090,Westfield,NJ,Union,40.640256,-74.322953,SingleFamily,2015,672366,1956,10890,3000,4,4,4/28/17,716000,27896,city,Westfield
+56 Sagamore Dr,7974,New Providence,NJ,Union,40.692043,-74.406488,SingleFamily,2015,532149,1963,17859,2010,3,4,4/28/17,720000,46727,city,New Providence
+41 Craig Pl,7016,Cranford,NJ,Union,40.665464,-74.304298,SingleFamily,2015,354083,1926,4791,1120,2,3,4/28/17,450000,31092,city,Cranford
+1015 Lincoln St,7036,Linden,NJ,Union,40.642979,-74.250913,SingleFamily,2015,148714,1952,2252,648,2,2,4/28/17,80255,36718,city,Linden
+1125 Lincoln Ave,7076,Scotch Plains,NJ,Union,40.638315,-74.374188,SingleFamily,2015,415798,1997,4791,N/A,3,4,4/28/17,505000,20391,city,Scotch Plains
+843 Liberty Ave,7083,Union,NJ,Union,40.701863,-74.297667,SingleFamily,2015,230724,1950,6098,N/A,2,2,4/28/17,190000,20883,city,Union
+204 Baltimore Ave,7205,Hillside,NJ,Union,40.694231,-74.231215,MultiFamily2To4,2015,199601,1934,2378,2068,3,5,4/28/17,150000,55745,city,Hillside
+3 Fairview Rd,7066,Clark,NJ,Union,40.610289,-74.323736,SingleFamily,2015,586252,2004,11325,3281,4,4,4/28/17,810000,10836,city,Clark
+98 Severna Ave,7081,Springfield,NJ,Union,40.714785,-74.316078,SingleFamily,2015,319054,N/A,5994,N/A,N/A,N/A,4/27/17,337500,41030,city,Springfield
+811 Mccandless St,7036,Linden,NJ,Union,40.64095,-74.250523,MultiFamily2To4,2015,357409,N/A,3920,N/A,2,6,4/27/17,295500,36718,city,Linden
+415 Laurita St,7036,Linden,NJ,Union,40.627065,-74.261998,SingleFamily,2015,178527,1924,3498,1314,2,2,4/27/17,210000,36718,city,Linden
+1223 N Stiles St,7036,Linden,NJ,Union,40.629663,-74.275578,SingleFamily,2015,214375,1941,4791,1868,2,4,4/26/17,290000,36718,city,Linden
+30 N 14th St,7033,Kenilworth,NJ,Union,40.67659,-74.298148,SingleFamily,2015,254145,1953,4791,N/A,2,3,4/26/17,320000,18815,city,Kenilworth
+160 E 1st Ave,7203,Roselle,NJ,Union,40.660282,-74.26073,MultiFamily2To4,2015,294138,N/A,7405,N/A,3,6,4/26/17,115000,13593,city,Roselle
+509 E 2nd Ave,7203,Roselle,NJ,Union,40.660727,-74.251254,SingleFamily,2015,197425,1953,4791,N/A,3,4,4/26/17,250900,13593,city,Roselle
+625 Jackson Ave,7036,Linden,NJ,Union,40.642127,-74.256025,MultiFamily2To4,2015,225377,N/A,3049,N/A,2,6,4/26/17,140000,36718,city,Linden
+1614 Orchard Ter,7036,Linden,NJ,Union,40.639436,-74.270427,SingleFamily,2015,228749,1950,3920,1437,2,3,4/26/17,230000,36718,city,Linden
+961 Park Ter,7083,Union,NJ,Union,40.696139,-74.275242,SingleFamily,2015,277222,1922,6874,N/A,N/A,N/A,4/26/17,235000,20883,city,Union
+118 Carteret St,7036,Linden,NJ,Union,40.631401,-74.246929,SingleFamily,2015,270630,1940,7501,N/A,1,2,4/25/17,271000,36718,city,Linden
+36 Salem Rd,7974,New Providence,NJ,Union,40.697743,-74.395063,SingleFamily,2015,381869,1950,6969,1422,1,3,4/25/17,469900,46727,city,New Providence
+20 Greenbriar Dr,7901,Summit,NJ,Union,40.699613,-74.370653,SingleFamily,2015,1708091,1937,20473,N/A,4,5,4/24/17,1300000,27319,city,Summit
+409 Gable Ln,7036,Linden,NJ,Union,40.622661,-74.244878,MultiFamily2To4,2015,262466,1964,3920,N/A,3,6,4/24/17,33100,36718,city,Linden
+2111 Alberta Ave,7036,Linden,NJ,Union,40.652262,-74.23136,SingleFamily,2015,250577,1960,4791,5001,3,3,4/24/17,400000,36718,city,Linden
+306 Riverside Dr,7016,Cranford,NJ,Union,40.663437,-74.30774,SingleFamily,2015,356658,1937,9147,2050,2,3,4/24/17,452500,31092,city,Cranford
+212 Court Pl,7060,Plainfield,NJ,Union,40.618541,-74.41767,SingleFamily,2015,105679,1921,2212,1820,2,4,4/24/17,99574,33445,city,Plainfield
+951 Arnet Ave,7083,Union,NJ,Union,40.685252,-74.242434,SingleFamily,2015,251913,1929,3920,N/A,1,3,4/24/17,253000,20883,city,Union
+870 Hamilton St,7065,Rahway,NJ,Union,40.61436,-74.288308,SingleFamily,2015,273449,1929,10018,1538,2,4,4/24/17,309000,8854,city,Rahway
+272 Forest Dr,7083,Union,NJ,Union,40.673568,-74.264569,SingleFamily,2015,242496,1939,5227,N/A,1,3,4/24/17,298000,20883,city,Union
+255 Tucker Ave APT 329,7083,Union,NJ,Union,40.673127,-74.268278,Townhouse,2015,73573,1970,N/A,N/A,1,1,4/21/17,90000,20883,city,Union
+731 Midvale Pl,7036,Linden,NJ,Union,40.634122,-74.283335,SingleFamily,2015,279148,1961,4356,1478,2,3,4/21/17,377000,36718,city,Linden
+2 Whittredge Rd,7901,Summit,NJ,Union,40.722022,-74.354871,SingleFamily,2015,3073089,2002,26571,5725,7,6,4/21/17,2850000,27319,city,Summit
+109 Tall Oaks Dr,7901,Summit,NJ,Union,40.700183,-74.386481,SingleFamily,2015,612710,1959,14810,2400,3,4,4/21/17,825000,27319,city,Summit
+18 Clark St,7016,Cranford,NJ,Union,40.640888,-74.313386,SingleFamily,2015,489352,1995,4791,N/A,3,4,4/21/17,616000,31092,city,Cranford
+156 Walton Ave,7083,Union,NJ,Union,40.676399,-74.2696,SingleFamily,2015,432019,1985,4791,N/A,4,5,4/21/17,449900,20883,city,Union
+38 Rutgers Rd,7016,Cranford,NJ,Union,40.66882,-74.325387,SingleFamily,2015,574538,1958,15681,N/A,4,5,4/21/17,800000,31092,city,Cranford
+513 Rosewood Ter,7036,Linden,NJ,Union,40.636493,-74.280083,MultiFamily2To4,2016,300310,1947,4791,1584,2,4,4/21/17,355000,36718,city,Linden
+21 Roosevelt Ave,7023,Fanwood,NJ,Union,40.639621,-74.37591,SingleFamily,2015,285714,1961,4791,N/A,1,3,4/21/17,258500,42402,city,Fanwood
+310 Drake Ave,7203,Roselle,NJ,Union,40.658895,-74.250735,SingleFamily,2015,157419,1920,2613,1116,1.5,3,4/21/17,152000,13593,city,Roselle
+14 Ramsgate Rd,7016,Cranford,NJ,Union,40.659009,-74.317443,SingleFamily,2015,613152,1965,13939,3198,4,4,4/21/17,900000,31092,city,Cranford
+617 Raritan Rd,7016,Cranford,NJ,Union,40.640869,-74.286262,SingleFamily,2015,297215,1969,4850,N/A,2.5,3,4/20/17,255009,31092,city,Cranford
+338 Washington St,7922,Berkeley Heights,NJ,Union,40.686377,-74.438655,SingleFamily,2015,717708,2008,8712,3500,4,4,4/20/17,887000,28407,city,Berkeley Heights
+255 Tucker Ave APT 107,7083,Union,NJ,Union,40.672961,-74.269082,Townhouse,2016,72632,1970,871,N/A,1,1,4/20/17,116000,20883,city,Union
+255 Tucker Ave APT 106,7083,Union,NJ,Union,40.673015,-74.269095,SingleFamily,2015,67687,1971,688,N/A,N/A,N/A,4/20/17,116000,20883,city,Union
+715 Dartmoor,7090,Westfield,NJ,Union,40.635107,-74.34566,SingleFamily,2015,920477,2016,14810,3500,7,6,4/19/17,1644000,27896,city,Westfield
+533 Monmouth Ave,7036,Linden,NJ,Union,40.637271,-74.252112,SingleFamily,2015,219166,1958,4400,1015,2,2,4/19/17,257000,36718,city,Linden
+3 Poplar Ter,7066,Clark,NJ,Union,40.635361,-74.299694,SingleFamily,2015,332361,1947,7000,N/A,2,3,4/19/17,300000,10836,city,Clark
+324 E 3rd Ave,7203,Roselle,NJ,Union,40.658522,-74.254757,SingleFamily,2015,244913,1915,5227,1680,1,4,4/19/17,117800,13593,city,Roselle
+621 Chandler Ave,7203,Roselle,NJ,Union,40.654475,-74.252273,SingleFamily,2015,188381,N/A,10018,N/A,2,3,4/19/17,115000,13593,city,Roselle
+56 Ridgeway Ave,7205,Hillside,NJ,Union,40.69505,-74.218132,SingleFamily,2015,197423,1929,3920,N/A,2,3,4/18/17,209999,55745,city,Hillside
+405 Denman Rd,7016,Cranford,NJ,Union,40.642179,-74.312014,SingleFamily,2015,421483,1960,6098,N/A,3,5,4/18/17,765000,31092,city,Cranford
+8 Hillside Ave,7066,Clark,NJ,Union,40.627702,-74.287151,SingleFamily,2015,342737,1959,7405,N/A,2,3,4/18/17,270000,10836,city,Clark
+2318 Whittier St,7065,Rahway,NJ,Union,40.619284,-74.27025,SingleFamily,2015,159267,1960,2613,N/A,1,2,4/18/17,176000,8854,city,Rahway
+55 Baltusrol Rd,7901,Summit,NJ,Union,40.705733,-74.353421,SingleFamily,2015,373715,1950,6969,1335,2,3,4/17/17,483000,27319,city,Summit
+205 W 15th St,7036,Linden,NJ,Union,40.621482,-74.241152,MultiFamily2To4,2015,256788,1950,3920,N/A,2,5,4/17/17,375000,36718,city,Linden
+33 Williams St,7204,Roselle Park,NJ,Union,40.662802,-74.262598,SingleFamily,2015,255272,1986,4356,1785,N/A,4,4/17/17,215000,29512,city,Roselle Park
+1122 Debra Dr,7036,Linden,NJ,Union,40.628763,-74.274227,SingleFamily,2015,261757,1960,4356,N/A,2,3,4/17/17,295000,36718,city,Linden
+47 Ashworth Ct,7023,Fanwood,NJ,Union,40.637206,-74.387552,SingleFamily,2015,362160,1983,7405,N/A,2,3,4/17/17,495000,42402,city,Fanwood
+1236 Wheatsheaf Rd,7203,Roselle,NJ,Union,40.644974,-74.262161,SingleFamily,2015,207514,1950,5227,N/A,2,3,4/16/17,147000,13593,city,Roselle
+431 Bramhall Rd,7065,Rahway,NJ,Union,40.596901,-74.297706,SingleFamily,2015,230092,1956,6098,1325,2,3,4/14/17,320000,8854,city,Rahway
+6 Orchard Ter,7066,Clark,NJ,Union,40.611192,-74.332492,SingleFamily,2015,383268,1948,9583,N/A,2,4,4/14/17,430000,10836,city,Clark
+608 Brookside Pl,7016,Cranford,NJ,Union,40.660999,-74.32048,SingleFamily,2015,472735,1948,9583,N/A,3,3,4/14/17,586000,31092,city,Cranford
+65 Woodcrest Cir,7081,Springfield,NJ,Union,40.714001,-74.327596,SingleFamily,2015,268184,1949,6730,1184,1,4,4/14/17,265000,41030,city,Springfield
+817 Walnut St,7036,Linden,NJ,Union,40.638912,-74.258434,SingleFamily,2015,217214,1951,5662,1317,1,3,4/14/17,122500,36718,city,Linden
+348 Dogwood Dr,7083,Union,NJ,Union,40.680307,-74.260956,SingleFamily,2015,397293,1940,5662,3190,3,5,4/14/17,405000,20883,city,Union
+1714 Grandview Ave,7090,Westfield,NJ,Union,40.638635,-74.316915,SingleFamily,2015,809543,1977,14374,2560,3,4,4/14/17,720000,27896,city,Westfield
+120 Berwick St,7202,Elizabeth,NJ,Union,40.660046,-74.23518,SingleFamily,2016,221642,1960,3197,N/A,3,4,10/4/16,282500,31388,city,Elizabeth
+1029 Lafayette St,7201,Elizabeth,NJ,Union,40.664878,-74.207144,SingleFamily,2015,160484,N/A,3241,N/A,N/A,N/A,12/13/16,60000,31388,city,Elizabeth
+17 Kerlyn Ct,7202,Elizabeth,NJ,Union,40.655527,-74.226391,SingleFamily,2015,93868,N/A,2696,N/A,1,2,9/29/16,25000,31388,city,Elizabeth
+901 Anna St,7201,Elizabeth,NJ,Union,40.667699,-74.200445,SingleFamily,2015,260409,1988,2500,N/A,1.5,3,3/13/17,130000,31388,city,Elizabeth
+10 Niles St,7202,Elizabeth,NJ,Union,40.654285,-74.200517,MultiFamily2To4,2015,273278,N/A,2613,N/A,3,5,6/14/13,260000,31388,city,Elizabeth
+581 Monroe Ave,7201,Elizabeth,NJ,Union,40.674118,-74.204625,MultiFamily2To4,2015,286147,1910,3920,2244,4,6,8/25/16,350000,31388,city,Elizabeth
+1041 Richford Ter,7202,Elizabeth,NJ,Union,40.652536,-74.228968,SingleFamily,2015,164269,1950,3484,N/A,1,2,11/21/16,177000,31388,city,Elizabeth
+126 Alton St,7202,Elizabeth,NJ,Union,40.660731,-74.234409,SingleFamily,2015,239213,1930,3484,1200,3,3,10/7/16,310000,31388,city,Elizabeth
+18 Newcomb Pl,7202,Elizabeth,NJ,Union,40.657568,-74.229381,MultiFamily2To4,2015,311885,1940,4356,N/A,2,6,9/20/16,250000,31388,city,Elizabeth
+80 Westfield Ave,7208,Elizabeth,NJ,Union,40.667441,-74.220122,SingleFamily,2015,179409,N/A,4092,N/A,2,4,11/29/16,225000,31388,city,Elizabeth
+221 Center St,7202,Elizabeth,NJ,Union,40.658455,-74.205794,MultiFamily2To4,2015,180166,1900,2613,N/A,2,5,3/7/17,230000,31388,city,Elizabeth
+618 Chetwood St,7202,Elizabeth,NJ,Union,40.64872,-74.211984,SingleFamily,2015,206661,1945,4356,1152,2,3,9/9/16,240000,31388,city,Elizabeth
+736 Eugenia Pl,7202,Elizabeth,NJ,Union,40.658349,-74.217365,SingleFamily,2015,186979,N/A,N/A,N/A,2,6,1/29/17,165500,31388,city,Elizabeth
+84 Division St,7201,Elizabeth,NJ,Union,40.65994,-74.200358,MultiFamily2To4,2015,182437,1922,5956,1500,2,3,10/28/16,150000,31388,city,Elizabeth
+59 Pershing Ave,7202,Elizabeth,NJ,Union,40.657704,-74.232681,SingleFamily,2015,236185,N/A,3484,N/A,3,3,9/12/16,265000,31388,city,Elizabeth
+598 Summer St,7202,Elizabeth,NJ,Union,40.649885,-74.211022,SingleFamily,2015,171082,1950,2613,950,1,3,12/30/16,160000,31388,city,Elizabeth
+1348 Fremont Pl,7208,Elizabeth,NJ,Union,40.687573,-74.210527,MultiFamily2To4,2015,323240,N/A,N/A,N/A,1,3,11/13/16,1400,31388,city,Elizabeth
+40 Dehart Pl,7202,Elizabeth,NJ,Union,40.660742,-74.224944,SingleFamily,2015,250568,1902,2949,N/A,N/A,N/A,8/22/16,175000,31388,city,Elizabeth
+1029 Bond St,7201,Elizabeth,NJ,Union,40.668355,-74.204814,SingleFamily,2015,110522,N/A,2875,N/A,N/A,N/A,8/23/16,55500,31388,city,Elizabeth
+470 Monroe Ave,7201,Elizabeth,NJ,Union,40.67082,-74.207087,MultiFamily2To4,2015,283876,1940,4356,3520,1,2,2/15/17,1200,31388,city,Elizabeth
+614 Grier Ave,7202,Elizabeth,NJ,Union,40.649847,-74.217909,MultiFamily2To4,2015,202876,1913,2701,9999,3,6,11/17/16,270000,31388,city,Elizabeth
+125 Berwick St,7202,Elizabeth,NJ,Union,40.6604,-74.2347,SingleFamily,2015,235428,N/A,3484,N/A,2,3,12/7/16,275000,31388,city,Elizabeth
+11 Melrose Ter,7208,Elizabeth,NJ,Union,40.672207,-74.2288,SingleFamily,2015,249811,1940,7405,N/A,2,3,3/30/17,280000,31388,city,Elizabeth
+646 Park Ave,7208,Elizabeth,NJ,Union,40.666226,-74.236461,SingleFamily,2015,256624,N/A,5275,N/A,N/A,N/A,9/1/16,350000,31388,city,Elizabeth
+350 Cherry St,7208,ELIZABETH,NJ,Union,40.669092,-74.222849,SingleFamily,2015,208932,N/A,3825,N/A,2,3,4/13/17,417000,31388,city,Elizabeth
+534 Pennington St,7202,Elizabeth,NJ,Union,40.662693,-74.232765,MultiFamily2To4,2015,317184,1945,N/A,N/A,3,5,3/27/17,225000,31388,city,Elizabeth
+408 Jackson Ave,7201,Elizabeth,NJ,Union,40.668889,-74.208747,SingleFamily,2015,118849,1890,1947,N/A,N/A,N/A,2/14/17,70000,31388,city,Elizabeth
+1017 Kilsyth Rd,7208,Elizabeth,NJ,Union,40.68693,-74.208594,SingleFamily,2015,404996,N/A,4273,N/A,N/A,N/A,10/17/16,231000,31388,city,Elizabeth
+312 Roger Ave,7090,Westfield,NJ,Union,40.64071,-74.31857,SingleFamily,2015,508151,1956,12196,N/A,3,4,4/7/17,605000,27896,city,Westfield
+18 Fairview Ave,7974,New Providence,NJ,Union,40.696068,-74.417977,SingleFamily,2015,361869,1921,13068,N/A,2,2,4/7/17,412500,46727,city,New Providence
+1024 Bergen Ave,7036,Linden,NJ,Union,40.641242,-74.243278,SingleFamily,2015,195386,1956,3920,17,1,4,4/7/17,155000,36718,city,Linden
+26 Henshaw Ave,7081,Springfield,NJ,Union,40.705045,-74.318517,SingleFamily,2015,299643,N/A,7501,N/A,N/A,N/A,4/7/17,425000,41030,city,Springfield
+1409 Outlook Dr,7092,Mountainside,NJ,Union,40.678604,-74.37175,SingleFamily,2015,907726,1968,20037,2581,3,4,4/7/17,590000,39910,city,Mountainside
+710 Spruce St,7203,Roselle,NJ,Union,40.652865,-74.255897,SingleFamily,2015,154462,1918,3049,1280,2,3,4/7/17,227000,13593,city,Roselle
+2179 Tyler St,7083,Union,NJ,Union,40.705439,-74.268424,SingleFamily,2015,282519,1941,5662,N/A,2,4,4/6/17,280000,20883,city,Union
+71 Old Farm Rd,7922,Berkeley Heights,NJ,Union,40.664284,-74.443813,SingleFamily,2015,440029,1950,43560,N/A,2,3,4/6/17,1350000,28407,city,Berkeley Heights
+1919 Sunset Pl,7076,Scotch Plains,NJ,Union,40.654194,-74.401727,SingleFamily,2015,305534,1953,7840,1600,2,4,4/6/17,230000,20391,city,Scotch Plains
+164 Princeton Ave,7922,Berkeley Heights,NJ,Union,40.670595,-74.446063,SingleFamily,2015,646558,1975,19994,2124,3,4,4/6/17,755000,28407,city,Berkeley Heights
+810 W End Pl,7016,Cranford,NJ,Union,40.663779,-74.309367,SingleFamily,2015,725720,1967,10018,N/A,3,4,4/6/17,475000,31092,city,Cranford
+125 Hillcrest Ter,7203,Roselle,NJ,Union,40.645538,-74.258956,SingleFamily,2015,234128,1920,3749,1326,1,3,4/5/17,120000,13593,city,Roselle
+389 Snyder Ave,7922,Berkeley Heights,NJ,Union,40.678652,-74.43099,SingleFamily,2015,575053,1967,14810,N/A,3,4,4/5/17,730000,28407,city,Berkeley Heights
+1796 Newton St,7065,Rahway,NJ,Union,40.613537,-74.276314,SingleFamily,2015,219381,1880,7405,1727,2,3,4/5/17,238000,8854,city,Rahway
+1500 Bower St,7036,Linden,NJ,Union,40.643163,-74.256003,SingleFamily,2015,299379,1960,5998,2145,N/A,N/A,4/5/17,280000,36718,city,Linden
+1451 Compton Ter,7205,Hillside,NJ,Union,40.70118,-74.223976,SingleFamily,2015,175830,1929,3484,1454,2,3,4/4/17,255000,55745,city,Hillside
+237 N 8TH St,7033,KENILWORTH,NJ,Union,40.680129,-74.303689,MultiFamily2To4,2015,435852,1988,4356,N/A,3,6,4/4/17,430000,18815,city,Kenilworth
+428 Watchung Ave,7060,North Plainfield,NJ,Union,40.630178,-74.439643,SingleFamily,2015,246800,1924,9649,1432,N/A,N/A,4/4/17,140000,46805,city,North Plainfield
+2 Silver Lake Dr,7901,Summit,NJ,Union,40.701457,-74.374746,SingleFamily,2016,1366096,1940,13503,5800,4,4,4/4/17,1414000,27319,city,Summit
+1418 Pine Grove Ave,7090,Westfield,NJ,Union,40.635558,-74.323618,SingleFamily,2015,456461,1948,7840,N/A,1,4,4/4/17,452500,27896,city,Westfield
+2528 Linn Ave,7083,Union,NJ,Union,40.706492,-74.288393,SingleFamily,2015,200117,1900,5001,N/A,1,3,4/4/17,185000,20883,city,Union
+2455 Seymour Ave,7083,Union,NJ,Union,40.707711,-74.283179,SingleFamily,2015,251324,1948,6969,N/A,2,3,4/4/17,315000,20883,city,Union
+548 Quinton Ave,7033,Kenilworth,NJ,Union,40.672428,-74.289507,SingleFamily,2015,277186,1953,4791,N/A,2,3,4/4/17,359000,18815,city,Kenilworth
+605 Tillman St,7205,Hillside,NJ,Union,40.700571,-74.243747,SingleFamily,2015,129922,1953,2613,N/A,1,2,4/3/17,139000,55745,city,Hillside
+408 Sheridan Ave,7203,Roselle,NJ,Union,40.657526,-74.249464,SingleFamily,2015,235345,1951,5001,1437,3,4,4/3/17,145000,13593,city,Roselle
+9 Cutler Pl,7066,Clark,NJ,Union,40.624925,-74.318921,SingleFamily,2015,378080,1954,5227,2141,3,4,4/3/17,621000,10836,city,Clark
+43 Murray Hill Sq,7974,New Providence,NJ,Union,40.695617,-74.404884,Condominium,2015,411775,1983,10977,1472,N/A,N/A,4/3/17,415000,46727,city,New Providence
+36 Featherbed Ln,7066,Clark,NJ,Union,40.621182,-74.323252,SingleFamily,2015,493515,1963,17859,N/A,2,2,4/3/17,406000,10836,city,Clark
+251 Tuttle Pkwy,7090,Westfield,NJ,Union,40.649935,-74.355968,SingleFamily,2015,689065,1929,10576,2143,4,4,4/3/17,780000,27896,city,Westfield
+17 Mohawk Trl,7090,Westfield,NJ,Union,40.634714,-74.332869,SingleFamily,2015,475944,2016,8712,3200,5,5,4/3/17,1250000,27896,city,Westfield
+134 Belvidere Ave,7023,Fanwood,NJ,Union,40.634948,-74.382036,SingleFamily,2015,393216,1950,6534,N/A,2,3,4/3/17,490000,42402,city,Fanwood
+2812 Carol Rd,7083,Union,NJ,Union,40.708794,-74.29678,SingleFamily,2015,298999,1941,5662,2500,2,3,4/3/17,359900,760927,neighborhood,Larchmont Estates
+23 Beekman Rd,7901,Summit,NJ,Union,40.717656,-74.373591,SingleFamily,2015,1162942,1938,38920,3081,4,4,4/3/17,1200000,27319,city,Summit
+13 Clauss Rd,7066,Clark,NJ,Union,40.627163,-74.293217,SingleFamily,2015,292802,1953,7405,N/A,N/A,2,4/1/17,2100,10836,city,Clark
+140 Briarwood Dr E,7922,Berkeley Heights,NJ,Union,40.687115,-74.427393,SingleFamily,2015,450497,1965,15246,1692,3,3,3/31/17,600000,28407,city,Berkeley Heights
+295 Laurel Ln,7066,Clark,NJ,Union,40.606682,-74.340611,SingleFamily,2015,713359,2007,16988,3332,3,4,3/31/17,790000,10836,city,Clark
+116 Surrey Ln,7090,Westfield,NJ,Union,40.629212,-74.328993,SingleFamily,2015,646123,2016,7840,N/A,6,4,3/31/17,1125000,27896,city,Westfield
+854 Knollwood Ter,7090,Westfield,NJ,Union,40.632418,-74.347769,SingleFamily,2015,795228,1960,13939,2083,4,4,3/31/17,1100000,27896,city,Westfield
+255 Summit Ave,7901,Summit,NJ,Union,40.727798,-74.356377,SingleFamily,2015,773134,2016,28749,7000,7,7,3/31/17,2600000,27319,city,Summit
+779 Pinewood Rd,7083,Union,NJ,Union,40.702716,-74.303562,SingleFamily,2015,236022,1963,5101,2600,4,4,3/31/17,485000,20883,city,Union
+1605 Wood Ave APT E2,7203,Roselle,NJ,Union,40.641724,-74.269395,Condominium,2015,93929,1950,758,N/A,1,2,3/31/17,75000,13593,city,Roselle
+8 Melvyn Ct,7066,Clark,NJ,Union,40.613304,-74.301332,SingleFamily,2015,702011,2000,7501,3606,4,4,3/31/17,729000,10836,city,Clark
+2083 Algonquin Dr,7076,Scotch Plains,NJ,Union,40.642538,-74.372361,SingleFamily,2015,356054,2016,6098,4120,5,5,3/31/17,820000,20391,city,Scotch Plains
+1022 Laura St,7201,Elizabeth,NJ,Union,40.67127,-74.20274,MultiFamily2To4,N/A,N/A,1925,N/A,N/A,2,4,3/31/17,265000,31388,city,Elizabeth
+213 King St,7023,Fanwood,NJ,Union,40.635099,-74.377348,SingleFamily,2015,472528,1950,13939,N/A,1,4,3/31/17,385000,42402,city,Fanwood
+109 Connecticut St,7090,Westfield,NJ,Union,40.637081,-74.320022,SingleFamily,2015,615109,1958,8712,N/A,3,3,3/31/17,620000,27896,city,Westfield
+69 Linden Ave,7081,Springfield,NJ,Union,40.708244,-74.308978,SingleFamily,2015,275101,1930,6534,1537,1,3,3/31/17,339900,41030,city,Springfield
+307 W 5th Ave,7203,Roselle,NJ,Union,40.653933,-74.269091,SingleFamily,2015,226996,1940,7501,N/A,2,3,3/31/17,247500,13593,city,Roselle
+522 Cicilia Pl,7076,Scotch Plains,NJ,Union,40.642019,-74.40133,SingleFamily,2015,276664,1950,6098,1560,1,5,3/30/17,130000,20391,city,Scotch Plains
+44 Broad St,7016,Cranford,NJ,Union,40.648216,-74.298139,SingleFamily,2015,283641,1920,3920,1302,1,3,3/30/17,390000,31092,city,Cranford
+321 Salem Rd,7083,Union,NJ,Union,40.677223,-74.262682,SingleFamily,2015,218952,1938,3999,N/A,N/A,N/A,3/30/17,195000,20883,city,Union
+11 Melrose Ter,7208,Elizabeth,NJ,Union,40.672207,-74.2288,SingleFamily,2015,249811,1940,7405,N/A,2,3,3/30/17,280000,31388,city,Elizabeth
+592 Lehigh Ave,7083,Union,NJ,Union,40.676719,-74.253541,SingleFamily,2015,259565,1960,5227,1352,2,3,3/30/17,380000,20883,city,Union
+1302 Shaffer Ave,7203,Roselle,NJ,Union,40.642249,-74.263813,SingleFamily,2015,218299,1964,8712,1110,2,3,3/30/17,238000,13593,city,Roselle
+494 Oak Ridge Rd,7066,Clark,NJ,Union,40.612426,-74.33134,SingleFamily,2012,375650,1950,12196,N/A,2,4,3/30/17,370000,10836,city,Clark
+46 Hartley Rd,7901,Summit,NJ,Union,40.72765,-74.365162,SingleFamily,2015,476979,2017,10890,3159,5,4,3/29/17,1450000,27319,city,Summit
+2854 Willard Pl,7083,Union,NJ,Union,40.698732,-74.300544,SingleFamily,2015,218953,1958,5662,N/A,2,4,3/29/17,225000,20883,city,Union
+766 Oak Ave,7090,Westfield,NJ,Union,40.664121,-74.345364,SingleFamily,2015,508151,1925,5201,1658,2,4,3/29/17,671500,27896,city,Westfield
+981 Arnet Ave,7083,Union,NJ,Union,40.686054,-74.241648,SingleFamily,2016,255665,1929,5001,1650,2,3,3/29/17,339000,20883,city,Union
+1705 Oakwood Ter,7076,Scotch Plains,NJ,Union,40.634288,-74.376536,SingleFamily,2015,526063,1973,14374,N/A,2,3,3/28/17,650000,20391,city,Scotch Plains
+337 Benson Pl,7090,Westfield,NJ,Union,40.657227,-74.33521,SingleFamily,2015,760238,1930,11761,1958,3,4,3/28/17,760000,27896,city,Westfield
+17 Marion Ln,7076,Scotch Plains,NJ,Union,40.622486,-74.362012,SingleFamily,2015,911387,1970,42253,2600,3,4,3/28/17,760000,20391,city,Scotch Plains
+575 Purce St,7205,Hillside,NJ,Union,40.702329,-74.243038,SingleFamily,2015,197060,1949,4356,1080,1,2,3/28/17,95000,55745,city,Hillside
+1334 Marcella Dr,7083,Union,NJ,Union,40.693631,-74.241933,SingleFamily,2015,307240,1970,5662,N/A,2,4,3/27/17,331000,20883,city,Union
+649 W 4th St,7060,Plainfield,NJ,Union,40.609406,-74.428671,SingleFamily,2015,133763,1931,4356,N/A,2,4,3/27/17,70000,33445,city,Plainfield
+146 W 5th Ave,7203,Roselle,NJ,Union,40.655245,-74.264543,SingleFamily,2015,319012,N/A,19998,N/A,N/A,N/A,3/27/17,129000,13593,city,Roselle
+365 Stiles St,7088,Vauxhall,NJ,Union,40.717646,-74.28095,SingleFamily,2015,168335,1930,4791,N/A,1,4,3/27/17,122250,20883,city,Union
+636 Clark St,7090,Westfield,NJ,Union,40.65482,-74.360633,SingleFamily,2015,766600,1925,8276,2443,5,4,3/27/17,899000,27896,city,Westfield
+534 Pennington St,7202,Elizabeth,NJ,Union,40.662693,-74.232765,MultiFamily2To4,2015,317184,1945,N/A,N/A,3,5,3/27/17,225000,31388,city,Elizabeth
+416 W 5th Ave,7203,Roselle,NJ,Union,40.653174,-74.273223,SingleFamily,2015,175335,1924,4748,1663,N/A,N/A,3/27/17,129000,13593,city,Roselle
+850 Tice Pl,7090,Westfield,NJ,Union,40.639172,-74.338346,SingleFamily,2015,483499,1939,10454,N/A,2,3,3/27/17,650000,27896,city,Westfield
+19 Paterson Rd,7023,Fanwood,NJ,Union,40.637799,-74.395895,SingleFamily,2015,249881,1935,4791,N/A,3,4,3/24/17,412000,42402,city,Fanwood
+99 Woodland Ave,7023,Fanwood,NJ,Union,40.647566,-74.386984,SingleFamily,2015,405160,1954,14810,N/A,3,3,3/24/17,539000,42402,city,Fanwood
+39 Green Hill Rd,7081,Springfield,NJ,Union,40.699628,-74.347366,SingleFamily,2015,640562,1964,24829,3800,3,4,3/24/17,792000,41030,city,Springfield
+21 Station Sq,7083,Union,NJ,Union,40.679609,-74.244352,Condominium,2015,290759,2010,142441,1725,3,2,3/24/17,360000,20883,city,Union
+2765 Allen Ave,7083,Union,NJ,Union,40.713265,-74.29063,SingleFamily,2015,294291,1960,5662,N/A,2,3,3/24/17,350000,20883,city,Union
+422 Woodland Ave,7204,Roselle Park,NJ,Union,40.669004,-74.254592,SingleFamily,2015,268727,1931,6098,1794,1,3,3/24/17,230000,29512,city,Roselle Park
+1587 Brookside Rd,7092,Mountainside,NJ,Union,40.667822,-74.372381,SingleFamily,2015,581902,1962,15769,N/A,3,4,3/24/17,600000,39910,city,Mountainside
+252 Clark St,7205,Hillside,NJ,Union,40.70315,-74.224755,SingleFamily,2015,191979,1924,4800,1419,1,3,3/24/17,115000,55745,city,Hillside
+122 Beech Ave,7023,Fanwood,NJ,Union,40.64303,-74.37617,SingleFamily,2015,494028,N/A,9042,N/A,3,4,3/24/17,445000,42402,city,Fanwood
+15 Argyle Ct,7901,Summit,NJ,Union,40.717149,-74.343803,SingleFamily,2015,880420,1956,18730,N/A,3,3,3/24/17,876000,27319,city,Summit
+15 Allenby Ln,7076,Scotch Plains,NJ,Union,40.622913,-74.377673,SingleFamily,2015,721732,1961,45737,N/A,3,4,3/24/17,700000,20391,city,Scotch Plains
+47 Meadowview Ln,7922,Berkeley Heights,NJ,Union,40.691614,-74.423041,Townhouse,2015,437367,1991,8494,2097,4,3,3/24/17,555000,28407,city,Berkeley Heights
+1314 Barbara Ave,7083,Union,NJ,Union,40.702927,-74.266477,SingleFamily,2015,257210,1932,3800,1440,3,3,3/24/17,345000,20883,city,Union
+16 Ford Pl,7974,New Providence,NJ,Union,40.691511,-74.387994,SingleFamily,2015,624025,1965,16988,N/A,3,3,3/23/17,671000,46727,city,New Providence
+2024 Pleasant Pkwy,7083,Union,NJ,Union,40.711707,-74.259526,SingleFamily,2015,210123,1929,3598,N/A,2,4,3/23/17,295000,22667,neighborhood,Vauxhall
+1467 Barnhardt Ln # 703,7065,Rahway,NJ,Union,40.602691,-74.270156,SingleFamily,2016,283698,2006,907,1745,N/A,N/A,3/7/08,429500,8854,city,Rahway
+1070 Mount Vernon Rd,7083,Union,NJ,Union,40.708545,-74.298159,SingleFamily,2015,289582,1951,5750,2350,3,4,3/23/17,399000,760927,neighborhood,Larchmont Estates
+34 Gaisler Rd,7825,Blairstown,NJ,Warren,41.035044,-74.976688,SingleFamily,2015,258813,1976,42688,N/A,2,4,5/1/17,236000,35008,city,Blairstown
+19 Park Sq,8865,Phillipsburg,NJ,Warren,40.704317,-75.189099,SingleFamily,2015,164500,1925,15785,1075,1,3,4/28/17,85000,32570,city,Lopatcong
+102 Stadelman Ave,7823,Belvidere,NJ,Warren,40.831626,-75.075637,SingleFamily,2015,168219,1983,28313,1746,2,4,4/28/17,163000,9669,city,Belvidere
+7 Rushmore Ln,7840,Hackettstown,NJ,Warren,40.913654,-74.829469,Townhouse,2015,134069,1990,1350,756,2,1,4/28/17,130000,396176,city,Allamuchy-Panther Valley
+88 Barkers Mill Rd,7840,Hackettstown,NJ,Warren,40.852019,-74.888689,SingleFamily,2015,304600,1987,45737,2496,2.5,4,4/28/17,289900,398130,city,Independence Township
+161 Washington St,8865,Phillipsburg,NJ,Warren,40.690334,-75.197804,SingleFamily,2015,136266,1900,5881,2698,2,4,4/26/17,116000,53876,city,Phillipsburg
+158 Belt Rd,8865,Phillipsburg,NJ,Warren,40.673937,-75.172853,SingleFamily,2015,133100,1960,7405,852,1,3,4/26/17,145000,53876,city,Phillipsburg
+5 Carriage Rd,7840,Hackettstown,NJ,Warren,40.863563,-74.806774,SingleFamily,2015,381000,2008,8712,N/A,3,4,4/26/17,400000,5027,city,Hackettstown
+9 Parkview Dr,7840,Hackettstown,NJ,Warren,40.817911,-74.856965,SingleFamily,2015,236254,1966,21780,1582,2,3,4/24/17,272000,396692,city,Beatyestown
+60 Stony Brook Rd,7825,Blairstown,NJ,Warren,41.003219,-75.007139,SingleFamily,2015,279000,1974,92782,2221,3,3,4/21/17,289000,35008,city,Blairstown
+107 Indigo Rd,7840,Hackettstown,NJ,Warren,40.911036,-74.84927,Townhouse,2015,286409,2013,N/A,1504,3,3,4/21/17,255000,396176,city,Allamuchy-Panther Valley
+50 Canada Goose Dr,7840,Hackettstown,NJ,Warren,40.903476,-74.856202,SingleFamily,2015,353011,1998,11325,1697,4,3,4/21/17,395000,396176,city,Allamuchy-Panther Valley
+412 Sussex St,8865,Phillipsburg,NJ,Warren,40.677162,-75.154048,SingleFamily,2015,209217,1950,13068,2136,2,3,4/20/17,204900,395813,city,Pohatcong Township
+107 Stone Xing,8886,Stewartsville,NJ,Warren,40.664998,-75.109609,SingleFamily,2015,465087,1994,40075,3440,3,4,4/20/17,426000,399001,city,Greenwich Township
+23 Roosevelt Ave,7840,Hackettstown,NJ,Warren,40.854555,-74.840776,SingleFamily,2015,196740,1862,21344,1534,2,3,4/20/17,67500,398130,city,Independence Township
+623 Sampson Ave,8865,Phillipsburg,NJ,Warren,40.663854,-75.159871,MultiFamily2To4,2015,128100,1900,87991,N/A,2,2,4/18/17,95000,43866,city,Alpha
+72 Free Union Rd,7823,Belvidere,NJ,Warren,40.837881,-74.975198,SingleFamily,2015,225900,1965,38332,1824,2,4,4/17/17,222222,397929,city,White Township
+37 Indigo Rd,7840,Hackettstown,NJ,Warren,40.909727,-74.852213,Townhouse,2015,326306,2010,1,1814,3,3,4/17/17,299900,396176,city,Allamuchy-Panther Valley
+607 S Main St,8886,Stewartsville,NJ,Warren,40.693856,-75.110264,SingleFamily,2015,127570,1935,6098,1284,1,3,4/13/17,168000,399001,city,Greenwich Township
+612 S Main St,8865,Phillipsburg,NJ,Warren,40.683198,-75.184885,SingleFamily,2015,51340,1900,3964,1466,2,3,4/13/17,28000,53876,city,Phillipsburg
+699 Fanning Mill Rd,8886,Stewartsville,NJ,Warren,40.683634,-75.128539,SingleFamily,2015,383293,1998,16552,N/A,3,4,4/13/17,395000,399001,city,Greenwich Township
+26 Rushmore Ln,7840,Hackettstown,NJ,Warren,40.914384,-74.830218,Condominium,2015,183479,1989,2178,N/A,2,2,4/13/17,195000,396176,city,Allamuchy-Panther Valley
+90 Quenby Mountain Rd,7838,Great Meadows,NJ,Warren,40.849097,-74.958172,SingleFamily,2015,227900,1986,43560,1992,2,3,4/13/17,215000,397430,city,Liberty Township
+848 Honeybrook Cir,8886,Stewartsville,NJ,Warren,40.698585,-75.143707,Condominium,2015,116900,2002,N/A,1100,2,2,4/13/17,115000,32570,city,Lopatcong
+44 Oriole Dr,7840,Hackettstown,NJ,Warren,40.907788,-74.854618,Townhouse,2015,177965,1976,1306,1372,3,2,4/12/17,219900,396176,city,Allamuchy-Panther Valley
+144 Osprey,7840,Hackettstown,NJ,Warren,40.91055,-74.827431,MultiFamily2To4,2015,74170,1978,44,576,1,0,4/18/17,40000,396176,city,Allamuchy-Panther Valley
+1220 Bridgeville Rd,7825,Blairstown,NJ,Warren,40.896625,-74.973025,SingleFamily,2015,300500,1764,50093,2600,N/A,3,4/10/17,302000,18622,city,Hope
+17 Oriole Dr,7840,Hackettstown,NJ,Warren,40.907174,-74.854034,Townhouse,2015,167802,1976,1742,1440,3,2,4/10/17,185000,396176,city,Allamuchy-Panther Valley
+47 Pudding Stone Way,8865,Phillipsburg,NJ,Warren,40.71239,-75.163459,SingleFamily,2015,182400,1973,15246,1297,2,3,4/7/17,225900,32570,city,Lopatcong
+404 State Route 173,8886,Stewartsville,NJ,Warren,40.659729,-75.112388,SingleFamily,2015,184733,1936,47480,N/A,1,2,4/7/17,199000,399001,city,Greenwich Township
+31 Rainier Ct,7840,Hackettstown,NJ,Warren,40.914088,-74.831466,Condominium,2015,165532,1988,N/A,N/A,2,2,4/7/17,200000,396176,city,Allamuchy-Panther Valley
+68 Mallard Dr,7840,Hackettstown,NJ,Warren,40.915222,-74.832266,SingleFamily,2015,277868,1993,23958,2246,2,3,4/7/17,315000,396176,city,Allamuchy-Panther Valley
+11 Pembrook Ct,7838,Great Meadows,NJ,Warren,40.861023,-74.933762,SingleFamily,2015,320400,1997,53578,2308,3,4,4/3/17,254900,397430,city,Liberty Township
+856 Honeybrook Cir,8886,Stewartsville,NJ,Warren,40.698509,-75.143592,Condominium,2015,148800,2002,N/A,N/A,2,2,8/20/13,105000,32570,city,Lopatcong
+75 Mount Hermon Rd,7825,Blairstown,NJ,Warren,40.942267,-75.01823,SingleFamily,2015,373405,2000,376358,N/A,4,4,3/31/17,353000,35008,city,Blairstown
+335 Carnegie Ct,7840,Hackettstown,NJ,Warren,40.870082,-74.821776,Townhouse,2015,202993,1988,4356,N/A,2,2,3/31/17,205000,398130,city,Independence Township
+76 Mine Hill Rd,7863,Oxford,NJ,Warren,40.794168,-74.994911,SingleFamily,2015,294600,1950,22216,1837,2,3,3/31/17,264000,398116,city,Oxford Township
+3 Woods Edge Ct,7823,Belvidere,NJ,Warren,40.844491,-75.046454,SingleFamily,2015,449400,2003,47044,3208,4,4,3/31/17,434000,397929,city,White Township
+110 Roseberry St,8865,Phillipsburg,NJ,Warren,40.70297,-75.180758,SingleFamily,2015,299672,1983,9147,1886,3,4,3/30/17,249900,53876,city,Phillipsburg
+9 Knowlton Rd,7832,Columbia,NJ,Warren,40.935974,-75.023321,SingleFamily,2015,201804,1985,43560,1866,3,3,3/30/17,145000,397322,city,Knowlton Township
+404 Brakeley Ave,8865,Phillipsburg,NJ,Warren,40.704137,-75.177061,SingleFamily,2015,139700,1954,9583,1100,1,3,3/29/17,133000,32570,city,Lopatcong
+20 Bowers Dr,7840,Hackettstown,NJ,Warren,40.89906,-74.846564,SingleFamily,2015,361012,2006,7840,2399,3,4,3/29/17,340000,396176,city,Allamuchy-Panther Valley
+385 James St,8865,Phillipsburg,NJ,Warren,40.685446,-75.174886,SingleFamily,2015,168381,1920,6534,1786,1,3,3/27/17,124900,53876,city,Phillipsburg
+1795 State Route 57,7840,Hackettstown,NJ,Warren,40.81314,-74.8443,SingleFamily,2015,246960,1987,27007,1680,2,4,6/13/86,26000,396692,city,Beatyestown
+503 Dori Pl,8886,Stewartsville,NJ,Warren,40.681628,-75.128156,SingleFamily,2015,424422,1999,20037,2832,3,4,3/23/17,390000,399001,city,Greenwich Township
+128 Limerick Ln,8865,Phillipsburg,NJ,Warren,40.700427,-75.162026,Condominium,2015,179900,2003,N/A,1860,2.5,2,3/22/17,130000,32570,city,Lopatcong
+36 Sylvia St,8865,Phillipsburg,NJ,Warren,40.705223,-75.173797,SingleFamily,2015,231200,2011,4356,N/A,2,2,3/20/17,259990,32570,city,Lopatcong
+706 Rugby Rd,8865,Phillipsburg,NJ,Warren,40.708523,-75.173008,SingleFamily,2015,168800,1958,11761,1132,2,2,3/17/17,152000,32570,city,Lopatcong
+217 Ohio Ave,8865,Phillipsburg,NJ,Warren,40.676803,-75.151981,SingleFamily,2015,194625,1957,9583,1493,1,3,3/17/17,208500,395813,city,Pohatcong Township
+19 Vienna Hills Rd,7840,Hackettstown,NJ,Warren,40.872563,-74.874648,SingleFamily,2015,226217,1979,N/A,2100,3,4,3/15/17,280000,396679,city,Great Meadows-Vienna
+756 Columbus Ave,8865,Phillipsburg,NJ,Warren,40.68527,-75.17345,SingleFamily,2015,206604,2006,6534,1528,3,3,3/14/17,216500,53876,city,Phillipsburg
+1507 Megan Cir,8886,Stewartsville,NJ,Warren,40.682956,-75.13361,SingleFamily,2015,247589,1996,6098,N/A,3,3,3/13/17,270000,399001,city,Greenwich Township
+1240 Fairview Cir,8886,Stewartsville,NJ,Warren,40.696533,-75.141883,Condominium,2015,183400,2002,N/A,1184,2,2,3/9/17,200000,32570,city,Lopatcong
+332 Allen Rd,7840,Hackettstown,NJ,Warren,40.830845,-74.842402,SingleFamily,2015,339465,2005,24829,2500,3,4,3/9/17,350000,396692,city,Beatyestown
+25 Maple Ave,8802,Asbury,NJ,Warren,40.696303,-75.00824,SingleFamily,2015,245600,1850,11521,1768,2,3,3/7/17,269900,188902,city,Franklin Township
+121 Wingate Dr,7840,Hackettstown,NJ,Warren,40.871968,-74.821962,Condominium,2015,223426,1995,2640,1624,1.5,2,3/6/17,216000,398130,city,Independence Township
+15 Cherry Ln,7825,Blairstown,NJ,Warren,41.002119,-74.962336,SingleFamily,2015,321482,1986,319294,1902,2,3,3/21/17,325000,35008,city,Blairstown
+161 Chambers St,8865,Phillipsburg,NJ,Warren,40.690632,-75.196087,SingleFamily,2015,109465,1900,3049,1040,1,3,3/2/17,50000,53876,city,Phillipsburg
+905 Wilbur Ave,8865,Phillipsburg,NJ,Warren,40.681525,-75.171839,SingleFamily,2015,182065,1954,6229,2000,2.5,3,3/1/17,160000,53876,city,Phillipsburg
+521 Marlin Farm Rd,8886,Stewartsville,NJ,Warren,40.693065,-75.132566,SingleFamily,2015,481352,1999,21344,3700,3,4,2/28/17,405000,399001,city,Greenwich Township
+401 Edward St,8865,Phillipsburg,NJ,Warren,40.705036,-75.170356,SingleFamily,2015,231500,2014,N/A,1706,2,2,2/28/17,1850,32570,city,Lopatcong
+8 Kohler Rd,7825,Blairstown,NJ,Warren,40.980288,-74.949262,SingleFamily,2015,198453,1940,134164,N/A,2,3,2/28/17,225000,35008,city,Blairstown
+524 New Brunswick Ave,8865,Phillipsburg,NJ,Warren,40.673716,-75.158214,SingleFamily,2015,122297,1944,6098,1320,1,2,2/26/17,1250,395813,city,Pohatcong Township
+121 Liberty Blvd,8865,Phillipsburg,NJ,Warren,40.67913,-75.157297,SingleFamily,2015,185492,1940,9374,1046,1,3,2/26/17,188000,395813,city,Pohatcong Township
+178 Free Union Rd,7823,Belvidere,NJ,Warren,40.854262,-74.963323,SingleFamily,2015,309700,2001,87991,2228,3,4,2/26/17,304000,397430,city,Liberty Township
+11 Buckley Ave,7863,Oxford,NJ,Warren,40.802811,-75.002582,SingleFamily,2015,195600,1900,13068,1540,1.5,3,2/24/17,149000,398116,city,Oxford Township
+146 State Park Rd,7825,Blairstown,NJ,Warren,40.922871,-74.928454,SingleFamily,2015,274200,1986,130680,2114,2,3,2/21/17,258500,399239,city,Frelinghuysen Township
+20 Ivan Rd,7832,Columbia,NJ,Warren,40.94368,-75.041218,SingleFamily,2015,457615,2004,60112,3595,4,5,2/17/17,430000,397322,city,Knowlton Township
+406 Wilson St,8865,Phillipsburg,NJ,Warren,40.689718,-75.185475,SingleFamily,2015,127785,1930,5662,1696,2,3,2/16/17,153000,53876,city,Phillipsburg
+107 N Riverview Rd,8865,Phillipsburg,NJ,Warren,40.677058,-75.173518,SingleFamily,2016,144192,1950,6098,1248,1,3,2/16/17,95000,53876,city,Phillipsburg
+108 Richard Dr,7840,Hackettstown,NJ,Warren,40.857185,-74.82099,SingleFamily,2015,216600,1965,13787,1476,2,4,2/16/17,219000,5027,city,Hackettstown
+47 Country Meadow Rd,7840,Hackettstown,NJ,Warren,40.812113,-74.871186,SingleFamily,2015,361397,1995,44866,2493,3,4,2/16/17,340000,398451,city,Mansfield Township
+1309 Brian Cir,8886,Stewartsville,NJ,Warren,40.682442,-75.13464,SingleFamily,2015,246892,1995,5662,1822,3,3,2/15/17,270000,399001,city,Greenwich Township
+908 Hillside Rd,8865,Phillipsburg,NJ,Warren,40.684031,-75.166953,SingleFamily,2015,120434,1921,4791,1004,1,2,2/12/17,45000,53876,city,Phillipsburg
+205 Grand Ave,7840,Hackettstown,NJ,Warren,40.852727,-74.830632,SingleFamily,2015,211600,1880,3920,1716,1,4,2/10/17,65000,5027,city,Hackettstown
+356 Grant St,8865,Phillipsburg,NJ,Warren,40.692712,-75.184744,SingleFamily,2015,105959,1930,4965,1405,5,3,2/9/17,120000,53876,city,Phillipsburg
+9 Gap View Rd,7825,Blairstown,NJ,Warren,40.943416,-75.002539,SingleFamily,2015,392287,1977,274428,2803,3,4,2/9/17,290000,35008,city,Blairstown
+100 Asbury Rd,7840,Hackettstown,NJ,Warren,40.86147,-74.848721,SingleFamily,2015,369249,1979,148539,N/A,3,4,2/7/17,180000,398130,city,Independence Township
+304 E Baldwin St,7840,Hackettstown,NJ,Warren,40.858953,-74.834306,SingleFamily,2015,284400,1957,12632,2163,2,4,2/5/17,270000,5027,city,Hackettstown
+320 Thomas St,8865,Phillipsburg,NJ,Warren,40.68541,-75.177778,SingleFamily,2015,125184,1955,5662,1158,1,3,2/1/17,78250,53876,city,Phillipsburg
+223 Old Farm Dr,7838,Great Meadows,NJ,Warren,40.911399,-74.857101,Condominium,N/A,N/A,2007,N/A,1250,2,2,2/1/17,197000,396176,city,Allamuchy-Panther Valley
+111 Woodlawn Rd,8865,Phillipsburg,NJ,Warren,40.676803,-75.174389,SingleFamily,2015,164989,1960,6969,1396,2,3,1/30/17,132000,53876,city,Phillipsburg
+209 Main St,7865,Port Murray,NJ,Warren,40.786523,-74.91668,SingleFamily,2015,240412,1786,13503,2982,3,5,1/30/17,175000,398451,city,Mansfield Township
+55 Mallard Dr,7840,Hackettstown,NJ,Warren,40.912107,-74.83226,SingleFamily,2015,492486,1999,34412,3487,3,4,1/29/17,512500,396176,city,Allamuchy-Panther Valley
+1215 Burrows Dr,8886,Stewartsville,NJ,Warren,40.681918,-75.13697,SingleFamily,2015,260254,1997,4791,1874,3,3,1/27/17,260000,399001,city,Greenwich Township
+61 Haze Way,8865,Phillipsburg,NJ,Warren,40.719202,-75.166709,SingleFamily,2015,339100,2000,12632,2379,3,4,1/26/17,335000,32570,city,Lopatcong
+1040 Ridge St,8865,Phillipsburg,NJ,Warren,40.683112,-75.164137,SingleFamily,2015,156169,1940,23086,1163,1,2,1/26/17,132000,53876,city,Phillipsburg
+219 Harvard Dr,7840,Hackettstown,NJ,Warren,40.872569,-74.820268,Townhouse,2015,210139,1993,2640,1519,3,2,1/26/17,219000,398130,city,Independence Township
+66 Indigo Rd,7840,Hackettstown,NJ,Warren,40.91077,-74.851068,Townhouse,2015,287491,2011,N/A,1968,2.5,3,1/25/17,252000,396176,city,Allamuchy-Panther Valley
+25 Frelinghuysen St,7823,Belvidere,NJ,Warren,40.822515,-75.069357,SingleFamily,2015,189955,1997,11325,1387,1.5,3,1/24/17,155000,9669,city,Belvidere
+15 Valley Rd,7863,Oxford,NJ,Warren,40.805641,-74.933288,SingleFamily,2015,273984,1895,37897,2220,2,3,1/24/17,280000,398451,city,Mansfield Township
+701 E Valley View Ave,7840,Hackettstown,NJ,Warren,40.86271,-74.830792,SingleFamily,2015,345000,1954,18730,N/A,3,4,1/23/17,325000,5027,city,Hackettstown
+50 Highland Rd,7840,Hackettstown,NJ,Warren,40.849378,-74.859466,SingleFamily,2015,334971,1987,47480,3100,4,4,1/20/17,395000,398130,city,Independence Township
+127 College View Dr,7840,Hackettstown,NJ,Warren,40.841306,-74.838699,SingleFamily,2015,337500,1966,17250,2168,2,4,1/18/17,258900,5027,city,Hackettstown
+356 Bates St,8865,Phillipsburg,NJ,Warren,40.694073,-75.18244,SingleFamily,2015,76445,1920,2613,1148,1,3,1/11/17,57000,53876,city,Phillipsburg
+7 Russling Rd,7840,Hackettstown,NJ,Warren,40.856699,-74.849344,SingleFamily,2015,202211,1850,93654,1458,2,3,1/11/17,231000,398130,city,Independence Township
+14 Windsor Pl,7840,Hackettstown,NJ,Warren,40.824001,-74.844423,SingleFamily,2015,364307,1997,N/A,N/A,3,4,1/10/17,351500,396692,city,Beatyestown
+401 N Prospect St,8865,Phillipsburg,NJ,Warren,40.70686,-75.186663,SingleFamily,2015,448600,2004,42253,2616,3,5,1/9/17,289000,32570,city,Lopatcong
+178 Lewis St,8865,Phillipsburg,NJ,Warren,40.689615,-75.191697,SingleFamily,2015,99514,1910,1873,1330,1.5,2,1/8/17,72000,53876,city,Phillipsburg
+315 Grant St,8865,Phillipsburg,NJ,Warren,40.693883,-75.185225,SingleFamily,2015,121791,1923,4791,N/A,2,3,1/8/17,140000,53876,city,Phillipsburg
+102 Deerfield Dr,7840,Hackettstown,NJ,Warren,40.842382,-74.840625,SingleFamily,2015,256900,1955,16553,960,1.5,3,1/8/17,205000,5027,city,Hackettstown
+24 Powderhorn Dr,8865,Phillipsburg,NJ,Warren,40.707606,-75.166887,SingleFamily,2015,208600,1970,14810,1694,1,3,1/6/17,132500,32570,city,Lopatcong
+77 Wood Duck Ct,7840,Hackettstown,NJ,Warren,40.908786,-74.857419,MultiFamily2To4,2015,132879,1984,N/A,N/A,1.5,2,1/6/17,136000,396176,city,Allamuchy-Panther Valley
+422 Thomas Stewart Way,8886,Stewartsville,NJ,Warren,40.698388,-75.118149,SingleFamily,2015,424073,1994,57063,3690,3,4,1/5/17,400000,399001,city,Greenwich Township
+100 Hurley Dr,7840,Hackettstown,NJ,Warren,40.855367,-74.822119,SingleFamily,2015,248100,1963,10890,2058,2,4,1/5/17,275000,5027,city,Hackettstown
+67 Shippen Rdg,7863,Oxford,NJ,Warren,40.820785,-74.974082,SingleFamily,2015,298300,1999,16552,2306,3,4,1/5/17,280000,398116,city,Oxford Township
+41 Indigo Rd,7840,Hackettstown,NJ,Warren,40.8953,-74.8483,Townhouse,2015,363931,2010,N/A,2850,4,3,1/5/17,354500,396176,city,Allamuchy-Panther Valley
+14 Barn Owl Dr,7840,Hackettstown,NJ,Warren,40.906078,-74.856985,SingleFamily,2015,211158,1976,3049,3049,2,2,1/5/17,168000,396176,city,Allamuchy-Panther Valley
+2589 Belvidere Rd,8865,Phillipsburg,NJ,Warren,40.74395,-75.139862,SingleFamily,2015,167163,1956,13068,1268,1,3,1/5/17,214900,399186,city,Harmony Township
+859 South Blvd,8865,Phillipsburg,NJ,Warren,40.660147,-75.164348,SingleFamily,2015,132500,N/A,3484,1496,2,2,1/4/17,30800,43866,city,Alpha
+904 E Prospect St,7840,Hackettstown,NJ,Warren,40.86497,-74.828366,SingleFamily,2015,296600,1974,13939,1877,3,4,1/4/17,272250,5027,city,Hackettstown
+23 Junegrass Way,7840,Hackettstown,NJ,Warren,40.8953,-74.8483,Condominium,2015,362634,2010,N/A,2850,3,3,1/4/17,314400,396176,city,Allamuchy-Panther Valley
+69 Harris St,8865,Phillipsburg,NJ,Warren,40.691061,-75.198784,SingleFamily,2015,91711,1890,2178,1084,1,3,1/2/17,45000,53876,city,Phillipsburg
+526 4th St,7823,Belvidere,NJ,Warren,40.824439,-75.073626,SingleFamily,2015,160119,1954,9601,1088,1,3,1/2/17,132500,9669,city,Belvidere
+288 Marshall St,8865,Phillipsburg,NJ,Warren,40.692782,-75.186171,SingleFamily,2015,55977,1920,3049,1216,1.5,3,12/30/16,65000,53876,city,Phillipsburg
+977 Hill St,8865,Phillipsburg,NJ,Warren,40.679713,-75.17079,SingleFamily,2015,120886,1900,6969,6250,1,3,12/30/16,107000,53876,city,Phillipsburg
+228 Canal Way,7840,Hackettstown,NJ,Warren,40.848412,-74.843805,Condominium,2015,262200,1990,2500,1731,3,3,12/30/16,227500,5027,city,Hackettstown
+412 Brakeley Ave,8865,Phillipsburg,NJ,Warren,40.703766,-75.176833,Condominium,2015,132500,N/A,N/A,N/A,1,2,12/29/16,115000,32570,city,Lopatcong
+3150 Belvidere Rd,8865,Phillipsburg,NJ,Warren,40.772613,-75.110611,SingleFamily,2015,175877,1951,50530,1120,1,2,12/29/16,225000,399186,city,Harmony Township
+22 Limerick Ln,8865,Phillipsburg,NJ,Warren,40.701678,-75.162505,Condominium,2015,169100,N/A,N/A,N/A,2.5,2,12/29/16,145000,32570,city,Lopatcong
+159 Quenby Mountain Rd,7838,Great Meadows,NJ,Warren,40.843382,-74.969283,SingleFamily,2015,76600,1955,135907,437,N/A,N/A,12/29/16,40000,397430,city,Liberty Township
+202 High St,7840,Hackettstown,NJ,Warren,40.855612,-74.828352,SingleFamily,2015,258700,1893,10018,1860,2,4,12/29/16,145000,5027,city,Hackettstown
+3 Partridge Dr,7825,Blairstown,NJ,Warren,40.963091,-74.968252,SingleFamily,2015,377022,1994,45302,2964,3,4,12/29/16,384500,35008,city,Blairstown
+1123 Monroe Dr,8886,Stewartsville,NJ,Warren,40.68428,-75.134758,SingleFamily,2015,431858,2000,16552,3686,3,4,12/28/16,420000,399001,city,Greenwich Township
+9 Newman Rd,7825,Hardwick,NJ,Warren,41.027388,-74.960882,SingleFamily,2015,332628,1980,654706,2152,3,4,12/28/16,299000,18469,city,Hardwick
+61 Mount Rascal Rd,7840,Hackettstown,NJ,Warren,40.875873,-74.838186,SingleFamily,2016,229216,1968,40075,1595,2,3,12/28/16,239900,398130,city,Independence Township
+204 Seymour Rd,7840,Hackettstown,NJ,Warren,40.841205,-74.841079,SingleFamily,2015,235000,1958,11325,960,1,3,12/28/16,235000,5027,city,Hackettstown
+29 Oriole Dr,7840,Hackettstown,NJ,Warren,40.907666,-74.854134,Condominium,2015,203482,1976,1742,1596,2.5,3,12/28/16,225000,396176,city,Allamuchy-Panther Valley
+233 Cherry Tree Bend Rd,7865,Port Murray,NJ,Warren,40.805254,-74.902774,SingleFamily,2015,268787,1976,108900,2000,3,3,12/28/16,325000,398451,city,Mansfield Township
+2 Grosbeak Dr,7840,Hackettstown,NJ,Warren,40.90897,-74.855862,Condominium,2015,149205,1986,N/A,N/A,2,2,12/28/16,189000,396176,city,Allamuchy-Panther Valley
+107 Park Ave,7840,Hackettstown,NJ,Warren,40.855262,-74.82507,SingleFamily,2015,184600,1940,13068,918,1,2,12/28/16,147500,5027,city,Hackettstown
+205 Rosehill Ave,8865,Phillipsburg,NJ,Warren,40.70725,-75.175515,SingleFamily,2015,208600,1960,11761,1340,2,3,12/27/16,217000,32570,city,Lopatcong
+170 Mill Rd,7825,Blairstown,NJ,Warren,40.965992,-74.886824,SingleFamily,2015,310700,1957,129808,2420,3,4,12/27/16,290000,399239,city,Frelinghuysen Township
+209 Hardwick St,7823,Belvidere,NJ,Warren,40.826913,-75.075194,SingleFamily,2015,194411,1864,4791,2348,3,5,12/27/16,234500,9669,city,Belvidere
+238 Free Union Rd,7838,Great Meadows,NJ,Warren,40.867764,-74.951645,SingleFamily,2015,358000,1989,87120,3397,3,4,12/27/16,392500,397430,city,Liberty Township
+9 Junegrass Way,7840,Hackettstown,NJ,Warren,40.8953,-74.8483,Condominium,2015,325116,2010,N/A,1814,3,3,12/27/16,295000,396176,city,Allamuchy-Panther Valley
+28 Hillcrest Dr,7838,Great Meadows,NJ,Warren,40.855732,-74.956859,SingleFamily,2015,243900,1979,129373,2222,2,4,12/27/16,283000,397430,city,Liberty Township
+45 Rushmore Ln,7840,Hackettstown,NJ,Warren,40.914892,-74.831185,Condominium,2015,128879,1990,N/A,N/A,2,1,12/27/16,125000,396176,city,Allamuchy-Panther Valley
+63 Glen Ave,8865,Phillipsburg,NJ,Warren,40.693199,-75.194362,SingleFamily,2015,96008,1944,2178,1512,2,3,12/26/16,80000,53876,city,Phillipsburg
+436 Brakeley Ave,8865,Phillipsburg,NJ,Warren,40.702644,-75.17616,SingleFamily,2015,155000,1954,9583,1144,2,3,12/23/16,135680,32570,city,Lopatcong
+9 Meadowlark,7840,Hackettstown,NJ,Warren,40.907996,-74.856644,SingleFamily,2015,208888,1987,4356,1576,2.5,3,12/23/16,229500,396176,city,Allamuchy-Panther Valley
+14 Goldfinch Way,7840,Hackettstown,NJ,Warren,40.905083,-74.841434,SingleFamily,2015,223916,1977,3049,1697,4,2,12/23/16,255000,396176,city,Allamuchy-Panther Valley
+325 Mount Bethel Rd,7865,Port Murray,NJ,Warren,40.82591,-74.904251,SingleFamily,2015,233239,1971,70219,1396,N/A,N/A,12/23/16,245000,398451,city,Mansfield Township
+256 Bald Eagle Dr,8886,Stewartsville,NJ,Warren,40.699699,-75.137466,Condominium,2015,183500,2000,N/A,1458,3,3,12/22/16,220000,32570,city,Lopatcong
+502 State Route 173,8886,Stewartsville,NJ,Warren,40.656639,-75.099592,SingleFamily,2015,209132,1968,56628,1400,N/A,N/A,N/A,N/A,399001,city,Greenwich Township
+12 Dogwood Ln,8865,Phillipsburg,NJ,Warren,40.700214,-75.162914,Condominium,2015,185800,2004,N/A,1412,3,2,12/21/16,198000,32570,city,Lopatcong
+614 Barrymore St,8865,Phillipsburg,NJ,Warren,40.701734,-75.181949,SingleFamily,2015,228542,1927,12632,1792,3,3,12/21/16,185000,53876,city,Phillipsburg
+87 Wood Duck Ct,7840,Hackettstown,NJ,Warren,40.909581,-74.857828,Condominium,2015,149638,1988,44,960,2,2,12/21/16,150000,396176,city,Allamuchy-Panther Valley
+33 Maines Ln,7825,Blairstown,NJ,Warren,41.021236,-74.973709,SingleFamily,2015,395200,1987,1183960,2641,3,4,12/21/16,259900,35008,city,Blairstown
+408 E Baldwin St,7840,Hackettstown,NJ,Warren,40.860033,-74.833442,SingleFamily,2015,235200,1960,9583,N/A,2,3,12/21/16,239900,5027,city,Hackettstown
+13 Mountain Top Dr,7838,Great Meadows,NJ,Warren,40.862882,-74.937577,SingleFamily,2015,273600,1996,43560,1848,3,4,12/21/16,301000,397430,city,Liberty Township
+116 College View Dr,7840,Hackettstown,NJ,Warren,40.841928,-74.840129,SingleFamily,2015,269700,1967,16117,1476,2,4,12/21/16,262000,5027,city,Hackettstown
+59 Byron Dr,8865,Phillipsburg,NJ,Warren,40.715602,-75.17129,SingleFamily,2015,318600,1997,8276,2277,3,3,12/20/16,269900,32570,city,Lopatcong
+813 Wilbur Ave,8865,Phillipsburg,NJ,Warren,40.683633,-75.173858,SingleFamily,2015,127898,1920,6229,N/A,2,4,12/20/16,110000,53876,city,Phillipsburg
+400 Christie Ct,8886,Stewartsville,NJ,Warren,40.694341,-75.097968,SingleFamily,2015,302428,1991,40510,2040,3,4,12/20/16,340000,399001,city,Greenwich Township
+841 Culkin St,8865,Phillipsburg,NJ,Warren,40.684366,-75.1703,SingleFamily,2015,138415,1900,11804,1424,1.5,4,12/20/16,150000,53876,city,Phillipsburg
+45 Foul Rift Rd,7823,BELVIDERE,NJ,Warren,40.805785,-75.099534,SingleFamily,2015,124000,1940,49223,480,N/A,N/A,12/20/16,100000,9669,city,Belvidere
+313 Belvidere Ave,7863,Oxford,NJ,Warren,40.807034,-75.019675,SingleFamily,2015,280300,1880,80150,2604,4,3,12/20/16,295000,398116,city,Oxford Township
+15 Pheasant Run,7840,Hackettstown,NJ,Warren,40.90492,-74.850503,Condominium,2015,242297,1987,2919,1834,4,3,12/20/16,265000,396176,city,Allamuchy-Panther Valley
+530 Edward St,8865,Phillipsburg,NJ,Warren,40.704662,-75.175751,SingleFamily,2015,243900,2012,4792,2161,3,2,12/19/16,339100,32570,city,Lopatcong
+238 Hudson St,8865,Phillipsburg,NJ,Warren,40.692799,-75.191817,SingleFamily,2015,128576,1930,3049,1241,2,3,12/19/16,100000,53876,city,Phillipsburg
+411 S 1st St,8865,Phillipsburg,NJ,Warren,40.702392,-75.174109,SingleFamily,2015,130600,1955,6434,900,N/A,N/A,1/27/05,154900,32570,city,Lopatcong
+160 Petersburg Rd,7840,Hackettstown,NJ,Warren,40.879096,-74.868591,SingleFamily,2015,234144,1973,43560,1988,3,4,12/19/16,280000,396679,city,Great Meadows-Vienna
+389 Delaware Rd,7825,Blairstown,NJ,Warren,40.902656,-74.99428,SingleFamily,2015,331500,1989,138085,1958,4,4,12/19/16,290000,18622,city,Hope
+120 Russling Rd,7840,Hackettstown,NJ,Warren,40.849646,-74.880892,SingleFamily,2015,318892,1973,43995,3372,4,6,12/19/16,325000,398130,city,Independence Township
+14 Jones Ln,7825,Hardwick,NJ,Warren,40.997378,-74.949382,SingleFamily,2015,448086,2002,270072,2428,N/A,N/A,12/19/16,350000,18469,city,Hardwick
+135 Union Brick Rd,7825,Blairstown,NJ,Warren,40.932108,-74.995706,SingleFamily,2015,269900,1780,101494,2874,4,5,12/19/16,287000,35008,city,Blairstown
+124 Goldfinch Dr,7840,Hackettstown,NJ,Warren,40.903281,-74.84714,SingleFamily,2015,221105,1975,5227,1469,2,2,12/19/16,209000,396176,city,Allamuchy-Panther Valley
+128 Canal Way,7840,Hackettstown,NJ,Warren,40.851297,-74.842166,Townhouse,2015,235400,1991,N/A,N/A,3,2,12/19/16,223500,5027,city,Hackettstown
+59 Davis St,8865,Phillipsburg,NJ,Warren,40.691255,-75.188225,SingleFamily,2015,103924,1900,1742,N/A,1,2,12/18/16,89900,53876,city,Phillipsburg
+644 Belvidere Rd,8865,Phillipsburg,NJ,Warren,40.701164,-75.189137,SingleFamily,2015,244261,1925,16117,1909,2,3,12/18/16,115000,53876,city,Phillipsburg
+21 Hillside Rd,7840,Hackettstown,NJ,Warren,40.817284,-74.861188,SingleFamily,2015,236669,1966,21780,2418,3,4,12/18/16,300000,396692,city,Beatyestown
+68 Tamarack Rd,7823,Belvidere,NJ,Warren,40.84935,-74.982409,SingleFamily,2015,107600,1953,4791,787,1,2,12/18/16,26800,397430,city,Liberty Township
+8 Lauren Dr,8886,Stewartsville,NJ,Warren,40.716995,-75.074827,SingleFamily,2015,374300,1991,59677,2562,N/A,N/A,12/16/16,350000,188902,city,Franklin Township
+567 Edward St,8865,Phillipsburg,NJ,Warren,40.70567,-75.175188,SingleFamily,2015,332100,2007,4356,2529,N/A,N/A,12/16/16,349000,32570,city,Lopatcong

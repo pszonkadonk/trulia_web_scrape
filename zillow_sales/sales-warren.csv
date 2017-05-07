@@ -1,176 +1,400 @@
-street,zip_code,city,state,latitude,longitude,use_code,tax_assessment_year,tax_assessment,year_built,lot_size_sqft,finished_sqft,bathroom,bedrooms,last_sold_date,last_sold_price,region_id,region_type,region_name
-34 Gaisler Rd,07825,Blairstown,NJ,41.035044,-74.976688,SingleFamily,2015,258813.0,1976,42688,N/A,2.0,4,05/01/2017,236000,35008,city,Blairstown
-19 Park Sq,08865,Phillipsburg,NJ,40.704317,-75.189099,SingleFamily,2015,164500.0,1925,15785,1075,1.0,3,04/28/2017,85000,32570,city,Lopatcong
-102 Stadelman Ave,07823,Belvidere,NJ,40.831626,-75.075637,SingleFamily,2015,168219.0,1983,28313,1746,2.0,4,04/28/2017,163000,9669,city,Belvidere
-7 Rushmore Ln,07840,Hackettstown,NJ,40.913654,-74.829469,Townhouse,2015,134069.0,1990,1350,756,2.0,1,04/28/2017,130000,396176,city,Allamuchy-Panther Valley
-88 Barkers Mill Rd,07840,Hackettstown,NJ,40.852019,-74.888689,SingleFamily,2015,304600.0,1987,45737,2496,2.5,4,04/28/2017,289900,398130,city,Independence Township
-161 Washington St,08865,Phillipsburg,NJ,40.690334,-75.197804,SingleFamily,2015,136266.0,1900,5881,2698,2.0,4,04/26/2017,116000,53876,city,Phillipsburg
-158 Belt Rd,08865,Phillipsburg,NJ,40.673937,-75.172853,SingleFamily,2015,133100.0,1960,7405,852,1.0,3,04/26/2017,145000,53876,city,Phillipsburg
-5 Carriage Rd,07840,Hackettstown,NJ,40.863563,-74.806774,SingleFamily,2015,381000.0,2008,8712,N/A,3.0,4,04/26/2017,400000,5027,city,Hackettstown
-9 Parkview Dr,07840,Hackettstown,NJ,40.817911,-74.856965,SingleFamily,2015,236254.0,1966,21780,1582,2.0,3,04/24/2017,272000,396692,city,Beatyestown
-60 Stony Brook Rd,07825,Blairstown,NJ,41.003219,-75.007139,SingleFamily,2015,279000.0,1974,92782,2221,3.0,3,04/21/2017,289000,35008,city,Blairstown
-107 Indigo Rd,07840,Hackettstown,NJ,40.911036,-74.84927,Townhouse,2015,286409.0,2013,N/A,1504,3.0,3,04/21/2017,255000,396176,city,Allamuchy-Panther Valley
-50 Canada Goose Dr,07840,Hackettstown,NJ,40.903476,-74.856202,SingleFamily,2015,353011.0,1998,11325,1697,4.0,3,04/21/2017,395000,396176,city,Allamuchy-Panther Valley
-412 Sussex St,08865,Phillipsburg,NJ,40.677162,-75.154048,SingleFamily,2015,209217.0,1950,13068,2136,2.0,3,04/20/2017,204900,395813,city,Pohatcong Township
-107 Stone Xing,08886,Stewartsville,NJ,40.664998,-75.109609,SingleFamily,2015,465087.0,1994,40075,3440,3.0,4,04/20/2017,426000,399001,city,Greenwich Township
-23 Roosevelt Ave,07840,Hackettstown,NJ,40.854555,-74.840776,SingleFamily,2015,196740.0,1862,21344,1534,2.0,3,04/20/2017,67500,398130,city,Independence Township
-623 Sampson Ave,08865,Phillipsburg,NJ,40.663854,-75.159871,MultiFamily2To4,2015,128100.0,1900,87991,N/A,2.0,2,04/18/2017,95000,43866,city,Alpha
-72 Free Union Rd,07823,Belvidere,NJ,40.837881,-74.975198,SingleFamily,2015,225900.0,1965,38332,1824,2.0,4,04/17/2017,222222,397929,city,White Township
-37 Indigo Rd,07840,Hackettstown,NJ,40.909727,-74.852213,Townhouse,2015,326306.0,2010,1,1814,3.0,3,04/17/2017,299900,396176,city,Allamuchy-Panther Valley
-607 S Main St,08886,Stewartsville,NJ,40.693856,-75.110264,SingleFamily,2015,127570.0,1935,6098,1284,1.0,3,04/13/2017,168000,399001,city,Greenwich Township
-612 S Main St,08865,Phillipsburg,NJ,40.683198,-75.184885,SingleFamily,2015,51340.0,1900,3964,1466,2.0,3,04/13/2017,28000,53876,city,Phillipsburg
-699 Fanning Mill Rd,08886,Stewartsville,NJ,40.683634,-75.128539,SingleFamily,2015,383293.0,1998,16552,N/A,3.0,4,04/13/2017,395000,399001,city,Greenwich Township
-26 Rushmore Ln,07840,Hackettstown,NJ,40.914384,-74.830218,Condominium,2015,183479.0,1989,2178,N/A,2.0,2,04/13/2017,195000,396176,city,Allamuchy-Panther Valley
-90 Quenby Mountain Rd,07838,Great Meadows,NJ,40.849097,-74.958172,SingleFamily,2015,227900.0,1986,43560,1992,2.0,3,04/13/2017,215000,397430,city,Liberty Township
-848 Honeybrook Cir,08886,Stewartsville,NJ,40.698585,-75.143707,Condominium,2015,116900.0,2002,N/A,1100,2.0,2,04/13/2017,115000,32570,city,Lopatcong
-44 Oriole Dr,07840,Hackettstown,NJ,40.907788,-74.854618,Townhouse,2015,177965.0,1976,1306,1372,3.0,2,04/12/2017,219900,396176,city,Allamuchy-Panther Valley
-144 Osprey,07840,Hackettstown,NJ,40.91055,-74.827431,MultiFamily2To4,2015,74170.0,1978,44,576,1.0,0,04/18/2017,40000,396176,city,Allamuchy-Panther Valley
-1220 Bridgeville Rd,07825,Blairstown,NJ,40.896625,-74.973025,SingleFamily,2015,300500.0,1764,50093,2600,N/A,3,04/10/2017,302000,18622,city,Hope
-17 Oriole Dr,07840,Hackettstown,NJ,40.907174,-74.854034,Townhouse,2015,167802.0,1976,1742,1440,3.0,2,04/10/2017,185000,396176,city,Allamuchy-Panther Valley
-47 Pudding Stone Way,08865,Phillipsburg,NJ,40.71239,-75.163459,SingleFamily,2015,182400.0,1973,15246,1297,2.0,3,04/07/2017,225900,32570,city,Lopatcong
-404 State Route 173,08886,Stewartsville,NJ,40.659729,-75.112388,SingleFamily,2015,184733.0,1936,47480,N/A,1.0,2,04/07/2017,199000,399001,city,Greenwich Township
-31 Rainier Ct,07840,Hackettstown,NJ,40.914088,-74.831466,Condominium,2015,165532.0,1988,N/A,N/A,2.0,2,04/07/2017,200000,396176,city,Allamuchy-Panther Valley
-68 Mallard Dr,07840,Hackettstown,NJ,40.915222,-74.832266,SingleFamily,2015,277868.0,1993,23958,2246,2.0,3,04/07/2017,315000,396176,city,Allamuchy-Panther Valley
-11 Pembrook Ct,07838,Great Meadows,NJ,40.861023,-74.933762,SingleFamily,2015,320400.0,1997,53578,2308,3.0,4,04/03/2017,254900,397430,city,Liberty Township
-856 Honeybrook Cir,08886,Stewartsville,NJ,40.698509,-75.143592,Condominium,2015,148800.0,2002,N/A,N/A,2.0,2,08/20/2013,105000,32570,city,Lopatcong
-75 Mount Hermon Rd,07825,Blairstown,NJ,40.942267,-75.01823,SingleFamily,2015,373405.0,2000,376358,N/A,4.0,4,03/31/2017,353000,35008,city,Blairstown
-335 Carnegie Ct,07840,Hackettstown,NJ,40.870082,-74.821776,Townhouse,2015,202993.0,1988,4356,N/A,2.0,2,03/31/2017,205000,398130,city,Independence Township
-76 Mine Hill Rd,07863,Oxford,NJ,40.794168,-74.994911,SingleFamily,2015,294600.0,1950,22216,1837,2.0,3,03/31/2017,264000,398116,city,Oxford Township
-3 Woods Edge Ct,07823,Belvidere,NJ,40.844491,-75.046454,SingleFamily,2015,449400.0,2003,47044,3208,4.0,4,03/31/2017,434000,397929,city,White Township
-110 Roseberry St,08865,Phillipsburg,NJ,40.70297,-75.180758,SingleFamily,2015,299672.0,1983,9147,1886,3.0,4,03/30/2017,249900,53876,city,Phillipsburg
-9 Knowlton Rd,07832,Columbia,NJ,40.935974,-75.023321,SingleFamily,2015,201804.0,1985,43560,1866,3.0,3,03/30/2017,145000,397322,city,Knowlton Township
-404 Brakeley Ave,08865,Phillipsburg,NJ,40.704137,-75.177061,SingleFamily,2015,139700.0,1954,9583,1100,1.0,3,03/29/2017,133000,32570,city,Lopatcong
-20 Bowers Dr,07840,Hackettstown,NJ,40.89906,-74.846564,SingleFamily,2015,361012.0,2006,7840,2399,3.0,4,03/29/2017,340000,396176,city,Allamuchy-Panther Valley
-385 James St,08865,Phillipsburg,NJ,40.685446,-75.174886,SingleFamily,2015,168381.0,1920,6534,1786,1.0,3,03/27/2017,124900,53876,city,Phillipsburg
-1795 State Route 57,07840,Hackettstown,NJ,40.81314,-74.8443,SingleFamily,2015,246960.0,1987,27007,1680,2.0,4,06/13/1986,26000,396692,city,Beatyestown
-503 Dori Pl,08886,Stewartsville,NJ,40.681628,-75.128156,SingleFamily,2015,424422.0,1999,20037,2832,3.0,4,03/23/2017,390000,399001,city,Greenwich Township
-128 Limerick Ln,08865,Phillipsburg,NJ,40.700427,-75.162026,Condominium,2015,179900.0,2003,N/A,1860,2.5,2,03/22/2017,130000,32570,city,Lopatcong
-36 Sylvia St,08865,Phillipsburg,NJ,40.705223,-75.173797,SingleFamily,2015,231200.0,2011,4356,N/A,2.0,2,03/20/2017,259990,32570,city,Lopatcong
-706 Rugby Rd,08865,Phillipsburg,NJ,40.708523,-75.173008,SingleFamily,2015,168800.0,1958,11761,1132,2.0,2,03/17/2017,152000,32570,city,Lopatcong
-217 Ohio Ave,08865,Phillipsburg,NJ,40.676803,-75.151981,SingleFamily,2015,194625.0,1957,9583,1493,1.0,3,03/17/2017,208500,395813,city,Pohatcong Township
-19 Vienna Hills Rd,07840,Hackettstown,NJ,40.872563,-74.874648,SingleFamily,2015,226217.0,1979,N/A,2100,3.0,4,03/15/2017,280000,396679,city,Great Meadows-Vienna
-756 Columbus Ave,08865,Phillipsburg,NJ,40.68527,-75.17345,SingleFamily,2015,206604.0,2006,6534,1528,3.0,3,03/14/2017,216500,53876,city,Phillipsburg
-1507 Megan Cir,08886,Stewartsville,NJ,40.682956,-75.13361,SingleFamily,2015,247589.0,1996,6098,N/A,3.0,3,03/13/2017,270000,399001,city,Greenwich Township
-1240 Fairview Cir,08886,Stewartsville,NJ,40.696533,-75.141883,Condominium,2015,183400.0,2002,N/A,1184,2.0,2,03/09/2017,200000,32570,city,Lopatcong
-332 Allen Rd,07840,Hackettstown,NJ,40.830845,-74.842402,SingleFamily,2015,339465.0,2005,24829,2500,3.0,4,03/09/2017,350000,396692,city,Beatyestown
-25 Maple Ave,08802,Asbury,NJ,40.696303,-75.00824,SingleFamily,2015,245600.0,1850,11521,1768,2.0,3,03/07/2017,269900,188902,city,Franklin Township
-121 Wingate Dr,07840,Hackettstown,NJ,40.871968,-74.821962,Condominium,2015,223426.0,1995,2640,1624,1.5,2,03/06/2017,216000,398130,city,Independence Township
-15 Cherry Ln,07825,Blairstown,NJ,41.002119,-74.962336,SingleFamily,2015,321482.0,1986,319294,1902,2.0,3,03/21/2017,325000,35008,city,Blairstown
-161 Chambers St,08865,Phillipsburg,NJ,40.690632,-75.196087,SingleFamily,2015,109465.0,1900,3049,1040,1.0,3,03/02/2017,50000,53876,city,Phillipsburg
-905 Wilbur Ave,08865,Phillipsburg,NJ,40.681525,-75.171839,SingleFamily,2015,182065.0,1954,6229,2000,2.5,3,03/01/2017,160000,53876,city,Phillipsburg
-521 Marlin Farm Rd,08886,Stewartsville,NJ,40.693065,-75.132566,SingleFamily,2015,481352.0,1999,21344,3700,3.0,4,02/28/2017,405000,399001,city,Greenwich Township
-401 Edward St,08865,Phillipsburg,NJ,40.705036,-75.170356,SingleFamily,2015,231500.0,2014,N/A,1706,2.0,2,02/28/2017,1850,32570,city,Lopatcong
-8 Kohler Rd,07825,Blairstown,NJ,40.980288,-74.949262,SingleFamily,2015,198453.0,1940,134164,N/A,2.0,3,02/28/2017,225000,35008,city,Blairstown
-524 New Brunswick Ave,08865,Phillipsburg,NJ,40.673716,-75.158214,SingleFamily,2015,122297.0,1944,6098,1320,1.0,2,02/26/2017,1250,395813,city,Pohatcong Township
-121 Liberty Blvd,08865,Phillipsburg,NJ,40.67913,-75.157297,SingleFamily,2015,185492.0,1940,9374,1046,1.0,3,02/26/2017,188000,395813,city,Pohatcong Township
-178 Free Union Rd,07823,Belvidere,NJ,40.854262,-74.963323,SingleFamily,2015,309700.0,2001,87991,2228,3.0,4,02/26/2017,304000,397430,city,Liberty Township
-11 Buckley Ave,07863,Oxford,NJ,40.802811,-75.002582,SingleFamily,2015,195600.0,1900,13068,1540,1.5,3,02/24/2017,149000,398116,city,Oxford Township
-146 State Park Rd,07825,Blairstown,NJ,40.922871,-74.928454,SingleFamily,2015,274200.0,1986,130680,2114,2.0,3,02/21/2017,258500,399239,city,Frelinghuysen Township
-20 Ivan Rd,07832,Columbia,NJ,40.94368,-75.041218,SingleFamily,2015,457615.0,2004,60112,3595,4.0,5,02/17/2017,430000,397322,city,Knowlton Township
-406 Wilson St,08865,Phillipsburg,NJ,40.689718,-75.185475,SingleFamily,2015,127785.0,1930,5662,1696,2.0,3,02/16/2017,153000,53876,city,Phillipsburg
-107 N Riverview Rd,08865,Phillipsburg,NJ,40.677058,-75.173518,SingleFamily,2016,144192.0,1950,6098,1248,1.0,3,02/16/2017,95000,53876,city,Phillipsburg
-108 Richard Dr,07840,Hackettstown,NJ,40.857185,-74.82099,SingleFamily,2015,216600.0,1965,13787,1476,2.0,4,02/16/2017,219000,5027,city,Hackettstown
-47 Country Meadow Rd,07840,Hackettstown,NJ,40.812113,-74.871186,SingleFamily,2015,361397.0,1995,44866,2493,3.0,4,02/16/2017,340000,398451,city,Mansfield Township
-1309 Brian Cir,08886,Stewartsville,NJ,40.682442,-75.13464,SingleFamily,2015,246892.0,1995,5662,1822,3.0,3,02/15/2017,270000,399001,city,Greenwich Township
-908 Hillside Rd,08865,Phillipsburg,NJ,40.684031,-75.166953,SingleFamily,2015,120434.0,1921,4791,1004,1.0,2,02/12/2017,45000,53876,city,Phillipsburg
-205 Grand Ave,07840,Hackettstown,NJ,40.852727,-74.830632,SingleFamily,2015,211600.0,1880,3920,1716,1.0,4,02/10/2017,65000,5027,city,Hackettstown
-356 Grant St,08865,Phillipsburg,NJ,40.692712,-75.184744,SingleFamily,2015,105959.0,1930,4965,1405,5.0,3,02/09/2017,120000,53876,city,Phillipsburg
-9 Gap View Rd,07825,Blairstown,NJ,40.943416,-75.002539,SingleFamily,2015,392287.0,1977,274428,2803,3.0,4,02/09/2017,290000,35008,city,Blairstown
-100 Asbury Rd,07840,Hackettstown,NJ,40.86147,-74.848721,SingleFamily,2015,369249.0,1979,148539,N/A,3.0,4,02/07/2017,180000,398130,city,Independence Township
-304 E Baldwin St,07840,Hackettstown,NJ,40.858953,-74.834306,SingleFamily,2015,284400.0,1957,12632,2163,2.0,4,02/05/2017,270000,5027,city,Hackettstown
-320 Thomas St,08865,Phillipsburg,NJ,40.68541,-75.177778,SingleFamily,2015,125184.0,1955,5662,1158,1.0,3,02/01/2017,78250,53876,city,Phillipsburg
-223 Old Farm Dr,07838,Great Meadows,NJ,40.911399,-74.857101,Condominium,N/A,N/A,2007,N/A,1250,2.0,2,02/01/2017,197000,396176,city,Allamuchy-Panther Valley
-111 Woodlawn Rd,08865,Phillipsburg,NJ,40.676803,-75.174389,SingleFamily,2015,164989.0,1960,6969,1396,2.0,3,01/30/2017,132000,53876,city,Phillipsburg
-209 Main St,07865,Port Murray,NJ,40.786523,-74.91668,SingleFamily,2015,240412.0,1786,13503,2982,3.0,5,01/30/2017,175000,398451,city,Mansfield Township
-55 Mallard Dr,07840,Hackettstown,NJ,40.912107,-74.83226,SingleFamily,2015,492486.0,1999,34412,3487,3.0,4,01/29/2017,512500,396176,city,Allamuchy-Panther Valley
-1215 Burrows Dr,08886,Stewartsville,NJ,40.681918,-75.13697,SingleFamily,2015,260254.0,1997,4791,1874,3.0,3,01/27/2017,260000,399001,city,Greenwich Township
-61 Haze Way,08865,Phillipsburg,NJ,40.719202,-75.166709,SingleFamily,2015,339100.0,2000,12632,2379,3.0,4,01/26/2017,335000,32570,city,Lopatcong
-1040 Ridge St,08865,Phillipsburg,NJ,40.683112,-75.164137,SingleFamily,2015,156169.0,1940,23086,1163,1.0,2,01/26/2017,132000,53876,city,Phillipsburg
-219 Harvard Dr,07840,Hackettstown,NJ,40.872569,-74.820268,Townhouse,2015,210139.0,1993,2640,1519,3.0,2,01/26/2017,219000,398130,city,Independence Township
-66 Indigo Rd,07840,Hackettstown,NJ,40.91077,-74.851068,Townhouse,2015,287491.0,2011,N/A,1968,2.5,3,01/25/2017,252000,396176,city,Allamuchy-Panther Valley
-25 Frelinghuysen St,07823,Belvidere,NJ,40.822515,-75.069357,SingleFamily,2015,189955.0,1997,11325,1387,1.5,3,01/24/2017,155000,9669,city,Belvidere
-15 Valley Rd,07863,Oxford,NJ,40.805641,-74.933288,SingleFamily,2015,273984.0,1895,37897,2220,2.0,3,01/24/2017,280000,398451,city,Mansfield Township
-701 E Valley View Ave,07840,Hackettstown,NJ,40.86271,-74.830792,SingleFamily,2015,345000.0,1954,18730,N/A,3.0,4,01/23/2017,325000,5027,city,Hackettstown
-50 Highland Rd,07840,Hackettstown,NJ,40.849378,-74.859466,SingleFamily,2015,334971.0,1987,47480,3100,4.0,4,01/20/2017,395000,398130,city,Independence Township
-127 College View Dr,07840,Hackettstown,NJ,40.841306,-74.838699,SingleFamily,2015,337500.0,1966,17250,2168,2.0,4,01/18/2017,258900,5027,city,Hackettstown
-356 Bates St,08865,Phillipsburg,NJ,40.694073,-75.18244,SingleFamily,2015,76445.0,1920,2613,1148,1.0,3,01/11/2017,57000,53876,city,Phillipsburg
-7 Russling Rd,07840,Hackettstown,NJ,40.856699,-74.849344,SingleFamily,2015,202211.0,1850,93654,1458,2.0,3,01/11/2017,231000,398130,city,Independence Township
-14 Windsor Pl,07840,Hackettstown,NJ,40.824001,-74.844423,SingleFamily,2015,364307.0,1997,N/A,N/A,3.0,4,01/10/2017,351500,396692,city,Beatyestown
-401 N Prospect St,08865,Phillipsburg,NJ,40.70686,-75.186663,SingleFamily,2015,448600.0,2004,42253,2616,3.0,5,01/09/2017,289000,32570,city,Lopatcong
-178 Lewis St,08865,Phillipsburg,NJ,40.689615,-75.191697,SingleFamily,2015,99514.0,1910,1873,1330,1.5,2,01/08/2017,72000,53876,city,Phillipsburg
-315 Grant St,08865,Phillipsburg,NJ,40.693883,-75.185225,SingleFamily,2015,121791.0,1923,4791,N/A,2.0,3,01/08/2017,140000,53876,city,Phillipsburg
-102 Deerfield Dr,07840,Hackettstown,NJ,40.842382,-74.840625,SingleFamily,2015,256900.0,1955,16553,960,1.5,3,01/08/2017,205000,5027,city,Hackettstown
-24 Powderhorn Dr,08865,Phillipsburg,NJ,40.707606,-75.166887,SingleFamily,2015,208600.0,1970,14810,1694,1.0,3,01/06/2017,132500,32570,city,Lopatcong
-77 Wood Duck Ct,07840,Hackettstown,NJ,40.908786,-74.857419,MultiFamily2To4,2015,132879.0,1984,N/A,N/A,1.5,2,01/06/2017,136000,396176,city,Allamuchy-Panther Valley
-422 Thomas Stewart Way,08886,Stewartsville,NJ,40.698388,-75.118149,SingleFamily,2015,424073.0,1994,57063,3690,3.0,4,01/05/2017,400000,399001,city,Greenwich Township
-100 Hurley Dr,07840,Hackettstown,NJ,40.855367,-74.822119,SingleFamily,2015,248100.0,1963,10890,2058,2.0,4,01/05/2017,275000,5027,city,Hackettstown
-67 Shippen Rdg,07863,Oxford,NJ,40.820785,-74.974082,SingleFamily,2015,298300.0,1999,16552,2306,3.0,4,01/05/2017,280000,398116,city,Oxford Township
-41 Indigo Rd,07840,Hackettstown,NJ,40.8953,-74.8483,Townhouse,2015,363931.0,2010,N/A,2850,4.0,3,01/05/2017,354500,396176,city,Allamuchy-Panther Valley
-14 Barn Owl Dr,07840,Hackettstown,NJ,40.906078,-74.856985,SingleFamily,2015,211158.0,1976,3049,3049,2.0,2,01/05/2017,168000,396176,city,Allamuchy-Panther Valley
-2589 Belvidere Rd,08865,Phillipsburg,NJ,40.74395,-75.139862,SingleFamily,2015,167163.0,1956,13068,1268,1.0,3,01/05/2017,214900,399186,city,Harmony Township
-859 South Blvd,08865,Phillipsburg,NJ,40.660147,-75.164348,SingleFamily,2015,132500.0,N/A,3484,1496,2.0,2,01/04/2017,30800,43866,city,Alpha
-904 E Prospect St,07840,Hackettstown,NJ,40.86497,-74.828366,SingleFamily,2015,296600.0,1974,13939,1877,3.0,4,01/04/2017,272250,5027,city,Hackettstown
-23 Junegrass Way,07840,Hackettstown,NJ,40.8953,-74.8483,Condominium,2015,362634.0,2010,N/A,2850,3.0,3,01/04/2017,314400,396176,city,Allamuchy-Panther Valley
-69 Harris St,08865,Phillipsburg,NJ,40.691061,-75.198784,SingleFamily,2015,91711.0,1890,2178,1084,1.0,3,01/02/2017,45000,53876,city,Phillipsburg
-526 4th St,07823,Belvidere,NJ,40.824439,-75.073626,SingleFamily,2015,160119.0,1954,9601,1088,1.0,3,01/02/2017,132500,9669,city,Belvidere
-288 Marshall St,08865,Phillipsburg,NJ,40.692782,-75.186171,SingleFamily,2015,55977.0,1920,3049,1216,1.5,3,12/30/2016,65000,53876,city,Phillipsburg
-977 Hill St,08865,Phillipsburg,NJ,40.679713,-75.17079,SingleFamily,2015,120886.0,1900,6969,6250,1.0,3,12/30/2016,107000,53876,city,Phillipsburg
-228 Canal Way,07840,Hackettstown,NJ,40.848412,-74.843805,Condominium,2015,262200.0,1990,2500,1731,3.0,3,12/30/2016,227500,5027,city,Hackettstown
-412 Brakeley Ave,08865,Phillipsburg,NJ,40.703766,-75.176833,Condominium,2015,132500.0,N/A,N/A,N/A,1.0,2,12/29/2016,115000,32570,city,Lopatcong
-3150 Belvidere Rd,08865,Phillipsburg,NJ,40.772613,-75.110611,SingleFamily,2015,175877.0,1951,50530,1120,1.0,2,12/29/2016,225000,399186,city,Harmony Township
-22 Limerick Ln,08865,Phillipsburg,NJ,40.701678,-75.162505,Condominium,2015,169100.0,N/A,N/A,N/A,2.5,2,12/29/2016,145000,32570,city,Lopatcong
-159 Quenby Mountain Rd,07838,Great Meadows,NJ,40.843382,-74.969283,SingleFamily,2015,76600.0,1955,135907,437,N/A,N/A,12/29/2016,40000,397430,city,Liberty Township
-202 High St,07840,Hackettstown,NJ,40.855612,-74.828352,SingleFamily,2015,258700.0,1893,10018,1860,2.0,4,12/29/2016,145000,5027,city,Hackettstown
-3 Partridge Dr,07825,Blairstown,NJ,40.963091,-74.968252,SingleFamily,2015,377022.0,1994,45302,2964,3.0,4,12/29/2016,384500,35008,city,Blairstown
-1123 Monroe Dr,08886,Stewartsville,NJ,40.68428,-75.134758,SingleFamily,2015,431858.0,2000,16552,3686,3.0,4,12/28/2016,420000,399001,city,Greenwich Township
-9 Newman Rd,07825,Hardwick,NJ,41.027388,-74.960882,SingleFamily,2015,332628.0,1980,654706,2152,3.0,4,12/28/2016,299000,18469,city,Hardwick
-61 Mount Rascal Rd,07840,Hackettstown,NJ,40.875873,-74.838186,SingleFamily,2016,229216.0,1968,40075,1595,2.0,3,12/28/2016,239900,398130,city,Independence Township
-204 Seymour Rd,07840,Hackettstown,NJ,40.841205,-74.841079,SingleFamily,2015,235000.0,1958,11325,960,1.0,3,12/28/2016,235000,5027,city,Hackettstown
-29 Oriole Dr,07840,Hackettstown,NJ,40.907666,-74.854134,Condominium,2015,203482.0,1976,1742,1596,2.5,3,12/28/2016,225000,396176,city,Allamuchy-Panther Valley
-233 Cherry Tree Bend Rd,07865,Port Murray,NJ,40.805254,-74.902774,SingleFamily,2015,268787.0,1976,108900,2000,3.0,3,12/28/2016,325000,398451,city,Mansfield Township
-2 Grosbeak Dr,07840,Hackettstown,NJ,40.90897,-74.855862,Condominium,2015,149205.0,1986,N/A,N/A,2.0,2,12/28/2016,189000,396176,city,Allamuchy-Panther Valley
-107 Park Ave,07840,Hackettstown,NJ,40.855262,-74.82507,SingleFamily,2015,184600.0,1940,13068,918,1.0,2,12/28/2016,147500,5027,city,Hackettstown
-205 Rosehill Ave,08865,Phillipsburg,NJ,40.70725,-75.175515,SingleFamily,2015,208600.0,1960,11761,1340,2.0,3,12/27/2016,217000,32570,city,Lopatcong
-170 Mill Rd,07825,Blairstown,NJ,40.965992,-74.886824,SingleFamily,2015,310700.0,1957,129808,2420,3.0,4,12/27/2016,290000,399239,city,Frelinghuysen Township
-209 Hardwick St,07823,Belvidere,NJ,40.826913,-75.075194,SingleFamily,2015,194411.0,1864,4791,2348,3.0,5,12/27/2016,234500,9669,city,Belvidere
-238 Free Union Rd,07838,Great Meadows,NJ,40.867764,-74.951645,SingleFamily,2015,358000.0,1989,87120,3397,3.0,4,12/27/2016,392500,397430,city,Liberty Township
-9 Junegrass Way,07840,Hackettstown,NJ,40.8953,-74.8483,Condominium,2015,325116.0,2010,N/A,1814,3.0,3,12/27/2016,295000,396176,city,Allamuchy-Panther Valley
-28 Hillcrest Dr,07838,Great Meadows,NJ,40.855732,-74.956859,SingleFamily,2015,243900.0,1979,129373,2222,2.0,4,12/27/2016,283000,397430,city,Liberty Township
-45 Rushmore Ln,07840,Hackettstown,NJ,40.914892,-74.831185,Condominium,2015,128879.0,1990,N/A,N/A,2.0,1,12/27/2016,125000,396176,city,Allamuchy-Panther Valley
-63 Glen Ave,08865,Phillipsburg,NJ,40.693199,-75.194362,SingleFamily,2015,96008.0,1944,2178,1512,2.0,3,12/26/2016,80000,53876,city,Phillipsburg
-436 Brakeley Ave,08865,Phillipsburg,NJ,40.702644,-75.17616,SingleFamily,2015,155000.0,1954,9583,1144,2.0,3,12/23/2016,135680,32570,city,Lopatcong
-9 Meadowlark,07840,Hackettstown,NJ,40.907996,-74.856644,SingleFamily,2015,208888.0,1987,4356,1576,2.5,3,12/23/2016,229500,396176,city,Allamuchy-Panther Valley
-14 Goldfinch Way,07840,Hackettstown,NJ,40.905083,-74.841434,SingleFamily,2015,223916.0,1977,3049,1697,4.0,2,12/23/2016,255000,396176,city,Allamuchy-Panther Valley
-325 Mount Bethel Rd,07865,Port Murray,NJ,40.82591,-74.904251,SingleFamily,2015,233239.0,1971,70219,1396,N/A,N/A,12/23/2016,245000,398451,city,Mansfield Township
-256 Bald Eagle Dr,08886,Stewartsville,NJ,40.699699,-75.137466,Condominium,2015,183500.0,2000,N/A,1458,3.0,3,12/22/2016,220000,32570,city,Lopatcong
-502 State Route 173,08886,Stewartsville,NJ,40.656639,-75.099592,SingleFamily,2015,209132.0,1968,56628,1400,N/A,N/A,N/A,N/A,399001,city,Greenwich Township
-12 Dogwood Ln,08865,Phillipsburg,NJ,40.700214,-75.162914,Condominium,2015,185800.0,2004,N/A,1412,3.0,2,12/21/2016,198000,32570,city,Lopatcong
-614 Barrymore St,08865,Phillipsburg,NJ,40.701734,-75.181949,SingleFamily,2015,228542.0,1927,12632,1792,3.0,3,12/21/2016,185000,53876,city,Phillipsburg
-87 Wood Duck Ct,07840,Hackettstown,NJ,40.909581,-74.857828,Condominium,2015,149638.0,1988,44,960,2.0,2,12/21/2016,150000,396176,city,Allamuchy-Panther Valley
-33 Maines Ln,07825,Blairstown,NJ,41.021236,-74.973709,SingleFamily,2015,395200.0,1987,1183960,2641,3.0,4,12/21/2016,259900,35008,city,Blairstown
-408 E Baldwin St,07840,Hackettstown,NJ,40.860033,-74.833442,SingleFamily,2015,235200.0,1960,9583,N/A,2.0,3,12/21/2016,239900,5027,city,Hackettstown
-13 Mountain Top Dr,07838,Great Meadows,NJ,40.862882,-74.937577,SingleFamily,2015,273600.0,1996,43560,1848,3.0,4,12/21/2016,301000,397430,city,Liberty Township
-116 College View Dr,07840,Hackettstown,NJ,40.841928,-74.840129,SingleFamily,2015,269700.0,1967,16117,1476,2.0,4,12/21/2016,262000,5027,city,Hackettstown
-59 Byron Dr,08865,Phillipsburg,NJ,40.715602,-75.17129,SingleFamily,2015,318600.0,1997,8276,2277,3.0,3,12/20/2016,269900,32570,city,Lopatcong
-813 Wilbur Ave,08865,Phillipsburg,NJ,40.683633,-75.173858,SingleFamily,2015,127898.0,1920,6229,N/A,2.0,4,12/20/2016,110000,53876,city,Phillipsburg
-400 Christie Ct,08886,Stewartsville,NJ,40.694341,-75.097968,SingleFamily,2015,302428.0,1991,40510,2040,3.0,4,12/20/2016,340000,399001,city,Greenwich Township
-841 Culkin St,08865,Phillipsburg,NJ,40.684366,-75.1703,SingleFamily,2015,138415.0,1900,11804,1424,1.5,4,12/20/2016,150000,53876,city,Phillipsburg
-45 Foul Rift Rd,07823,BELVIDERE,NJ,40.805785,-75.099534,SingleFamily,2015,124000.0,1940,49223,480,N/A,N/A,12/20/2016,100000,9669,city,Belvidere
-313 Belvidere Ave,07863,Oxford,NJ,40.807034,-75.019675,SingleFamily,2015,280300.0,1880,80150,2604,4.0,3,12/20/2016,295000,398116,city,Oxford Township
-15 Pheasant Run,07840,Hackettstown,NJ,40.90492,-74.850503,Condominium,2015,242297.0,1987,2919,1834,4.0,3,12/20/2016,265000,396176,city,Allamuchy-Panther Valley
-530 Edward St,08865,Phillipsburg,NJ,40.704662,-75.175751,SingleFamily,2015,243900.0,2012,4792,2161,3.0,2,12/19/2016,339100,32570,city,Lopatcong
-238 Hudson St,08865,Phillipsburg,NJ,40.692799,-75.191817,SingleFamily,2015,128576.0,1930,3049,1241,2.0,3,12/19/2016,100000,53876,city,Phillipsburg
-411 S 1st St,08865,Phillipsburg,NJ,40.702392,-75.174109,SingleFamily,2015,130600.0,1955,6434,900,N/A,N/A,01/27/2005,154900,32570,city,Lopatcong
-160 Petersburg Rd,07840,Hackettstown,NJ,40.879096,-74.868591,SingleFamily,2015,234144.0,1973,43560,1988,3.0,4,12/19/2016,280000,396679,city,Great Meadows-Vienna
-389 Delaware Rd,07825,Blairstown,NJ,40.902656,-74.99428,SingleFamily,2015,331500.0,1989,138085,1958,4.0,4,12/19/2016,290000,18622,city,Hope
-120 Russling Rd,07840,Hackettstown,NJ,40.849646,-74.880892,SingleFamily,2015,318892.0,1973,43995,3372,4.0,6,12/19/2016,325000,398130,city,Independence Township
-14 Jones Ln,07825,Hardwick,NJ,40.997378,-74.949382,SingleFamily,2015,448086.0,2002,270072,2428,N/A,N/A,12/19/2016,350000,18469,city,Hardwick
-135 Union Brick Rd,07825,Blairstown,NJ,40.932108,-74.995706,SingleFamily,2015,269900.0,1780,101494,2874,4.0,5,12/19/2016,287000,35008,city,Blairstown
-124 Goldfinch Dr,07840,Hackettstown,NJ,40.903281,-74.84714,SingleFamily,2015,221105.0,1975,5227,1469,2.0,2,12/19/2016,209000,396176,city,Allamuchy-Panther Valley
-128 Canal Way,07840,Hackettstown,NJ,40.851297,-74.842166,Townhouse,2015,235400.0,1991,N/A,N/A,3.0,2,12/19/2016,223500,5027,city,Hackettstown
-59 Davis St,08865,Phillipsburg,NJ,40.691255,-75.188225,SingleFamily,2015,103924.0,1900,1742,N/A,1.0,2,12/18/2016,89900,53876,city,Phillipsburg
-644 Belvidere Rd,08865,Phillipsburg,NJ,40.701164,-75.189137,SingleFamily,2015,244261.0,1925,16117,1909,2.0,3,12/18/2016,115000,53876,city,Phillipsburg
-21 Hillside Rd,07840,Hackettstown,NJ,40.817284,-74.861188,SingleFamily,2015,236669.0,1966,21780,2418,3.0,4,12/18/2016,300000,396692,city,Beatyestown
-68 Tamarack Rd,07823,Belvidere,NJ,40.84935,-74.982409,SingleFamily,2015,107600.0,1953,4791,787,1.0,2,12/18/2016,26800,397430,city,Liberty Township
-8 Lauren Dr,08886,Stewartsville,NJ,40.716995,-75.074827,SingleFamily,2015,374300.0,1991,59677,2562,N/A,N/A,12/16/2016,350000,188902,city,Franklin Township
-567 Edward St,08865,Phillipsburg,NJ,40.70567,-75.175188,SingleFamily,2015,332100.0,2007,4356,2529,N/A,N/A,12/16/2016,349000,32570,city,Lopatcong
+street,zip_code,city,state,county,latitude,longitude,use_code,tax_assessment_year,tax_assessment,year_built,lot_size_sqft,finished_sqft,bathroom,bedrooms,last_sold_date,last_sold_price,region_id,region_type,region_name
+34 Gaisler Rd,7825,Blairstown,NJ,warren,41.035044,-74.976688,SingleFamily,2015,258813,1976,42688,NA,2,4,5/1/17,236000,35008,city,Blairstown
+19 Park Sq,8865,Phillipsburg,NJ,warren,40.704317,-75.189099,SingleFamily,2015,164500,1925,15785,1075,1,3,4/28/17,85000,32570,city,Lopatcong
+102 Stadelman Ave,7823,Belvidere,NJ,warren,40.831626,-75.075637,SingleFamily,2015,168219,1983,28313,1746,2,4,4/28/17,163000,9669,city,Belvidere
+7 Rushmore Ln,7840,Hackettstown,NJ,warren,40.913654,-74.829469,Townhouse,2015,134069,1990,1350,756,2,1,4/28/17,130000,396176,city,Allamuchy-Panther Valley
+88 Barkers Mill Rd,7840,Hackettstown,NJ,warren,40.852019,-74.888689,SingleFamily,2015,304600,1987,45737,2496,2.5,4,4/28/17,289900,398130,city,Independence Township
+161 Washington St,8865,Phillipsburg,NJ,warren,40.690334,-75.197804,SingleFamily,2015,136266,1900,5881,2698,2,4,4/26/17,116000,53876,city,Phillipsburg
+158 Belt Rd,8865,Phillipsburg,NJ,warren,40.673937,-75.172853,SingleFamily,2015,133100,1960,7405,852,1,3,4/26/17,145000,53876,city,Phillipsburg
+5 Carriage Rd,7840,Hackettstown,NJ,warren,40.863563,-74.806774,SingleFamily,2015,381000,2008,8712,NA,3,4,4/26/17,400000,5027,city,Hackettstown
+9 Parkview Dr,7840,Hackettstown,NJ,warren,40.817911,-74.856965,SingleFamily,2015,236254,1966,21780,1582,2,3,4/24/17,272000,396692,city,Beatyestown
+60 Stony Brook Rd,7825,Blairstown,NJ,warren,41.003219,-75.007139,SingleFamily,2015,279000,1974,92782,2221,3,3,4/21/17,289000,35008,city,Blairstown
+107 Indigo Rd,7840,Hackettstown,NJ,warren,40.911036,-74.84927,Townhouse,2015,286409,2013,NA,1504,3,3,4/21/17,255000,396176,city,Allamuchy-Panther Valley
+50 Canada Goose Dr,7840,Hackettstown,NJ,warren,40.903476,-74.856202,SingleFamily,2015,353011,1998,11325,1697,4,3,4/21/17,395000,396176,city,Allamuchy-Panther Valley
+412 Sussex St,8865,Phillipsburg,NJ,warren,40.677162,-75.154048,SingleFamily,2015,209217,1950,13068,2136,2,3,4/20/17,204900,395813,city,Pohatcong Township
+107 Stone Xing,8886,Stewartsville,NJ,warren,40.664998,-75.109609,SingleFamily,2015,465087,1994,40075,3440,3,4,4/20/17,426000,399001,city,Greenwich Township
+23 Roosevelt Ave,7840,Hackettstown,NJ,warren,40.854555,-74.840776,SingleFamily,2015,196740,1862,21344,1534,2,3,4/20/17,67500,398130,city,Independence Township
+623 Sampson Ave,8865,Phillipsburg,NJ,warren,40.663854,-75.159871,MultiFamily2To4,2015,128100,1900,87991,NA,2,2,4/18/17,95000,43866,city,Alpha
+72 Free Union Rd,7823,Belvidere,NJ,warren,40.837881,-74.975198,SingleFamily,2015,225900,1965,38332,1824,2,4,4/17/17,222222,397929,city,White Township
+37 Indigo Rd,7840,Hackettstown,NJ,warren,40.909727,-74.852213,Townhouse,2015,326306,2010,1,1814,3,3,4/17/17,299900,396176,city,Allamuchy-Panther Valley
+607 S Main St,8886,Stewartsville,NJ,warren,40.693856,-75.110264,SingleFamily,2015,127570,1935,6098,1284,1,3,4/13/17,168000,399001,city,Greenwich Township
+612 S Main St,8865,Phillipsburg,NJ,warren,40.683198,-75.184885,SingleFamily,2015,51340,1900,3964,1466,2,3,4/13/17,28000,53876,city,Phillipsburg
+699 Fanning Mill Rd,8886,Stewartsville,NJ,warren,40.683634,-75.128539,SingleFamily,2015,383293,1998,16552,NA,3,4,4/13/17,395000,399001,city,Greenwich Township
+26 Rushmore Ln,7840,Hackettstown,NJ,warren,40.914384,-74.830218,Condominium,2015,183479,1989,2178,NA,2,2,4/13/17,195000,396176,city,Allamuchy-Panther Valley
+90 Quenby Mountain Rd,7838,Great Meadows,NJ,warren,40.849097,-74.958172,SingleFamily,2015,227900,1986,43560,1992,2,3,4/13/17,215000,397430,city,Liberty Township
+848 Honeybrook Cir,8886,Stewartsville,NJ,warren,40.698585,-75.143707,Condominium,2015,116900,2002,NA,1100,2,2,4/13/17,115000,32570,city,Lopatcong
+44 Oriole Dr,7840,Hackettstown,NJ,warren,40.907788,-74.854618,Townhouse,2015,177965,1976,1306,1372,3,2,4/12/17,219900,396176,city,Allamuchy-Panther Valley
+144 Osprey,7840,Hackettstown,NJ,warren,40.91055,-74.827431,MultiFamily2To4,2015,74170,1978,44,576,1,0,4/18/17,40000,396176,city,Allamuchy-Panther Valley
+1220 Bridgeville Rd,7825,Blairstown,NJ,warren,40.896625,-74.973025,SingleFamily,2015,300500,1764,50093,2600,NA,3,4/10/17,302000,18622,city,Hope
+17 Oriole Dr,7840,Hackettstown,NJ,warren,40.907174,-74.854034,Townhouse,2015,167802,1976,1742,1440,3,2,4/10/17,185000,396176,city,Allamuchy-Panther Valley
+47 Pudding Stone Way,8865,Phillipsburg,NJ,warren,40.71239,-75.163459,SingleFamily,2015,182400,1973,15246,1297,2,3,4/7/17,225900,32570,city,Lopatcong
+404 State Route 173,8886,Stewartsville,NJ,warren,40.659729,-75.112388,SingleFamily,2015,184733,1936,47480,NA,1,2,4/7/17,199000,399001,city,Greenwich Township
+31 Rainier Ct,7840,Hackettstown,NJ,warren,40.914088,-74.831466,Condominium,2015,165532,1988,NA,NA,2,2,4/7/17,200000,396176,city,Allamuchy-Panther Valley
+68 Mallard Dr,7840,Hackettstown,NJ,warren,40.915222,-74.832266,SingleFamily,2015,277868,1993,23958,2246,2,3,4/7/17,315000,396176,city,Allamuchy-Panther Valley
+11 Pembrook Ct,7838,Great Meadows,NJ,warren,40.861023,-74.933762,SingleFamily,2015,320400,1997,53578,2308,3,4,4/3/17,254900,397430,city,Liberty Township
+856 Honeybrook Cir,8886,Stewartsville,NJ,warren,40.698509,-75.143592,Condominium,2015,148800,2002,NA,NA,2,2,8/20/13,105000,32570,city,Lopatcong
+75 Mount Hermon Rd,7825,Blairstown,NJ,warren,40.942267,-75.01823,SingleFamily,2015,373405,2000,376358,NA,4,4,3/31/17,353000,35008,city,Blairstown
+335 Carnegie Ct,7840,Hackettstown,NJ,warren,40.870082,-74.821776,Townhouse,2015,202993,1988,4356,NA,2,2,3/31/17,205000,398130,city,Independence Township
+76 Mine Hill Rd,7863,Oxford,NJ,warren,40.794168,-74.994911,SingleFamily,2015,294600,1950,22216,1837,2,3,3/31/17,264000,398116,city,Oxford Township
+3 Woods Edge Ct,7823,Belvidere,NJ,warren,40.844491,-75.046454,SingleFamily,2015,449400,2003,47044,3208,4,4,3/31/17,434000,397929,city,White Township
+110 Roseberry St,8865,Phillipsburg,NJ,warren,40.70297,-75.180758,SingleFamily,2015,299672,1983,9147,1886,3,4,3/30/17,249900,53876,city,Phillipsburg
+9 Knowlton Rd,7832,Columbia,NJ,warren,40.935974,-75.023321,SingleFamily,2015,201804,1985,43560,1866,3,3,3/30/17,145000,397322,city,Knowlton Township
+404 Brakeley Ave,8865,Phillipsburg,NJ,warren,40.704137,-75.177061,SingleFamily,2015,139700,1954,9583,1100,1,3,3/29/17,133000,32570,city,Lopatcong
+20 Bowers Dr,7840,Hackettstown,NJ,warren,40.89906,-74.846564,SingleFamily,2015,361012,2006,7840,2399,3,4,3/29/17,340000,396176,city,Allamuchy-Panther Valley
+385 James St,8865,Phillipsburg,NJ,warren,40.685446,-75.174886,SingleFamily,2015,168381,1920,6534,1786,1,3,3/27/17,124900,53876,city,Phillipsburg
+1795 State Route 57,7840,Hackettstown,NJ,warren,40.81314,-74.8443,SingleFamily,2015,246960,1987,27007,1680,2,4,6/13/86,26000,396692,city,Beatyestown
+503 Dori Pl,8886,Stewartsville,NJ,warren,40.681628,-75.128156,SingleFamily,2015,424422,1999,20037,2832,3,4,3/23/17,390000,399001,city,Greenwich Township
+128 Limerick Ln,8865,Phillipsburg,NJ,warren,40.700427,-75.162026,Condominium,2015,179900,2003,NA,1860,2.5,2,3/22/17,130000,32570,city,Lopatcong
+36 Sylvia St,8865,Phillipsburg,NJ,warren,40.705223,-75.173797,SingleFamily,2015,231200,2011,4356,NA,2,2,3/20/17,259990,32570,city,Lopatcong
+706 Rugby Rd,8865,Phillipsburg,NJ,warren,40.708523,-75.173008,SingleFamily,2015,168800,1958,11761,1132,2,2,3/17/17,152000,32570,city,Lopatcong
+217 Ohio Ave,8865,Phillipsburg,NJ,warren,40.676803,-75.151981,SingleFamily,2015,194625,1957,9583,1493,1,3,3/17/17,208500,395813,city,Pohatcong Township
+19 Vienna Hills Rd,7840,Hackettstown,NJ,warren,40.872563,-74.874648,SingleFamily,2015,226217,1979,NA,2100,3,4,3/15/17,280000,396679,city,Great Meadows-Vienna
+756 Columbus Ave,8865,Phillipsburg,NJ,warren,40.68527,-75.17345,SingleFamily,2015,206604,2006,6534,1528,3,3,3/14/17,216500,53876,city,Phillipsburg
+1507 Megan Cir,8886,Stewartsville,NJ,warren,40.682956,-75.13361,SingleFamily,2015,247589,1996,6098,NA,3,3,3/13/17,270000,399001,city,Greenwich Township
+1240 Fairview Cir,8886,Stewartsville,NJ,warren,40.696533,-75.141883,Condominium,2015,183400,2002,NA,1184,2,2,3/9/17,200000,32570,city,Lopatcong
+332 Allen Rd,7840,Hackettstown,NJ,warren,40.830845,-74.842402,SingleFamily,2015,339465,2005,24829,2500,3,4,3/9/17,350000,396692,city,Beatyestown
+25 Maple Ave,8802,Asbury,NJ,warren,40.696303,-75.00824,SingleFamily,2015,245600,1850,11521,1768,2,3,3/7/17,269900,188902,city,Franklin Township
+121 Wingate Dr,7840,Hackettstown,NJ,warren,40.871968,-74.821962,Condominium,2015,223426,1995,2640,1624,1.5,2,3/6/17,216000,398130,city,Independence Township
+15 Cherry Ln,7825,Blairstown,NJ,warren,41.002119,-74.962336,SingleFamily,2015,321482,1986,319294,1902,2,3,3/21/17,325000,35008,city,Blairstown
+161 Chambers St,8865,Phillipsburg,NJ,warren,40.690632,-75.196087,SingleFamily,2015,109465,1900,3049,1040,1,3,3/2/17,50000,53876,city,Phillipsburg
+905 Wilbur Ave,8865,Phillipsburg,NJ,warren,40.681525,-75.171839,SingleFamily,2015,182065,1954,6229,2000,2.5,3,3/1/17,160000,53876,city,Phillipsburg
+521 Marlin Farm Rd,8886,Stewartsville,NJ,warren,40.693065,-75.132566,SingleFamily,2015,481352,1999,21344,3700,3,4,2/28/17,405000,399001,city,Greenwich Township
+401 Edward St,8865,Phillipsburg,NJ,warren,40.705036,-75.170356,SingleFamily,2015,231500,2014,NA,1706,2,2,2/28/17,1850,32570,city,Lopatcong
+8 Kohler Rd,7825,Blairstown,NJ,warren,40.980288,-74.949262,SingleFamily,2015,198453,1940,134164,NA,2,3,2/28/17,225000,35008,city,Blairstown
+524 New Brunswick Ave,8865,Phillipsburg,NJ,warren,40.673716,-75.158214,SingleFamily,2015,122297,1944,6098,1320,1,2,2/26/17,1250,395813,city,Pohatcong Township
+121 Liberty Blvd,8865,Phillipsburg,NJ,warren,40.67913,-75.157297,SingleFamily,2015,185492,1940,9374,1046,1,3,2/26/17,188000,395813,city,Pohatcong Township
+178 Free Union Rd,7823,Belvidere,NJ,warren,40.854262,-74.963323,SingleFamily,2015,309700,2001,87991,2228,3,4,2/26/17,304000,397430,city,Liberty Township
+11 Buckley Ave,7863,Oxford,NJ,warren,40.802811,-75.002582,SingleFamily,2015,195600,1900,13068,1540,1.5,3,2/24/17,149000,398116,city,Oxford Township
+146 State Park Rd,7825,Blairstown,NJ,warren,40.922871,-74.928454,SingleFamily,2015,274200,1986,130680,2114,2,3,2/21/17,258500,399239,city,Frelinghuysen Township
+20 Ivan Rd,7832,Columbia,NJ,warren,40.94368,-75.041218,SingleFamily,2015,457615,2004,60112,3595,4,5,2/17/17,430000,397322,city,Knowlton Township
+406 Wilson St,8865,Phillipsburg,NJ,warren,40.689718,-75.185475,SingleFamily,2015,127785,1930,5662,1696,2,3,2/16/17,153000,53876,city,Phillipsburg
+107 N Riverview Rd,8865,Phillipsburg,NJ,warren,40.677058,-75.173518,SingleFamily,2016,144192,1950,6098,1248,1,3,2/16/17,95000,53876,city,Phillipsburg
+108 Richard Dr,7840,Hackettstown,NJ,warren,40.857185,-74.82099,SingleFamily,2015,216600,1965,13787,1476,2,4,2/16/17,219000,5027,city,Hackettstown
+47 Country Meadow Rd,7840,Hackettstown,NJ,warren,40.812113,-74.871186,SingleFamily,2015,361397,1995,44866,2493,3,4,2/16/17,340000,398451,city,Mansfield Township
+1309 Brian Cir,8886,Stewartsville,NJ,warren,40.682442,-75.13464,SingleFamily,2015,246892,1995,5662,1822,3,3,2/15/17,270000,399001,city,Greenwich Township
+908 Hillside Rd,8865,Phillipsburg,NJ,warren,40.684031,-75.166953,SingleFamily,2015,120434,1921,4791,1004,1,2,2/12/17,45000,53876,city,Phillipsburg
+205 Grand Ave,7840,Hackettstown,NJ,warren,40.852727,-74.830632,SingleFamily,2015,211600,1880,3920,1716,1,4,2/10/17,65000,5027,city,Hackettstown
+356 Grant St,8865,Phillipsburg,NJ,warren,40.692712,-75.184744,SingleFamily,2015,105959,1930,4965,1405,5,3,2/9/17,120000,53876,city,Phillipsburg
+9 Gap View Rd,7825,Blairstown,NJ,warren,40.943416,-75.002539,SingleFamily,2015,392287,1977,274428,2803,3,4,2/9/17,290000,35008,city,Blairstown
+100 Asbury Rd,7840,Hackettstown,NJ,warren,40.86147,-74.848721,SingleFamily,2015,369249,1979,148539,NA,3,4,2/7/17,180000,398130,city,Independence Township
+304 E Baldwin St,7840,Hackettstown,NJ,warren,40.858953,-74.834306,SingleFamily,2015,284400,1957,12632,2163,2,4,2/5/17,270000,5027,city,Hackettstown
+320 Thomas St,8865,Phillipsburg,NJ,warren,40.68541,-75.177778,SingleFamily,2015,125184,1955,5662,1158,1,3,2/1/17,78250,53876,city,Phillipsburg
+223 Old Farm Dr,7838,Great Meadows,NJ,warren,40.911399,-74.857101,Condominium,NA,NA,2007,NA,1250,2,2,2/1/17,197000,396176,city,Allamuchy-Panther Valley
+111 Woodlawn Rd,8865,Phillipsburg,NJ,warren,40.676803,-75.174389,SingleFamily,2015,164989,1960,6969,1396,2,3,1/30/17,132000,53876,city,Phillipsburg
+209 Main St,7865,Port Murray,NJ,warren,40.786523,-74.91668,SingleFamily,2015,240412,1786,13503,2982,3,5,1/30/17,175000,398451,city,Mansfield Township
+55 Mallard Dr,7840,Hackettstown,NJ,warren,40.912107,-74.83226,SingleFamily,2015,492486,1999,34412,3487,3,4,1/29/17,512500,396176,city,Allamuchy-Panther Valley
+1215 Burrows Dr,8886,Stewartsville,NJ,warren,40.681918,-75.13697,SingleFamily,2015,260254,1997,4791,1874,3,3,1/27/17,260000,399001,city,Greenwich Township
+61 Haze Way,8865,Phillipsburg,NJ,warren,40.719202,-75.166709,SingleFamily,2015,339100,2000,12632,2379,3,4,1/26/17,335000,32570,city,Lopatcong
+1040 Ridge St,8865,Phillipsburg,NJ,warren,40.683112,-75.164137,SingleFamily,2015,156169,1940,23086,1163,1,2,1/26/17,132000,53876,city,Phillipsburg
+219 Harvard Dr,7840,Hackettstown,NJ,warren,40.872569,-74.820268,Townhouse,2015,210139,1993,2640,1519,3,2,1/26/17,219000,398130,city,Independence Township
+66 Indigo Rd,7840,Hackettstown,NJ,warren,40.91077,-74.851068,Townhouse,2015,287491,2011,NA,1968,2.5,3,1/25/17,252000,396176,city,Allamuchy-Panther Valley
+25 Frelinghuysen St,7823,Belvidere,NJ,warren,40.822515,-75.069357,SingleFamily,2015,189955,1997,11325,1387,1.5,3,1/24/17,155000,9669,city,Belvidere
+15 Valley Rd,7863,Oxford,NJ,warren,40.805641,-74.933288,SingleFamily,2015,273984,1895,37897,2220,2,3,1/24/17,280000,398451,city,Mansfield Township
+701 E Valley View Ave,7840,Hackettstown,NJ,warren,40.86271,-74.830792,SingleFamily,2015,345000,1954,18730,NA,3,4,1/23/17,325000,5027,city,Hackettstown
+50 Highland Rd,7840,Hackettstown,NJ,warren,40.849378,-74.859466,SingleFamily,2015,334971,1987,47480,3100,4,4,1/20/17,395000,398130,city,Independence Township
+127 College View Dr,7840,Hackettstown,NJ,warren,40.841306,-74.838699,SingleFamily,2015,337500,1966,17250,2168,2,4,1/18/17,258900,5027,city,Hackettstown
+356 Bates St,8865,Phillipsburg,NJ,warren,40.694073,-75.18244,SingleFamily,2015,76445,1920,2613,1148,1,3,1/11/17,57000,53876,city,Phillipsburg
+7 Russling Rd,7840,Hackettstown,NJ,warren,40.856699,-74.849344,SingleFamily,2015,202211,1850,93654,1458,2,3,1/11/17,231000,398130,city,Independence Township
+14 Windsor Pl,7840,Hackettstown,NJ,warren,40.824001,-74.844423,SingleFamily,2015,364307,1997,NA,NA,3,4,1/10/17,351500,396692,city,Beatyestown
+401 N Prospect St,8865,Phillipsburg,NJ,warren,40.70686,-75.186663,SingleFamily,2015,448600,2004,42253,2616,3,5,1/9/17,289000,32570,city,Lopatcong
+178 Lewis St,8865,Phillipsburg,NJ,warren,40.689615,-75.191697,SingleFamily,2015,99514,1910,1873,1330,1.5,2,1/8/17,72000,53876,city,Phillipsburg
+315 Grant St,8865,Phillipsburg,NJ,warren,40.693883,-75.185225,SingleFamily,2015,121791,1923,4791,NA,2,3,1/8/17,140000,53876,city,Phillipsburg
+102 Deerfield Dr,7840,Hackettstown,NJ,warren,40.842382,-74.840625,SingleFamily,2015,256900,1955,16553,960,1.5,3,1/8/17,205000,5027,city,Hackettstown
+24 Powderhorn Dr,8865,Phillipsburg,NJ,warren,40.707606,-75.166887,SingleFamily,2015,208600,1970,14810,1694,1,3,1/6/17,132500,32570,city,Lopatcong
+77 Wood Duck Ct,7840,Hackettstown,NJ,warren,40.908786,-74.857419,MultiFamily2To4,2015,132879,1984,NA,NA,1.5,2,1/6/17,136000,396176,city,Allamuchy-Panther Valley
+422 Thomas Stewart Way,8886,Stewartsville,NJ,warren,40.698388,-75.118149,SingleFamily,2015,424073,1994,57063,3690,3,4,1/5/17,400000,399001,city,Greenwich Township
+100 Hurley Dr,7840,Hackettstown,NJ,warren,40.855367,-74.822119,SingleFamily,2015,248100,1963,10890,2058,2,4,1/5/17,275000,5027,city,Hackettstown
+67 Shippen Rdg,7863,Oxford,NJ,warren,40.820785,-74.974082,SingleFamily,2015,298300,1999,16552,2306,3,4,1/5/17,280000,398116,city,Oxford Township
+41 Indigo Rd,7840,Hackettstown,NJ,warren,40.8953,-74.8483,Townhouse,2015,363931,2010,NA,2850,4,3,1/5/17,354500,396176,city,Allamuchy-Panther Valley
+14 Barn Owl Dr,7840,Hackettstown,NJ,warren,40.906078,-74.856985,SingleFamily,2015,211158,1976,3049,3049,2,2,1/5/17,168000,396176,city,Allamuchy-Panther Valley
+2589 Belvidere Rd,8865,Phillipsburg,NJ,warren,40.74395,-75.139862,SingleFamily,2015,167163,1956,13068,1268,1,3,1/5/17,214900,399186,city,Harmony Township
+859 South Blvd,8865,Phillipsburg,NJ,warren,40.660147,-75.164348,SingleFamily,2015,132500,NA,3484,1496,2,2,1/4/17,30800,43866,city,Alpha
+904 E Prospect St,7840,Hackettstown,NJ,warren,40.86497,-74.828366,SingleFamily,2015,296600,1974,13939,1877,3,4,1/4/17,272250,5027,city,Hackettstown
+23 Junegrass Way,7840,Hackettstown,NJ,warren,40.8953,-74.8483,Condominium,2015,362634,2010,NA,2850,3,3,1/4/17,314400,396176,city,Allamuchy-Panther Valley
+69 Harris St,8865,Phillipsburg,NJ,warren,40.691061,-75.198784,SingleFamily,2015,91711,1890,2178,1084,1,3,1/2/17,45000,53876,city,Phillipsburg
+526 4th St,7823,Belvidere,NJ,warren,40.824439,-75.073626,SingleFamily,2015,160119,1954,9601,1088,1,3,1/2/17,132500,9669,city,Belvidere
+288 Marshall St,8865,Phillipsburg,NJ,warren,40.692782,-75.186171,SingleFamily,2015,55977,1920,3049,1216,1.5,3,12/30/16,65000,53876,city,Phillipsburg
+977 Hill St,8865,Phillipsburg,NJ,warren,40.679713,-75.17079,SingleFamily,2015,120886,1900,6969,6250,1,3,12/30/16,107000,53876,city,Phillipsburg
+228 Canal Way,7840,Hackettstown,NJ,warren,40.848412,-74.843805,Condominium,2015,262200,1990,2500,1731,3,3,12/30/16,227500,5027,city,Hackettstown
+412 Brakeley Ave,8865,Phillipsburg,NJ,warren,40.703766,-75.176833,Condominium,2015,132500,NA,NA,NA,1,2,12/29/16,115000,32570,city,Lopatcong
+3150 Belvidere Rd,8865,Phillipsburg,NJ,warren,40.772613,-75.110611,SingleFamily,2015,175877,1951,50530,1120,1,2,12/29/16,225000,399186,city,Harmony Township
+22 Limerick Ln,8865,Phillipsburg,NJ,warren,40.701678,-75.162505,Condominium,2015,169100,NA,NA,NA,2.5,2,12/29/16,145000,32570,city,Lopatcong
+159 Quenby Mountain Rd,7838,Great Meadows,NJ,warren,40.843382,-74.969283,SingleFamily,2015,76600,1955,135907,437,NA,NA,12/29/16,40000,397430,city,Liberty Township
+202 High St,7840,Hackettstown,NJ,warren,40.855612,-74.828352,SingleFamily,2015,258700,1893,10018,1860,2,4,12/29/16,145000,5027,city,Hackettstown
+3 Partridge Dr,7825,Blairstown,NJ,warren,40.963091,-74.968252,SingleFamily,2015,377022,1994,45302,2964,3,4,12/29/16,384500,35008,city,Blairstown
+1123 Monroe Dr,8886,Stewartsville,NJ,warren,40.68428,-75.134758,SingleFamily,2015,431858,2000,16552,3686,3,4,12/28/16,420000,399001,city,Greenwich Township
+9 Newman Rd,7825,Hardwick,NJ,warren,41.027388,-74.960882,SingleFamily,2015,332628,1980,654706,2152,3,4,12/28/16,299000,18469,city,Hardwick
+61 Mount Rascal Rd,7840,Hackettstown,NJ,warren,40.875873,-74.838186,SingleFamily,2016,229216,1968,40075,1595,2,3,12/28/16,239900,398130,city,Independence Township
+204 Seymour Rd,7840,Hackettstown,NJ,warren,40.841205,-74.841079,SingleFamily,2015,235000,1958,11325,960,1,3,12/28/16,235000,5027,city,Hackettstown
+29 Oriole Dr,7840,Hackettstown,NJ,warren,40.907666,-74.854134,Condominium,2015,203482,1976,1742,1596,2.5,3,12/28/16,225000,396176,city,Allamuchy-Panther Valley
+233 Cherry Tree Bend Rd,7865,Port Murray,NJ,warren,40.805254,-74.902774,SingleFamily,2015,268787,1976,108900,2000,3,3,12/28/16,325000,398451,city,Mansfield Township
+2 Grosbeak Dr,7840,Hackettstown,NJ,warren,40.90897,-74.855862,Condominium,2015,149205,1986,NA,NA,2,2,12/28/16,189000,396176,city,Allamuchy-Panther Valley
+107 Park Ave,7840,Hackettstown,NJ,warren,40.855262,-74.82507,SingleFamily,2015,184600,1940,13068,918,1,2,12/28/16,147500,5027,city,Hackettstown
+205 Rosehill Ave,8865,Phillipsburg,NJ,warren,40.70725,-75.175515,SingleFamily,2015,208600,1960,11761,1340,2,3,12/27/16,217000,32570,city,Lopatcong
+170 Mill Rd,7825,Blairstown,NJ,warren,40.965992,-74.886824,SingleFamily,2015,310700,1957,129808,2420,3,4,12/27/16,290000,399239,city,Frelinghuysen Township
+209 Hardwick St,7823,Belvidere,NJ,warren,40.826913,-75.075194,SingleFamily,2015,194411,1864,4791,2348,3,5,12/27/16,234500,9669,city,Belvidere
+238 Free Union Rd,7838,Great Meadows,NJ,warren,40.867764,-74.951645,SingleFamily,2015,358000,1989,87120,3397,3,4,12/27/16,392500,397430,city,Liberty Township
+9 Junegrass Way,7840,Hackettstown,NJ,warren,40.8953,-74.8483,Condominium,2015,325116,2010,NA,1814,3,3,12/27/16,295000,396176,city,Allamuchy-Panther Valley
+28 Hillcrest Dr,7838,Great Meadows,NJ,warren,40.855732,-74.956859,SingleFamily,2015,243900,1979,129373,2222,2,4,12/27/16,283000,397430,city,Liberty Township
+45 Rushmore Ln,7840,Hackettstown,NJ,warren,40.914892,-74.831185,Condominium,2015,128879,1990,NA,NA,2,1,12/27/16,125000,396176,city,Allamuchy-Panther Valley
+63 Glen Ave,8865,Phillipsburg,NJ,warren,40.693199,-75.194362,SingleFamily,2015,96008,1944,2178,1512,2,3,12/26/16,80000,53876,city,Phillipsburg
+436 Brakeley Ave,8865,Phillipsburg,NJ,warren,40.702644,-75.17616,SingleFamily,2015,155000,1954,9583,1144,2,3,12/23/16,135680,32570,city,Lopatcong
+9 Meadowlark,7840,Hackettstown,NJ,warren,40.907996,-74.856644,SingleFamily,2015,208888,1987,4356,1576,2.5,3,12/23/16,229500,396176,city,Allamuchy-Panther Valley
+14 Goldfinch Way,7840,Hackettstown,NJ,warren,40.905083,-74.841434,SingleFamily,2015,223916,1977,3049,1697,4,2,12/23/16,255000,396176,city,Allamuchy-Panther Valley
+325 Mount Bethel Rd,7865,Port Murray,NJ,warren,40.82591,-74.904251,SingleFamily,2015,233239,1971,70219,1396,NA,NA,12/23/16,245000,398451,city,Mansfield Township
+256 Bald Eagle Dr,8886,Stewartsville,NJ,warren,40.699699,-75.137466,Condominium,2015,183500,2000,NA,1458,3,3,12/22/16,220000,32570,city,Lopatcong
+502 State Route 173,8886,Stewartsville,NJ,warren,40.656639,-75.099592,SingleFamily,2015,209132,1968,56628,1400,NA,NA,NA,NA,399001,city,Greenwich Township
+12 Dogwood Ln,8865,Phillipsburg,NJ,warren,40.700214,-75.162914,Condominium,2015,185800,2004,NA,1412,3,2,12/21/16,198000,32570,city,Lopatcong
+614 Barrymore St,8865,Phillipsburg,NJ,warren,40.701734,-75.181949,SingleFamily,2015,228542,1927,12632,1792,3,3,12/21/16,185000,53876,city,Phillipsburg
+87 Wood Duck Ct,7840,Hackettstown,NJ,warren,40.909581,-74.857828,Condominium,2015,149638,1988,44,960,2,2,12/21/16,150000,396176,city,Allamuchy-Panther Valley
+33 Maines Ln,7825,Blairstown,NJ,warren,41.021236,-74.973709,SingleFamily,2015,395200,1987,1183960,2641,3,4,12/21/16,259900,35008,city,Blairstown
+408 E Baldwin St,7840,Hackettstown,NJ,warren,40.860033,-74.833442,SingleFamily,2015,235200,1960,9583,NA,2,3,12/21/16,239900,5027,city,Hackettstown
+13 Mountain Top Dr,7838,Great Meadows,NJ,warren,40.862882,-74.937577,SingleFamily,2015,273600,1996,43560,1848,3,4,12/21/16,301000,397430,city,Liberty Township
+116 College View Dr,7840,Hackettstown,NJ,warren,40.841928,-74.840129,SingleFamily,2015,269700,1967,16117,1476,2,4,12/21/16,262000,5027,city,Hackettstown
+59 Byron Dr,8865,Phillipsburg,NJ,warren,40.715602,-75.17129,SingleFamily,2015,318600,1997,8276,2277,3,3,12/20/16,269900,32570,city,Lopatcong
+813 Wilbur Ave,8865,Phillipsburg,NJ,warren,40.683633,-75.173858,SingleFamily,2015,127898,1920,6229,NA,2,4,12/20/16,110000,53876,city,Phillipsburg
+400 Christie Ct,8886,Stewartsville,NJ,warren,40.694341,-75.097968,SingleFamily,2015,302428,1991,40510,2040,3,4,12/20/16,340000,399001,city,Greenwich Township
+841 Culkin St,8865,Phillipsburg,NJ,warren,40.684366,-75.1703,SingleFamily,2015,138415,1900,11804,1424,1.5,4,12/20/16,150000,53876,city,Phillipsburg
+45 Foul Rift Rd,7823,BELVIDERE,NJ,warren,40.805785,-75.099534,SingleFamily,2015,124000,1940,49223,480,NA,NA,12/20/16,100000,9669,city,Belvidere
+313 Belvidere Ave,7863,Oxford,NJ,warren,40.807034,-75.019675,SingleFamily,2015,280300,1880,80150,2604,4,3,12/20/16,295000,398116,city,Oxford Township
+15 Pheasant Run,7840,Hackettstown,NJ,warren,40.90492,-74.850503,Condominium,2015,242297,1987,2919,1834,4,3,12/20/16,265000,396176,city,Allamuchy-Panther Valley
+530 Edward St,8865,Phillipsburg,NJ,warren,40.704662,-75.175751,SingleFamily,2015,243900,2012,4792,2161,3,2,12/19/16,339100,32570,city,Lopatcong
+238 Hudson St,8865,Phillipsburg,NJ,warren,40.692799,-75.191817,SingleFamily,2015,128576,1930,3049,1241,2,3,12/19/16,100000,53876,city,Phillipsburg
+411 S 1st St,8865,Phillipsburg,NJ,warren,40.702392,-75.174109,SingleFamily,2015,130600,1955,6434,900,NA,NA,1/27/05,154900,32570,city,Lopatcong
+160 Petersburg Rd,7840,Hackettstown,NJ,warren,40.879096,-74.868591,SingleFamily,2015,234144,1973,43560,1988,3,4,12/19/16,280000,396679,city,Great Meadows-Vienna
+389 Delaware Rd,7825,Blairstown,NJ,warren,40.902656,-74.99428,SingleFamily,2015,331500,1989,138085,1958,4,4,12/19/16,290000,18622,city,Hope
+120 Russling Rd,7840,Hackettstown,NJ,warren,40.849646,-74.880892,SingleFamily,2015,318892,1973,43995,3372,4,6,12/19/16,325000,398130,city,Independence Township
+14 Jones Ln,7825,Hardwick,NJ,warren,40.997378,-74.949382,SingleFamily,2015,448086,2002,270072,2428,NA,NA,12/19/16,350000,18469,city,Hardwick
+135 Union Brick Rd,7825,Blairstown,NJ,warren,40.932108,-74.995706,SingleFamily,2015,269900,1780,101494,2874,4,5,12/19/16,287000,35008,city,Blairstown
+124 Goldfinch Dr,7840,Hackettstown,NJ,warren,40.903281,-74.84714,SingleFamily,2015,221105,1975,5227,1469,2,2,12/19/16,209000,396176,city,Allamuchy-Panther Valley
+128 Canal Way,7840,Hackettstown,NJ,warren,40.851297,-74.842166,Townhouse,2015,235400,1991,NA,NA,3,2,12/19/16,223500,5027,city,Hackettstown
+59 Davis St,8865,Phillipsburg,NJ,warren,40.691255,-75.188225,SingleFamily,2015,103924,1900,1742,NA,1,2,12/18/16,89900,53876,city,Phillipsburg
+644 Belvidere Rd,8865,Phillipsburg,NJ,warren,40.701164,-75.189137,SingleFamily,2015,244261,1925,16117,1909,2,3,12/18/16,115000,53876,city,Phillipsburg
+21 Hillside Rd,7840,Hackettstown,NJ,warren,40.817284,-74.861188,SingleFamily,2015,236669,1966,21780,2418,3,4,12/18/16,300000,396692,city,Beatyestown
+68 Tamarack Rd,7823,Belvidere,NJ,warren,40.84935,-74.982409,SingleFamily,2015,107600,1953,4791,787,1,2,12/18/16,26800,397430,city,Liberty Township
+8 Lauren Dr,8886,Stewartsville,NJ,warren,40.716995,-75.074827,SingleFamily,2015,374300,1991,59677,2562,NA,NA,12/16/16,350000,188902,city,Franklin Township
+567 Edward St,8865,Phillipsburg,NJ,warren,40.70567,-75.175188,SingleFamily,2015,332100,2007,4356,2529,NA,NA,12/16/16,349000,32570,city,Lopatcong
+288 Marshall St,8865,Phillipsburg,NJ,warren,40.692782,-75.186171,SingleFamily,2015,55977,1920,3049,1216,1.5,3,12/30/16,65000,53876,city,Phillipsburg
+4 Burke St,8865,Phillipsburg,NJ,warren,40.700996,-75.185566,SingleFamily,2015,187606,1957,10018,1285,2,3,10/18/16,182000,53876,city,Phillipsburg
+188 Bowers Ave,8865,Phillipsburg,NJ,warren,40.703804,-75.183764,SingleFamily,2015,233518,2009,10018,3000,2.5,4,8/26/11,270000,53876,city,Phillipsburg
+341 Lincoln St,8865,Phillipsburg,NJ,warren,40.693832,-75.183965,SingleFamily,2015,123940,1989,4312,1722,1.5,3,8/31/16,160000,53876,city,Phillipsburg
+401 Edward St,8865,Phillipsburg,NJ,warren,40.705036,-75.170356,SingleFamily,2015,231500,2014,NA,1706,2,2,2/28/17,1850,32570,city,Lopatcong
+61 Haze Way,8865,Phillipsburg,NJ,warren,40.719202,-75.166709,SingleFamily,2015,339100,2000,12632,2379,3,4,1/26/17,335000,32570,city,Lopatcong
+706 Rugby Rd,8865,Phillipsburg,NJ,warren,40.708523,-75.173008,SingleFamily,2015,168800,1958,11761,1132,2,2,3/17/17,152000,32570,city,Lopatcong
+1865 Springtown Rd,8865,Alpha,NJ,warren,40.652504,-75.156239,SingleFamily,2015,168000,1947,13110,1433,2,4,7/29/16,180000,43866,city,Alpha
+244 Irwin St,8865,Phillipsburg,NJ,warren,40.692167,-75.191296,SingleFamily,2015,75879,1900,1742,1092,NA,NA,12/5/16,73800,53876,city,Phillipsburg
+841 South Blvd,8865,Phillipsburg,NJ,warren,40.660211,-75.163898,SingleFamily,2015,136700,1890,4791,2100,1,4,11/20/16,165000,43866,city,Alpha
+877 Mill St,8865,Phillipsburg,NJ,warren,40.682669,-75.17154,SingleFamily,2015,166573,1920,7840,2198,2,4,10/11/16,134000,53876,city,Phillipsburg
+438 Russell Ave,8865,Phillipsburg,NJ,warren,40.673434,-75.159597,SingleFamily,2015,167437,1952,10454,1240,2,3,9/30/16,149900,395813,city,Pohatcong Township
+403 Thomas St,8865,Phillipsburg,NJ,warren,40.68719,-75.175779,SingleFamily,2015,162163,1910,3920,1632,2,3,9/14/16,73000,53876,city,Phillipsburg
+534 Corliss Ave,8865,Phillipsburg,NJ,warren,40.697597,-75.18515,SingleFamily,2015,153342,1928,5662,1342,2,3,9/13/16,176500,53876,city,Phillipsburg
+612 S Main St,8865,Phillipsburg,NJ,warren,40.683198,-75.184885,SingleFamily,2015,51340,1900,3964,1466,2,3,4/13/17,28000,53876,city,Phillipsburg
+133 Ridge Rd,8865,Phillipsburg,NJ,warren,40.744565,-75.135554,SingleFamily,2015,222848,1940,20800,1650,3,3,9/2/16,102000,399186,city,Harmony Township
+592 Lee Ave,8865,Phillipsburg,NJ,warren,40.667369,-75.161373,SingleFamily,2015,198509,1924,18730,1476,2,4,12/1/16,60215,395813,city,Pohatcong Township
+519 Lynda Rd,8865,Phillipsburg,NJ,warren,40.707001,-75.176213,SingleFamily,2015,178100,1950,8712,1235,1,3,11/15/16,145000,32570,city,Lopatcong
+128 Limerick Ln,8865,Phillipsburg,NJ,warren,40.700427,-75.162026,Condominium,2015,179900,2003,NA,1860,2.5,2,3/22/17,130000,32570,city,Lopatcong
+12 Dogwood Ln,8865,Phillipsburg,NJ,warren,40.700214,-75.162914,Condominium,2015,185800,2004,NA,1412,3,2,12/21/16,198000,32570,city,Lopatcong
+277 Windmill Ct,8865,Phillipsburg,NJ,warren,40.703062,-75.15891,SingleFamily,2015,129700,2005,NA,912,1,1,8/15/16,117500,32570,city,Lopatcong
+812 Sampson Ave,8865,Phillipsburg,NJ,warren,40.662922,-75.163857,SingleFamily,2015,159500,1965,NA,NA,1,3,9/16/16,141780,43866,city,Alpha
+3150 Belvidere Rd,8865,Phillipsburg,NJ,warren,40.772613,-75.110611,SingleFamily,2015,175877,1951,50530,1120,1,2,12/29/16,225000,399186,city,Harmony Township
+208 Stelko Ave,8865,Phillipsburg,NJ,warren,40.705804,-75.179326,SingleFamily,2015,149100,1953,10018,2100,1,5,10/21/16,92500,32570,city,Lopatcong
+841 Culkin St,8865,Phillipsburg,NJ,warren,40.684366,-75.1703,SingleFamily,2015,138415,1900,11804,1424,1.5,4,12/20/16,150000,53876,city,Phillipsburg
+36 Evelyn Ave,8865,Phillipsburg,NJ,warren,40.69317,-75.193353,MultiFamily2To4,2015,142938,1920,2178,1782,2,3,11/4/16,68000,53876,city,Phillipsburg
+58 Lake View Ave,7825,Blairstown,NJ,warren,40.936502,-74.943909,SingleFamily,2015,175700,NA,12196,NA,1,3,11/14/16,55000,18622,city,Hope
+133 College View Dr,7840,Hackettstown,NJ,warren,40.840761,-74.838323,VacantResidentialLand,2015,292700,1965,17424,NA,NA,NA,11/14/16,235000,5027,city,Hackettstown
+218 Old Farm Dr,7838,Great Meadows,NJ,warren,40.912244,-74.854944,Condominium,NA,NA,2007,NA,1250,2,2,11/13/16,180000,396176,city,Allamuchy-Panther Valley
+15 River Ct,7865,Port Murray,NJ,warren,40.796114,-74.86864,SingleFamily,2015,257562,1963,44866,1784,2,3,11/13/16,280000,398451,city,Mansfield Township
+84 Bennett St,8865,Phillipsburg,NJ,warren,40.69397,-75.197869,SingleFamily,2015,179125,1900,5600,2060,3,4,11/10/16,178000,53876,city,Phillipsburg
+49 Henry St,7863,Oxford,NJ,warren,40.806796,-75.004822,SingleFamily,2016,277158,2005,14810,2268,4,4,11/10/16,192900,398116,city,Oxford Township
+5 Purple Martin Dr,7840,Hackettstown,NJ,warren,40.905911,-74.855651,Condominium,2015,207050,1978,3049,1824,4,3,11/10/16,230000,396176,city,Allamuchy-Panther Valley
+8 Grant Way,8865,Phillipsburg,NJ,warren,40.718833,-75.16498,SingleFamily,2015,329200,2001,10454,2435,2.5,4,11/9/16,314900,32570,city,Lopatcong
+7 Odessa Dr,7838,Great Meadows,NJ,warren,40.859339,-74.906727,SingleFamily,2015,319116,1990,43560,2309,2.5,3,11/9/16,355000,398130,city,Independence Township
+116 Old Farm Dr,7838,Great Meadows,NJ,warren,40.9121,-74.8557,Condominium,NA,NA,2006,NA,NA,1,1,11/8/16,133000,396176,city,Allamuchy-Panther Valley
+3 Forest Ridge Dr,7840,Hackettstown,NJ,warren,40.84661,-74.85785,SingleFamily,2015,461366,2007,92782,NA,4,4,11/7/16,424900,398130,city,Independence Township
+17 Barn Swallow Ct,8886,Stewartsville,NJ,warren,40.667087,-75.115071,SingleFamily,2015,588010,2002,138956,4236,3,4,11/4/16,525000,399001,city,Greenwich Township
+36 Evelyn Ave,8865,Phillipsburg,NJ,warren,40.69317,-75.193353,MultiFamily2To4,2015,142938,1920,2178,1782,2,3,11/4/16,68000,53876,city,Phillipsburg
+333 Greens Ridge Rd,8886,Stewartsville,NJ,warren,40.667783,-75.109156,SingleFamily,2015,388870,1993,72745,2536,2.5,4,11/4/16,418000,399001,city,Greenwich Township
+34 Dryden Ter,8865,Phillipsburg,NJ,warren,40.709227,-75.159718,SingleFamily,2015,244400,1973,34848,1963,NA,NA,11/4/16,270500,32570,city,Lopatcong
+50 Scenic Ct,7840,Hackettstown,NJ,warren,40.862592,-74.808557,SingleFamily,2015,375300,2000,10018,2500,3,4,11/4/16,244530,5027,city,Hackettstown
+14 Ridge Ln,7840,Hackettstown,NJ,warren,40.878034,-74.826811,SingleFamily,2015,288075,1999,35283,2214,2.5,4,11/4/16,355000,398130,city,Independence Township
+439 Chapman Ct,7840,Hackettstown,NJ,warren,40.870852,-74.819253,Condominium,2015,230348,1992,2613,1879,3,3,3/12/01,189000,398130,city,Independence Township
+29 Rolling Rapids Ct,7840,Hackettstown,NJ,warren,40.86207,-74.80978,SingleFamily,2015,318400,1998,13939,1814,2.5,3,11/3/16,349900,5027,city,Hackettstown
+54 Oriole Dr,7840,Hackettstown,NJ,warren,40.907849,-74.855188,VacantResidentialLand,2015,207050,1976,NA,NA,NA,0,11/3/16,228000,396176,city,Allamuchy-Panther Valley
+6 Cambridge E,7863,Oxford,NJ,warren,40.818813,-74.990348,SingleFamily,2016,151730,1996,10454,1368,3,3,11/6/16,106275,398116,city,Oxford Township
+24 Highland Rd,7840,Hackettstown,NJ,warren,40.852234,-74.858144,SingleFamily,2015,331175,1995,46609,2683,3,4,11/2/16,359000,398130,city,Independence Township
+4 Sundance Way,8865,Phillipsburg,NJ,warren,40.701353,-75.163762,Townhouse,2015,184500,2003,NA,1946,4,2,10/31/16,205000,32570,city,Lopatcong
+118 Elmhurst Dr,8865,Phillipsburg,NJ,warren,40.675119,-75.174388,SingleFamily,2015,145652,1975,6098,1280,1,3,4/21/10,144900,53876,city,Phillipsburg
+65 Cambridge E,7863,Oxford,NJ,warren,40.817317,-74.99193,SingleFamily,2015,181700,1988,10454,1344,3,2,10/31/16,235000,398116,city,Oxford Township
+94 Tamarack Rd,7823,Belvidere,NJ,warren,40.852909,-74.982823,SingleFamily,2015,233300,2001,24829,1872,3,4,10/31/16,275000,397430,city,Liberty Township
+120 High St,7840,Hackettstown,NJ,warren,40.854767,-74.828575,SingleFamily,2015,367100,1880,10454,3919,4,4,10/31/16,265000,5027,city,Hackettstown
+141 Knowlton Rd,7832,Columbia,NJ,warren,40.892569,-75.052072,SingleFamily,2015,234764,1993,48787,1740,2,3,10/31/16,270000,397322,city,Knowlton Township
+82 Pickford Ave,8865,Phillipsburg,NJ,warren,40.701453,-75.183165,SingleFamily,2015,184100,1935,7840,1728,1.5,3,10/28/16,187500,53876,city,Phillipsburg
+1150 7th Ave,8865,Alpha,NJ,warren,40.662867,-75.151914,SingleFamily,2015,252400,1899,4791,2016,2,5,10/28/16,150000,43866,city,Alpha
+1908 Gary Rd,8886,Stewartsville,NJ,warren,40.687987,-75.130568,SingleFamily,2015,394911,1998,21780,2630,2.5,4,10/28/16,395000,399001,city,Greenwich Township
+359 N Main St,8865,Phillipsburg,NJ,warren,40.700279,-75.195953,SingleFamily,2015,70678,1922,6359,1572,2,4,10/28/16,42000,53876,city,Phillipsburg
+58 Oriole Dr,7840,Hackettstown,NJ,warren,40.908226,-74.854912,SingleFamily,2015,175370,1980,1742,1372,3,2,10/28/16,155000,396176,city,Allamuchy-Panther Valley
+8 Shakespeare Rd,7840,Hackettstown,NJ,warren,40.857934,-74.884568,SingleFamily,2015,418156,1986,94525,2810,4,4,10/28/16,374900,396679,city,Great Meadows-Vienna
+10 Lawrence Dr,7840,Hackettstown,NJ,warren,40.833138,-74.829018,SingleFamily,2015,260900,1962,10890,1044,2,3,10/28/16,205000,5027,city,Hackettstown
+14 Buckley Ave,7863,Oxford,NJ,warren,40.803146,-75.002968,SingleFamily,2015,204500,1997,14810,1175,2.5,3,10/28/16,176900,398116,city,Oxford Township
+608 Mansfield St,7823,Belvidere,NJ,warren,40.821278,-75.077176,SingleFamily,2015,181990,1997,16553,1152,2,3,10/28/16,184500,9669,city,Belvidere
+88 Goldfinch Dr,7840,Hackettstown,NJ,warren,40.903154,-74.84598,SingleFamily,2015,205428,1977,3049,1697,3,2,10/28/16,232000,396176,city,Allamuchy-Panther Valley
+4 Shannon Ln,7825,BLAIRSTOWN,NJ,warren,41.023233,-74.990728,SingleFamily,2015,453349,1981,284446,3780,5,5,10/28/16,400000,35008,city,Blairstown
+19 Rushmore Ln,7840,Hackettstown,NJ,warren,40.914086,-74.830406,Townhouse,2015,128879,1990,1306,756,2,1,10/28/16,134000,396176,city,Allamuchy-Panther Valley
+306 Lows Hollow Rd,8886,Stewartsville,NJ,warren,40.71032,-75.113976,SingleFamily,2015,243639,1980,59677,2578,2,3,10/27/16,310000,399001,city,Greenwich Township
+171 Pickford Ave,8865,Phillipsburg,NJ,warren,40.700059,-75.182109,SingleFamily,2015,255683,1975,13329,2324,3,3,10/27/16,205000,53876,city,Phillipsburg
+34 Helms Mill Rd,7840,Hackettstown,NJ,warren,40.864333,-74.806676,SingleFamily,2015,465000,2008,16117,2926,3,5,10/27/16,440000,5027,city,Hackettstown
+723 Oxford St,7823,Belvidere,NJ,warren,40.826396,-75.070707,SingleFamily,2015,20926,1900,46173,NA,2,4,11/1/90,50000,9669,city,Belvidere
+113 5th St,7840,Hackettstown,NJ,warren,40.859865,-74.829403,SingleFamily,2015,324000,1946,15600,2200,2,3,10/27/16,132000,5027,city,Hackettstown
+58 Overlook Dr,7840,Hackettstown,NJ,warren,40.862297,-74.837181,Condominium,2015,211814,1989,NA,1989,2.5,2,10/27/16,220000,398130,city,Independence Township
+10 Steeplechase Ln,8802,Franklin Twp,NJ,warren,40.708906,-74.999216,SingleFamily,2016,564400,2001,70567,4655,4,4,10/26/16,522000,188902,city,Franklin Township
+20 Elmwood Dr,7840,Hackettstown,NJ,warren,40.816102,-74.863015,SingleFamily,2015,282922,1966,20037,2532,5,5,10/26/16,370000,396692,city,Beatyestown
+118 Silver Lake Rd,7825,Blairstown,NJ,warren,40.971024,-74.920296,SingleFamily,2015,263600,1967,101059,1332,2,3,10/26/16,253000,399239,city,Frelinghuysen Township
+818 Lopatcong St,7823,Belvidere,NJ,warren,40.821875,-75.066481,SingleFamily,2015,184285,1958,12196,1242,2,3,10/26/16,255000,9669,city,Belvidere
+93 Gaisler Rd,7825,Blairstown,NJ,warren,41.025787,-74.992755,SingleFamily,2015,203575,1976,50965,NA,3,3,10/26/16,130000,35008,city,Blairstown
+1 The Trl S,7840,Hackettstown,NJ,warren,40.861276,-74.803845,SingleFamily,2015,160900,1954,7775,903,NA,NA,10/26/16,225000,5027,city,Hackettstown
+899 Mill St,8865,Phillipsburg,NJ,warren,40.682081,-75.170967,SingleFamily,2015,195974,1989,7405,1762,2.5,4,10/25/16,203500,53876,city,Phillipsburg
+212 Stelko Ave,8865,Phillipsburg,NJ,warren,40.705619,-75.179213,SingleFamily,2015,165100,1960,10018,1123,2,3,10/25/16,185000,32570,city,Lopatcong
+362 Brainards Rd,8865,Phillipsburg,NJ,warren,40.745532,-75.145366,SingleFamily,2015,398512,1970,52272,3832,3,4,10/25/16,333000,399186,city,Harmony Township
+1105 Belvidere Rd,8865,Phillipsburg,NJ,warren,40.709076,-75.177109,SingleFamily,2015,170000,1960,17424,1160,NA,NA,10/25/16,40000,32570,city,Lopatcong
+115 Seber Rd,7840,Hackettstown,NJ,warren,40.857203,-74.816396,SingleFamily,2015,297000,1946,30875,1530,NA,NA,10/25/16,190000,5027,city,Hackettstown
+19 Green Heron Dr,7840,Hackettstown,NJ,warren,40.910493,-74.854276,Condominium,2015,129311,1987,1742,788,1.5,1,10/25/16,150000,396176,city,Allamuchy-Panther Valley
+46 Kishpaugh Rd,7825,Blairstown,NJ,warren,40.947203,-75.028897,SingleFamily,2015,235512,1976,43560,1909,2,3,10/25/16,250000,35008,city,Blairstown
+25 Lawrence Dr,7840,Hackettstown,NJ,warren,40.834205,-74.829859,SingleFamily,2015,234600,1962,9583,1044,1,3,10/25/16,180000,5027,city,Hackettstown
+17B Shotwell Rd,7832,Columbia,NJ,warren,40.945526,-75.031341,SingleFamily,2015,358506,2007,208652,2371,2,3,10/25/16,425000,397322,city,Knowlton Township
+36 Tamarack Rd,7823,Belvidere,NJ,warren,40.843169,-74.985075,SingleFamily,2015,461400,2000,132858,3449,3,4,10/25/16,395000,397929,city,White Township
+12 Roosevelt Ave,7840,HACKETTSTOWN,NJ,warren,40.856567,-74.839588,SingleFamily,2015,128964,1870,17424,1900,1,3,10/25/16,99000,398130,city,Independence Township
+12 Farview Dr,7840,Hackettstown,NJ,warren,40.865977,-74.884533,SingleFamily,2015,248772,1979,18730,2190,2,3,10/25/16,273000,396679,city,Great Meadows-Vienna
+811 Mary Cir,8886,Stewartsville,NJ,warren,40.683822,-75.140251,SingleFamily,2015,275358,2001,6098,2309,3,3,10/24/16,285000,399001,city,Greenwich Township
+71 Summit Ave,8865,Phillipsburg,NJ,warren,40.69293,-75.196559,SingleFamily,2015,157413,1900,3049,1638,2,3,10/24/16,133000,53876,city,Phillipsburg
+631 Dewey Ave,8865,Phillipsburg,NJ,warren,40.661335,-75.159352,SingleFamily,2015,136600,1890,9583,1084,1,2,10/24/16,36900,43866,city,Alpha
+49 Killdeer Pl,7840,Hackettstown,NJ,warren,40.90283,-74.845538,SingleFamily,2015,216132,1977,3589,1939,4,3,10/24/16,225000,396176,city,Allamuchy-Panther Valley
+403 Sharp St,7840,Hackettstown,NJ,warren,40.856937,-74.827525,SingleFamily,2015,209800,1929,6969,1046,2,3,10/24/16,238000,5027,city,Hackettstown
+208 Stelko Ave,8865,Phillipsburg,NJ,warren,40.705804,-75.179326,SingleFamily,2015,149100,1953,10018,2100,1,5,10/21/16,92500,32570,city,Lopatcong
+30 Overlook Dr,8886,Stewartsville,NJ,warren,40.699829,-75.14112,Condominium,2015,143500,2001,NA,1076,2,2,10/21/16,130000,32570,city,Lopatcong
+63 Davis St,8865,Phillipsburg,NJ,warren,40.691332,-75.188088,SingleFamily,2015,84926,1900,1306,936,1,2,10/21/16,50000,53876,city,Phillipsburg
+675 Sayre Ave,8865,Phillipsburg,NJ,warren,40.68546,-75.178508,SingleFamily,2016,167167,1940,2875,2267,NA,NA,10/14/16,88400,53876,city,Phillipsburg
+569 S Main St,8865,Phillipsburg,NJ,warren,40.684136,-75.185873,MultiFamily2To4,2015,128577,1900,2613,1792,2,5,10/21/16,100000,53876,city,Phillipsburg
+318 Greenwich St,8886,Stewartsville,NJ,warren,40.692924,-75.112698,SingleFamily,2016,90805,1956,6969,690,1,2,10/21/16,65000,399001,city,Greenwich Township
+16 River Ct,7865,Port Murray,NJ,warren,40.795817,-74.868988,SingleFamily,2015,383224,2001,19602,2933,3,4,10/21/16,406000,398451,city,Mansfield Township
+155 Mohican Rd,7825,Blairstown,NJ,warren,41.025264,-74.98828,SingleFamily,2015,346490,2002,87120,2792,2.5,4,10/21/16,317500,35008,city,Blairstown
+67 Main St,7840,Hackettstown,NJ,warren,40.856223,-74.833846,SingleFamily,2015,311200,1900,8276,2034,2,3,10/21/16,268900,5027,city,Hackettstown
+66 Paul St,7823,Belvidere,NJ,warren,40.831413,-75.082163,SingleFamily,2015,125827,1984,9500,1056,1,3,10/21/16,155000,9669,city,Belvidere
+66 Miller St,8865,Phillipsburg,NJ,warren,40.693685,-75.18985,SingleFamily,2015,111953,1930,2570,1077,1.5,2,10/20/16,60000,53876,city,Phillipsburg
+36 Ward Rd,7825,Hardwick,NJ,warren,40.989983,-74.928914,SingleFamily,2015,252055,2001,101494,1492,3,3,10/20/16,249000,18469,city,Hardwick
+429 Chapman Ct,7840,Hackettstown,NJ,warren,40.870549,-74.820416,SingleFamily,2015,208240,1988,4417,1610,NA,NA,10/20/16,234000,398130,city,Independence Township
+173 Knowlton Rd,7832,Columbia,NJ,warren,40.883259,-75.058342,SingleFamily,2015,158552,1827,20909,1560,2,3,10/20/16,164000,397322,city,Knowlton Township
+401 W Valley View Ave,7840,Hackettstown,NJ,warren,40.853473,-74.837327,SingleFamily,2015,197200,1959,11325,960,1,2,10/26/16,228000,5027,city,Hackettstown
+9 Riveredge Ln,8865,Phillipsburg,NJ,warren,40.779214,-75.127982,SingleFamily,2015,277896,1993,20473,1064,2,3,10/19/16,275000,399186,city,Harmony Township
+4 Burke St,8865,Phillipsburg,NJ,warren,40.700996,-75.185566,SingleFamily,2015,187606,1957,10018,1285,2,3,10/18/16,182000,53876,city,Phillipsburg
+80 Watch Hill Rd,7840,Hackettstown,NJ,warren,40.857702,-74.812709,SingleFamily,2015,326400,2000,8276,1715,3,3,10/18/16,345000,5027,city,Hackettstown
+482 State Route 94,7832,Columbia,NJ,warren,40.95239,-75.062991,SingleFamily,2015,244247,1900,56627,2022,2,4,10/18/16,208000,397322,city,Knowlton Township
+5 Jade Ln,8865,Phillipsburg,NJ,warren,40.71799,-75.163659,SingleFamily,2015,333300,2000,11325,2600,3.5,4,10/17/16,259900,32570,city,Lopatcong
+1610 Adams Dr,8886,Stewartsville,NJ,warren,40.686968,-75.13938,SingleFamily,2015,416289,1998,16988,3100,3,4,10/17/16,392500,399001,city,Greenwich Township
+140 Chambers St,8865,Phillipsburg,NJ,warren,40.690639,-75.197457,SingleFamily,2015,105733,1900,6534,1328,NA,3,10/17/16,41600,53876,city,Phillipsburg
+37 Frog Pond Rd,7832,Columbia,NJ,warren,40.968156,-75.045643,SingleFamily,2015,274882,1981,47916,1918,2,3,10/17/16,172000,35008,city,Blairstown
+534 Edward St,8865,Phillipsburg,NJ,warren,40.704433,-75.175613,SingleFamily,2015,329900,2011,4792,1706,NA,NA,10/14/16,270000,32570,city,Lopatcong
+84 Lakeside Dr N,7823,Belvidere,NJ,warren,40.863185,-74.98151,SingleFamily,2015,269800,1998,16553,1812,3,3,10/14/16,317000,397430,city,Liberty Township
+4009 Brookfield Glen Dr,7823,Belvidere,NJ,warren,40.814022,-75.059822,Condominium,2015,135000,2005,NA,1279,2,2,10/14/16,125000,9669,city,Belvidere
+402 Ohio Ave,8865,Phillipsburg,NJ,warren,40.674594,-75.151678,SingleFamily,2015,206697,1942,13068,1200,2,3,10/13/16,185000,395813,city,Pohatcong Township
+3 Winters Rd,8865,Phillipsburg,NJ,warren,40.648286,-75.164916,SingleFamily,NA,NA,NA,386812,NA,1,3,NA,NA,395813,city,Pohatcong Township
+164 Bullman St,8865,Phillipsburg,NJ,warren,40.69417,-75.195286,SingleFamily,2015,128463,1910,3092,1566,2,3,9/1/16,1025,53876,city,Phillipsburg
+288 Marshall St,8865,Phillipsburg,NJ,warren,40.692782,-75.186171,SingleFamily,2015,55977,1920,3049,1216,1.5,3,12/30/16,65000,53876,city,Phillipsburg
+4 Burke St,8865,Phillipsburg,NJ,warren,40.700996,-75.185566,SingleFamily,2015,187606,1957,10018,1285,2,3,10/18/16,182000,53876,city,Phillipsburg
+1040 Ridge St,8865,Phillipsburg,NJ,warren,40.683112,-75.164137,SingleFamily,2015,156169,1940,23086,1163,1,2,1/26/17,132000,53876,city,Phillipsburg
+188 Bowers Ave,8865,Phillipsburg,NJ,warren,40.703804,-75.183764,SingleFamily,2015,233518,2009,10018,3000,2.5,4,8/26/11,270000,53876,city,Phillipsburg
+341 Lincoln St,8865,Phillipsburg,NJ,warren,40.693832,-75.183965,SingleFamily,2015,123940,1989,4312,1722,1.5,3,8/31/16,160000,53876,city,Phillipsburg
+401 Edward St,8865,Phillipsburg,NJ,warren,40.705036,-75.170356,SingleFamily,2015,231500,2014,NA,1706,2,2,2/28/17,1850,32570,city,Lopatcong
+61 Haze Way,8865,Phillipsburg,NJ,warren,40.719202,-75.166709,SingleFamily,2015,339100,2000,12632,2379,3,4,1/26/17,335000,32570,city,Lopatcong
+706 Rugby Rd,8865,Phillipsburg,NJ,warren,40.708523,-75.173008,SingleFamily,2015,168800,1958,11761,1132,2,2,3/17/17,152000,32570,city,Lopatcong
+1865 Springtown Rd,8865,Alpha,NJ,warren,40.652504,-75.156239,SingleFamily,2015,168000,1947,13110,1433,2,4,7/29/16,180000,43866,city,Alpha
+244 Irwin St,8865,Phillipsburg,NJ,warren,40.692167,-75.191296,SingleFamily,2015,75879,1900,1742,1092,NA,NA,12/5/16,73800,53876,city,Phillipsburg
+841 South Blvd,8865,Phillipsburg,NJ,warren,40.660211,-75.163898,SingleFamily,2015,136700,1890,4791,2100,1,4,11/20/16,165000,43866,city,Alpha
+142 Beers St,8865,Phillipsburg,NJ,warren,40.704486,-75.19203,SingleFamily,2015,261700,2001,11761,1636,2,3,9/23/16,225000,32570,city,Lopatcong
+877 Mill St,8865,Phillipsburg,NJ,warren,40.682669,-75.17154,SingleFamily,2015,166573,1920,7840,2198,2,4,10/11/16,134000,53876,city,Phillipsburg
+438 Russell Ave,8865,Phillipsburg,NJ,warren,40.673434,-75.159597,SingleFamily,2015,167437,1952,10454,1240,2,3,9/30/16,149900,395813,city,Pohatcong Township
+403 Thomas St,8865,Phillipsburg,NJ,warren,40.68719,-75.175779,SingleFamily,2015,162163,1910,3920,1632,2,3,9/14/16,73000,53876,city,Phillipsburg
+534 Corliss Ave,8865,Phillipsburg,NJ,warren,40.697597,-75.18515,SingleFamily,2015,153342,1928,5662,1342,2,3,9/13/16,176500,53876,city,Phillipsburg
+612 S Main St,8865,Phillipsburg,NJ,warren,40.683198,-75.184885,SingleFamily,2015,51340,1900,3964,1466,2,3,4/13/17,28000,53876,city,Phillipsburg
+133 Ridge Rd,8865,Phillipsburg,NJ,warren,40.744565,-75.135554,SingleFamily,2015,222848,1940,20800,1650,3,3,9/2/16,102000,399186,city,Harmony Township
+592 Lee Ave,8865,Phillipsburg,NJ,warren,40.667369,-75.161373,SingleFamily,2015,198509,1924,18730,1476,2,4,12/1/16,60215,395813,city,Pohatcong Township
+128 Limerick Ln,8865,Phillipsburg,NJ,warren,40.700427,-75.162026,Condominium,2015,179900,2003,NA,1860,2.5,2,3/22/17,130000,32570,city,Lopatcong
+12 Dogwood Ln,8865,Phillipsburg,NJ,warren,40.700214,-75.162914,Condominium,2015,185800,2004,NA,1412,3,2,12/21/16,198000,32570,city,Lopatcong
+277 Windmill Ct,8865,Phillipsburg,NJ,warren,40.703062,-75.15891,SingleFamily,2015,129700,2005,NA,912,1,1,8/15/16,117500,32570,city,Lopatcong
+812 Sampson Ave,8865,Phillipsburg,NJ,warren,40.662922,-75.163857,SingleFamily,2015,159500,1965,NA,NA,1,3,9/16/16,141780,43866,city,Alpha
+208 Stelko Ave,8865,Phillipsburg,NJ,warren,40.705804,-75.179326,SingleFamily,2015,149100,1953,10018,2100,1,5,10/21/16,92500,32570,city,Lopatcong
+841 Culkin St,8865,Phillipsburg,NJ,warren,40.684366,-75.1703,SingleFamily,2015,138415,1900,11804,1424,1.5,4,12/20/16,150000,53876,city,Phillipsburg
+36 Evelyn Ave,8865,Phillipsburg,NJ,warren,40.69317,-75.193353,MultiFamily2To4,2015,142938,1920,2178,1782,2,3,11/4/16,68000,53876,city,Phillipsburg
+122 Wall St,7823,Belvidere,NJ,warren,40.83064,-75.081176,SingleFamily,2015,115431,1888,3920,1206,1,3,9/28/16,56000,9669,city,Belvidere
+12 Harmony Sta,8865,Phillipsburg,NJ,warren,40.755227,-75.191178,SingleFamily,2015,66525,1940,8276,920,1,2,10/3/16,190000,399186,city,Harmony Township
+526 3rd St,7823,Belvidere,NJ,warren,40.825782,-75.073989,SingleFamily,2015,185906,1870,11325,2012,2,3,9/27/16,65000,9669,city,Belvidere
+7 Forest Ridge Dr,7840,Hackettstown,NJ,warren,40.845505,-74.857246,SingleFamily,2015,599040,2005,87555,4415,5,4,9/27/16,695000,398130,city,Independence Township
+118 Pudding Stone Way,8865,Phillipsburg,NJ,warren,40.715429,-75.162269,SingleFamily,2015,300700,1994,14374,2088,3,4,9/19/16,295000,32570,city,Lopatcong
+342 Willow Grove St,7840,Hackettstown,NJ,warren,40.85484,-74.819297,SingleFamily,2015,183900,1939,12196,816,1,2,9/26/16,147500,5027,city,Hackettstown
+68 Catswamp Rd,7840,Hackettstown,NJ,warren,40.893509,-74.8435,SingleFamily,2015,401124,1992,49876,3057,4,4,9/26/16,405000,397495,city,Allamuchy Township
+85 Wood Duck Ct,7840,Hackettstown,NJ,warren,40.909487,-74.857765,Condominium,2015,142502,1988,44,960,2,2,9/26/16,145000,396176,city,Allamuchy-Panther Valley
+220 Goldfinch Dr,7840,Hackettstown,NJ,warren,40.901406,-74.85025,Condominium,2015,238621,1976,4922,2100,3.5,3,9/26/16,250000,396176,city,Allamuchy-Panther Valley
+18 Countryside Rd,7832,Columbia,NJ,warren,40.934544,-75.03467,SingleFamily,2015,287383,1986,211266,2151,3,4,9/26/16,317500,397322,city,Knowlton Township
+110 Camp Wasigan Rd,7825,Blairstown,NJ,warren,40.963432,-74.938033,SingleFamily,2015,297500,1987,110642,2082,2.5,4,9/25/16,305000,399239,city,Frelinghuysen Township
+142 Beers St,8865,Phillipsburg,NJ,warren,40.704486,-75.19203,SingleFamily,2015,261700,2001,11761,1636,2,3,9/23/16,225000,32570,city,Lopatcong
+1501 Megan Cir,8886,Stewartsville,NJ,warren,40.683123,-75.134111,SingleFamily,2015,260951,1996,4791,1822,2.5,3,9/23/16,260000,399001,city,Greenwich Township
+43 Sand Pond Rd,7825,Hardwick,NJ,warren,41.053514,-74.936039,SingleFamily,2015,340028,2003,232610,2240,2.5,4,9/23/16,263900,18469,city,Hardwick
+71 Canada Goose Dr,7840,Hackettstown,NJ,warren,40.903503,-74.859126,SingleFamily,2015,316574,1998,9583,2052,3,3,9/23/16,3200000,396176,city,Allamuchy-Panther Valley
+78 Catswamp Rd,7840,Hackettstown,NJ,warren,40.893405,-74.840931,SingleFamily,2015,351605,1989,50682,3360,3,4,9/23/16,355000,397495,city,Allamuchy Township
+2 Purple Martin Dr,7840,Hackettstown,NJ,warren,40.905812,-74.855836,Condominium,2015,219159,1978,1742,1596,2.5,3,9/23/16,191500,396176,city,Allamuchy-Panther Valley
+913 Gates St,8865,Phillipsburg,NJ,warren,40.685361,-75.164546,SingleFamily,2015,114328,1917,8276,1000,1,3,9/22/16,95000,53876,city,Phillipsburg
+176 Hudson St,8865,Phillipsburg,NJ,warren,40.691706,-75.193732,SingleFamily,2015,120999,1910,3572,1440,1,3,9/22/16,35000,53876,city,Phillipsburg
+3 Wood Duck Ct,7840,Hackettstown,NJ,warren,40.908445,-74.858132,Townhouse,2015,167045,1983,44,1116,2,2,9/22/16,197500,396176,city,Allamuchy-Panther Valley
+11 Cedar Ct,7840,Hackettstown,NJ,warren,40.897169,-74.852016,SingleFamily,2015,375284,2007,10454,2640,4,3,9/22/16,385000,396176,city,Allamuchy-Panther Valley
+216 Aldin Rd,8886,Stewartsville,NJ,warren,40.659247,-75.106968,SingleFamily,2015,368886,1988,40946,2392,2,3,9/21/16,332000,399001,city,Greenwich Township
+205 Robin Ct,8886,Stewartsville,NJ,warren,40.6902,-75.098006,SingleFamily,2015,457186,2003,46173,3572,3,4,9/21/16,440000,399001,city,Greenwich Township
+448 Thomas St,8865,Phillipsburg,NJ,warren,40.687496,-75.174116,SingleFamily,2016,121645,1935,6316,1200,2,3,9/20/16,149444,53876,city,Phillipsburg
+171 Hope Rd,7825,Blairstown,NJ,warren,40.943627,-74.964687,SingleFamily,2015,224565,1974,49222,1717,2,3,9/20/16,1250000,35008,city,Blairstown
+3 Ernella Dr,7823,Belvidere,NJ,warren,40.806166,-75.0409,SingleFamily,2015,259200,1986,132422,1300,2.5,3,9/20/16,185000,9669,city,Belvidere
+102 Beaufort Rd,8804,Bloomsbury,NJ,warren,40.655948,-75.111343,SingleFamily,2015,437667,2000,81022,2720,NA,NA,9/19/16,415000,17072,city,Bloomsbury
+1 Colby Pl,8865,Phillipsburg,NJ,warren,40.689684,-75.189609,SingleFamily,2015,140676,1999,3790,1398,2.5,3,9/19/16,50000,53876,city,Phillipsburg
+9 Benton Rd,7832,Columbia,NJ,warren,40.967103,-75.040963,SingleFamily,2015,252687,1972,87555,2206,2.5,3,9/19/16,215000,35008,city,Blairstown
+78 Spring Valley Rd,7825,Hardwick,NJ,warren,40.995101,-74.922237,SingleFamily,2015,256754,1964,128937,2184,1,3,9/19/16,188000,18469,city,Hardwick
+812 Sampson Ave,8865,Phillipsburg,NJ,warren,40.662922,-75.163857,SingleFamily,2015,159500,1965,NA,NA,1,3,9/16/16,141780,43866,city,Alpha
+5 Hidden Valley Way,8802,Asbury,NJ,warren,40.707326,-75.001199,SingleFamily,2015,494200,2001,43560,3409,2.5,4,9/16/16,480000,188902,city,Franklin Township
+19 Alexanders Rd,7840,Hackettstown,NJ,warren,40.9088,-74.855,Townhouse,2015,350957,2014,NA,2700,3,3,9/2/16,335000,396176,city,Allamuchy-Panther Valley
+98 Bald Eagle Rd,7840,Hackettstown,NJ,warren,40.899902,-74.841485,SingleFamily,2016,358307,1968,24829,2844,3,5,9/15/16,377500,396176,city,Allamuchy-Panther Valley
+127 Quenby Mountain Rd,7838,Great Meadows,NJ,warren,40.845304,-74.964988,SingleFamily,2015,61400,1950,29185,442,1,1,9/15/16,50000,397430,city,Liberty Township
+106 Overlook Dr,7840,Hackettstown,NJ,warren,40.862552,-74.838645,SingleFamily,2015,184904,1991,NA,1484,1.5,2,9/15/16,193000,398130,city,Independence Township
+403 Thomas St,8865,Phillipsburg,NJ,warren,40.68719,-75.175779,SingleFamily,2015,162163,1910,3920,1632,2,3,9/14/16,73000,53876,city,Phillipsburg
+664 Valley Rd,7863,Oxford,NJ,warren,40.837598,-74.899691,SingleFamily,2015,193431,1943,40510,1553,2,2,9/14/16,212000,398451,city,Mansfield Township
+350 Mount Hermon Rd,7825,BLAIRSTOWN,NJ,warren,40.916967,-74.981668,SingleFamily,2015,278200,1836,194713,1600,2,3,9/14/16,325000,18622,city,Hope
+19 Junegrass Way,7840,Hackettstown,NJ,warren,40.9082,-74.8549,Condominium,2015,300033,2010,NA,2266,3,3,9/13/16,290000,396176,city,Allamuchy-Panther Valley
+677 Hillcrest Blvd,8865,Phillipsburg,NJ,warren,40.702969,-75.182785,SingleFamily,2015,264616,1930,10890,2110,2.5,4,9/12/16,239000,53876,city,Phillipsburg
+711 4th St,7823,Belvidere,NJ,warren,40.824041,-75.068048,SingleFamily,2015,146348,1954,11325,1040,2,3,9/12/16,224000,9669,city,Belvidere
+162 E Prospect St,7840,Hackettstown,NJ,warren,40.859695,-74.830858,SingleFamily,2015,285300,1942,7405,1716,2,3,9/12/16,228000,5027,city,Hackettstown
+345 Aurora St,8865,Phillipsburg,NJ,warren,40.705422,-75.185184,SingleFamily,2015,189300,1950,8712,1263,2,3,9/9/16,205500,32570,city,Lopatcong
+710 Beacon St,8886,Stewartsville,NJ,warren,40.702462,-75.118595,SingleFamily,2015,171024,1906,11326,444,1,3,9/9/16,140000,399001,city,Greenwich Township
+20 Vassar Rd,7838,Great Meadows,NJ,warren,40.857471,-74.907647,SingleFamily,2015,376842,1992,46174,2589,3,4,9/9/16,374000,398130,city,Independence Township
+728 Washington St,7840,Hackettstown,NJ,warren,40.846416,-74.825675,SingleFamily,2015,288100,1900,13939,2400,1,3,9/9/16,207500,5027,city,Hackettstown
+606 Lynda Rd,8865,Phillipsburg,NJ,warren,40.707052,-75.174641,SingleFamily,2015,164400,1958,8712,1125,NA,NA,9/8/16,155000,32570,city,Lopatcong
+10 Byron Dr,8865,Phillipsburg,NJ,warren,40.717344,-75.16889,SingleFamily,2015,311100,1996,9147,2009,3,4,9/8/16,300000,32570,city,Lopatcong
+205 W Moore St,7840,Hackettstown,NJ,warren,40.851676,-74.830108,SingleFamily,2016,284100,1885,11325,2110,2.5,4,9/8/16,189900,5027,city,Hackettstown
+152 Wingate Dr,7840,Hackettstown,NJ,warren,40.87346,-74.820922,SingleFamily,2015,209357,1997,4417,1624,NA,NA,9/8/16,213000,398130,city,Independence Township
+791 State Route 57,7865,Port Murray,NJ,warren,40.772648,-74.914368,SingleFamily,2015,170564,1921,29185,1589,3,4,9/6/06,185000,398451,city,Mansfield Township
+51 Zulauf Ln,7863,Oxford,NJ,warren,40.802322,-75.009653,SingleFamily,2008,610200,2005,291852,3500,5,5,9/7/16,500000,398116,city,Oxford Township
+19 Silver Hill Ave,7825,Blairstown,NJ,warren,40.93296,-74.944185,SingleFamily,2015,322700,2005,17860,2340,2,4,9/6/16,213500,18622,city,Hope
+202 Bald Eagle Dr,8886,Stewartsville,NJ,warren,40.698375,-75.138481,Condominium,2015,170400,2000,NA,1184,2,2,8/15/00,132624,32570,city,Lopatcong
+29 County Road 519,8804,Bloomsbury,NJ,warren,40.637695,-75.134899,SingleFamily,NA,NA,1950,11325,NA,1.5,3,NA,NA,17072,city,Bloomsbury
+610 Honeybrook Cir,8886,Stewartsville,NJ,warren,40.699741,-75.143157,Condominium,2015,148700,2000,NA,1155,2,2,9/2/16,112000,32570,city,Lopatcong
+660 Hillcrest Blvd,8865,Phillipsburg,NJ,warren,40.702462,-75.184678,SingleFamily,2015,222888,1920,9147,2000,3,4,9/2/16,216900,53876,city,Phillipsburg
+1 Stuber Ln,7840,Hackettstown,NJ,warren,40.872821,-74.842835,SingleFamily,2015,167932,1950,23086,680,2,2,9/2/16,165000,398130,city,Independence Township
+107 E Baldwin St,7840,Hackettstown,NJ,warren,40.857783,-74.836362,SingleFamily,2015,398600,1930,19602,2568,2.5,4,9/2/16,239000,5027,city,Hackettstown
+164 Bullman St,8865,Phillipsburg,NJ,warren,40.69417,-75.195286,SingleFamily,2015,128463,1910,3092,1566,2,3,9/1/16,1025,53876,city,Phillipsburg
+188 Bowers Ave,8865,Phillipsburg,NJ,warren,40.703804,-75.183764,SingleFamily,2015,233518,2009,10018,3000,2.5,4,8/26/11,270000,53876,city,Phillipsburg
+50 Summerfield Rd,7823,Belvidere,NJ,warren,40.789791,-75.039745,SingleFamily,2015,417700,1975,55756,3621,3,3,9/1/16,315000,9669,city,Belvidere
+120 Millbrook Rd,7825,Hardwick,NJ,warren,41.011574,-74.951093,SingleFamily,2015,401339,2000,130680,2774,3.5,4,9/1/16,379000,18469,city,Hardwick
+472 Delaware Rd,7825,Blairstown,NJ,warren,40.898958,-75.011012,SingleFamily,2012,669300,2006,304920,5676,3,4,9/1/16,650000,18622,city,Hope
+341 Lincoln St,8865,Phillipsburg,NJ,warren,40.693832,-75.183965,SingleFamily,2015,123940,1989,4312,1722,1.5,3,8/31/16,160000,53876,city,Phillipsburg
+512 Warren St,7840,Hackettstown,NJ,warren,40.846127,-74.830313,SingleFamily,2015,253600,1938,16801,1144,2,3,8/31/16,1750,5027,city,Hackettstown
+3 Michael Dr,7840,Hackettstown,NJ,warren,40.888982,-74.836485,SingleFamily,2015,395286,1997,43560,2840,3,4,9/19/16,255000,397495,city,Allamuchy Township
+13 Briarstone Rd,8865,Phillipsburg,NJ,warren,40.703988,-75.180328,SingleFamily,2015,324800,1962,17424,2541,3,3,8/30/16,229900,32570,city,Lopatcong
+18 Rolling View Dr,7840,Hackettstown,NJ,warren,40.852822,-74.88551,SingleFamily,2015,288857,1972,46609,2604,3,4,9/1/16,299000,398130,city,Independence Township
+73 Indigo Rd,7840,Hackettstown,NJ,warren,40.910969,-74.850939,Townhouse,2015,327603,2011,NA,2659,3,3,NA,NA,396176,city,Allamuchy-Panther Valley
+1816 Gary Rd,8886,Stewartsville,NJ,warren,40.685428,-75.138283,SingleFamily,2015,352504,1999,13068,2688,NA,NA,8/29/16,340000,399001,city,Greenwich Township
+1332 S Main St,8865,Phillipsburg,NJ,warren,40.676147,-75.162677,SingleFamily,2015,101197,1900,7840,1952,2,4,8/29/16,134000,395813,city,Pohatcong Township
+9 Marshall St,8865,Phillipsburg,NJ,warren,40.692137,-75.1883,SingleFamily,2015,109126,1900,3484,NA,1,2,8/29/16,32000,53876,city,Phillipsburg

@@ -6,7 +6,7 @@ import os
 
 def write_street_address(addresses, county):
     filename = "trulia-street-addresses-"+county+".csv"
-    path = os.getcwd() + '/housing_data'
+    path = os.getcwd() + '/more_trulia_housing_data'
     fullpath = os.path.join(path, filename)
     with open(fullpath, "w") as street_file:
           for home in addresses:
@@ -17,8 +17,8 @@ def write_street_address(addresses, county):
 
 
 def get_street_addresses(county):
-    count = 1
-    limit_page = 8
+    count = 10
+    limit_page = 20
     home_addresses = []
 
     while(count < limit_page):
